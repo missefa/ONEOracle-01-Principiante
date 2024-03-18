@@ -1,0 +1,38 @@
+Resolviendo la Recursividad
+
+
+Bueno, Leo, ya hemos implementado nuestra recursividad, pero nos encontramos con un problema común y clásico en la recursividad, que es no indicar hasta dónde llega, no colocar un límite, un aviso de que llega a este punto y deja de llamarse para no tener el problema o el error que tuvimos. Así que, ¿qué te parece si resolvemos ese problema?
+
+Sí, vamos a resolverlo, Cristian. Efectivamente, nos quedamos atascados, nuestro programa se colgó porque no le indicamos una condición de salida a la recursividad, y esos son los principales problemas que tenemos al usar recursividad. Hay que tener cuidado con ello y siempre dejar una condición de salida, si no, nuestro programa puede quedarse en un bucle infinito, ¿de acuerdo?
+
+De acuerdo. Procedamos. Creo que aquí vale la pena hacer algunos cambios que en nuestro primer curso de lógica ya indicamos. Vamos a trabajar en cuanto al tamaño de la lista e indicar ese rango con el que podemos jugar.
+
+Perfecto. Vamos a dejarlo variable porque hasta ahora ese número de 1 a 10 lo hemos usado fijo.
+
+Es cierto. Es 10 y lo hemos mantenido así durante todo el juego, ¿verdad? Vamos a cambiarlo. Entonces, vamos a colocar aquí una variable llamada número máximo. Por ahora será 10, de nuevo. En este caso, ¿dónde tenemos esos 10? Vamos a ir cambiándolos. Tenemos un 10 por aquí que vi cuando estaba generando el mismo secreto. Esta es esa variable y aquí cometimos ese detalle de la deuda técnica que estamos pagando ahora, corrigiendo lo que dejamos estático.
+
+Así es. Y aquí vamos a indicar con template strings (cadenas de plantilla) porque aquí tenemos que cambiarlo. Entonces, vamos a colocar nuestras comillas invertidas. Vamos a colocar signo dólar. Abrimos y cerramos corchetes. Y creo que no tenemos ningún 10 más. Vamos a verificar. No, no tenemos ningún 10 más.
+
+¿Cómo lo verificaste?
+
+Usé control F en Visual Studio para buscar y luego escribí lo que quería encontrar.
+
+Ok. Ahí. Apunten ese consejo de una persona desarrolladora senior con experiencia. Control F. Control F. Perfecto.
+
+Luego, vamos a nuestra línea. ¿Dónde? A nuestra función recursiva. ¿Dónde estamos con el problema? ¿Qué deberíamos hacer cuando ya llegamos al final de la lista? ¿Qué hacemos? Debería salirse. Salir nada más.
+
+Exacto. Creo que es válido destacar que existen varias formas de resolver este problema. No, o sea, diferentes enfoques. Porque podemos decir, como lo hicimos en el curso anterior, donde colocamos un número máximo de intentos. Esa puede ser una salida. Podemos decir, ok, número máximo de números aleatorios. Tres o cuatro. Cuatro veces puedo jugar nuevos juegos. Pero lo que estábamos... Quizás un camino a seguir en este curso sea que vamos a sortear todos los números posibles de nuestra lista, de nuestro rango definido. Llegamos al último y nos salimos.
+
+Ok. Hagamos eso. Vamos a hacer de esta forma. Vamos a hacer un enfoque un poco, digamos... Vamos a tratar de que la persona usuaria pueda sortear todos los números en primera instancia, ¿verdad? Entonces, antes de hacer cualquier cosa en la recursividad, vamos a preguntarle a la función si... Aquí, antes de preguntar si están incluidos en la lista, es si ya sorteamos todos los números. Si ya sorteamos todos los números, podemos mostrar un mensaje en la pantalla y cerrar el juego.
+
+Ok. Vamos a convertir esa frase en código. Si... Y entonces, en este caso, le preguntamos a lista, números sorteados, y allí usamos lo que vimos en la teoría, que fue el tamaño, el len (longitud). Recuerda que el len es gth (longitud). Gth. Si el len es igual a quién? A nuestro número máximo. Y por ello, fue muy interesante haber colocado esa variable al inicio porque ya tenemos la cantidad de sorteos que podemos hacer. Que son de 1 a 10, son 10 sorteos máximos. ¿De acuerdo? Entonces, vamos a traer nuestra variable aquí y comparamos. Decimos, ¿será que la lista de los que sorteamos ya es igual al número máximo?
+
+Si es así, colocamos un mensaje en la pantalla. Si no, continuamos jugando. Todo esto es lo que previamente habías denominado como un if-any (si alguno). Observa cómo todo esto se traduce en este código. Vamos a mostrar el mensaje en la pantalla. Dado que tenemos una función que nos permite hacerlo, que es asignar texto al elemento, le decimos al párrafo: "Todos los números posibles ya se han sorteado".
+
+Vamos a hacer una pausa antes de probar. Explicaremos un poco los cambios que se han realizado. Dijimos que tuvimos un problema con la recursividad. Necesitamos colocar un validador. Este validador es para verificar si todos los números posibles, basados en el rango que hemos definido, ya han pasado, es decir, ya hemos hecho clic en 'nuevo juego', es decir, ya han sido alimentados en nuestra lista. Si este número es igual a nuestro número máximo definido, mostramos un mensaje. Si no, seguimos jugando.
+
+Vamos a jugar. Aquí el número es dos. Vamos a intentarlo. Correcto. Número nuevo. Es el tres. Intentamos. Correcto. Nuevo juego. Seis. Intentamos. Correcto. Nuevo juego. Cinco. Intentamos. Correcto. Ahora es ocho. Intentamos. Es correcto. Ahora es siete. El número no se repite, mantenemos la lógica. Esto significa que los cambios que hemos hecho no han afectado a lo que ya se ha realizado. Nuevo juego. Ahora es el cuatro. Intentamos. Perfecto. No se ha repetido. Diez. Nos quedan dos números ahora. Intentamos. Nuevo juego. Creo que es uno o nueve. Nueve. Ok. Intentamos. Nuevo juego. Intentamos.
+
+Vamos a hacer una pausa. ¿Qué debería pasar? Todavía nos queda un número. ¿Cuál es? El uno. Cuando introduzcamos el uno, deberíamos recibir un mensaje diciendo que hemos agotado las opciones y ya no deberíamos tener el problema de la recursividad. Vamos a intentar el uno para ver si acertamos. Ok. Acertado. Y aquí debe mostrar el mensaje. Perfecto. Cuando iniciamos un nuevo juego. Todos los números posibles ya se han sorteado. Ya no hay problema de recursividad porque hemos establecido la conexión de salida. Incluso se desactiva nuestro botón de 'nuevo juego'. Porque el juego ya ha terminado. La única forma de reiniciar es pulsando F5. Y reiniciar el sistema de nuevo. En ese caso, si hacemos F5, la lista de sorteos se inicializa y se vuelve a empezar. Por lo tanto, hemos resuelto el problema de la recursividad con el número máximo.
+
+Es evidente que si una persona va a jugar 100, va a tardar mucho más en llegar al final. Podría hacerse lo que sugeriste, que es dejarlo como tarea a las personas que están aprendiendo. Y es que, además del número máximo que es una conexión de salida, podrían implementar otra variable donde la persona pueda jugar hasta cierto número de veces antes de reiniciar el juego. Puede establecerse una variable, puede ser un número máximo de juegos y esto también puede ayudarte en la conexión de salida de tu recursividad. Dejamos esto como tarea. Por lo tanto, inventen otra forma para no tener que barrer, para no tener que pasar por todos los números de su rango. Y ustedes pongan un limitador, en ese caso, a su juego.

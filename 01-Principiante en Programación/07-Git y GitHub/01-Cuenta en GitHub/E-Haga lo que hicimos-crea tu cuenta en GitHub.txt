@@ -1,0 +1,7 @@
+Haga lo que hicimos: crea tu cuenta en GitHub
+
+
+Accede al sitio web de GitHub (https://github.com/). Haz clic en Sign Up, completa las informaciones con tu correo electrónico, contraseña y nombre de usuario y después haz clic en Continue y en Crear Cuenta. Se te enviará un correo electrónico con código de 8 dígitos que necesitarás informar y luego algunas opciones para completar sobre las preferencias de uso del sitio.
+
+¡Listo! Felicitaciones, tu cuenta ha sido creada.
+

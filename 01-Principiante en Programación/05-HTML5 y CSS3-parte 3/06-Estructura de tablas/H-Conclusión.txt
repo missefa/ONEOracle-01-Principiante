@@ -1,0 +1,30 @@
+Conclusión
+
+
+[00:00] Okay, amigos y amigas, primeramente, muchas, pero muchas felicidades por haber llegado hasta aquí. Hemos concluido un curso más de esta línea de cursos preparándolos en HTML y CSS donde estamos construyendo desde cero la página de la Barbería Alura.
+
+[00:21] En este módulo, en esta tercera parte en específico, trabajamos con nuestra página de contacto. Es supercomún que las páginas web de empresas tengan una página de contacto donde los clientes o donde los alumnos de una escuela donde las personas a las cuales esa empresa atiende o presta un servicio o vende algún producto puedan interactuar con la empresa.
+
+[00:48] Entonces, es superimportante tener estos conocimientos como desarrolladores de páginas web, porque es una demanda y una necesidad que siempre va a surgir. Yendo a nuestro código podemos ver que vimos bastantes elementos, bastantes cosas.
+
+[01:07] Copiamos ya la estructura de nuestra página de productos que la habíamos creado en la parte 2 de todo este cronograma que venimos siguiendo. Y nuestro día a día como programador tiene bastante de eso, de copiar, adaptar, mejorar y colocar en producción, colocar a rodar algún código que tenemos.
+
+[01:33] Pero, sin embargo, fuimos mejorando bastantes cosas, desde la estructura ya de nuestra página pensando en nuestro proyecto completo, colocamos por ejemplo aquí la propiedad alt del texto a nuestras imágenes, creamos una serie de inputs de diferentes tipos, los comunes que son el type text.
+
+[01:53] Vimos que podemos crear tipos específicos de inputs como email y teléfono, porque nos ayuda en el llenado de los datos. También vimos que podemos colocar algunos inputs como required, o sea como obligatorios. No va a permitir que ese formulario sea enviado si es que no son llenados esos datos.
+
+[02:16] Y también colocamos una guía, el placeholder, para ayudar a nuestro usuario qué tipo de dato ese input quiere recibir. Vimos el text area para colocar mensajes en el cual la ventaja es que esa caja de texto es ajustable, su tamaño es ajustable, y permite que el usuario, que el cliente coloque más datos, pueda colocar un texto mucho más grande.
+
+[02:44] Luego vimos cómo colocar una lista de ítems, y dónde le pedimos al cliente en este caso cómo le gustaría que lo contactemos. Y por default, por defecto, ya le mandamos uno llenado, en este caso es el check de WhatsApp, y así siempre vamos a tener ese dato por defecto llenado, caso el cliente no lo llene.
+
+[03:10] Y por último, vimos también el tema de la selección, en cuál horario puede ser atendido, si de mañana, tarde o noche. Vimos el checkbox para ver si le gustaría recibir novedades de nuestra barbería, y lo mismo, lo mandábamos ese checkbox ya llenado con el check por padrón.
+
+[03:33] Nuestro botón, que trabajamos bastante su formato, su visual, y por último construimos nuestra tabla, nuestra tabla con los horarios de funcionamiento. Ya en nuestros estilos lo que trabajamos fueron esos elementos que construimos en el HTML.
+
+[03:51] Básicamente, lo que vimos fue repetimos bastantes estilos que ya habíamos venido viendo a lo largo de esta miniformación en HTML y CSS, como width, los márgenes, display block, volvimos a repasar nuevamente esta propiedad que al inicio genera bastante confusión entre el display block, display inline. Vimos el tema de espaciamientos nuevamente, cómo configurarlos correctamente.
+
+[04:23] En el tema de nuestro botón vimos algunas propiedades nuevas como transition, para colocar visuales y efectos visuales diferentes. Nuevamente, volvimos a ver el hover, cuando nuestro botón del mouse, nuestro mouse se posicione en alguna parte específica de la página. Configuramos nuestra table, nuestra tabla.
+
+[04:50] Y vimos también, más elementos de cómo configurar en este caso la fuente y el peso de la fuente. Entonces, hemos visto bastantes elementos tanto de HTML como de CSS, hemos conseguido relacionarlos y bueno, el resultado final es nuestra página de contacto supercompleta en la cual nuestros clientes, nuestros usuarios, van a poder interactuar con nuestra barbería.
+
+[05:18] Mi nombre es Christian Velasco y los espero en un próximo curso. Muchísimas gracias. Chau, chau.

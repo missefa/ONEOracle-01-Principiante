@@ -1,0 +1,78 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que vimos en el aula. Para ello, ejecuta los siguientes pasos:
+
+1) En la página contacto.html, en los input de nombre y apellido, e-mail y teléfono, agrega la clase input-padron.
+
+2) Después de label input del teléfono, agrega un textarea para que el usuario pueda digitar un mensaje, él tendrá 70 columnas y 10 filas:
+
+<label for="mensaje">Mensaje</label>
+<textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+
+3) Debajo del textarea de mensaje, crea los input del tipo radio, para la preferencia de contacto:
+
+<div>
+    <p>¿Cómo le gustaría que lo contactemos?</p>
+
+    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+
+    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+
+    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+
+</div>
+
+4) Debajo de las opciones de contacto, crea el selector y sus opciones para el horario de atención:
+
+<div>
+    <p>¿En cuál horario prefiere ser atendido?</p>
+    <select>
+        <option>Mañana</option>
+        <option>Tarde</option>
+        <option>Noche</option>
+    </select>
+</div>
+
+5) Después del selector, crea el checkbox para que en caso de que el usuario quiera recibir novedades por e-mail:
+
+<label class="checkbox"><input type="checkbox">Le gustaría recibir novedades de la Barbería Alura?</label>      
+
+6) En el archivo style.css, dónde está el estilo del label del formulario:
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+Agrega este estilo también para el párrafo del formulario:
+
+form label, form p {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+7) En el estilo del input del formulario:
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+Modifica para estilizar la clase input-padron:
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+8) Finalmente, estiliza el checkbox:
+
+.checkbox {
+    margin: 20px 0;

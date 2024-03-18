@@ -1,0 +1,17 @@
+Conclusión
+
+Bueno, ha sido un desafío considerable, ¿no es así, Leo? Hemos aprendido mucho, y me gustaría que destacaras los puntos clave que hemos visto en este curso, donde la propuesta fue aprender a través de un juego, aprender con un proyecto.
+
+Vale, Cristi, comenzamos llevando la realidad a la programación con el juego del número secreto, donde convertimos la dinámica de verificar el número, tener el número en papel, en código. Discutimos sobre variables, esas pequeñas cajas en la memoria que usamos para almacenar lo que vamos utilizando, tanto lo que la persona usuaria introduce para el programa, como cualquier otro valor que sea necesario, como en nuestro caso, el número aleatorio. Pasamos por procesos repetitivos.
+
+Hablamos de bucles, donde al principio nuestro juego, ¿qué hacía? Solicitaba el valor solo una vez y si no éramos capaces, quedábamos como ¿qué? ¿Y qué pasó? Entonces mejoramos la usabilidad, pero luego nos dimos cuenta de que al hacerlo de esa manera también dejamos a la persona usuaria en un ciclo que podía no terminar. Así que mejoramos ese proceso, lo pudimos romper con el uso de break y también aprendimos a optimizar el código. Hablamos del operador ternario, hablamos de cómo podemos hacer nuestros contadores y usamos los templates (plantillas), que para mí es una funcionalidad de JavaScript que es muy interesante.
+
+Excelente, Leo. Bueno, fue mucho aprendizaje en un curso de lógica de programación. Este es el primero, es la parte básica, la parte conceptual y esa es nuestra didáctica, nuestra dinámica, donde presentamos un problema, presentamos un proyecto, que en este caso fue un juego, para hacer ese aprendizaje más didáctico y más dinámico.
+
+Ahora, lo que quiero pedirte es tu ayuda con algunos pasos. El primero de ellos es que sigas a Alura Latam en las redes sociales y que principalmente a través de las redes sociales publiques tu proyecto, publiques el certificado de este curso que vas a obtener, que menciones a Alura Latam, menciones al instructor aquí, a nuestro profe Leo en LinkedIn, puedes mencionarme a mí también. Nos sentimos bastante orgullosos y felices cuando vemos la evolución de todas las personas.
+
+Además, para que vayan construyendo ese portafolio de proyectos, que crean que al momento que quieran entrar al mercado de trabajo, si están buscando una profesión y están buscando un trabajo en el área de programación, es muy valioso tener un portafolio con proyectos de problemas, de proyectos, que hayan resuelto a lo largo de su camino de aprendizaje.
+
+Evalúen este curso. Al final de este vídeo, aparecerá una evaluación. Dejen sus comentarios, lo que puede mejorar, lo que les gustó de este curso, de esta clase didáctica que hemos preparado con mucho cariño para todas las personas.
+
+Y también continúen con la parte 2 de este curso, porque hay una continuación donde vamos a profundizar en conceptos, fundamentos de la lógica de programación. Ha sido un placer acompañarles hasta aquí. Muchas gracias Leo, y nos vemos en el próximo curso.

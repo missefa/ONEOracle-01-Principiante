@@ -1,0 +1,16 @@
+Etiquetas semánticas para tablas
+
+
+[00:00] Okay, continuando con nuestro curso, estamos aquí diseñando nuestra tabla, nuestra tabla de los horarios de funcionamiento. Habíamos creado nuestra tabla básica con cuatro filas, cuatro líneas y dos columnas. Ahora lo que veremos será el uso correcto de la semántica cuando se trata de tablas. ¿A qué me refiero con eso?
+
+[00:26] Que, así como en nuestro main, en toda la página, la podemos dividir en head, body y el footer, que sería el encabezado, el cuerpo de la página y el pié de página, la tabla también puede ser distribuida o estructurada de esa forma. Para ello, tenemos una etiqueta, refiriéndonos al encabezado, que se llama thead, t de table, tabla, y head de encabezado.
+
+[01:00] Y dentro del thead, vamos a colocar nuestro título o nuestro encabezado de la tabla. Y también existe una etiqueta específica para las celdas que pertenecen a ese encabezado que son los th. Entonces, lo único que vamos a hacer aquí es sustituir, reemplazar los td por th. Perfecto.
+
+[01:27] Así como tenemos un encabezado, un thead, tenemos un tbody, o sea, el cuerpo de la tabla. Y dentro del cuerpo de la tabla vamos a colocar el resto de las tr, de las etiquetas que representan a las filas de nuestra tabla y las otras columnas.
+
+[01:48] Vamos a ajustar aquí nuestros espacios, guardamos, vamos a nuestra página, actualizamos y bueno, efectivamente la parte visual no cambió nada porque lo que hicimos fue alterar la estructura semántica usando las buenas prácticas y las etiquetas correctas para el uso de tablas.
+
+[02:11] Sin embargo, lo que pudieron notar, no sé si lo notaron en realidad, es que el encabezado fue centralizado, el título de nuestra tabla fue centralizado. ¿Por qué? Porque al colocar las etiquetas correctas ya HTML reconoce que se trata de una tabla, que es el encabezado, y automáticamente centraliza nuestro título. No necesitamos centralizarlo después nosotros a través del CSS.
+
+[02:34] Entonces es un visual, un estilo que viene estructurado por padrón, colocado por padrón, en este caso el HTML 5. Entonces amigos, ahí está la estructura de nuestra tabla. Lo que veremos en el próximo video es la estructura visual, los estilos de esta tabla, para dejar mucho más visible y más entendible los horarios de funcionamiento, así que los veo en el otro video.

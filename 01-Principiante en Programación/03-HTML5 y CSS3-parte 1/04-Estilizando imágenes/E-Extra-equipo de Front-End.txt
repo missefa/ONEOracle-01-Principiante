@@ -1,0 +1,32 @@
+Extra: Equipo de Front-End
+
+
+[00:00] Bueno, amigas y amigos. Este es un video extra que hemos preparado en el cual vamos a abordar qué es un equipo Front End, intentar explicar de forma rápida y objetiva en qué consiste este equipo y de qué está formado.
+
+[00:17] El equipo de Front End, como lo dice su nombre, normalmente hoy en día en las empresas está formado por más de una persona, porque es prácticamente imposible que una sola persona se encargue de todo el desarrollo de una página web, debido a que con el pasar del tiempo esa construcción de página web ha ido ganando muchas más responsabilidades y muchas más actividades.
+
+[00:43] Entonces no es solo programar. Entonces, aparte del programador, como lo vemos aquí, que ya lo vamos a explicar un poco más en qué consiste su rol como tal, también necesitamos tener responsable o responsables, porque pueden ser personas separadas. En algunos casos en algunas empresas este papel está en uno solo, va a depender sobre todo del tamaño de la empresa.
+
+[01:10] Pero alguien que se encargue por el user experience y el user interface, que básicamente es la experiencia del usuario en ese sistema, en esa página web, y la interfaz del usuario, que es todo el sistema en sí donde el usuario interactúa.
+
+[01:30] Y también, debido a que la generación de contenido es una buena estrategia para conseguir clientes, muchas empresas están optando por contratar un copywriter que es un generador de contenido, generador de artículos, generador de informaciones que llamen la atención y que llamen clientes, y que también muchas veces esa u otra persona se encarga del SEO, que es el Search Engine Optimization, que igual ahorita lo vamos a explicar con un poco más de detalle.
+
+[02:05] ¿Cuál es el primer papel de nuestro equipo? Básicamente ser el responsable por el diseño del código del sistema de la página web. Para eso necesita tener uno o más programadores. Este programador necesita dominar algunos lenguajes que son racionalmente los más comunes o en realidad los más básicos: HTML, CSS y JavaScript.
+
+[02:35] Nuestro curso específico se enfoca para que aprendamos lo básico de HTML y CSS. En Alura tenemos otros cursos de JavaScript donde se aborda este lenguaje de programación, toda su lógica y en sí cuál es su importancia para la construcción de páginas web.
+
+[02:56] Pero entendamos aquí el concepto principal, que es que el programador Front End, el programador de la página, es un persona con un skill con bastante lógica y que básicamente él es el que coloca las manos en la masa, las manos en el código y quien crea todo este código de nuestra página.
+
+[03:20] Luego tenemos, como decíamos, el user experience, el responsable por el user experience y el responsable por el user interface. Por lo general también se lo conoce como el diseñador. Entonces va a ser una persona que va a tener mucho contacto con el cliente, el cliente puede ser un cliente interno, externo, es decir quién va a usar esa aplicación, quién va a usar ese sistema web.
+
+[03:48] Y el objetivo es que esta persona le pase todas las especificaciones a nuestro programador Front End, o sea que esta persona diseñe un sistema que sea amigable, que sea friendly para el usuario, para el cliente, que sea fácil de usar, básicamente eso, que sea bonito, atractivo, que tenga un visual atractivo, y va a trabajar muy pero muy de la mano con nuestro programador.
+
+[04:20] Como les decía, este rol puede estar en una sola persona o puede estar distribuido en más personas. Y por último, el copywriter que se encarga también del SEO, o pueden ser personas separadas, va a depender nuevamente del tamaño de la empresa.
+
+[04:42] Pero hoy en día es muy común tener en los equipos de Front End un generador de contenido, alguien que escribe artículos, alguien que va alimentando el blog de las empresas, porque como les decía es una buena estrategia de atraer, de capturar clientes la generación de contenido.
+
+[05:00] Y el SEO, el Search Engine Optimization, es básicamente usar palabras llaves y algunas estrategias para que los motores de búsqueda de los buscadores de Google, Safari, en fin, de los principales buscadores, navegadores que tenemos ahí en el mercado, puedan encontrar nuestra página, puedan encontrar nuestros artículos que escribimos.
+
+[05:28] En fin, que seamos visibles para el público online a través de la web. Entonces, este sería el equipo de Front End, básicamente esos tres roles necesita cumplir, y nuevamente les repito que es muy difícil que todo eso lo realice una sola persona.
+
+[05:50] Por lo general tenemos a varias personas realizando estas actividades y trabajando en equipo, trabajando en grupo, en conjunto, para así poder conseguir muchos mejores resultados. Espero les haya gustado y continúen con el curso. Gracias.

@@ -1,0 +1,42 @@
+Posicionando el encabezado
+
+
+[00:00] Okay, continuando con nuestro curso de HTML 5 y CSS 3, donde estamos construyendo la página web de nuestra Barbería Alura, lo que vimos en el anterior video fue, aprendimos el posicionamiento de nuestro menú panel de navegación, en el cual, vimos las tres propiedades posibles: static, relative y absolute.
+
+[00:26] Ahora, vamos a configurar justamente eso en nuestro CSS, entonces, venimos aquí, a nuestros productos.css y después del header, como tenemos aquí una marcación para el header, respetando el orden de nuestras etiquetas, vamos a colocar aquí, nuestra etiqueta de, nuestra marcación del panel de navegación. Entonces, colocamos nav, abrimos y cerramos llaves y nuestras propiedades.
+
+[01:07] Posición absolute, que era lo que habíamos dicho como tenía que quedar. Top, vamos a colocarle 0 y right 0 también, y los dos con 0 de momento. Voy a guardar, vamos a nuestra página, actualizo y bueno, ya quedó exactamente donde habíamos visto que queríamos que quede en la prueba, en la consola del desarrollador del anterior video.
+
+[01:45] Ahora, si analizamos aquí, voy a volver a nuestra página, voy a dar un inspeccionar, nuestro logo tiene 250 pixeles, en este caso, de largura, de alto. Entonces, aproximadamente 110 pixeles yo le puedo dar del top de espacio superior, para que quede aproximadamente al medio, es lo que haremos ahora. Top 110 pixeles.
+
+[02:22] Voy a guardar aquí, volvemos acá, actualizo y ya lo tengo mi menú aquí, un poco más centralizado. Solo que vamos a ver el menú final, ¿no? Tenemos que, prácticamente ninguno de los dos elementos ni el panel de navegación ni nuestro logo están en los extremos laterales, están medio ubicados al centro.
+
+[02:54] Ahora, para poder configurar los dos con una sola etiqueta, vamos a crear un DIV, aquí en nuestros productos.html, recordando que el DIV es una etiqueta para crear bloques. Entonces, debajo del header vamos a crear un DIV, donde vamos a encapsular nuestros dos elementos, que son el H1, nuestro logo y nuestro panel de navegación. Los colocamos dentro de este DIV.
+
+[03:32] Y para no tener problemas en el futuro, el riesgo de que usemos DIV, el marcador DIV en nuestro CSS, y en el futuro que tengamos necesidad de crear otro DIV y hayan divergencias porque estamos configurando la etiqueta DIV con estilos, vamos a crear una clase y a esa clase la vamos a llamar caja.
+
+[04:01] Entonces, ya podemos usar nuestro selector de class aquí, en productos, y entonces, los colocamos antes de la etiqueta nav que habíamos colocado acá, entonces, después del header usamos nuestro selector de clase caja. Usamos nuestro selector de clase caja y aquí lo que vamos a hacer es colocarles un ancho.
+
+[04:33] O sea, vamos a decir que toda nuestra caja que involucra, está encapsulando a nuestro logo y a nuestro menú, le vamos a decir que ocupe un ancho de 940 pixeles. ¿Por qué 940 pixeles? Porque comúnmente, es muy común que las pantallas tengan 1280 pixeles de formato, esto no es el 100% de las pantallas, pero gran mayoría de las pantas tienen ese formato.
+
+[05:11] Entonces, si le estoy diciendo: "ocúpame 940 pixeles de esos 1280" le estoy diciendo "ocúpame el 70% aproximadamente de ese espacio". Entonces, cuando yo guarde aquí y vaya a nuestra página actualizar, no pasó nada, pero eso lo vamos a analizar aquí y ahora. ¿Por qué? Porque justamente dentro del header, nuestro DIV está con posición estática.
+
+[05:49] Y está siendo la posición estática a la posición absoluta que habíamos definido aquí en nuestro menú, entonces, para poder alterar eso, tenemos que en nuestra caja cambiar el posicionamiento para relativo. Entonces, cuando yo cambio el posicionamiento para relativo, vemos que ya me está alterando aquí el ancho de ese elemento, ya está ocupando 940 pixeles, tanto logo como nuestro menú.
+
+[06:26] Solo que continúa alineado al lado izquierdo. Y para ello voy a abrir nuevamente aquí nuestra consola. Voy a buscar nuestro DIV, fíjense que continúa aquí porque no he actualizado, y vamos a colocar una nueva propiedad que va a ser margen. En este margen le vamos a colocar 0 para superior e inferior y automático para los bordes.
+
+[06:59] Voy a cerrar aquí y fíjense que ya tengo ese comportamiento, tenemos nuestro logo, nuestro menú centrado, dentro de nuestro encapsulador caja que fue lo que creamos. Entonces, lo que tengo que hacer aquí es configurar aquello que configuramos en la consola, porque recordando lo que configuro en la consola es solo para prueba, solo para testear.
+
+[07:30] Para ejecutar en nuestra página, para que se quede grabado en nuestra página, tengo que hacerlo aquí, en nuestro Visual Studio Code. Entonces, habíamos puesto posición relativa. ¿Relativa a qué? Relativa a la posición absoluta que habíamos definido anteriormente. Entonces, posición relativa y un margen de 0 en la parte superior e inferior y automático a los bordes.
+
+[07:57] ¿Automático por qué? Porque yo le estoy diciendo: "Quiero que me ocupes 940 pixeles esa área", pero si hacemos un cálculo matemático de derecha a izquierda puede ser justamente que la pantalla no sea de 980 pixeles y me genere alguna controversia, algún problema, con el posicionamiento de nuestros elementos en la pantalla de ese usuario.
+
+[08:20] Entonces, si yo le coloco automático, el navegador automáticamente calcula en función de la resolución que el usuario está abriendo el sistema, él calcula automático cuánto va a colocar a la izquierda y cuánto a la derecha, y que sea exactamente el mismo valor y eso da la sensación de que está centralizado.
+
+[08:41] Entonces, vamos a actualizar para ver que todo esté bien y tenemos aquí nuestra página. Para finalizar, si analizamos, tenemos aquí un espaciamiento externo un poco mayor en nuestro header, en nuestro encabezado, entonces, eso vamos a hacerlo. Venimos aquí, a nuestro header y colocamos un padding, que es la propiedad de espaciamiento externo.
+
+[09:10] En esta propiedad, le colocamos 20 pixeles para superior e inferior y 0 en los laterales. Guardamos, vamos a nuestra página, actualizamos y ya tenemos los espaciamientos configurados. Entonces, si comparamos ahora el encabezado de nuestra página en construcción con el encabezado de la página modelo, de la página final, podemos ver que están exactamente iguales.
+
+[09:42] Todavía nos faltan aquí estos comportamientos, que los veremos más adelante, pero el formato del encabezado, el menú y el logo, ya están exactamente iguales con nuestra página en construcción. Entonces, eso es todo por este video. En los próximos capítulos lo que vamos a ver ya es nuestra lista de productos.
+
+[10:07] La lista de productos que tenemos en nuestra página modelo, que son los productos y servicios que están siendo ofrecidos en nuestra barbería. Entonces, nos vemos en la próxima sección. Muchas gracias. Chau, chau.

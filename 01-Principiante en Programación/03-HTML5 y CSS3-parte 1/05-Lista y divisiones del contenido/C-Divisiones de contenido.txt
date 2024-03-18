@@ -1,0 +1,33 @@
+Divisiones de contenido
+
+
+[00:00] Okay amigos y amigas, continuando con nuestro curso de HTML y CSS, en el último video lo que vimos fue cómo crear esta lista de diferenciales y lo añadimos aquí en nuestra página web.
+
+[00:17] Ahora, en nuestra ocasión vamos a aprender a dividir nuestro código en bloque, vamos a dividir nuestra página en un bloque, con el contenido, con este contenido de la descripción, y el otro con el contenido de los diferenciales. Para ello usamos una etiqueta que se llama div, de división, y vamos a dividirlo después de nuestra imagen, aquí desde el H1.
+
+[00:51] Entonces, usamos div, voy a dar un enter, y dentro de este div, dentro de estas etiquetas, voy a colocar todo nuestro contenido de descripción, que viene a ser el H1, el título y los tres párrafos. Coloco la identación correcta, aquí voy a dar un enter, y voy a crear otro divisor, otro div, en este caso para nuestro título de diferenciales, nuestro H2 y nuestra lista.
+
+[01:33] La misma cosa aquí, idento en la forma correcta y ya tengo mis divisores. Aquí voy a dar un enter y aquí también. Voy a guardar, vuelvo a mi página, actualizo y bueno, el visual en la página no sufrió ningún ajuste, para el usuario no va a haber ninguna diferencia. Sin embargo estoy organizando mi código y dejándolo más fácil para poder aplicar estilos.
+
+[02:12] Entonces ya puedo crear una clase o un identificador a cada uno de estos divisores y aplicar un estilo diferente a ya sea la primer sección, el primer bloque de nuestra página o el segundo bloque. Y eso es lo que haremos ahora, vamos a aplicar.
+
+[02:32] Primero, vamos a crear una clase para nuestro segundo bloque que es diferenciales, así lo vamos a llamar, y voy a volver aquí a nuestra página, entonces este es nuestro bloque que es la lista de diferenciales, le vamos a dar un fondo blanco, diferente del fondo plomo, plateado que está en el resto de la página.
+
+[03:04] Entonces ya creé la clase. ¿Por qué creé una clase y no un identificador? Porque una clase me permite reutilizar ese estilo. Mientras que el identificador es único, solo puedo usarlo una sola vez. Entonces vengo aquí en style, antes de los items, siguiendo el orden, la estructura de mi HTML, coloco diferenciales, hago un selector de clase de nuestro CSS, está correcto, y aquí en la propiedad background vamos a darle el color blanco, y el color blanco son seis F.
+
+[03:57] Voy a actualizar y vuelvo a mi página y actualizo y ya tenemos aquí nuestro fondo blanco. Ahora, podemos ver que aquí en la parte inferior, todavía tenemos fondo blanco y también en los laterales. ¿Por qué? Porque hemos aplicado el fondo plateado, el fondo plomo a todo nuestro body.
+
+[04:23] Entonces lo que haremos es aplicar ese fondo plateado al primer divisor, a la primera sección, al primer bloque. Entonces, voy a crear otra clase que lo voy a llamar bloque principal o simplemente principal, y en este caso voy a referenciar el principal, el principal está después de la imagen, ya tengo aquí un selector de imagen, voy a colocar punto principal y en este caso voy a colocar este background del body aquí.
+
+[05:02] Voy a guardar, vuelvo a mi página, actualizo y ahora fíjense que ahora tengo mi imagen, un espacio en blanco y mi bloque principal solo de plateado. Estos espacios en blanco que podemos ver a la izquierda y entre la imagen y nuestro primer bloque que es el principal, son colocados en forma automática por nuestro navegador, o sea, vienen por defecto.
+
+[05:30] Ahora que ya hemos realizado esos ajustes, para padronizar vamos a colocar nuestro segundo título al centro, nuestro H2. Entonces, para ello puedo acceder aquí, vamos a ubicarlo, entonces estaría antes de la clase items. Antes de la clase items coloco mi H2, hago un selector directo de mi etiqueta y text-align: center. Voy a guardar.
+
+[06:07] Vuelvo aquí a nuestra página y ya tenemos diferenciales en el centro. Ahora, vamos a adicionar una imagen aquí en el espacio derecho de nuestra lista. Entonces tenemos una imagen de diferenciales que va a estar en la descripción de este video para que ustedes puedan descargar.
+
+[06:31] Descargando esta de aquí, van a tener una carpeta diferenciales, una imagen que se va a llamar diferenciales.jpg, aquí la voy a abrir, es esta imagen de nuestro barbero cortando, y voy a colocar en este caso en nuestro index HTML, dentro del segundo bloque, dentro del segundo div puedo colocar nuestra etiqueta imagen, que en este caso la source o la fuente de esa imagen está dentro de la carpeta diferenciales y el archivo se llama diferenciales.jpg.
+
+[07:25] Voy a guardar. Estoy referenciando entonces como hice la referencia aquí de nuestra imagen, de la primera imagen del banner, voy a volver a nuestra página, actualizo y ya tenemos aquí abajo en la parte inferior la imagen, solo que está supergrande, entonces no conseguimos colocarla aquí a la derecha. Quiero que aparezca la lista e inmediatamente después venga la imagen de diferenciales.
+
+[08:01] Esa configuración de la imagen de diferenciales para que aparezca a un costado de nuestra lista lo vemos en el próximo video. Muchas gracias.
+

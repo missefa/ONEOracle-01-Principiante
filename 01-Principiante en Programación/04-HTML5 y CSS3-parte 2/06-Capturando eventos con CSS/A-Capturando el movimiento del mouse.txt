@@ -1,0 +1,26 @@
+Capturando el movimiento del mouse
+
+
+[00:00] Okay amigos, continuando con nuestra página de la Barbería Alura, ya tenemos nuestro encabezado, en el cual, le hemos colocado nuestro logo, nuestro panel de navegación. De la misma forma, ya colocamos nuestros productos: cabello, barba, cabello + barba, con sus respectivas imágenes, descripciones y sus valores, sus precios cobrados.
+
+[00:28] Básicamente, hablando de contenido, lo único que nos faltaría es nuestra página de contacto y nuestro pie de página en nuestro caso, comparando con nuestra página modelo, el pie de página que está aquí. Pero eso será asunto para los siguientes videos de las siguientes aulas. Lo que vamos a preocuparnos en esta sección es por estos efectos especiales.
+
+[00:57] ¿Cómo hacemos? ¿Cómo construimos estos efectos? Lo primero que tenemos que tener conciencia es que yo necesito capturar eventos del usuario. O sea, cuando el usuario hace algún comportamiento, cuando él tiene algún comportamiento, yo lo tengo que capturar con CSS y hacer alguna cosa, o sea ejecutar alguna cosa.
+
+[01:25] Por ejemplo, ¿qué es lo que está pasando? Estoy capturando el movimiento del mouse de mi usuario cuando se coloca en nuestro panel de navegación. Entonces, cuando se coloca en algún link de nuestro panel de navegación, pasa que se subraya y se coloca un color diferente y se destaca. Lo mismo aquí, cuando nos posicionamos en alguno de los productos, pasa el mismo efecto, se colorea el borde y da ese efecto de destaque.
+
+[02:06] Lo mismo cuando hago un clic, se pinta de un color diferente, en este caso verde, que ese es el evento de nuestro usuario, entonces, lo que estamos haciendo es capturar eventos y en función de esa captura de eventos, ejecutar alguna cosa. Hay diferentes formas de hacer exactamente eso, y en realidad la forma más correcta o la forma más común trivial de usarla es con JavaScript, solo que el foco de este curso no es el JavaScript.
+
+[02:40] Es desarrollar una página web solo con HTML y CSS que es lo que estamos haciendo. Tenemos otros cursos en Alura enfocados 100% con JavaScript, donde van a poder ver con mayor profundidad este tipo de captura de eventos. En nuestro ejemplo, en nuestro ejercicio, en nuestro proyecto, vamos a usar CSS, que es lo que haremos ahora.
+
+[03:05] Voy a ir a nuestro CSS. Y estoy aquí, en mi página producto CSS y voy a ir para nuestro index de productos HTML. Para recordar que aquí tenemos ya nuestro header, estábamos usando la etiqueta nav del panel de navegación, y teníamos las etiquetas A, las áncoras para referirnos a los links vínculos de las páginas que estábamos colocando, que estábamos vinculando.
+
+[03:42] Y en productos CSS, ya teníamos un selector nav A, que se refiere justamente a esos links. Ahora, vamos a un mismo selector, que va a ser nav A, solo que, en este caso, vamos a usar la propiedad hover. La propiedad hover es la que captura ese movimiento del mouse, o sea, captura el comportamiento del movimiento del mouse de nuestro usuario, la persona que está interactuando con la página.
+
+[04:24] Y dentro del, abrimos y cerramos corchetes, esa es la sintaxis, algo diferente a lo que hemos visto hasta aquí pero no se extrañen, así funciona. Aquí está la etiqueta, las dos etiquetas a las cuales quiero que al capturar el hover, que el hover es ese movimiento del mouse, voy a cambiar el color de esos elementos. Y aquí, para cambiar, solo defino la propiedad color y ya lo tengo anotado el color que vamos a usar que es c78c19, que es ese color medio mostaza.
+
+[05:08] Voy a guardar y vamos a ir a nuestra página. Actualizo aquí, voy a nuestro menú, y fíjense que cuando ya me posiciono, C cambia de color. Recordando, es el hover, esa propiedad hover la que está capturando el movimiento del mouse, y le estamos diciendo que cuando capture dentro o encima, mejor dicho, de nuestro panel de navegación de los links de nuestro panel de navegación, que se cambien de color.
+
+[05:44] Y para terminar, vamos a volver a ese subrayado que lo habíamos sacado, con la propiedad text decoration y le vamos a poner underline, de subrayado. Guardamos, venimos aquí, actualizamos y ya tenemos no solo el color, también el subrayado.
+
+[06:05] Hemos aprendido, entonces, a capturar el hover, y en función de eso a hacer algunas instrucciones diferentes, que en este caso es el destaque de nuestros links de navegación. Haremos lo mismo en el siguiente video para nuestros productos. Nos vemos luego. Chau, chau.

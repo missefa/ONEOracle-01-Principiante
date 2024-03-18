@@ -1,0 +1,10 @@
+Desafío
+
+Bien, como mencionamos, tenemos para ustedes un desafío interesante. Como podemos ver, actualmente nuestro sistema, nuestro juego secreto, nos reta a ingresar un número entre 1 y 10. Así es como funciona el juego ahora. Todo el código que voy a leer está implementado, y principalmente la primera función donde comienza nuestro juego, nos devuelve un número aleatorio, un número pseudoaleatorio, entre 1 y 10.
+
+El desafío que nos gustaría proponer es: ¿qué cambios serían necesarios para que no sea entre 1 y 10? Imaginen que quieran jugar entre 1 y 100, o que el usuario quiera jugar entre 1 y 1000. ¿Qué cambios serían necesarios para que esta funcionalidad pueda ser implementada, pueda ser aplicada?
+
+En el próximo video, vamos a mostrar una solución posible, una de las muchas que pueden existir, pero antes de pasar al próximo video, quiero desafiarles a ustedes. Quiero que se tomen su tiempo, piensen, reflexionen, vuelvan a los videos anteriores, tal vez haya algo que no quedó tan claro, pero este punto es muy importante para reforzar las cuatro clases anteriores que han visto hasta ahora, ¿de acuerdo?
+
+Y solo cuando tengan su solución, vayan al próximo video para comparar su resultado con el resultado que Leo va a producir para ustedes. Pero bien, nos vemos en el próximo video.
+

@@ -1,0 +1,32 @@
+Campos básicos
+
+
+[00:00] Continuando con nuestra página de contacto. Ya la hemos construido con el header y el footer. Ahora, vamos a ver nuestra página modelo, a la página final, vamos a construir estos primeros ítems de nuestro formulario donde le pedimos el nombre, el apellido, el correo electrónico y el teléfono.
+
+[00:24] Entonces, vamos a ir a nuestro Visual Studio Code y dentro del main, donde habíamos colocado tests, vamos a comenzar a usar las etiquetas específicas para formulario, y como esperarán, hay una etiqueta que se llama form, justamente que hace referencia, que representa, que marca un formulario.
+
+[00:50] Dentro de este form, vamos a colocar una etiqueta que se llama input. Ese input va a ser un type "text", y lo que hace este input es crearnos una cajita de texto para que nuestro usuario coloque sus datos. Aquí tenemos nuestra caja de texto. No da para percibir bien porque están superpegados de nuestro header y footer, pero sin embargo, ya el usuario puede escribir aquí el texto que quiere enviarnos.
+
+[01:30] Ahora, tenemos que colocar a qué se refiere esa cajita de texto, una etiqueta, a esa etiqueta, aunque valga la redundancia. Y para colocar esa etiqueta existe label en inglés es etiqueta o marcación, y esta etiqueta es una etiqueta de contenido, que abre y que cierra, y dentro de label vamos a colocar nombre y apellido. Entonces, este label es lo que va a aparecer en nuestra página de contacto.
+
+[02:07] Actualizamos aquí y aquí tenemos nombre y apellido y la cajita de texto. Ahora, siempre cuando colocamos un input de tipo texto, tiene que ir con un label asociado para indicar a qué se refiere ese input; es como si siempre van casados. Y para casarlos, para relacionarlos aún más, podemos aquí colocarle un id a este input.
+
+[02:37] Le colocamos que ese id es el nombre y apellido, recordando que como buena práctica, en los nombres de variables de id usamos únicamente minúsculas, y dentro del label colocamos un for, que le estamos diciendo, fíjense que incluso el Visual Studio me ayuda, le estamos diciendo: "referite al id, al input con id nombre y apellido". Voy a actualizar. Voy a grabar, voy a actualizar aquí.
+
+[03:12] ¿En qué me ayuda eso? Fíjense que cuando ahora hago clic en la etiqueta, en el nombre y apellido, ya también me deja activa la caja de texto para que el usuario ingrese su nombre y su apellido, o también puedo hacer directo en la caja de texto. Entonces, es así que dejo relacionado ese label con esa caja de texto específica.
+
+[03:38] Y ahora, haremos lo mismo para nuestros otros datos que le vamos a pedir al usuario. Entonces, vamos a colocar un input, type, "text", vamos a colocar el id, correo electrónico, le vamos a pedir su correo electrónico a nuestro usuario, vamos a colocarle un label haciendo referencia. Fíjense que el IDE, nuestro Visual Studio, ya me ayuda y me coloca el for incluso, automáticamente.
+
+[04:17] Le vamos a decir que ese for haga referencia a correo electrónico, y aquí en nuestro label lo que va a aparecer vamos a colocar correo electrónico. Un último input, type "text" id, "teléfono" y colocamos nuestro label for a donde hace referencia al teléfono y aquí colocamos teléfono. Déjenme guardar aquí.
+
+[05:07] Salvamos, vamos a nuestra página, actualizamos y aquí tenemos los tres inputs con sus respectivos labels: nombre y apellido, el usuario puede colocar su nombre y apellido, correo electrónico, puede colocar su correo electrónico, teléfono, puede colocar su teléfono. No se preocupen de momento por el estilo, es algo que vamos a verlo más adelante, lo tenemos aquí horizontal.
+
+[05:37] Y estos inputs deberían estar en un formato vertical, de momento no nos preocupemos por el estilo que es algo que lo veremos más adelante. Y para finalizar, todo formulario necesita de un botón enviar o de dar el enter en el formulario para que sea enviado ya sea a un servidor, ya sea a un correo electrónico o a otra página en la que estemos trabajando donde le mandamos estos datos.
+
+[06:07] Y para ello, tenemos una etiqueta que justamente se llama input type submit, entonces, en este caso, ya nuestro HTML nos ayuda porque nos va a crear ese botoncito de submit y aquí está en enviar. Fíjense que me coloca enviar. ¿Por qué? Porque mi navegador está configurado en español, entonces, ya me reconoce el idioma y me coloca que ese submit es enviar.
+
+[06:45] Si mi navegador estuviera configurado en otro idioma, bueno, va a colocar en el idioma respectivo. Pero para garantizar que independientemente del navegador, yo quiero mostrarle en español, yo coloco un value, aquí la propiedad value, y le colocamos en español "Enviar formulario". Vamos a guardar, volvemos aquí, actualizamos y ya tenemos aquí el botoncito de enviar formulario.
+
+[07:23] De momento no hace nada. Lo único que cuando aprieto, por default, lo que hace es resetear el formulario. Pero bueno, no estoy enviando esos datos a ningún lugar. Entonces, para finalizar, vamos a repasar y quiero que se lleven este concepto, que un formulario básico siempre tiene los inputs, input texto junto con label, y tenemos un submit, un botón para enviar esos datos a algún lugar.
+
+[07:56] Entonces, esa es la estructura básica de un formulario. Las etiquetas y los estilos de esos input que hemos creado son asuntos para los siguientes videos. Nos vemos. Chau, chau, gracias.

@@ -1,0 +1,34 @@
+Caracteres Especiales
+
+
+[00:00] Okay, amigos y amigas, estamos en la recta final de nuestro curso donde estamos construyendo, terminando en realidad de construir la página de productos de nuestra Barbería Alura. Bueno, ya habíamos construido nuestro encabezado, nuestro cuerpo, y en el anterior video nos dedicamos a construir nuestro pie de página, nuestro footer.
+
+[00:26] Dentro de nuestro footer, aparte de nuestra imagen, teníamos nuestro texto que es nuestro copyright, que actualmente está configurado con el valor padrón que le da nuestro navegador, que es el color negro, por eso es que no está legible con este background, y 16 pixeles de tamaño. Lo que tenemos que hacer es configurarlo para dejarlo como está aquí, en nuestra página modelo.
+
+[00:56] Entonces, tenemos que alterar el color, ver cómo colocar este texto o carácter especial, y está un poco más pequeño y mejor localizado. Entonces, es justamente eso lo que veremos en este video. Yendo a nuestro HTML, la estructura de nuestra página, vamos a ver que tenemos una etiqueta p que es donde está nuestro texto dentro de nuestro footer.
+
+[01:26] Entonces, yo podría ir a nuestro CSS y colocar aquí nuestro selector footer p, y me estoy refiriendo a él. Funcionaría correctamente, solo que no es una buena práctica como lo hemos visto anteriormente, sobre todo abusar las p directo con las etiquetas, porque el día de mañana nuestra página puede crecer y puede que tengamos la necesidad de acrecentar algún otro texto.
+
+[01:56] Entonces, siguiendo esa buena práctica de programación de usar las clases, vamos a construir una clase que la vamos a llamar copyright. Entonces, con nuestra clase creada, puedo venir aquí y ya no utilizo el selector de etiqueta sino utilizo el selector de clase copyright, recordando que necesito colocar el punto.
+
+[02:23] Y dentro del copyright, lo que vamos a alterar en nuestro texto es justamente el color. No hay que olvidarse la propiedad, color, recordando que el blanco son FFFFFF. Voy a guardar, vamos a ver nuestro texto en nuestra página, actualizo y ya lo tenemos en color blanco.
+
+[02:52] Ahora, este texto está un poco grande, no queremos que llame la atención ese copyright, por lo general en las páginas es un texto bien pequeño, entonces como está con 16 pixeles que es su tamaño original, vamos a disminuirle un poco el font-size para 13 pixeles. Vamos a guardar aquí, vamos a la página, actualizamos y ahora tenemos el texto pequeño.
+
+[03:21] Ahora, solo nos está faltando ese símbolo o carácter especial, que representa al copyright. Parece una arroba de los correos electrónicos, pero es una C con circunferencia alrededor. Esa C con su circunferencia alrededor pertenece al diccionario unicode.
+
+[03:45] El diccionario unicode, es el diccionario que contiene todos los idiomas, todos los caracteres especiales y caracteres normales de los idiomas del occidente de nuestro planeta, todas aquellas lenguas, aquellos idiomas conocidos también como indoeuropeos, que dentro de ellos está el inglés, el español, el portugués, el francés, en fin, todos los idiomas, vuelvo a repetir, que hablamos en la parte occidental de nuestro planeta.
+
+[04:18] Y para saber, voy a venir aquí, para no confundir nuestra página en construcción, para saber qué código representa ese carácter, tenemos una página que se llama Unicode, ya me aparece aquí porque ya la había visitado, unicode-table.com, entro en esta página, ya me aparece en español porque mi navegador está en español, y aquí busco copyright.
+
+[04:51] Al buscar copyright me da dos resultados de búsqueda. El primero, grabador de sonidos no, signos de derecho de copia. Hago clic aquí y fíjense que es el símbolo que estamos buscando, y aquí me muestra varias formas de representar este símbolo en nuestro código. Entonces, tenemos un número unicode, un código HTML, un código CSS y una entidad.
+
+[05:22] Podemos usar el que queramos, pero normalmente, mayormente se usan, van a ver en bastantes páginas web, el símbolo de entidad. Entonces, vamos a usar esa entidad, que sería ese símbolo ampersand y la palabra copy. Y ese texto, ese código lo colocamos en nuestro texto dentro del HTML, básicamente como si fuera un texto más.
+
+[05:50] Aquí coloco ampersand y la palabra copy y le doy el espacio correspondiente. Guardamos, vamos a nuestra página, que está aquí, vamos a cerrar esto. Recordando que también en esta página, en caso tengan interés, pueden buscar cualquier símbolo unicode, incluso hay símbolos como los emoticones de WhatsApp, por ejemplo, que van a poder encontrar sus códigos para poder usarlos en sus páginas web.
+
+[06:28] Entonces, voy a cerrarlo, volviendo aquí, actualizamos, y ya tenemos ese símbolo del copyright. Ahora, solo para finalizar, nos está faltando ese margen, ese espacio entre el logo y nuestro texto. Para ello, vamos a dar un margen externo a nuestro copyright. Aquí vamos a colocar un margen de 20 pixeles. Vamos a guardar, venimos a nuestra página y ya lo tenemos ubicado correctamente.
+
+[07:15] Entonces, amigos y amigas, hemos finalizado la construcción de esta página de productos, en la cual hemos visto cómo construir nuestro header, nuestra div, nuestra parte de contenido con los productos y servicios de nuestra barbería y nuestro footer con su logo específico y el texto de copyright.
+
+[07:42] Entonces, hemos visto bastante contenido en este curso en específico. Hagan los ejercicios que eso va a ayudar a reforzar todos los contenidos, todo el conocimiento que están adquiriendo. Recuerden que la práctica hace al maestro. Nos vemos en una próxima. Chau, chau.

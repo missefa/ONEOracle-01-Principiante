@@ -1,0 +1,44 @@
+Arreglos
+
+
+En JavaScript, por ser un lenguaje de tipado débil, tenemos la posibilidad de definir listas combinadas. El punto inicial, y lo que siempre recomiendo como buena práctica, es mantener la homogeneidad en nuestras listas. Si tenemos una lista de cadenas de caracteres, manténgala como cadenas de caracteres. Si es una lista de números, manténgala como una lista de números. Si vamos a hacer un dato más estructurado, puede ser una lista de objetos, ¿de acuerdo?
+
+Existe la posibilidad de hacer listas combinadas, y es válido en JavaScript. A mí no me gusta mucho porque yo vengo de un lenguaje fácilmente tipado, como C sharp. Podemos perder el control, pero si en un momento fuera necesario, ahí está la posibilidad, está la funcionalidad disponible.
+
+Ahora, cuando tenemos una lista, también podemos, una de las operaciones normales que tenemos es, primero, ver la lista, ya lo hicimos con el console.log, agregar elementos. Si vemos la lista que está en MDN, ya empezó con dos elementos, es válido. Nosotros hicimos una lista vacía. Entonces, cualquiera de las dos listas tiene la posibilidad de que agreguemos elementos.
+
+JavaScript tiene una cantidad de métodos realmente disponibles muy útiles, poderosos. Vamos a hablar de algunos de ellos aquí, pero en MDN tienen toda la documentación de ellos. Y los invito a que profundicen porque el manejo de listas es muy importante para desarrollar.
+
+Empezamos entonces, por ejemplo, a agregar un elemento. Nosotros podemos agregar elementos dentro de una lista y si verificamos una lista, ella tiene inicio y fin. Podemos agregar elementos al inicio o al final. Lo común es que sea al final, pero JavaScript tiene métodos para agregar al inicio. Vamos a usar el de agregar al final, que es el método push. Estamos empujando un elemento a la lista.
+
+En nuestro caso, nosotros indicamos cuál es ese elemento. Entonces, imaginemos que el primer número sorteado fue 5. Entonces, hacemos push dentro de la lista. Y ahora yo hago el mismo console.log y a diferencia de lo anterior que estaba vacío, observa que ahora sale 5 entre corchetes. Si yo agrego un nuevo elemento con push, imaginemos que el siguiente número fue 8, el número sorteado, y ahora...Y ese 2 es que tiene dos elementos.
+
+Casualmente, cuando haces el push, te retorna la cantidad de elementos que quedó con la lista. Pero también hay una forma de obtenerlo. Si yo veo la lista, mira la nomenclatura que da. Es nomenclatura de lista. Elemento, coma, otro elemento, coma, otro elemento. Además de agregar elementos, hay la posibilidad de pedirle su tamaño. En Javascript y en todas las aplicaciones hay eso.
+
+Entonces, yo puedo decirle... console.log. Vamos a pedirle a la lista, números sorteados, su tamaño. Que en el caso de Javascript es length. Ok.
+
+Tengo que tener cuidado porque si colocamos lenght, no funciona. Entonces, aquí vamos a hacer ese hincapié. Es length, y fíjense que es GTH. Y es un punto donde solemos equivocarnos bastante. Bastante común. Ahí pedí el tamaño, me retornó 2.
+
+De esa forma nosotros tenemos control de la lista. Ahora, ¿cómo acceder a un elemento? En particular. En arreglos existe lo que se llama el índice o posición. Entonces, si yo vuelvo a ver la lista. Aquí tenemos dos elementos. Y en arreglos, en los lenguajes de programación en general. No conozco ninguno que tenga un comportamiento diferente. Para acceder a cada uno de los elementos, siempre comenzamos la posición en 0. Ok.
+
+El primer elemento siempre será la posición 0. Presten atención a esto. Esta información es muy importante y genera muchas dudas. Muchas personas cometen errores, incluso en sistemas, por no tener claro este concepto. Entonces, los arreglos tendrán N elementos dentro, pero la posición del primer elemento, que en este caso es el 5, comienza con el número 0. Esto quedará más claro con el próximo paso, pero quiero que recuerden esta frase: Todos los arreglos inician con posición 0.
+
+Ahora, Leo nos va a mostrar qué significa esto. Entonces, yo voy a solicitar el primer elemento. Recordando, el primer elemento está en la posición 0. ¿Cómo indicamos la posición? Hasta ahora he hecho console.log de la variable completa y me muestra la variable completa que está en la lista. Yo quiero un elemento en particular, utilizamos los corchetes y encierro entre corchetes la posición que quiero. Como quiero la primera posición, pido la posición 0. Cierro aquí el paréntesis y debería mostrarme 5. Me muestra 5. Excelente.
+
+Entonces, la posición 0 se refiere al primer elemento. Y la posición final se referirá al tamaño menos 1. Correcto. ¿Quieres preguntar algo? No. La posición 1, entonces es el 8, es el segundo elemento. Entonces, la última posición es el tamaño de nuestro arreglo, que es 2, menos 1, nos da la posición de nuestro último elemento.
+
+¿Qué te parece si agregamos un elemento más? Hagamos un push. Números sorteados. Punto push. 3, por ejemplo. Solicitamos la lista. Tenemos 3 elementos. Entonces, si tenemos 3 elementos, ¿cuál sería el tamaño de nuestra lista? Es 3. Podemos verificarlo. Hacemos un console.log de números sorteados.length. Perfecto. ¿Cuál es la posición del primer elemento? Posición 0. Eso es una regla que no cambia.
+
+¿Y cuál es la posición del último elemento? En este caso, vamos a solicitarlo porque es dinámica. Antiguamente, habíamos dicho que era la posición 1 porque había 2 elementos. Ahora, posición 2. Pero como no podemos saber siempre exactamente, de forma literal, el valor, hacemos una regla que sea dinámica, que se adapte. En este caso. Porque ahora tenemos 3 elementos. Es fácil contarlos. Podemos tener un arreglo con 500,000, 400,000. No vamos a saber. No vamos a saber.
+
+Entonces, estén atentos a esta pequeña fórmula que Leo va a colocar que nos dice el tamaño de la última posición. Para solicitar la última posición, entonces le decimos que queremos, de la lista, la posición y ahí entre corchetes y dentro de los corchetes decimos, ok, quiero el tamaño de la lista menos 1. Cierro aquí los paréntesis y esperamos que sea el elemento 3, si no me equivoco. 3. Excelente.
+
+Voy a agregar un nuevo elemento solamente para probar, 9. Ahora voy a solicitar el último elemento de la lista, no voy a cambiar nada en el código y debería mostrarme 9. Perfecto. Entonces hemos creado un código genérico que puede obtener el elemento final de la lista. Excelente.
+
+¿Y por qué es importante saber el último elemento? Es muy importante porque cuando recorremos un arreglo tenemos que acceder a posiciones válidas. Entonces una posición no válida, y ustedes pueden estar preguntándose, si usamos una posición negativa, por ejemplo, será una posición no válida. Y es cierto. Si hacemos console.log de la lista en la posición menos 1, ¿Qué nos dirá Javascript? Nos dirá undefined (indefinido). No existe ningún elemento en esa posición. No existe esa posición. Si solicitamos un número mayor, entonces, por ejemplo, nuestra... 20, por ejemplo, que no existe porque no tenemos 21 elementos, también nos dirá undefined. Perfecto.
+
+Es importante conocer esta última posición porque, con frecuencia, al realizar operaciones con arrays necesito recorrer todo mi array. Es decir, necesito realizar una operación con cada uno de estos elementos. Por eso, a menudo voy hasta la última posición en muchas operaciones cuando estamos trabajando con arrays. Es una de las operaciones más comunes que tenemos en los arrays.
+
+Excelente. Perfecto. Bueno, con esto concluimos esta parte conceptual de los arrays. Hemos hecho un gran refuerzo aquí, haciendo mucho hincapié en la documentación. Lean esa documentación. Profundicen un poco. Es importante entender los conceptos y las propiedades que hay detrás de esto. Utilizamos la consola del programador aquí para entender la dinámica de los arrays.
+
+En el próximo video, implementaremos entonces en nuestra lógica para evitar que los números sorteados se repitan. No importa.

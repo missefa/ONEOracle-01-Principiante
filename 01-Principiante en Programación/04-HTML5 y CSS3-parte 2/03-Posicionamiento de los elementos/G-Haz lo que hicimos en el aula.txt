@@ -1,0 +1,80 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que fue visto en el aula. Para ello, ejecuta los pasos listados debajo.
+
+1) Si todavía no has descargado el ZIP con el reset.css, descárgalo aquí.
+https://github.com/alura-es-cursos/1759-HTML5-y-CSS3-parte2/raw/aula3/reset.css.zip
+
+2) Extrae el ZIP y guarda el reset.css dentro de la carpeta de tu proyecto.
+
+3) En la página productos.html, importa el reset.css, antes de importar productos.css:
+
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="productos.css">
+
+4) Coloca el logo y el menú en una div:
+
+<div class="caja">
+    <h1><img src="imagenes/logo.png"></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+
+5) En el archivo productos.css, en el header, agrega un padding para arriba y para abajo:
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+6) Finalmente, posiciona el encabezado, cambiando la div .caja y el nav:
+
+.caja {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+7) El archivo productos.css completo quedaría así:
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}

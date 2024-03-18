@@ -1,0 +1,30 @@
+Pie de Página
+
+
+[00:00] Continuando con nuestro curso de HTML 5 y CSS 3, en esta segunda parte de nuestro curso, donde continuamos desarrollando y construyendo la página web de la Barbería Alura.
+
+[00:13] Hasta aquí, lo que ya hemos visto es la construcción de nuestro encabezado de página donde tenemos nuestro logo y nuestro panel de navegación, y también la división de contenido con los productos y servicios que son ofrecidos por nuestra barbería. Lo que nos estaría faltando desde el punto de vista de contenido es nuestro pie de página.
+
+[00:36] Mirando la página original, la página modelo, tenemos aquí nuestro pie de página, en el cual, podemos apreciar que hay una imagen, hay un fondo un poco diferente con una textura diferente, y bueno, tenemos un texto que es el copyright, los derechos reservados de la Barbería Alura. Entonces, es lo que vamos a trabajar ahora.
+
+[01:02] Yendo a nuestro Visual Studio, estoy aquí, en el archivo productos.html analizando la estructura, ya tenemos nuestro encabezado, nuestro head y nuestro body, que es el cuerpo de nuestra página. Y dentro del body, tenemos nuestro header, voy a minimizarlo aquí, tenemos nuestro main con todos los productos, que también voy a minimizarlo.
+
+[01:31] Y así como tenemos un header para el encabezado y un main para el cuerpo, también tenemos una etiqueta que se llama footer. Esta etiqueta aparece a partir de HTML 5, lo que me permite colocar mi pie de página en nuestra página web, recordando que footer en inglés es pie de página.
+
+[01:58] Entonces, en este footer, mirando la página original, ¿qué es lo que tenemos? Tenemos una imagen y el texto. Entonces, si es una imagen y el texto, vamos a colocar una imagen y un párrafo de texto. Dentro de la imagen, en la carpeta inicial, donde ya descargamos en las anteriores aulas, que venimos trabajando, la misma carpeta tiene aquí una imagen que es este logo blanco.
+
+[02:40] No se nota porque justamente la imagen es blanca. Entonces, lo que vamos a hacer es referenciar esa imagen. Venimos aquí, source, hago clic en imágenes y para que me aparezca ese logo blanco, logo-blanco.png. Y dentro del párrafo, lo que voy a escribir es el texto de copyright. Copyright Barbería Alura y el año 2020. Voy a salvar aquí y vamos a ir a nuestra página.
+
+[03:29] Voy a actualizar, y fíjense que tengo el logo, ya aquí no se ve porque justamente es blanco, el fondo de nuestra página también es blanco, y ya tengo el texto. Y vamos a modificar el visual del footer, creando el selector de nuestra etiqueta con footer. Hacemos footer, y lo que vamos a hacer es, primero configurar nuestro alineamiento del texto, de todos los elementos al centro.
+
+[04:05] Y solo para ver si está localizado correctamente, vamos a colocar un background. Este background lo vamos a colocar en plomo. Plomo son CCCCCC. Vamos a guardar, vamos a nuestra página, actualizamos, y fíjense que ya tenemos aquí nuestro logo, como decíamos es una imagen en blanco. Por eso le colocamos el fondo plomo para que se note y aquí está nuestro texto.
+
+[04:39] Ahora, viendo la página original es otra, el background no es plomo, es justamente una imagen que tiene esa textura. Volviendo a nuestra carpeta de imágenes aquí tenemos nuestro bg, que este es nuestro background, bg de background. Y vamos a hacer justamente en nuestro Visual Studio, vamos a referenciar, vamos a usar ese background para usarlo.
+
+[05:09] Ahora, hasta este momento, todas las imágenes que hemos colocado en nuestra página las hemos colocado en el HTML. En el CSS, para el caso del background, me permite usar una imagen. Para eso llamo al valor, que la propiedad URL, y dentro del URL coloco la ruta de nuestra imagen que es imágenes y el archivo bg.jpg. Vamos a guardar, vamos a nuestra página.
+
+[05:45] Actualizamos, y fíjense que ya tenemos nuestro background. Ahora, si vemos la imagen, esta imagen es cuadrada. No es una imagen rectangular. La pregunta es: "¿por qué me ocupa todo el espacio?" Justamente, porque al colocar la propiedad background, lo que hace el background es repetir como si hiciera un copypaste, como si copiara y pegara la misma imagen N veces hasta ocupar el 100% de la horizontal de nuestra página.
+
+[06:18] Entonces, es por eso que aparece así, ocupando el 100% en este caso de nuestra página. Nuestro texto desapareció. No es que desapareció, en realidad quedó ilegible por el color, el original es blanco, lo vamos a ver más adelante. Solo para finalizar este video específico vamos aquí a colocar un padding, un espaciamiento interno en nuestro footer.
+
+[06:48] Venimos aquí, y colocamos un padding de 40 pixeles. Actualizamos, y ya tenemos ese espaciamiento. Ya tenemos nuestro footer construido, solo nos faltaría formatear, darle un formato correcto al texto del copyright, pero eso lo vemos en el siguiente video. Hasta pronto, chau, chau.

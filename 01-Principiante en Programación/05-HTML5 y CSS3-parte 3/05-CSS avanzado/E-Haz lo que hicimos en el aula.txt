@@ -1,0 +1,32 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que vimos en el aula. Para ello, ejecuta los siguientes pasos:
+
+1) En la página contacto.html, agrega una clase para el input submit:
+
+<input type="submit" value="Enviar formulario" class="enviar">
+
+
+2) En los archivos style.css, coloca los estilos al botón:
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+
+3) Estiliza también cuando el usuario pase el mouse por encima del botón:
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}

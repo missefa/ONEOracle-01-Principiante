@@ -1,0 +1,36 @@
+Git status, add, commit y push
+
+
+[00:00] Hasta ahora todo lo que hicimos en nuestros archivos fue a través de la web. Y después de utilizar el comando Git log podemos percibir la idea genial de Linus Torvalds, que es tener no solo los archivos, como también el historial en nuestra máquina. Está todo en GitHub y después, que ejecutemos el comando Git Clone tenemos en nuestra máquina.
+
+[00:28] Y es esto lo que llamamos del sistema de control de versiones distribuido porque está en más de un lugar. Y si un día borraran los archivos de GitHub, va a estar en otra computadora, entonces vimos muchas cosas a través de la web. GitHub también ofrece una versión en desktop, pero es muy importante que aprendamos a la línea de comando porque generalmente cuando estamos trabajando en nuestro repositorio local, vamos a utilizar de esta forma.
+
+[00:57] Ahora vamos a ver cómo podemos sincronizar nuestro proyecto, ver el estado actual, hacer las modificaciones desde nuestra computadora y enviarlas para el repositorio remoto. Vamos a ver, en la línea de comandos. Podemos abrir nuestro editor a través de dos formas. Voy a escribir code, espacio punto, ya se abrirá la carpeta.
+
+[01:23] La otra forma que tenemos para abrir nuestra carpeta del proyecto es seleccionando file, open folder y buscar aquí dentro del explorador de archivos la carpeta para trabajar. Entonces, aquí ya la tengo abierta, ahora vamos a hacer un nuevo archivo en nuestro proyecto desde nuestra máquina local.
+
+[01:44] Pero antes necesitamos verificar si nuestro proyecto está actualizado y para ello utilizamos un comando que es el git pull. Voy a abrir la consola y poner aquí el comando que verificará si tenemos todo actualizado. Entonces, aquí me dice que no tenemos nada para bajar pero si hacemos alguna modificación en nuestro repositorio remoto, necesitamos utilizar este comando para que podamos después enviar lo que hicimos desde nuestra máquina local para el servidor remoto.
+
+[02:22] Entonces git pull sirve para bajar todos los archivos cuando ya empezamos un repositorio. Ahora voy a hacer un ejemplo, volvemos a nuestro repositorio en GitHub. Voy a hacer una modificación en un archivo README. Voy a poner aquí sistema de Registro 2. Voy a comentar, aquí actualiza el README. Y ya está.
+
+[03:03] Entonces no tengo esta línea aún en mi computadora porque la hice en GitHub. Y necesito bajarla. Lo que voy a hacer es escribir git pull. Entonces, ahora que yo hice una modificación va a tener estas informaciones y esta señal de más nos presentará que algo fue agregado a nuestro proyecto.
+
+[03:31] Ahora vamos a empezar a trabajar dentro de nuestro editor. Aquí en Visual Studio Code voy a crear un nuevo archivo. Se llamará contacto.html. Voy a poner aquí la estructura básica y modificar el nombre para contacto. Voy a poner aquí dentro del body, el cuerpo de nuestra página un h1 con mi correo ellen@alura.com, que es un correo de ejemplo.
+
+[04:18] Entonces, ahora nuestro editor presenta que tenemos una modificación. Al lado izquierdo, tenemos el icono de git con un punto de atención. Y aquí, en la pestaña tengo ese archivo, hay una pequeña bolita blanca que significa que no está guardado, entonces podemos hacerlo de dos formas.
+
+[04:41] El “Ctrl + S” para quedar guardado, o puedes ya activar una forma automática para no estar todo el tiempo guardando las modificaciones. Entonces aquí en file vamos a elegir la opción auto save y así todo lo que vamos haciendo va a quedar guardado de forma automática.
+
+[05:08] Aquí también, si notas hay una letra U. ¿Qué significa? Volvamos a nuestra consola. Voy a limpiar aquí. Ahora vamos a ver un nuevo comando que se llama git status, que es para verificar el estado de nuestro proyecto. Y aquí tenemos que el contacto.html no está siendo registrado, no está siendo acompañado.
+
+[05:39] Untracked significa que no está siendo acompañado de este archivo. Git sabe que hay un nuevo archivo, pero aún no es responsable y lo que tenemos que hacer para que pueda pasar para una otra área de la herramienta, para agregar este archivo tenemos el comando git add.
+
+[06:03] Podemos poner de dos maneras. Directamente el nombre del archivo o solamente poniendo el punto, de las dos formas va a agregar este archivo, generalmente utilizamos punto cuando hay más de dos archivos, entonces voy a pulsar el enter y ahora voy a poner de nuevo el git status.
+
+[06:29] Tenemos ya este archivo con otro color, está ahora en verde. Ahora sí Git pasa a acompañar las modificaciones de este archivo. ¿Y cómo podemos enviarlo al servidor remoto? Pero antes necesitamos hacer un comando muy importante que ya hemos visto a través de GitHub, que es el git commit.
+
+[06:53] Entonces aquí voy a poner lo que significa esta nueva modificación y voy a poner “Agrega archivo de contacto”. Ahí ya está. Si volvemos a nuestro repositorio aún no tenemos nada. Seguimos solamente con un archivo HTML. Ahora para enviar desde nuestra computadora, vamos a utilizar el comando git push. Push significa empujar.
+
+[07:30] Entonces este comando va a enviar nuestros archivos para el repositorio remoto. Entonces aquí solo vamos a escribir git push y va a enviar. Entonces ya tenemos este envío. Y al actualizar la página nos vas a presentar este nuevo archivo.
+
+[07:55] Con eso aprendemos más algunos comandos que solemos utilizar a través de la consola git pull para sincronizar, git status para verificar el estado actual de nuestro proyecto, git add para agregar los nuevos archivos, los nuevos cambios y git push para enviar a GitHub. Nos vemos en la próxima clase.

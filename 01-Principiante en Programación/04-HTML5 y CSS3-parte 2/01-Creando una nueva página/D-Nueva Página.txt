@@ -1,0 +1,32 @@
+Nueva Página
+
+
+[00:00] Bueno, lo que haremos en esta segunda parte de nuestro curso será crear una página nueva, una página nueva de nuestro sitio web de la Barbería Alura, y esta nueva página será una presentación de los productos y servicios que tenemos disponibles en nuestra barbería. Como podemos ver, está dividida en tres partes.
+
+[00:23] La primera parte es nuestro encabezado, en la cual vamos a tener el logo de nuestra página, un menú de navegación que nos va a llevar a otros links, a otra página, este de aquí, es nuestro botón que nos va a llevar a nuestra página principal.
+
+[00:44] Tenemos la página de productos, que va a ser esta, y una página de contacto que nos va a llevar a un formulario de contacto, caso los clientes quieran reservar o quieran entrar en contacto con la Barbería Alura.
+
+[00:58] Tenemos aquí la lista de productos. Bueno, nuestra barbería ofrece los servicios básicos que cualquier barbería ofrece que es corte de cabello, el corte o la moldura de la barba y el corte de cabello y barba, que sería un paquete, un combo de servicios. Tenemos un logo para cada producto, una pequeña descripción y su respectivo precio.
+
+[01:31] Y en la parte inferior de nuestra página tenemos a nuestro pie de página o rodapié, como también se lo conoce o lo nominan en algunos lugares. En nuestro pie de página tenemos el logo, tenemos un fondo aquí, un negro con una textura diferente, y tenemos nuestro texto de copyright, de derechos reservados, que indican que toda esta información pertenece a la Barbería Alura.
+
+[02:06] Entonces, para crear nuestra página lo primero que tenemos que hacer es crear un nuevo HTML. Entonces, cada página en un sitio web, cada página de navegación en un sitio web, está representado por un HTML. Entonces, si un sitio web tiene 1000 páginas para navegar, significa que hay 1000 HTML que están estructurados y haciendo referencia a ese contenido, a esas 1000 páginas.
+
+[02:39] Entonces, en nuestro caso vamos a venir aquí a file, new file, en nuestro Visual Studio Code. No vamos a necesitar el index.html, que es el archivo principal de nuestra página que lo vimos en la primera parte del curso, ni tampoco este archivo style.css, los voy a cerrar para no generar ninguna confusión. Este nuevo archivo lo voy a guardar como, voy a colocar aquí el aula 1, que es donde ya estamos.
+
+[03:17] Y este archivo lo vamos a guardar como productos, pero no txt sino HTML. Será nuestra página de productos.html y lo guardamos. Aquí tenemos el nombre y su extensión. Entonces, en esta página de productos HTML vamos a definir la estructura de nuestra página.
+
+[03:47] Definimos el doctype, recordando que, en este caso, nuestro IDE, nuestro Visual Studio Code, nos ayuda. Tiene ese teclado inteligente que al digitar algunas palabras me sugiere para hacer el autocompletado. Entonces, el doctype para indicarle la versión 5, que voy a usar la versión 5 de HTML. Y aquí construimos nuestra estructura.
+
+[04:13] La primera etiqueta que tengo que construir es HTML. Fíjense también que el IDE, mi Visual Studio Code, me autocompleta el cierre del HTML, okay, muchas gracias, para facilitarme ese trabajo, y dentro del HTML tengo dos bloques principales: el head y el body. Entonces, vamos a crear nuestro head y nuestro body.
+
+[04:46] Entonces, recordando que esta es la estructura de cualquier página web, estos son los elementos que cualquier página web deberían y deben tener. Dentro del head colocamos nuestras etiquetas informativas. La primera de ellas es el diccionario, entonces la etiqueta meta y nuestro charset UTF-8, que es el diccionario de los idiomas, los lenguajes occidentales indoeuropeos.
+
+[05:21] Colocamos nuestro título, que lo vamos a llamar Productos, guión, Barbería Alura. Y vamos a aprovechar para crear también nuestro nuevo archivo que será donde colocaremos los estilos de CSS. A este archivo lo vamos a llamar productos también, pero ya no con la extensión HTML sino, con la extensión CSS. Lo guardamos en nuestra misma ruta y ya tenemos nuestro archivo productos.css.
+
+[06:15] Para finalizar, lo único que haremos será la referencia a nuestro archivo productos.css y eso lo hacemos con la etiqueta link, donde le decimos que el tipo de relacionamiento, el tipo de relation en este caso, es un stylesheet, una hoja de estilo, y pasamos la dirección, la ruta de ese archivo.
+
+[06:47] Como están en la misma carpeta, estamos hablando de la misma dirección, del mismo camino, entonces lo único, fíjense que aquí ya me sale incluso el IDE, el Visual Studio Code, me sugiere los productos que están ubicados en la misma ruta, en el mismo camino, que productos.html. Entonces, puedo seleccionar directo productos.css que haga referencia ese archivo.
+
+[07:19] Cierro mi etiqueta y ya tengo completa la estructura de mi página. Entonces, nos falta agregar el contenido, todas las etiquetas de contenido de nuestra página de productos y eso lo vamos viendo en los próximos videos. Nos vemos. Muchas gracias.

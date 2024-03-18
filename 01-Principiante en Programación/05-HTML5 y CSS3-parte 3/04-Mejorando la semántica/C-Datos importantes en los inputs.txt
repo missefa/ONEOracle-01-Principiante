@@ -1,0 +1,36 @@
+Datos importantes en los inputs
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso, en el anterior video en la anterior sección lo que vimos fue la configuración de los tipos de input, pensando principalmente en la experiencia del usuario cuando va a entrar, va a navegar en nuestra página a través de un dispositivo móvil, a través de un celular.
+
+[00:21] Para ello, definimos qué correo electrónico y teléfono son otro tipo de dato que va a ayudar al momento de que esos datos, de que esos campos sean llenados. Otra forma de ayudar a navegar a que nuestro usuario pueda usar de la forma correcta nuestro formulario es definiendo algunos campos como obligatorios, que es lo que veremos ahora.
+
+[00:51] Eso, por un lado, ayuda a que el usuario sepa cuáles son los campos que tienen que ser llenados, y por otro lado, garantiza que nosotros como empresa, como barbería, colectemos datos de calidad, porque de nada sirve, de nada adelanta que nuestro usuario marque una agenda, una cita, y no nos envíe su nombre y apellido, no vamos a saber quién es o no nos coloque su correo electrónico, por ejemplo.
+
+[01:18] Nuestra base de datos va a quedar incompleta si ese campo viene vacío. Entonces, es lo que vamos a ver, esa configuración y otras configuraciones para ayudar justamente a nuestro usuario a que esa navegación sea lo más friendly, lo más amigable posible. Vamos a ir a nuestro código.
+
+[01:44] Aquí estamos en nuestro código, y lo que haremos será definir nuestro campo del nombre y apellido como required. Usamos esa palabra reservada en inglés que significa requerido, y así de simple es para decirle que un campo es obligatorio, entonces fíjense, lo voy a enviar vacío y aquí me dice: completa este campo.
+
+[02:12] Ya nuestro navegador junto con el HTML 5 que está por detrás, me ayudan a decir al usuario que ese campo es obligatorio y que no puede ir en blanco. Entonces, si yo lleno aquí cualquier cosa y le doy enviar, ya me envía mi formulario. Recordando que lógicamente ahorita no estamos enviando para ningún lugar, no está conectado a ningún servidor, a ningún e-mail, solo está recargando la página.
+
+[02:40] ¿Qué otros campos definimos que van a ser requeridos, que van a ser obligatorios? Son los cuatro primeros. Entonces, vamos a pedirle el nombre, vamos a pedirle sí o sí su correo electrónico, que nos deje un teléfono para contacto y que nos coloque un mensaje, aunque sea que nos coloque "buenos días" pero que coloque algún mensaje de texto.
+
+[03:06] Lo vamos a guardar, venimos, actualizamos y vamos a poner datos aquí, simulando al Carlos, Carlos 1, 2, 3, y aquí lo dejé a propósito este Carlos para que vean un comportamiento interesante. Pese a que llené todos los campos con datos, cómo el correo electrónico, el campo e-mail lo definimos como type, como tipo e-mail.
+
+[03:38] Fíjense que cuando intento mandar este formulario aquí me dice que está faltando un arroba. O sea, todo correo electrónico por padrón tiene un arroba. Así que me está diciendo que no parece ser una dirección de correo electrónico, que está faltando aquí el arroba.
+
+[03:58] Usamos carlos@test.com y si le doy enviar, ya me carga la página nuevamente, diciendo que esos cuatro campos estuvieron correctamente llenados. Si lleno el campo Carlos aquí, por ejemplo, dejo el teléfono, el comportamiento va a ser que me va a pedir que llene ese campo. Entonces, así dejamos obligatorios esos cuatro campos. ¿Qué más vamos a hacer?
+
+[04:30] Volviendo aquí a nuestro código, lo que haremos será darle una guía, voy a ir a nuestra página modelo para que sepan de qué estoy hablando, esta no es, nuestra página modelo es esta. Esta guía de aquí, fíjense que le estamos diciendo al usuario qué tipo de dato y en qué formato nos gustaría tenerlo. Le estamos dando una ayuda, una guía, para que nuestro usuario sea más fácil de llenar ese formulario.
+
+[05:00] ¿Cómo hacemos eso? Tenemos una propiedad que se llama placeholder, que la vamos a colocar en correo electrónico y teléfono. Después del required colocamos placeholder y en el caso del e-mail vamos a colocar email@dominio.com, que significa que ese es el formato de texto que estamos esperando en el mail para guiarlo. Y para teléfono, vamos a colocar un placeholder también.
+
+[05:36] Y en este caso, vamos a colocar un código y va a ser un código de área o país, después va a colocar los ocho números que por lo general tiene un teléfono celular o un teléfono fijo, como sea. Pero así lo ayudamos a nuestro usuario para que sepa qué tipo de dato estamos esperando. Vamos a volver a nuestra página, esa es la final, es esta de aquí, vamos a actualizar.
+
+[06:08] Y fíjense que ahora ya tenemos esa guía para el correo y esa guía para el teléfono. Para finalizar, fíjense que cómo le gustaría que lo contactemos. No viene un valor por defecto y eso lo podemos hacer y va a ayudar bastante caso el usuario no llene nada, vamos a colocar que sea WhatsApp el tipo de contacto por defecto.
+
+[06:30] Y lo mismo aquí. ¿Le gustaría recibir novedades de la Barbería Alura? Ya vamos a dejar ese check colocado. Caso él no quiera, él quita ahí ese check. Entonces, vamos a volver a nuestro código, y también configurar eso es superfácil, lo único que necesitamos es aquí en nuestro campo de radio button en WhatsApp, este de aquí lo definimos como check. Tiene que ser con minúscula check.
+
+[07:07] No sé qué hice, vamos a volver. Checked. Y hacemos lo mismo para el checkbox. Input type aquí al final de las propiedades, checked. Vamos a guardar, vamos a volver a nuestra página, actualizamos, y fíjense que ahora WhatsApp me viene llenado o seleccionado por defecto, y también este checkbox ya viene con el checked por defecto.
+
+[07:40] Okay amigos. Entonces, ya hemos finalizado y hemos dejado un poco más fácil el llenado de formulario para nuestro cliente, para nuestro usuario y también pensando en la calidad de los datos que queremos recibir. Continuaremos desarrollando aún más en los próximos videos. Nos vemos. Chau, chau.

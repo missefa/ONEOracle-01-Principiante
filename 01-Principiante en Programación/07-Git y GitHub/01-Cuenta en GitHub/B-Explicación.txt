@@ -1,0 +1,21 @@
+Explicación
+
+Es genial tenerte aquí para aprender sobre Git y GitHub. Estas herramientas desempeñan un papel clave en el desarrollo de software colaborativo, permitiendo que los equipos trabajen juntos de manera eficiente y organizada. Exploraremos los conceptos básicos y vamos a comprender cómo usar Git junto con GitHub para administrar los proyectos de manera efectiva.
+
+División de las clases
+
+Clase				¿Qué vamos a aprender en esta clase?
+Cuenta en GitHub		Vamos a conocer la plataforma de alojamiento de código colaborativa más importante del mundo.
+Commit, VSCode y equipo		Vamos a ver cómo guardar los cambios en el historial del proyecto e invitar a una persona para formar parte.
+Trabajando localmente		Trabajaremos localmente con Git para mejorar nuestra colaboración y eficiencia.
+Ramificaciones y merge		Vamos a aprender cómo crear nuevos espacios de trabajo dentro del proyecto y cómo juntarlos.
+Profundizando en Git y GitHub	Vamos a ver otra forma de creación de nuestro repositorio
+
+
+¿Necesito instalar algún software o programa para seguir este curso?
+
+Al principio, no es necesario. Debes tener una cuenta de correo electrónico para registrarte en GitHub.
+
+Si hay dudas durante la instalación o durante el curso, ¡cuenta siempre con el foro de Alura!
+
+:)

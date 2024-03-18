@@ -1,0 +1,32 @@
+CSS para inputs más complejos
+
+
+[00:00] Okay, continuando aquí con nuestro curso, ya creamos nuestros elementos, los inputs complejos con nuestro mensaje, luego donde le preguntamos al usuario cómo le gustaría que lo contactemos y nuestro checkbox. Ahora, vamos a trabajar con el visual, con los estilos de estos elementos que hemos creado.
+
+[00:26] Actualizar aquí para corregir eso, perfecto. Vamos a nuestro Visual Studio entonces, y lo primero que haremos será corregir el tamaño de nuestro textarea, para ello, ya tenemos aquí el tamaño definido para los inputs, pero, en este caso, nuestro elemento se llama textarea. Hay una forma fácil en CSS de replicar estilos para varios selectores separándolos por la coma.
+
+[01:01] Entonces, aquí donde tengo form input, puedo colocar form textarea, que va a hacer referencia a nuestro input textarea. Si yo guardo aquí y volvemos a nuestra página y actualizamos, todas las configuraciones, todos los estilos que tenemos para los anteriores inputs también se aplican aquí para mensaje.
+
+[01:29] En el siguiente paso, lo que veremos será, fíjense que email, teléfono y WhatsApp que es nuestro input radio aparecen antes que el botón o que el espacio para seleccionar. Si voy a la página modelo, fíjense que eso aparece primero, o sea, el input radio aparece primero que el texto, y eso lo podemos solucionar directamente en nuestro HTML colocando nuestro input radio dentro de label, aquí.
+
+[02:11] Entonces nuestro input radio va a aparecer antes que el label, la etiqueta, el no, y hacemos eso para los tres elementos, aquí, y para finalizar este, antes de WhatsApp. Vamos a mejorar los espacios, guardamos aquí, vamos a nuestra página, actualizamos y ya tenemos aquí el elemento antes que el texto. Ahora se preguntarán: ¿Aquí hay un problema en realidad?
+
+[02:52] Porque justamente está apareciendo con un salto de línea, aparece el ítem y después el label, da un salto, el otro item, un salto, el otro label. Y eso está así. ¿Por qué? Porque si recordamos todos nuestros inputs, aquí estamos aplicando el display block, entonces, ese comportamiento está siendo aplicado a todos los inputs, está tomando, está ocupando el 100% del espacio de la página, cada uno de los inputs.
+
+[03:29] Para solucionar eso vamos a crear una clase para los input padrón que son estos de aquí, nuestros inputs que creamos iniciales, a los cuales queremos que el display block aplique.
+
+[03:45] Entonces, en este input del nombre y apellido vamos a colocarle una clase que lo vamos a llamar input-padrón, diciendo que este input es del tipo padrón, para poder referenciarlos y así poder crear una característica, un visual específico, solo para esos inputs. Lo hago aquí con nombre, correo electrónico, teléfono, y también para el mensaje que quiero que tengan ese comportamiento.
+
+[04:20] Voy a guardar aquí, vamos a nuestro style, y ahora este selector ya no es un selector de etiquetas, va a ser un selector de clase que va a ser input-padrón. Voy a guardar, venimos a nuestra página de contacto, actualizamos, y ahora sí, aquí no cambiamos nada y sin embargo ya nuestro input radio está como lo queríamos.
+
+[04:54] Ahora, si vemos el label del input radio, ¿cómo le gustaría que lo contactemos? está con un tamaño diferente, con un tamaño más pequeño que los otros labels. ¿Por qué? Porque al label le colocamos un estilo y sin embargo, a este de aquí, porque este no es un label, es una p, es una etiqueta de párrafo, vamos, entonces, a usar la misma estrategia que usamos anteriormente.
+
+[05:21] Dentro del form label colocamos form y la etiqueta p, que estamos seleccionando esa etiqueta para que apliquen estos mismos estilos. Eso nos da una gran ventaja porque nos ahorra de escribir bastante código. Con CSS yo puedo aplicar el mismo estilo, separando por una coma. Ya lo habíamos explicado, lo volvemos a reforzar.
+
+[05:50] Cuando actualizo aquí, ya tengo mi label exactamente con el mismo estilo que los otros labels. Y para finalizar, fíjense que nuestro checkbox está muy pegado de nuestro botón submit y también de los input radio, de la lista de input radio. Vamos a colocar un margen.
+
+[06:13] Para ello, como se llama label, hoy por hoy no tenemos cómo diferenciarlo, entonces, dentro de ese label vamos a colocarle una clase que lo vamos a llamar checkbox. Y usamos esa clase ahora en nuestro CSS punto checkbox, y colocamos un margen de 20 pixeles en la vertical, para arriba y para abajo, y 0 en la horizontal para nuestros costados. Vamos a guardar aquí, volvemos a nuestra página.
+
+[06:53] Actualizamos y ya tenemos aquí un espacio, un respiro un poco mejor que nos permite diferenciar que se trata de diferentes ítems. Nuestra página viene tomando más forma, nos falta todavía la construcción de algunos elementos y trabajar con algunos visuales, pero como podemos ver, ya nuestro formulario está casi completo cuando lo comparamos con la página modelo.
+
+[07:24] Así que continúen y nos vemos en los próximos videos para seguir desarrollando nuestra página de contacto. Muchas gracias.

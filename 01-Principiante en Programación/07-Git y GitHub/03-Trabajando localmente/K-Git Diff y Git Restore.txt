@@ -1,0 +1,26 @@
+Git Diff y Git Restore
+
+
+[00:00] Ahora seguiremos haciendo algunos cambios en nuestro proyecto. Regresaré a nuestro editor y voy a abrir el archivo index.html. Y aquí voy a poner la etiqueta script para conectar el archivo app.js. Es entonces voy a elegir la segunda opción y poner aquí el nombre de nuestro archivo. Ya está. Voy a enviar este nuevo cambio para GitHub.
+
+[00:30] Entonces si ponemos aquí, voy a limpiar mi pantalla, ahora voy a poner nuevamente el comando git status. Y vamos a ver que nos indica que hay una modificación en ese archivo, ya vamos a agregarlo: git add . Git commit. Aquí commit podemos utilizar antes de la -m un punto que este commit hará parte de todo el proyecto o si queremos dejar solo para este archivo que estamos trabajando, vamos a dejar de esta manera y poner el mensaje que va a ser “Actualiza el index”.
+
+[01:30] Entonces ya está, pero si volvemos aquí voy a actualizar, a entrar en el archivo. Aún no tenemos esta línea en nuestro proyecto, entonces tenemos el commit y está registrado dentro de git y para enviarlo vamos a seguir con lo que aprendemos en la otra clase, que es el git push. Listo.
+
+[02:02] Entonces voy a actualizar este archivo y ya está, tenemos la nueva línea. Voy a poner un zoom. Aquí está. Bueno, y como podemos ver las alteraciones dentro del mismo archivo. Voy a regresar aquí, sistema de registro. Y voy a hacer clic en la parte del commit que está correspondiendo a ese archivo. Si notas aquí tenemos una línea en rojo y una línea en verde. ¿Qué significa?
+
+[02:41] Esta línea 10 significa lo que fue borrando. Era un espacio en blanco y la línea en verde, lo que se agregó. Entonces así podemos ver las modificaciones que hemos creado a lo largo de nuestro proyecto y esto aquí es lo que llamamos diff. Entonces normalmente cuando estamos trabajando en un equipo una persona puede pedirte: “¿me muestra el diff de este archivo?”
+
+[03:08] Y aquí va a conseguir mostrar lo que has hecho, los cambios que has hecho. Además de tener estos recursos visuales, podemos ver también a través de la consola. Voy a limpiar la terminal. Si estás haciendo por primera vez este comando git diff y has hecho la alteración de esta línea es solo poner git diff index.html.
+
+[03:39] Y lo que te va a aparecer es esta información, aquí estoy con la otra ventana, con el color de si fue agregado o si fue borrado. Entonces si fue agregado va a estar en verde y si fue borrado va a estar en rojo, pero y si quiero volver a una versión anterior de mi archivo, ¿cómo puedo hacerlo?
+
+[04:01] Tenemos aquí también otro comando en Git para restaurar un archivo. Vamos a de nuevo utilizar el git log --oneline. Y, por ejemplo, quiero restaurar mi archivo para esta versión cuando lo creé. Entonces voy a copiar este hash. Voy a utilizar el git restore.
+
+[04:39] Necesito pasar el parámetro --source que significa fuente, y aquí voy a poner este código y también el nombre del archivo index.html. Voy a regresar a mi editor. Y si vemos, ya no hay esta línea. La sacamos. Y ahora necesito realizar el push. Voy aquí. Git status. Entonces tenemos esta modificación en el archivo. Voy a agregarlo, git add, el nombre del archivo o el punto y el git push.
+
+[05:30] El git commit antes. Commit con el mensaje “Actualiza el index”. Ahora tengo que poner el git push. Ya está. Voy a actualizar el archivo. Y vamos a saber que no vamos a tener esta línea.
+
+[06:04] Entonces, en esta clase vimos lo que es diff y que es algo muy común en el día a día dentro del mercado laboral, cuando estamos trabajando con una otra persona y el git restore en caso de que nuestra aplicación con la nueva actualización no funciona, podemos volver a tu versión anterior mientras se repara la nueva versión.
+
+[06:27] Entonces para esta clase, son estos comandos que son más avanzados y con lo que aprendemos y ya puedes versionar todos tus proyectos.

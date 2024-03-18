@@ -1,0 +1,28 @@
+Cómo funciona el posicionamiento
+
+
+[00:00] Hola, amigos y amigas, continuando con nuestro curso de HTML y CSS 3, donde estamos construyendo la página de nuestra Barbería Alura.
+
+[00:08] Lo que veremos en este video es posicionar correctamente nuestro menú o panel de navegación, que viéndolo en la página modelo, nuestra página final, tiene que estar ubicado al centro, centrado en la parte vertical, y aquí con un espacio de nuestro borde derecho y con un espacio razonable del logo de nuestra página.
+
+[00:44] Ahora, para entender cómo funciona ese posicionamiento, cómo se altera la posición, tenemos aquí nuestra página en construcción y vamos a entrar a la consola del desarrollador, recordando que existen tres formas de entrar a la consola del desarrollador. Una es: pueden apretar aquí clic derecho e inspeccionar, y les va a abrir la consola del desarrollador.
+
+[01:10] Otra es que, aprieten el atajo "Ctrl + Shift I" para los que están en Windows y también les va a abrir la consola del desarrollador. Y la última es, aquí en los tres puntitos, vienen a Más herramientas, y aquí tienen herramientas para desarrolladores o consola del desarrollador. Y aquí estamos.
+
+[01:35] Si yo navego aquí, por nuestros elementos, voy a identificar absolutamente todas las etiquetas que hemos ido creando. Entonces, si yo hago clic en nav, que es nuestro panel de navegación, van a fijarse que la pantalla en este caso me pinta de un color diferente, me dice que estoy seleccionando la etiqueta nav de navegador.
+
+[02:00] Y aquí, en este element.style, que es donde yo puedo probar, hacer configuraciones de sus propiedades de ese elemento seleccionado que es nuestro nav, para ver el comportamiento de justamente esas propiedades. Entonces, cuando hablamos de posición, existe una propiedad que se llama position, y la propiedad, el valor por defecto configurado que viene es static, una posición estática.
+
+[02:33] Actualmente, esa es la posición que tiene. Si yo la coloco, no pasa absolutamente nada, incluso podemos hasta alterar los valores, vamos a ver que esa posición estática viene por defecto y significa que nuestro navegador la coloca en ese lugar, debajo del H1, en una forma, en una posición estática, porque nuestro navegador está exactamente después de nuestro H1, que nuestro H1 es nuestro logo.
+
+[03:06] Ahora, para ello, vamos a alterar esta propiedad static para relative. Entonces, con la propiedad relative le estoy diciendo: "En función a la posición actual que es esta de aquí, la posición donde está comenzando, yo puedo alterar la posición de nuestro menú".
+
+[03:30] Entonces, por ejemplo, si le pongo 20 pixeles, top 20 pixeles, van a ver que hasta se salió del encabezado, porque la posición relativa de nuestro menú de navegación es el punto exactamente después del H1 en el encabezado. Puedo ponerle aquí left, otros 20 pixeles, y se mueve un poco hacia la izquierda, pensando que podríamos moverlo hacia la derecha.
+
+[04:06] En este caso, se movió hacia la derecha, pensando que podríamos moverlo hacia la derecha, creando espacios mayores al lado izquierdo. Solo que con esta metodología tardaría mucho en encontrar la posición ideal. Entonces, para ello, vamos a usar otro valor en la propiedad position que es la posición absoluta.
+
+[04:33] Me va a permitir, pero para no tener ese problema voy a actualizar. Me sale nuevamente, y en este caso position absolute. Position y selecciono absolute. Cuando digo que la posición va a ser absoluta, en este caso va a ser absoluta en función a los valores que yo defina. Entonces, le puedo decir absoluto en top cero, o sea, superior en cero, que no haya ninguno, y right, a la derecha, cero.
+
+[05:16] Y fíjense cómo mi menú de navegación se va moviendo en la página, en función a esa posición absoluta que ahora la estamos definiendo, que es ningún espacio en la parte superior, ningún espacio en el borde derecho. Entonces, así es como funciona las posiciones, el posicionamiento en la página web, y esto aplica a cualquier elemento, no solo al panel de navegación.
+
+[05:48] Si tienen una imagen, si tienen un H1 o algún otro elemento que quieran posicionarlo en un lugar diferente, justamente pueden usar la propiedad position e ir jugando en función de lo que necesitamos, ya sea relativa y absoluta. En el próximo video vamos a ver cómo configurar exactamente en nuestro archivito css, esta configuración, esta parte del posicionamiento. Entonces, nos vemos pronto, chau.

@@ -1,0 +1,9 @@
+Presentación
+
+[00:00] Hola, sea bienvenida y bienvenido al curso de Git y GitHub. Mi nombre es Ellen y soy instructora aquí en Alura Latam. Soy una mujer negra, de tez clara y con el pelo castaño rizado.
+
+[00:13] Bueno, en esto de programación requiere que aprendamos a usar diferentes herramientas. La mayoría de los empleos en tecnología piden conocimientos en Git y GitHub, por lo que es fundamental para nuestra carrera como persona desarrolladora.
+
+[00:29] ¿Y qué significan? ¿Representan lo mismo y cuando los usaré? No te preocupes por los nombres y los varios términos asociados. Con el tiempo la distinción se hará más comprensible.
+
+[00:41] Este curso es fundamental para responder a esas preguntas, presentar los contextos y demás funcionalidades, pero lo principal en este primer momento es que aprendamos a crear una cuenta, crear y usar nuestro repositorio, distribuir nuestro código y comprender lo que es el versionado de proyectos. Te invito a aprender conmigo.

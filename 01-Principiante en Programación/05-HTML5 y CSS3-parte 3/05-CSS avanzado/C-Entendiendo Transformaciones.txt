@@ -1,0 +1,34 @@
+Entendiendo Transformaciones
+
+
+[00:00] Okay, vamos a continuar con el desarrollo de nuestra página. En el último video lo que vimos fue el destaque a nuestro botón submit. Dejamos un botón más intuitivo para que el usuario sepa que tiene que hacer clic en él para enviar sus datos a la barbería y así poder reservar o enviarnos informaciones.
+
+[00:26] Lo que veremos, ya para finalizar con esta sección de nuestro botón submit, es darle un destaque más importante todavía, que es un efecto visual de aumentar el tamaño de nuestro elemento cuando nuestro mouse se posiciona sobre él.
+
+[00:42] Antiguamente, para poder hacer eso, o sea, para aumentar la escala de nuestro elemento, había que entrar en propiedad por propiedad, item por item dentro de este elemento de HTML para poder alterarlo.
+
+[00:57] O sea, teníamos que alterar el tamaño fuente por ejemplo en 50%, el borde en 50%, el tamaño en sí de la cajita en 50% y así sucesivamente, lo que daba bastante trabajo dar ese tipo de destaque, dar ese tipo de efectos visuales. El CSS 3 facilitó la vida de los programadores y desarrolladores web y nos trae una propiedad que se llama transform.
+
+[01:26] Esa propiedad transform la vamos a usar aquí dentro de nuestro hover, dentro del efecto hover, cuando pase el mouse por encima del submit, y en el transform vamos a alterar el scale, de escala en inglés. Entonces, dentro de la escala le vamos a decir: "Aumentame 1.20 cuando el mouse se posicione sobre el elemento".
+
+[01:57] Vamos a ir a nuestra página y tenemos ese efecto, que se aumenta el tamaño en 20%. Ahora, nuevamente ese cambio de tamaño, ese cambio de escala está superabrupto, o sea está repentino.
+
+[02:17] Lo que vamos a hacer es cambiar aquí nuestro transition, actualmente, está solo en el background, o sea, un segundo de transición está aplicando solo al color, que lo cambia para el dark orange, y podemos alterar ese para all diciéndole que aplique la transición para todas las características, para todas las propiedades.
+
+[02:42] Vamos a guardar, venimos aquí, actualizamos, y ahora el scale, ese efecto visual de tamaño, es un poco más lento. Y fíjense de que no solo cambia el tamaño de la caja. También cambia el tamaño de la letra y de todas las propiedades de ese elemento, eso es lo que transform con la propiedad scale nos permite. Tenemos otro efecto visual que es hacer rotaciones, hacer giros con los elementos.
+
+[03:17] Usamos la misma propiedad transform y colocamos rotate. Lo que mandamos aquí como parámetro son grados, entonces vamos a decir que queremos que gire el elemento 70 grados, deg de degrees, de la palabra en inglés en grados. Volvemos a nuestra página, actualizamos, y fíjense que cuando me posiciono, nuestro botoncito gira los 70 grados que hemos mandado.
+
+[03:50] Ahora, ¿qué pasa con el tamaño? Ya no está alterando el tamaño, únicamente está alterando, está haciendo caso a la rotación, y eso pasa porque estamos usando dos propiedades iguales y en este caso CSS se va por la última, desconsidera la anterior o las anteriores y va a ejecutar la última.
+
+[04:14] Para poder ejecutar dos propiedades o dos alteraciones para una misma propiedad, en realidad tenemos que colocarlas las dos en la misma línea. Entonces, aquí le estoy diciendo: "Aumentame la escala, transformame ese elemento en la escala al 20%, subime 20% el tamaño, y haceme una rotación de 70 grados".
+
+[04:37] Vamos a nuestro elemento, a nuestra página, actualizamos, y ahora sí tenemos los dos efectos siendo ejecutados, ¿cierto? Fíjense, cuando vuelvo, no solo gira sino también aumenta el tamaño y hace todo eso en una transición, en un tiempo, no es abrupto.
+
+[04:59] Y si queremos comenzar a jugar, podemos colocar: "Aumentame la escala en 3, en 300%, y dame un giro de 800 grados". Si guardamos aquí, actualizamos, vamos a tener un efecto un poco extraño. Lógicamente que no queremos eso, lo estamos haciendo solo con fines ilustrativos, académicos, para mostrarles lo que podemos hacer, lo que CSS es capaz de hacer.
+
+[05:33] Vamos a dejarlo con 1.2 y vamos a eliminar ese rotate, no lo vamos a usar, porque lógicamente tenemos que tener bastante cuidado con la creación de efectos visuales porque pueden perder, pueden quitar el foco de la importancia de un formulario de una página web para nuestro usuario. Aquí el foco, el objetivo es que llene los datos, no es que esté bien de efectos visuales.
+
+[06:02] Lo que estamos haciendo es dándole destaque al botón para que sea intuitivo el presionar ese botón para que envíe los datos a la barbería. Entonces, con eso finalizamos las configuraciones de nuestro botón. Más adelante lo que veremos será la creación de tablas, cómo podemos usar tablas en una forma fácil para colocar más informaciones dentro de nuestra página.
+
+[06:32] Hagan los ejercicios de esta sección y no se olviden que si tienen dudas el foro es un lugar ideal para poder resolverlas. Nos vemos en el próximo video. Chau, chau.

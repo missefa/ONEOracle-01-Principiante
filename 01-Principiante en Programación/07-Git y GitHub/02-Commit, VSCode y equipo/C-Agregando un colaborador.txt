@@ -1,0 +1,10 @@
+Agregando un colaborador
+
+
+[00:00] Ahora vamos a invitar a una persona para participar de nuestro proyecto. Aquí, en la parte superior que está arriba de nuestro proyecto, vamos a hacer clic en settings, en la parte izquierda la primera opción de colaboradores. Y aquí, en la parte de abajo, va a aparecer el botón add people.
+
+[00:25] Entonces voy a hacer clic aquí y puedes encontrar a esta persona a través de su username, del nombre completo o también de tu correo. Voy a poner aquí el username de Jeanmarie. Y aquí está, ya la encontré y voy a agregarla a mi repositorio.
+
+[00:46] Puede ser que en este momento GitHub solicite para ti hacer el login nuevamente, entonces poniendo tu correo y tu contraseña. Después de esto, Jeanmarie va a recibir en tu correo electrónico una invitación, puedes aceptar o no, y también cuando ella entrara en el enlace de este proyecto va a tener un aviso arriba de tu nombre, para que ella pueda participar.
+
+[01:16] Y es de esta manera que agregamos una persona, es muy sencilla. Y aprovecha este momento para crear proyectos en conjunto, conocer otras personas y a tener esta experiencia de cómo es colaborar en equipo. Nos vemos en la próxima clase.

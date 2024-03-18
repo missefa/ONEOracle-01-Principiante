@@ -1,0 +1,18 @@
+Revisando el contenido
+
+
+¿Cuál es la diferencia entre usar una <div> o una <section>?
+
+a)
+Alternativa correta
+Debemos usar la etiqueta <section> cuando el bloque es semántico
+
+¡Alternativa correcta! Para un bloque donde el contenido tiene el mismo significado, el mismo sentido, usamos una <section>
+
+
+b)
+Debemos usar la etiqueta <div> cuando el bloque sea semántico
+
+
+c)
+Cuando el bloque sea semántico, podemos usar tanto <div> como <section>

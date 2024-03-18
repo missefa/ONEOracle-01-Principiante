@@ -1,0 +1,33 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que fue visto en el aula. Para ello, ejecuta los pasos listados debajo.
+
+1) En caso de que no tengas el proyecto del entrenamiento anterior, descárgalo aquí
+https://github.com/alura-es-cursos/1759-HTML5-y-CSS3-parte2/raw/master/1759-HTML5%20y%20CSS3%20parte2-aula0.zip
+
+2) En seguida, descarga aquí las nuevas imágenes que serán utilizadas durante el entrenamiento.
+https://github.com/alura-es-cursos/1759-HTML5-y-CSS3-parte2/raw/master/imagenes.zip
+
+3) En la carpeta de tu proyecto, crea el archivo productos.css.
+
+4) En la misma carpeta, crea una página productos.html, con el siguiente contenido:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Productos - Barbería Alura</title>
+        <link rel="stylesheet" href="productos.css">
+    </head>
+    <body>
+        <header>
+            <h1><img src="imagenes/logo.png"></h1>
+            <ul>
+                <li>Home</li>
+                <li>Productos</li>
+                <li>Contacto</li>
+            </ul>
+        </header>
+    </body>
+</html>

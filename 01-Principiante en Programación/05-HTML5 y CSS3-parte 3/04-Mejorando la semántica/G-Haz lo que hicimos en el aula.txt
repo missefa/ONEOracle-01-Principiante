@@ -1,0 +1,49 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que vimos en el aula. Para ello, ejecuta los pasos que vienen en secuencia.
+
+1) En la página contacto.html, agrega un alt para los logotipos de la barbería, es decir, para las imágenes, logo.png y logo-blanco.png:
+
+<img src="imagenes/logo.png" alt="Logo de la Barbería Alura">
+
+Y:
+
+<img src="imagenes/logo-blanco.png"  alt="Logo de la Barbería Alura">
+
+
+2) En los input de nombre y apellido, e-mail, teléfono, y en el textarea de mensajes, agrega el atributo required.
+
+
+3) Modifica los tipos de input de correo electrónico y teléfono para que sean email y tel, respectivamente. Además de eso, agrega un placeholder para ellos:
+
+<label for="correoelectronico">Correo Electrónico</label>
+<input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+<label for="telefono">Teléfono</label>
+<input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+
+4) En el input radio del WhatsApp, agrega el atributo checked:
+
+<label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+
+
+5) Haz lo mismo en el checkbox:
+
+<label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>
+
+
+6) Modifica las div de las opciones de contacto y del selector para que se conviertan en un fieldset.
+
+
+7) Modifica los títulos de las opciones de contacto y del selector, que son párrafos, para que se conviertan en legend.
+
+
+8) En el archivo style.css, en los estilos de form p, modifica a form legend:
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}

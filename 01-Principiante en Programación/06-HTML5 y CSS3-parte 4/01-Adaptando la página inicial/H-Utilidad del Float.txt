@@ -1,0 +1,17 @@
+Utilidad del Float
+
+
+¿Para qué sirve la propiedad float?
+
+a)
+Cambiar el punto inicial del elemento, sin alterar el resto del contenido
+
+
+b)
+Levantar el elemento para sobreponer el contenido
+
+
+c)
+Colocar el elemento en la lateral de nuestra página y dejar los otros elementos alrededor de él.
+
+¡Alternativa correcta! Tanto el float:left como el float: right sirven para que el elemento se destaque en la pantalla, la superficie del elemento continúa siendo utilizada y los otros elementos de texto o elementos en línea se posicionan alrededor de él.

@@ -1,0 +1,36 @@
+Subir a Github
+
+
+Bueno Leo, ya tenemos nuestro juego completo, diría yo, con bastantes funcionalidades. Nuestro usuario puede jugar, le damos opciones, genera el número aleatorio. Incluso, implementamos una funcionalidad para que ese número aleatorio no se repita, utilizando recursividad. En resumen, tenemos ahora un proyecto muy completo que nos gustaría que nuestro alumnado comparta con sus amigos y familiares. ¿Cómo podemos hacer eso para que solo necesiten una URL, un enlace, y puedan invitar a su hermano, hermana, amigo, pareja o esposo a jugar?
+
+Perfecto. El primer paso que tenemos que hacer es compartir el código. Existen herramientas para ello y una de las principales es la red social Github (Red de compartición de código). La nombro como red social porque al final se comporta como tal. Github no solo es una red para compartir código, sino también para respaldarlo y para trabajar en equipo. Es un conjunto de herramientas muy útiles que nos van a permitir trabajar sobre ellas.
+
+Cabe destacar que este no es un curso de Github, en este video no vamos a enseñar todo lo que hay detrás porque es mucho contenido. Hay un curso aquí en la plataforma Lura donde os invito a verlo y aprender todos los conocimientos. Lo que queremos es mostraros un camino para que puedan publicar su proyecto y generar ese enlace público para que otras personas puedan jugar.
+
+Entonces, lo primero que vamos a hacer es venir a nuestro navegador y voy a abrir aquí una ventana anónima porque ya tengo cuenta en Github. Quiero mostrar un poco desde el inicio. En una ventana nueva decimos github.com, ¿ok? Y allí vamos a entrar a la red de compartir código. Vamos a Sign Up para registrarnos y es muy fácil. Solo es necesario colocar un correo electrónico válido y una contraseña. Luego de hacer el registro, recibirán una verificación en su correo para confirmar que la cuenta es suya. Solo tienen que hacer clic para activar y ya tendrán disponible esa funcionalidad.
+
+Yo, por ahora, podría incluso simular un poco. Aquí voy a colocar que tengo una cuenta llamada así. Lura.com, Lura.com. Después quieren continuar, colocan la contraseña y se enviará ese enlace para ustedes, ¿ok? Aquí no hay nada diferente de cuando creamos una cuenta en una red social, sea Facebook, Instagram, TikTok. Necesitamos un email, una contraseña. Nos llegará un email de confirmación para validar que somos personas y no un robot.
+
+Luego vamos a Sign In y vamos a hacer el login con esos datos que colocamos, ¿ok? Yo aquí en mi navegador ya estoy conectado, ¿sí? Esto es nuestro día a día. Github es algo que vamos a utilizar todos los días. Entonces voy a crear aquí una nueva pestaña y voy a crear lo que se llamaría un repositorio.
+
+¿Qué es un repositorio? Con la instrucción repo.new ya me va a llevar a Github directamente. Observen que cambió, puso github.com/new. Un repositorio es una caja de código. Solo destacar que esto funcionó porque ya estás logado, conectado a tu cuenta. Si no, te pedirá el login.
+
+Yo aquí, por ejemplo, voy a crear un repositorio para el juego. Vamos a llamarlo 'juego secreto'. Juego secreto y vean que... ¿Puedo pedir un poco de zoom, por favor? Sí. Adelante. Parece que ya alguien tiene 'juego secreto'. Es que hay un juego y hay un guion. Ah, no. Es aquí un guion. Perfecto. Gracias por la acotación. Estaba colocando una comilla y una comilla. Observen que lo que hablábamos de aquellos nombres o aquella sintaxis para variables. Esos caracteres especiales no se pueden.
+
+El juego secreto, ok. Y aquí le voy a indicar una descripción simple. Implementación del juego secreto de Alura. En Alura. Ok. En Alura Latam. Ok. Este código lo puedo dejar abierto al mundo o puedo tener solo control para mí. Por ahora lo he compartido para todos. Ok.
+
+Voy a darle a agregar. No me preocupo por los otros botones. Realmente, dejo esas opciones por defecto. No hay necesidad de cambiarlas, a menos que quieras profundizar. Aquí le doy a crear repositorio. Está creando el repositorio. Me está dejando el repositorio disponible en la nube, que es una máquina virtual que GitHub tiene en algún lugar del mundo y que nos deja disponible gratuitamente. Quiero destacar que GitHub tiene un plan premium para empresas, pero para todo lo que necesitamos en este curso, puedes valerte de todos los recursos gratuitos que GitHub ofrece.
+
+Como bien mencionaste, en la plataforma de Alura tenemos el curso de GitHub donde van a aprender a usar todos estos comandos. Ahora mismo no voy a usarlos. Voy a seguir la vía rápida de hacer upload (subir) desde la misma nube. Hago clic aquí.
+
+Lo que vamos a subir son los archivos de nuestro programa. Los archivos que hemos generado en el transcurso del curso. Todos, ¿verdad? Voy a subirlos todos. Voy a seleccionar. Aquí voy a hacer lo siguiente. Tengo mi carpeta de los archivos. Voy a colocar dos ventanas. Ahora voy a seleccionar todo lo que tengo aquí, incluyendo la carpeta de imágenes. La arrastro hacia aquí. Lo suelto. Y ya aquí está subiendo todo lo que hice.
+
+Ahora es como si estuviéramos subiendo a un Google Drive o a un Dropbox archivos. Lo importante aquí es que ya hizo la subida, pero en GitHub se trabaja con lo que van a ver en el curso que está disponible. Van a hacer lo que se llama un commit (compromiso) o una versión. Entonces, debo commitar (comprometer) o finalizar los cambios que hice. Aquí digo versión final juego. Este nombre es importante, que sea un nombre explícito para que puedan seguir la trazabilidad de su código. Recordar qué hice aquel día. Entonces, esta es la versión final del juego, número secreto. Puedo colocar una descripción adicional.
+
+Como Leo comentó, GitHub o Git son herramientas para el versionamiento de código. Entonces, puedo colocar allí diferentes versiones de nuestro sistema que estoy construyendo. Esta parte del commit, commitar, son verbos, son palabras que van a ir adquiriendo en su día a día, un vocabulario bastante común en la programación. También esto ayuda para trabajar con otras personas.
+
+Un proyecto normalmente en las empresas no es uno solo que está trabajando. Nunca. Es muy extraño trabajar solo. Siempre somos tres, cuatro programadores o hasta más personas trabajando en un proyecto. Entonces, es la forma de compartir código. Porque si no, tendría que estar mandando mi archivo por WhatsApp, por email a mi colega para que le agregue su parte. Mandando la versión 1, la versión 2, esta versión final. No hay control. Ahora solo debo hacer clic aquí en commit change y ya tendría la versión guardada allí disponible.
+
+Entonces, lo vamos a esperar. Ahí ya cuando sale de esta forma, ya tienes tu primer repositorio disponible y comienzas a hacer tu portafolio. Es muy importante eso. Que es lo que siempre destacamos aquí en Alura. La oportunidad de ir construyendo tu portafolio de proyectos que te va a ayudar y mucho el día de mañana, principalmente cuando estés buscando un trabajo en programación, un trabajo como persona desarrolladora. Porque te van a preguntar qué proyectos has realizado y esta es la forma de ir construyendo y alimentando tu portafolio.
+
+Pero hasta aquí hemos subido el proyecto a la nube, a GitHub. Todavía no tenemos el link para compartirlo. Aún no puedes compartirlo. Lo vemos en el próximo video. Veamos.

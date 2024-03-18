@@ -1,0 +1,30 @@
+Publicación en Github Pages
+
+
+Bueno, Leo, hemos subido nuestro proyecto final a GitHub, recordando que consiste en subir todas las carpetas y archivos de nuestro proyecto final, la última versión. Ya está en GitHub. Ahora, ¿cómo generamos ese enlace para que las personas puedan compartirlo?
+
+Perfecto, Cris. Ya tenemos, entonces, en GitHub, nuestro código, es la versión en la que hicimos el commit (confirmación) con todos los cambios. Ahora podemos publicarlo, efectivamente. Vamos a la opción de Settings (Configuraciones) dentro de GitHub, donde ya hemos subido nuestro código.
+
+Hay que recordar un poco, o hacer el comentario de que cuando subimos una versión, esa versión se sube en ramas. Ustedes lo van a ver mucho y lo van a reforzar en el curso de GitHub. Pero, lo importante es que cuando se crea ese repositorio, la rama principal es main. ¿Ok? Y por ahora, solo tenemos main.
+
+Para publicar, vamos a la opción de Settings (Configuraciones). Generalmente, se trabaja en inglés. Aunque he visto alguna vez GitHub en español, no recuerdo ni siquiera cómo colocarlo. Es mejor trabajar en inglés. ¿Ok? Settings.
+
+A la izquierda encontramos una serie de opciones. Buscamos la opción de Page (Página). Damos clic allí. Aquí nos dice que... GitPage (Página de Git) es una herramienta que está disponible para publicar lo que tenemos en GitHub desde el repositorio. Es decir, va a tomar lo que hemos subido allí y si hay algún cambio en nuestra máquina, estará disponible. Hay que tenerlo en cuenta.
+
+Se va a capturar la versión de GitHub de la branch (rama), de la última rama que tenemos publicada. Ahora, aquí le indicamos que haga el deploy (despliegue) desde la rama y señalamos cuál es la rama. Por ahora está en None (Ninguno) porque no hemos seleccionado ninguna. Ustedes pueden tener diferentes ramas. Como solo tenemos una, es fácil. Seleccionamos Main, solamente, y le damos Save (Guardar). Es solo eso. ¿Ok? Damos Save.
+
+Allí nos va a decir que va a realizar la operación. Y ya está. Esta operación ya está en proceso. Fíjense que aquí dice GitHub Page To Save (Guardar Página de GitHub). Ya está en proceso. ¿Cómo sé yo que está en proceso, más allá de este mensaje? Vuelvo al inicio de mi repositorio haciendo clic en el nombre donde creé ese repositorio, que en nuestro caso se llamaba Juego Secreto.
+
+Estando en el repositorio, vamos a ver que existe una nueva sección que dice GitHub Page (Página de GitHub), que son los deployments (despliegues). Es posible, y va a depender mucho del retraso que transcurra entre que GitHub procese el código y haga el despliegue, que veamos un ícono amarillo, ocre, dando vueltas, indicando un movimiento de operación. Eso significa que está trabajando, que está procesando.
+
+Hasta que no llega a este verde, de final, no ha completado el proceso. Para ello, puedes ir actualizando la página (F5) para ver que haga el cambio. Aquí ya hizo el cambio, está disponible. Si quieren ver lo que realizó, pueden hacer clic ahí. Ven todo lo que hizo.
+
+Aquí pueden observar todo el proceso que hizo GitPage. Tomó todo nuestro código. Está todo nuestro código aquí. Incluso, si ven aquí, el estado es Deployment (Despliegue). Ya fue realizado. Y pueden ver los archivos de seguimiento. Es interesante incluso ver lo que hizo. Porque aquí tomó el archivo, tomó el código, lo colocó y lo completó. Esos pasos pueden variar de tiempo de acuerdo a la velocidad de GitHub en ese momento y hasta la velocidad de Internet.
+
+Si queremos saber cuál fue el enlace que nos creó, volvemos a Settings (Configuraciones). Vamos a Page (Página). Y vamos a observar que nuestro sitio está disponible aquí. Y este es un enlace que sí pueden compartir con todo el mundo. Aquí dice Visit Site (Visitar Sitio). Genera un enlace como si fuera una página. Vamos a verlo. Mira, aquí está el juego. Entonces tenemos un enlace, una URL.
+
+Puede ser compartible para que puedas ahora obtener ese enlace y enviárselo a tus amigos. Diles: "Mira, estoy aprendiendo a programar, estoy haciendo un curso en Alura y desarrollé un juego en el cual puedes adivinar un número entre 1 y 10. Si quieres hacerlo más difícil, ya sabes cómo hacerlo. Puedes cambiar el rango a entre 1 y 100, o entre 1 y 50. Invita a tu familia, a tus amigos, a tus compañeros a jugar, ¿verdad?".
+
+Así es. Probamos entonces, Chris. Lo que realizamos es que está disponible para el público en esa URL. Ok. Perfecto. Entonces vamos a probar con cualquier número. 6. Intentamos. Dice que es mayor. 8. 9. 9. Excelente. Acertaste el número.
+
+Podemos jugar nuevamente. 4. 7. 8. 8. Perfecto. Entonces, haz lo mismo tú con tus amigos, con tus colegas, con tus familiares. Envíales ese enlace en todos esos grupos de WhatsApp que tienes. Muestra al público lo que estás aprendiendo. ¿Ok?

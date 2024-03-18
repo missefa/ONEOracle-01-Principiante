@@ -1,0 +1,30 @@
+Organizando el estilo
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso de HTML, en el último video lo que vimos fue cómo centralizar nuestro texto, en este caso usando ya las propiedades, las hojas de estilo de CSS. Vamos a retornar aquí nuestro código y vemos que tenemos aquí la propiedad style, y cada una de las características que habíamos definido.
+
+[00:30] Sin embargo con esta alternativa, con esta metodología, lo que vimos fue que tuvimos que repetir bastante código. Entonces en el título y en cada uno de los párrafos tuvimos que repetir en este caso la propiedad style y no es una buena recomendación, no es una buena práctica realizar eso.
+
+[00:56] Entonces, esta primer metodología se llama metodología inline, donde definimos la propiedad en cada una de las líneas, en este caso en cada una de las etiquetas de HTML. ¿Cómo podemos optimizar este código? Existe una segunda forma en la cual aquí dentro de nuestro head yo puedo utilizar la etiqueta style en este caso.
+
+[01:22] Defino un style y dentro del style voy a definirle una propiedad específica a la etiqueta P. Entonces, como podrán ver, voy a definir para la etiqueta P, abro y cierro llaves dentro de nuestro style, y aquí coloco la propiedad que quiero definir, que en este caso es text-align: center. ¿Entonces qué es lo que estoy diciendo?
+
+[01:58] Para todas las etiquetas P alineame el texto al centro y ya no necesito usarla en las etiquetas P. En la etiqueta H1 tengo que dejarla porque no estoy referenciando la etiqueta H1, estoy referenciando la etiqueta P de párrafo. Y tendría que quitar esa propiedad style de nuestros párrafos, dejarlo únicamente con la P.
+
+[02:25] Aquí en nuestro segundo párrafo también, le quitamos la primer propiedad, dejamos la alteración del tamaño, y aquí en nuestra última, también lo quitamos. Voy a guardar, vuelvo a nuestra página, actualizo y podremos ver que no hubo ninguna alteración. Está funcionando perfectamente. Ahora, en este caso, usando esta segunda metodología en la cual defino una etiqueta style dentro del head.
+
+[03:03] Y así optimizo código. Sin embargo existe una tercer alternativa que es la más usada inclusive, que consiste en crear un nuevo archivo aquí en new file. Podrán ver que me crea aquí un nuevo archivo totalmente en blanco, y lo voy a guardar este archivo, save as, dentro de la misma carpeta donde estoy trabajando, solo que le voy a poner style.css.
+
+[03:40] Y en este nuevo archivo voy a definir todos mis estilos de CSS que van a impactar, que van a afectar a nuestra página de HTML. Entonces, esa es la forma más común, es la práctica más común de trabajar con CSS y para ello voy a llevar esta marcación P que es la marcación de CSS en esta etiqueta P con "Ctrl + X". Lo corto, y aquí lo pego, lo llevo aquí en nuestro style.css.
+
+[04:19] Y en este caso ya no necesito la etiqueta style aquí en nuestro head. Sin embargo necesito referenciar este archivo, o sea necesito vincularlo a nuestro index.html diciéndole: "Mira, ve y busca todos los estilos, todas las características de estilo en el style.css."
+
+[04:44] Para eso voy a usar una etiqueta de contenido, una etiqueta de referencia que se llama link, dentro del link voy a definir una propiedad rel de relación en la cual le voy a decir: "Ve y busca una hoja de estilo, una style sheet". Y la referencia que es el nombre de nuestro archivo, en este caso solo le paso el nombre porque los dos archivos están en la misma carpeta, en el mismo camino, en la misma dirección de nuestra máquina. Y aquí solo me falta cerrar nuestro signo mayor.
+
+[05:30] Voy a guardar, quiero mostrarles aquí la carpeta, entonces fíjense que ya tengo un nuevo archivo style.css que está en el mismo camino en nuestro index. Voy a guardar. Entonces, repasando lo que hice fue traer aquí al style.css la alternativa, en este caso la alteración visual de nuestro párrafo P con la etiqueta P. Voy a guardar nuevamente todo y vamos a nuestra página actualizar.
+
+[06:06] Como podrán ver, no hubo ninguna alteración. O sea está funcionando perfectamente en este caso nuestro CSS, nuestro nuevo archivo CSS. Entonces, existen tres formas de crear formataciones CSS, modos de alterar nuestro visual a través de CSS, una es align, que la podemos ver todavía aquí en nuestro H1.
+
+[06:33] La segunda fue colocando la etiqueta style dentro de head, que al final la borramos porque ya no la vamos a necesitar, y la tercera y más usada que de aquí en adelante en nuestro curso es la alternativa que seguiremos alimentando es crear un nuevo archivo style.css donde voy a ir definiendo todas las características visuales, todas nuestra clases de CSS en este caso, todas las propiedades CSS que voy a ir alterando y adicionando a nuestra página web.
+
+[07:09] Eso es por hoy y nos vemos en el próximo video estudiando y explorando más en nuestro caso nuestro CSS. Muchas gracias.

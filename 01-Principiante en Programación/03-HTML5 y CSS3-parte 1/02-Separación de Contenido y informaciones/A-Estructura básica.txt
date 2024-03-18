@@ -1,0 +1,30 @@
+Estructura básica
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso de HTML y CSS donde estamos construyendo una página web de cero, en la pasada aula lo que habíamos visto era cómo colocar el contenido en nuestra página, en la cual habíamos colocado un título con las etiquetas H1 y tres párrafos con las etiquetas P.
+
+[00:25] También aprendimos a darle un poco de formato a nuestro texto usando la etiqueta strong, en el cual le dimos en negrito aquí al nombre de nuestra barbería, Barbería Alura, y también nuestra misión la colocamos en itálico, en formato itálico, incluso aquí pudimos pintar de negro nuestra misión.
+
+[00:53] Aquí yendo a nuestro código para recordar, tenemos nuestro H1, nuestro título, y los tres párrafos que habíamos comentado. También dijimos que vimos las etiquetas en cascada, donde en este caso las etiquetas hijas heredan las propiedades de las etiquetas padres, en este caso, que era lo que habíamos visto aquí en la misión, que ese era el objetivo de colocar aquí tres etiquetas, una de párrafo, la de énfasis que da el itálico y el negrito.
+
+[01:30] Ahora, continuando con nuestro curso vamos a aprender una etiqueta informativa que se llama DOCTYPE. En este caso, el navegador al momento de abrir la página no sabe que yo le estoy mandando una versión 5 de HTML. Para ello se creó, existe el DOCTYPE, que aquí ya me aparece por defecto, mi IDE me lo recomienda, y siempre viene con un signo de admiración al inicio.
+
+[02:05] Entonces es signo de admiración DOCTYPE y la palabra HTML que significa en este caso que le estoy mandando la versión 5. En las anteriores versiones usamos DOCTYPE y un código mucho más extenso donde había que pasarle más parámetros en este caso a los navegadores para que entienda qué tipo de página, qué tipo de contenido es el que le voy a mandar.
+
+[02:34] Entonces, en este caso le estoy mandando una página de HTML en la versión 5 y esa es la forma de declararlo. Entonces si yo busco, vamos a ir aquí al navegador, si yo busco DOCTYPE HTML5 y entro aquí a esta página de WSchools, la página está en inglés pero podemos ver aquí que no es una declaración de HTML. Es una información al navegador acerca del tipo de documento que va a esperar.
+
+[03:09] Incluso aquí hay más documentación pero lo importante es ver que aplica, ver que soporta en todos los navegadores más conocidos y más usados ahí en el mercado. Entonces, es importante declararla. Voy a guardar aquí, voy a actualizar mi página y lo único que tengo aquí es un movimiento en el título pero nada que impacte el visual de la página.
+
+[03:36] No hubo ningún impacto para el usuario pero por detrás el navegador sí, hay un cambio significativo porque en este caso nuestro navegador sabe que lo que le vamos a pasar siempre es una página HTML en la versión 5. Y nos estaría faltando la declaración en la etiqueta HTML.
+
+[04:05] Entonces, igual es importante, la etiqueta HTML es aquella que tiene todo mi contenido, entonces va antes del H1 y después del último párrafo, y es el inicio de lo que la página va a mostrar como contenido. Es la primera etiqueta de contenido, por eso que abre y cierra, y aquí le estoy diciendo: "lo que te voy a mandar de aquí en adelante es HTML".
+
+[04:33] En este caso nuestro navegador funcionó tanto sin el DOCTYPE como sin el HTML porque nuestro navegador de Chrome reconoce las etiquetas inclusive sin mandarle en este caso el DOCTYPE y la etiqueta HTML. Pero podemos tener problemas trabajando con otros navegadores.
+
+[04:54] Entonces este es el formato, el padrón correcto de trabajar. El DOCTYPE siempre en mayúscula pero es más por una convención. Si lo colocamos en minúscula también funciona, pero normalmente se usa el DOCTYPE en mayúscula.
+
+[05:09] Y aquí solo me faltaría identar, colocarle un tab, un espacio para que ahora sí quede en un formato correcto, en un formato legible y fácil de entender lo que está pasando. Aquí estamos indicando que estas cuatro etiquetas están dentro de nuestro HTML.
+
+[05:30] Voy a guardarlo, voy a actualizar nuestra página, y como les decía, no voy a tener ningún cambio visual para el usuario pero sin embargo estoy declarando en forma correcta nuestro código HTML para que nuestro proyecto esté estructurado y esté construido de la forma correcta y también importante pasarle la versión con la cual voy a trabajar, que en este caso es la última versión, la quinta de HTML
+
+[06:00] Okay, esto vemos por ahora y en la próxima aula vamos a continuar pasándole más datos en este caso a nuestro navegador para continuar enriqueciendo nuestra página. Muchas gracias.

@@ -1,0 +1,16 @@
+El punto central
+
+
+[00:00] Hace un tiempo el conocimiento estaba restringido al espacio físico de las bibliotecas. Muchos datos e informaciones importantes estaban a través de libros y archivos, así que necesitábamos ir hacia este espacio. Actualmente con el avance tecnológico, el almacenamiento es hecho a través de dispositivos de memoria, como por ejemplo, el disquete, el CD, el DVD, el Zip Drive, el disco rígido, la memoria RAM, el SSD, la tarjeta de memoria, el pen drive y actualmente tenemos la nube.
+
+[00:43] Ya habrás escuchado alguna vez la expresión “tener la cabeza en las nubes”, cuando una persona está muy distraída con los pensamientos muy lejos. Cuando hablamos de la nube en el sector tecnológico es un espacio donde almacenamos los datos de una forma remota, o sea, fuera de tu computadora.
+
+[01:04] Así, cuando necesites usarlos, solo hay que conectarse a internet, que puedes utilizarlos. De igual manera, puedes también enviar tus proyectos para guardarlos y tenemos el GitHub para hacer el versionado de nuestros proyectos, o sea, guardar nuestros códigos en un espacio seguro.
+
+[01:26] Aquí tenemos el sitio web de GitHub, que es una plataforma de alojamiento de código y es donde vamos a hacer el almacenamiento de nuestros proyectos. ¿Y cómo funciona? A todos nosotros nos tocó alguna vez en la escuela o en la universidad hacer el borrador de un trabajo, y hacíamos la primera versión, enviamos al profesor o la profesora quien la corregía, y así sucesivamente hasta que llegaba un momento que no eran necesarias las correcciones.
+
+[02:00] Pero al final nuestra carpeta estaba llena de trabajo. Relacionando este ejemplo con el desarrollo de software tenemos algo más efectivo, que es a través de la herramienta Git, porque tenemos acceso a todas las versiones de una aplicación y de ahí viene el término control de versiones.
+
+[02:19] Y mientras una persona trabaja en una versión, otra persona también puede trabajar en una nueva versión. Además de esto, la herramienta es muy importante para el trabajo en equipo, entonces en el mundo de hoy, donde hasta mismo las pequeñas empresas tienen grandes equipos, necesitamos de herramientas para unificar todo lo que estamos haciendo.
+
+[02:42] Ya existían otras herramientas antes de Git y GitHub, pero actualmente son las más utilizadas y ellas son esenciales para el trabajo en equipo, para que podamos conversar en el mismo lugar dentro de un sistema. Ahora vamos a sumergirnos por primera vez en GitHub y nos vemos en el próximo video.

@@ -1,0 +1,44 @@
+Comenzando la página de contacto
+
+
+[00:00] Okay amigos, vamos a iniciar con nuestro curso de HTML 5 y CSS 3, en esta tercer parte de nuestro curso, donde veremos formularios cómo fue introducido en el video de introducción.
+
+[00:18] Lo primero que haremos será abrir nuestro Visual Studio Code, ya veníamos trabajando con este editor de texto. Fíjense que de momento no tengo nada y lo que haré será colocar, arrastrar nuestra carpetita a nuestro Visual Studio Code con todos los archivos. Esa carpeta es la carpeta final que quedó del último curso que hicimos, de la sección 2 de toda esta pequeña formación en HTML y CSS.
+
+[00:58] Entonces, van a tener ese archivo para descargarlo en la actividad Preparando el ambiente, o si gustan también pueden usar su propia carpeta, todo lo que quedó del anterior curso para continuar con esta etapa del curso. Vamos a reutilizar bastantes cosas de aquí y la idea es partir ya con esto realizado, con estas carpetas realizadas y listas para iniciar.
+
+[01:30] Entonces vayan a esa actividad de Preparando el ambiente y van a tener la posibilidad de descargarla. La tenemos aquí a nuestra carpeta. Lo que haremos, entonces, será crear nuestro archivo de contacto, nuestro HTML para nuestra página de contacto. Venimos a file, new file, y este de aquí lo vamos a guardar como contacto.html, en la misma ruta, en el mismo camino de los anteriores archivos.
+
+[02:13] Guardamos y fíjense que ya tenemos contacto.html. El siguiente paso será, vamos a reutilizar bastante contenido que ya hemos creado aquí en nuestro archivo productos.html. Ese contenido será todo la parte inicial, el head y el header, venimos, copiamos con "Ctrl + C", pegamos aquí y vamos a copiar el footer, que vendría a ser el pié de nuestra página.
+
+[02:55] Perfecto, entonces repasando, hemos copiado todo el head y dentro del body hemos copiado el header y el footer. Aquí vamos a dar un enter y colocamos main, que va a ser todo nuestro contenido aquí y solo por hacer una prueba vamos a colocarle test.
+
+[03:16] Voy a guardar, voy a ir a nuestro archivo, ya tenemos nuestra página de contacto, me aparece con el símbolo de Chrome, porque ya reconoce que es una página web, aquí la tenemos, y fíjense que hemos copiado todo el head, todo el header, con el encabezado de nuestra página, hemos copiado todo el footer y aquí ya nos aparece la palabra test que hemos colocado en el main.
+
+[03:48] Ahora, fíjense que obviamente tenemos que corregir algunas cosas, aquí todavía está con el nombre de productos. Sin embargo, ya los links a las páginas, la home, que fue la primera página que hicimos, están correctos, a la página de productos, que fue la página que hicimos en la parte dos del curso y ahora estamos trabajando en esta página de contacto.
+
+[04:12] Entonces, vamos a arreglar algunas cosas en nuestro código. Principalmente aquí, vamos a colocarle contacto, porque es nuestra página de contacto, vamos a guardar, venimos aquí, actualizamos y ya tenemos el título de nuestra página como contacto. Ya está nuestra página inicial preparada.
+
+[04:47] Ahora, lo que haremos en nuestro código es arreglar aquí algunas referencias en relación a los nombres de los archivos. Es una buena práctica que todos los archivos de CSS tengan como nombre o como sufijo o prefijo style. Y fíjense que nuestra página de productos.css se llama solo productos, no tiene la palabra style.
+
+[05:14] Y ya tenemos un archivo style que son los estilos de nuestro index, de la página principal, de la home. Entonces, lo que vamos a hacer es esa página style la vamos a renombrar y le vamos a poner style.home, porque va a hacer referencia al index.
+
+[05:35] Y nuestra página de productos.css va a pasar a ser el archivo principal de estilos porque vamos a reutilizar, en realidad ya estamos reutilizando todos los estilos que estaban en el productos.css, vamos a usarlos en nuestra página de productos que fue creada para ese fin y vamos a reutilizar bastantes de estos estilos en nuestra página de contacto que es la que hemos creado recientemente.
+
+[06:04] Entonces, la vamos a llamar style, entonces, tenemos dos archivitos style: el style.home y style.css. Ahora, no tenemos que olvidarnos de referenciar correctamente esas páginas. Entonces, productos.css aquí en nuestro head pasó a ser style.css. Tengo que ir al index. Aquí estaba como style, ahora este style es style-home. Y en la página de productos.html, la misma cosa.
+
+[06:39] Productos pasó a llamarse style. Voy a guardar todas las páginas, vamos a nuestra página en construcción, y bueno, no cambió nada porque lo único que hicimos fue alterar los vínculos pero podemos ver que está funcionando correctamente a excepción del link de contacto nuevamente que es donde estamos trabajando.
+
+[07:11] Ahora, como vimos en la introducción vamos a trabajar en nuestra página de contacto que es un formulario. Esta es nuestra página modelo, es nuestra página final, donde vimos que lo que el usuario, nuestro cliente puede colocar son sus datos personales, enviarnos un mensaje, marcar algún horario, reservar en nuestra barbería.
+
+[07:42] Incluso puede colocar aquí otros mensajes, si le gustaría recibir novedades y puede enviar ese formulario. ¿Pero qué es un formulario? Voy a entrar a la página de Google, Google.com, solo para que entendamos un concepto.
+
+[07:58] Un formulario es todo aquello donde el usuario puede colocar algunos datos o hacer clic en algún botón o hacer clic en algún checkbox o seleccionar un ítem de una lista y eso va a generar alguna acción. En este caso, la acción es enviar el formulario para que nosotros efectuemos una reserva o recibamos algún mensaje que este cliente, que este usuario, nos quiere enviar.
+
+[08:28] La página inicial de Google, conceptualmente hablando, no es más ni menos que un formulario, porque yo coloco mi búsqueda aquí, por ejemplo, voy a buscar café colombiano y si se fijan en la URL de esa búsqueda, en algún lugar Google pasa para su servidor que lo que estamos buscando es café colombiano.
+
+[08:54] Y justamente aquí lo tenemos, fíjense, él coloca café + colombiano, que esa URL pasa para alguno de los servidores de Google y va y mapea todas las páginas posibles donde pueda tener esta palabra o que está haciendo referencia a la palabra café colombiano y así realiza la búsqueda. Entonces, esta página inicial en su esencia es un formulario.
+
+[09:22] Lógicamente que hay un montón, hay varios otros recursos que usa Google, sin embargo, lo que quiero que nos quede claro o pasarles el mensaje, que esta caja de texto es como si fuera un formulario, una caja de texto de un formulario que cuando nosotros ejecutamos nuestra búsqueda, Google realiza alguna acción en función de esos datos que estamos pasando.
+
+[09:47] Entonces, la idea es que nuestro formulario haga o tenga ese comportamiento de Google, que el usuario, el cliente coloque sus datos y nosotros podamos efectuar algunas acciones a partir de ahí. Entonces, es lo que veremos en las próximas secciones, todo el desarrollo de esta página de contacto, entonces, los espero en el próximo video. Chau, chau.

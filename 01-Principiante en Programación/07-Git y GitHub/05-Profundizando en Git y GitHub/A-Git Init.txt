@@ -1,0 +1,26 @@
+Git Init
+
+
+[00:00] Hemos visto diversos comandos para versionar nuestros proyectos y empezamos nuestro repositorio a través del comando Git clone, ¿pero será que hay una otra forma para iniciar nuestro repositorio? Sí, y ahora es lo que voy a mostrarte.
+
+[00:18] Voy a volver a mi cuenta en GitHub y voy a empezar un nuevo repositorio. Para entrar en esta página solo elegir esta segunda opción y voy a hacer aquí clic en new. Voy a poner el nombre como sistema-de-registro-2. No voy a poner una descripción, voy a mantenerlo público y crear, así como hicimos de la otra vez.
+
+[00:47] Vamos a tener esta página, pero de momento no vamos a utilizarla. Aquí, en el explorador de archivos, dentro de la misma carpeta donde versionamos el primer proyecto, voy a crear una nueva, entonces aquí voy a poner nuevo sistema-de-registro-2.
+
+[01:12] Y aquí voy a hacer el clic para. Abrir el Gif Bash. Voy a dar zoom. Entonces, si notas después del número 2 no hay ninguna rama porque aún no hemos hecho el versionado. ¿Y cómo lo haremos? Voy a empezar a través del comando git init.
+
+[01:36] Aquí en nuestra carpeta tenemos el archivo .git, eso significa que ya inicializamos el proyecto, regresaré a la consola y ahora tenemos una rama, la master, que aún sigue siendo aquí la principal de git pero vamos a hacer la modificación más adelante. De momento no tengo nada en esta carpeta.
+
+[02:00] Voy a entrar en Visual Studio Code, abrir esta nueva carpeta y empezar a trabajar con ella. Entonces aquí voy a crear el index.html y solo voy a poner aquí la estructura básica para realizar este ejemplo. Ahora tengo un archivo. Aquí voy a poner git status.
+
+[02:34] Voy a commitar este nuevo archivo: git add git commit “crea el index”. Pero lo que tengo que hacer a partir de este momento, porque utilicé el git init y aún no hay la conexión con nuestro repositorio remoto y es ahora que vamos a utilizar esta página.
+
+[03:11] Aquí en la segunda opción tenemos un comando para realizar la conexión con nuestra carpeta local. Voy a copiar el git remote y pegar aquí la consola. Voy a bajar aquí. Y si utilizamos el git remote, -v no va a mostrar que ya tenemos la conexión con el repositorio remoto, pero aún tenemos algunos comandos para seguir trabajando con ese repositorio.
+
+[03:48] El segundo es sobre la git branch. Como explicamos, antiguamente era master, pero GitHub pasó a no tener como la main en los proyectos. Aquí tenemos que hacer la modificación de la rama de master para main. Vamos a pegar este comando que va a realizar esta modificación.
+
+[04:10] Entonces ya estamos en la rama principal y por último vamos a pegar el git push y aquí hay una cosa muy importante, cuando utilizamos esta -u solo necesitamos poner el git push para enviar nuestros proyectos cuando estamos trabajando en la rama principal.
+
+[04:32] Ahora, si solo ponemos git push origin main, siempre que vamos a hacer un nuevo commit vamos a tener que escribir por completo git push origin main. Entonces, para facilitar y utilizar este comando un poco más corto, voy a mantener la flag –u y voy a pegar aquí. Ahora voy a actualizar la página.
+
+[05:04] Y tenemos aquí nuestro archivo. Entonces, esta es una otra manera de enviar el proyecto desde tu computadora a GitHub.

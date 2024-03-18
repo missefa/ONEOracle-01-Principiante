@@ -1,0 +1,26 @@
+Identificador de elemento y etiqueta de imagen
+
+
+[00:00] Okay amigos, continuando con nuestro curso de HTML, en esta aula lo que veremos es cómo adicionar nuestra imagen, la imagen de nuestra barbería Alura, lo que le dará un toque más profesional y más estilizado a nuestra página. Para ello tendrán un link en la descripción de este video donde pueden descargar una carpeta que va a venir con la imagen que es nuestro banner.jpg.
+
+[00:31] Es una imagen con formato JPG que la colocaremos dentro de nuestra página, y como les digo van a poder descargar ese archivo. Pero antes, aquí volviendo a nuestro código, antes de continuar colocando la imagen, de colocar la imagen, lo que haremos es organizar nuestro código, porque si analizamos aquí todavía tenemos código CSS, instrucciones donde estoy alterando el visual de nuestra página en el código HTML.
+
+[01:09] Y como habíamos dicho, no es interesante, no es una buena práctica realizar eso. Entonces vamos a organizar y vamos a crear un selector en nuestro style.css, recordando que aquí coloco todo el código CSS, un selector del H1 que por ahora es quien continúa con formatación de CSS. Voy a cortarlo y lo voy a traer aquí.
+
+[01:40] Aquí no necesito la propiedad style, directamente defino la propiedad en este caso que quiero alterar, que en este caso es el alineamiento del centro, en el centro. Y otro punto importante que fíjense que lo traje después del body porque estoy respetando la estructura de nuestro HTML, donde el H1 está después del body. Entonces, repito esa estructura o intento repetir esa estructura en nuestro HTML.
+
+[02:13] Voy a guardar. Vuelvo a nuestra página. Y bueno, no tuvo ningún impacto aquí porque lo único que estoy haciendo es organizarlo. Si nos fijamos, continúo teniendo aquí un estilo CSS, solo que para el segundo párrafo, en este caso solo aplica para el segundo párrafo, que es colocar el texto un poco más grande. ¿Cómo puedo resolver eso?
+
+[02:44] Para eso existen los selectores de ID. Yo puedo crear una propiedad que va a ser un ID, un identificador específico de esta etiqueta P, donde la voy a llamar misión. Entonces, el ID de esta etiqueta P va a ser misión. Voy a cortar esta propiedad, y en este caso en nuestro style.css creo un selector de misión, solo que como es un selector de ID necesito usar el numeral por la frente y coloco misión.
+
+[03:24] Tengo que repetir el mismo nombre. Es exactamente el mismo. Y con la misma estructura abriendo y cerrando llaves. En este caso era font-size nuestra propiedad, 20 pixeles que va tener nuestro selector de misión.
+
+[03:52] En este caso, como coloqué un ID, la misión, el visual va a mostrar las características que estamos definiendo aquí en nuestro selector de misión, que es el tamaño de la fuente 20 pixeles como lo teníamos, con esta referencia que es nuestra propiedad ID en este caso.
+
+[04:20] Voy a guardar, solo para verificar que esté todo correcto, actualizo. No hubo ningún cambio pero ya tengo mucho mejor estructurado nuestro código y todo lo que es alteración visual aquí en nuestro style.css. Ahora, para añadir, adicionar esa imagen como habíamos mencionado, voy a usar una etiqueta IMG (image en inglés) y para ello voy a declarar una propiedad source (de fuente) donde fíjense, volviendo a la carpeta, está dentro de una carpeta banner, el banner.jpg.
+
+[05:08] Entonces, necesito colocar el camino completo que sería: banner, una barra, banner.jpg. Y aquí al final cierro mi etiqueta. Me dirán: "¿Por qué no lo colocamos aquí?" Porque justamente yo quiero mostrar esa imagen en nuestro body, sin embargo la etiqueta IMG no tiene cierre porque es una referencia a este archivo, parecida a la referencia del archivo style.css.
+
+[05:54] Entonces voy a guardar aquí, vuelvo aquí a la página, actualizo y ya tenemos nuestra imagen en nuestra página web. Todavía no está de la forma ideal, de la forma como nos gustaría que esté, y en el próximo video lo que veremos es cómo alterar las propiedades de esta imagen en este caso para que quede como un visual correcto.
+
+[06:26] Repasando aquí, lo que hicimos rápidamente fue organizar nuestro código. Ya no tenemos código CSS aquí en nuestro HTML. Ya no estamos mezclando los códigos e hicimos la referencia a nuestra imagen a través de la etiqueta IMG. Nos vemos en el próximo video. Muchas gracias.

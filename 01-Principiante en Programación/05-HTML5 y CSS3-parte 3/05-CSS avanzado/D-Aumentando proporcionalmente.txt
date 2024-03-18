@@ -1,0 +1,16 @@
+Aumentando proporcionalmente
+
+
+¿Qué propiedad del CSS usamos para aumentar un elemento proporcionalmente?
+
+a)
+transform: rotate()
+
+b)
+transform: width()
+
+c)
+Alternativa correta
+transform: scale()
+
+¡Alternativa correcta! Utilizamos la propiedad transform: scale() para aumentar un elemento proporcionalmente.

@@ -1,0 +1,32 @@
+Inputs para celulares
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso de HTML, ya en esta parte 3. A lo largo de este curso, en las anteriores secciones, hemos venido construyendo nuestra página de contacto, en la cual, colocamos varios tipos de input: inputs textos, mensajes y otros tipos de inputs un poco más complejos.
+
+[00:23] Lo que veremos ahora va a ser pensar un poco en la experiencia del usuario. Como desarrolladores web, personas que vamos a construir páginas web, tenemos que pensar que nuestro usuario es lo más importante.
+
+[00:40] Tenemos que tener claro que nuestro driver, estamos construyendo una página web para que sea accesada y para facilitar la vida de alguien que, en este caso, tiene que ser nuestro cliente, nuestro usuario.
+
+[00:56] Es por ello, que no debemos dejar pasar o no considerar que muchos de nuestros usuarios, muchos de nuestros clientes van a acceder a nuestra página a través de un dispositivo móvil, a través de un celular.
+
+[01:10] Es más, hoy en día la mayoría de los accesos, gran parte de los accesos por internet son hechos a través de los dispositivos móviles. Es por ello, que HTML 5 ya tiene configuraciones padrón, que vienen por defecto, que ayudan a hacer que esa experiencia del usuario, cuando acceden a una página web a través del celular sea mucho mejor, solo que nosotros como programadores tenemos que hacer esas configuraciones.
+
+[01:38] Para ello, les voy a mostrar una página web, una referencia que se llama, vamos a entrar directo al site, a la página mobileinputtypes.com. Ya había entrado aquí, doy un enter, y lo que tiene esta página es una página de contenido, de referencia de contenido, son los diferentes tipos de inputs que podemos definir.
+
+[02:05] Entonces, texto es el que venimos trabajando que me va a permitir colocar cualquier texto. Si yo defino el tipo de input, el input type como email, ¿qué me va a permitir en el celular? Me va a aparecer el arroba y me va a ayudar a que mi usuario coloque el correo electrónico en una forma más fácil.
+
+[02:29] También podemos definir el input type en formato de teléfono, de celular, para que me aparezca en formato numérico la pantalla, el teclado de nuestro celular. También podemos definir solo números, con input type number, y me van a aparecer solo números y los caracteres especiales de número.
+
+[02:51] Otro tipo de input es password, cuando queremos colocar una contraseña, lo que me va a ayudar es a que aparezca nuestro texto con estos puntos o con asteriscos, que son característicos de las contraseñas para que otras personas no los puedan ver. Date cuando queremos colocar fechas. De la misma forma, con seguridad ya han visto este formato.
+
+[03:16] Y para hacer esto, lo único que tenemos que hacer es definir que nuestro tipo de dato es una fecha, un date. Date time, cuando queremos fecha y hora. Mes, podemos definir un mes específico, mes y año. Un tipo de búsqueda, por ejemplo la de Google, y nos da esas referencias.
+
+[03:41] Entonces, para colocar en forma correcta nuestros input en nuestro formulario de contacto, vamos a ir a nuestro código y vamos a corregir justamente esos tipos de datos donde colocamos correo electrónico. Está como tipo texto y lo vamos a definir como type email.
+
+[04:06] Y aquí donde tenemos nuestro teléfono hacemos la misma cosa para tel, que significa que esos inputs de datos se refieren a teléfonos. Voy a guardar, vamos a ir a nuestra página, esa no es, está aquí, voy a cerrar esto.
+
+[04:26] Actualizo y lógicamente no hubo ninguna modificación, ninguna alteración aquí porque estoy accediendo a través de mi computador, de mi PC, y no puedo mostrarles actualmente ese comportamiento en el celular. Pero si esta página estuviera en un servidor y accedo, ya puedo ver que ese comportamiento va a cambiar cuando accedo a través de un celular.
+
+[04:53] Para finalizar, solamente vamos a corregir aquí el signo de interrogación que quedó faltando. Con seguridad que ustedes se dieron cuenta, a mí se me pasó. Entonces, vamos a ir a nuestros textos aquí y voy a poner el signo de interrogación: ¿Cómo le gustaría que lo contactemos? ¿En cuál horario prefiere ser atendido? Y otra pregunta: ¿Le gustaría recibir novedades de la Barbería Alura?
+
+[05:24] Así dejamos correcto nuestro texto. Voy a ir a la página, vamos a actualizar y ya tenemos los signos de interrogación correctos. Continuamos en los próximos videos desarrollando más de nuestra página. Nos vemos. Chau, chau.

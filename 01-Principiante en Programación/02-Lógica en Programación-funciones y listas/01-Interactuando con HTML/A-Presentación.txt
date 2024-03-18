@@ -1,0 +1,11 @@
+Presentación
+
+Hola, querido estudiante, mi nombre es Cristian Velasco y estoy aquí muy feliz de darte la bienvenida a este segundo curso de lógica de programación. Por razones de accesibilidad, voy a describirme. Soy un hombre de piel blanca, cabello negro y estoy vistiendo una camisa polo blanca.
+
+Entonces, ¿qué vamos a ver en este curso, en este nuevo curso de lógica de programación? Vamos a utilizar el proyecto que veníamos desarrollando en el primer curso, donde desarrollamos un juego secreto. Nuestra intención es profesionalizarlo aún más, utilizando las mejores prácticas de mercado y comprendiendo herramientas muy poderosas que son parte de las estructuras y la lógica de programación, cuando queremos aprender algún lenguaje.
+
+Pero no estoy solo, estoy nuevamente aquí con nuestro querido profesor Leonardo Castillo. Dime, Leo, ¿qué van a ver los estudiantes en esta nueva etapa?
+
+Hola, Cris. Efectivamente, para facilitar la accesibilidad, voy a describirme. Soy un hombre de piel blanca, cabello negro y un poco de barba. En este nuevo curso, como bien dijiste, vamos a profesionalizar el juego del número secreto que realizamos en el curso anterior. Solo que esta vez, lo haremos en HTML, con mejores recursos y aprenderemos cosas nuevas, como arreglos y funciones.
+
+Por lo tanto, tenemos mucho que aprender. Carga esas baterías y nos vemos en las clases.

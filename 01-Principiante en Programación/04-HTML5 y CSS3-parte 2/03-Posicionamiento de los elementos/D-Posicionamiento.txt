@@ -1,0 +1,17 @@
+Posicionamiento
+
+
+¿Para qué sirve el posicionamiento absolute?
+
+a)
+Para poder mover el elemento.
+
+b)
+Para poder adicionar margin y padding al elemento.
+
+c)
+Alternativa correta
+
+Para cambiar la posición del punto inicial donde se encuentra el elemento.
+
+¡Alternativa Correcta! Con la position: absolute, yo puedo posicionar mi elemento en cualquier lugar de la página.

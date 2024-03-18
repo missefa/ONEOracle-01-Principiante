@@ -1,0 +1,29 @@
+Funcionamiento de los bordes
+
+
+Cuando agrego la siguiente declaración de borde:
+
+border: 3px solid #000000;COPIA EL CÓDIGO
+¿Cuál es el comportamiento esperado?
+
+
+a)
+Alternativa incorreta
+Un borde sólido, con 3 pixeles de ancho, antes del padding y del margin.
+
+¡Alternativa Incorrecta! En la estructura de “cajas” del CSS, el borde no queda posicionado antes del padding y el margin, pero sí entre el padding y el margin.
+
+
+
+b)
+Alternativa correta
+Un borde sólido, con 3 pixeles de ancho, entre el padding y el margin.
+
+¡Alternativa Correcta! En la estructura de “cajas” del CSS, un borde queda posicionado entre el padding y el margin.
+
+
+c)
+Alternativa incorreta
+Un borde sólido, con 3 pixeles de ancho, después de padding y el margin.
+
+¡Alternativa Incorrecta! En la estructura de “cajas” del CSS, el borde no queda posicionado después del padding y el margin, pero sí entre el padding y el margin.

@@ -1,0 +1,18 @@
+Adicionando una imagen
+
+
+¿Cómo hacemos para adicionar una imagen en el contenido de nuestra página?
+
+a)
+<img>direccion</img>
+
+
+b)
+<imagem source="direccion">
+
+c)
+Alternativa correta
+
+<img src="direccion">
+
+¡Alternativa correcta! La etiqueta img tiene la propiedad src, donde adicionamos la dirección.

@@ -1,0 +1,46 @@
+Ajustando el tamaño de los elementos
+
+
+[00:00] Okay, continuando con el desarrollo de nuestra página web de la Barbería Alura, ya hemos creado y configurado aquí el visual de nuestros productos, sin embargo, nos falta configurar sobre todo los espacios.
+
+[00:18] Si comparo nuestra página en construcción con la página modelo, bueno, por el momento nos vamos a centrar en enfocar en los ítems internos de cada producto, el borde será visto más adelante, pero no nos enfoquemos en estos espacios.
+
+[00:51] Entonces fíjense que, primero los espacios entre cada producto no están correctos todavía, aquí, por ejemplo, en nuestro precio, no está alineado con los precios de cabello ni de cabello más barba, hay una leve diferencia.
+
+[00:58] Y también, ahorita no se nota fácilmente pero el tamaño de cada uno de los ítems está diferente, no está equilibrado, ecualizado, el tamaño que cada uno de los productos está ocupando. Y justamente para eso, para comenzar a configurar eso, lo primero que haremos será colocarle un background, un color aquí, a nuestros elementos para que nos ayude a hacer esas configuraciones.
+
+[01:27] Entonces vamos a nuestro Visual Studio Code, venimos aquí a nuestro selector productos li, que son los elementos, y aquí le vamos a colocar un background, y el color lo vamos a definir en plomo que son seis C. Guardamos, vamos a nuestra página y actualizamos.
+
+[01:53] Entonces fíjense que, esto me ayuda a ver que el tamaño primero no está equilibrado, igual entre todos los precios no están en la misma línea, y está superpegado aquí el título de los elementos. Lo primero que haremos será colocar un margen externo, un margen lateral a cada uno de estos elementos.
+
+[02:23] Vamos a ir a nuestro productos li y colocamos margin, la propiedad margin, y los valores de 0 en la vertical y 1.5% en los laterales. Vamos a guardar, venimos aquí, actualizamos y fíjense que se añadió un espacio entre los elementos, un espacio externo entre los elementos porque margen es espacio externo.
+
+[02:54] Ahora, si hacemos cuentas, vamos a volver a nuestro Visual Studio Code, habíamos definido que todo el elemento, o sea, todos nuestros productos ocupen 940 pixeles, y le habíamos dicho que cada producto ocupe el 30% de espacio, y aquí estamos definiendo un margen externo de 1.5%, entonces, 30% por 3 da 90% del espacio de los 940 pixeles.
+
+[03:28] Y 1.5% por 6, porque tenemos 6 espacios, 1, 2, 3, 4, 5, 6. Cada ítem tiene dos espacios: izquierdo y derecho. Entonces, 1.5 por 6 da 9. 9 más los 90 aquí del ancho da 99% del espacio ahora está ocupando de estos 940 pixeles. Entonces, en ese aspecto estamos ocupando casi 90% de nuestro espacio, lo que está correcto.
+
+[04:08] Ahora, fíjense que el título y la descripción están superpegados a nuestro elemento. Para ello vamos a dar también un espaciamiento interno ahora a los ítems de cada producto y ese espaciamiento lo haremos con la propiedad padding. Definimos nuestro padding y le damos 30 pixeles en la vertical y 20 pixeles en la horizontal, que sería en los laterales.
+
+[04:47] Guardamos y ¿tuvo el comportamiento que queríamos? Fíjense que ya teníamos un espaciamiento más grande, sin embargo, el tercer elemento del cabello + barba saltó una línea y fue y se ubicó en el siguiente espacio. ¿Y eso ocurrió por qué? Vamos a analizar, volver aquí y analizar los números, los valores que habíamos hecho hace rato.
+
+[05:14] Habíamos definido 940 pixeles para el ancho de nuestra lista de productos y ya estábamos ocupando el 99% con el ancho y este margen externo. Entonces, cuando yo voy y le digo: "Cólocame 20 pixeles de espaciamiento interno", estoy sobrepasando los 940 pixeles que yo había definido. ¿Por qué?
+
+[05:42] Porque sumamos que era el 99%, y en este caso estos 20 pixeles están yendo y sumando a 30% que fue definido para cada uno, lo que me hace sobresalir de 940 pixeles. Sé que les parecerá extraño, un poco raro sumar pixeles, valores absolutos, con porcentajes que son valores relativos, pero pasa bastante, se da este comportamiento cuando trabajamos con páginas web en HTML y CSS.
+
+[06:13] Así que no se extrañen mucho. Lo que explica por qué ese tercer elemento se está yendo una línea más abajo. Porque estoy pasando del 99% de espacio que había definido aquí, de los 940 pixeles que habíamos reservado para nuestra lista de productos. Entonces, para solucionar eso hay una forma fácil de configurar este comportamiento y hay una propiedad que se llama box-sizing.
+
+[06:50] Y este box-sizing es el tamaño de la caja, traduciendo, lo definimos como border-box, entonces el borde de cada uno de los ítems será el límite del espacio que va a ser definido. ¿Qué quiere decir eso en la práctica?
+
+[07:08] Que estos 20 pixeles que estamos colocando de espaciamiento interno no van a sobrepasar los 30% que definimos aquí del ancho, entonces, van a ser ingresados, van a ser contabilizados dentro de ese 30%.
+
+[07:22] Si yo guardo aquí nuestro código y vamos a nuestra página, actualizamos aquí, fíjense que el tercer ítem ya viene y se posiciona correctamente, y ahora los espacios de cada uno de nuestros elementos están correctos. Aquí tenemos cabello, barba, tenemos el espacio entre fíjense el título y el borde superior de nuestro elemento.
+
+[07:50] Tenemos también, nuestro logo aquí, nuestra imagen bien ubicada, nuestra descripción, nuestro precio bien alineado. Anteriormente, cuando creamos el selector de clase de precio ya habíamos definido un margen top de 10 pixeles. Solo para entender ese comportamiento, si yo cambio aquí, fíjense cómo se comporta nuestro precio, se va a deslocar un poco hacia abajo.
+
+[08:17] Sin embargo, lo vamos a dejar con los 10 pixeles, que es el valor final de nuestra página modelo. Y hemos finalizado con eso. Lo único que nos falta es eliminar, sacar ese background que habíamos colocado, porque como dijimos fue para ayudarnos a construir, a tener un visual más claro y así poder configurar mejor.
+
+[08:50] Entonces, lo sacamos, y ahora sí, comparando la página en construcción con la página modelo, ya hemos finalizado la parte visual de cada uno de los ítems, tenemos nuestro título, nuestra imagen, descripción y precio, configuradas y bien localizadas.
+
+[09:16] Lo que veremos de aquí en adelante, va a ser este borde con puntas redondeadas que cada uno de los ítems tiene y también ese efecto visual que cuando el mouse se posiciona encima de cada una de las cajitas se coloca, se activa un color mostaza medio naranja, un color diferente. Pero bueno, será asunto para la próxima aula.
+
+[09:42] Con esto termina esta aula. Les recomiendo, les pido que realicen los ejercicios, las actividades que tenemos en el aula. Ya saben, si tienen dudas, vayan al foro, que el equipo de Alura estará dispuesto a ayudarlos y continúen estudiando. Muchas gracias. Hasta una próxima. Chau, chau.

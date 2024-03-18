@@ -1,0 +1,13 @@
+Conclusión
+
+
+[00:00] Si llegaste hasta aquí, felicidades. Estos fueron nuestros primeros pasos, pero todavía hay mucho más contenido para ver y practicar en Git y GitHub durante tu jornada como persona desarrolladora.
+
+[00:14] Por supuesto, este montón de configuraciones y comandos al principio suele ser un poco asustador, pero verás que se repitieron tanto en diferentes cursos y en tu trabajo que terminarán memorizándolos.
+
+[00:28] Lo principal es que hemos visto los puntos claves tanto en la web como en la línea de comandos y todo lo que necesitas para versionar tus proyectos, pero sin que practiques será muy difícil.
+
+[00:41] Recomiendo que crees grupos de estudio, compartas tus proyectos en las redes sociales para que también otras personas puedan acompañar tu progreso. Junto con el contenido técnico, la organización, la atención a los detalles, la dedicación y también la paciencia son esenciales.
+
+[00:59] Espero que te haya gustado. Al final se presentará una encuesta y no te olvides de calificar este curso y dejar una declaración si te gustó o no, para que podamos perfeccionar. Nos vemos en un próximo entrenamiento. Buenos estudios.
+

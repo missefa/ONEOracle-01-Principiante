@@ -1,0 +1,20 @@
+Presentación
+
+
+[00:00] Querido alumno y querida alumna, sean bienvenidos a esta cuarta etapa de nuestro curso de HTML 5 y CSS 3. A lo largo de esta jornada, de este recorrido, hemos ido construyendo en nuestra página, ya construimos tres páginas internas.
+
+[00:21] En el primer capítulo vimos la construcción de nuestra home, la home de nuestra barbería Alura, en la cual colocamos una imagen, un banner de fondo, algunos elementos textuales, comenzamos a usar algunas etiquetas principales de HTML y también hicimos aquí un blog que de los diferenciales, donde colocamos una lista y otra imagen.
+
+[00:44] Luego en el segundo capítulo lo que vimos fue la página de productos, donde ya comenzamos construyendo el header y el footer de nuestra página, una estructura mucho mejor, más profesional y adecuada cuando se trabaja con HTML, y también vimos, profundizamos un poco en lo que es el CSS 3 colocando bordes, vimos algunas propiedades como In line y block, cómo configurarlas.
+
+[01:15] Vimos otros recursos avanzados de CSS como el over, que nos permite tener estos efectos visuales de cuando nos posicionamos, cambia de color y tamaño. En el tercer capítulo lo que hicimos fue construir nuestra página de contacto, donde el cliente podía mandarnos sus datos.
+
+[01:35] Vimos diferentes tipos de input de datos, como por ejemplo text, para configurar que sea de correo electrónico, que nos envíe un teléfono, campo aquí text área que nos permite colocar un texto bastante extenso, una lista de radio button que nos permite que el cliente nos mande cómo le gustaría que lo contactemos, un check box.
+
+[01:59] También vimos cómo colocar una tabla con algunas informaciones, en este caso el horario de atendimiento, y nuestro botón submit, de enviar formulario, que tiene hasta un efecto interesante aquí cuando nos posicionamos sobre él. Solo que si vemos nuestra segunda página de productos y nuestra tercera página de contactos quedaron mucho más avanzadas, mucho más lindas por así decirlo que nuestra primera página de la barbería Alura.
+
+[02:29] Aquí todavía nuestros conceptos eran básicos, estábamos viendo lo básico de HTML y de CSS, y la propuesta para esta cuarta etapa, este cuarto módulo es volver a esta página y trabajar sobre ella, mejorar los recursos, mejorar la estructura en sí de la página, y para ello este va a ser nuestro producto final.
+
+[02:52] Vamos a colocar entonces el header y el footer, dejando una estructura correcta, vamos a mejorar el visual de nuestra página colocando algunos otros recursos, vamos a aprender a colocar recursos externos como mapas por ejemplo, y ver que este mapa está prácticamente conectado a Google Maps, entonces nos permite navegar y así de esa forma el cliente sabe la ubicación exacta y cómo llegar a nuestra barbería.
+
+[03:22] Vamos a ver otros elementos visuales, efectos como sombras y aprender a colocar estilos específicos a los elementos. También vamos a ver cómo colocar un video. Por ejemplo aquí tenemos un video que captura, llama la atención de nuestro cliente. Así que tenemos bastantes cosas para mejorar en esta página inicial, en esta home, y esta es la propuesta para este cuarto módulo de nuestro curso de HTML 5 y CSS 3. Así que los veo en las aulas y chau, chau.

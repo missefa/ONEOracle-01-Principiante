@@ -1,0 +1,26 @@
+Ítems de la lista
+
+
+Cuando tengo una lista con ítems complejos, ¿cuál es el formato correcto?
+
+a)
+<h2><li>Cabelo</li></h2>
+<p><li>R$ 40,00</li></p>
+
+b)
+Alternativa correta
+
+<li>
+    <h2>Cabelo</h2>
+    <p>R$ 40,00</p>
+</li>
+
+¡Alternativa Correcta! Un ítem de la lista, en una lista compleja, puede tener cualquier tipo de contenido.
+
+c)
+<li>
+    <h2>Cabelo</h2>
+</li>
+<li>
+    <p>R$ 40,00</p>
+</li>

@@ -1,0 +1,24 @@
+Comenzando con CSS
+
+
+[00:00] Okay, amigos y amigas, continuando aquí con nuestro curso de HTML y CSS, en el cual estamos construyendo nuestra página desde cero.
+
+[00:15] En la anterior sección, en la anterior aula, nos dedicamos a estructurar nuestra página web, colocando, voy a volver aquí a nuestro código, colocando algunas etiquetas informativas donde destacamos el diccionario, el idioma, nuestro título y también establecimos la estructura de head y body, donde separábamos las etiquetas informativas de las etiquetas de contenido.
+
+[00:46] Y ya habíamos visto en las pasadas aulas cómo colocar algunas formataciones pero haciendo uso de etiquetas HTML. Sin embargo esa no es la forma correcta de alterar el visual de nuestra página, y para eso es que existe CSS, y CSS significa Cascade Style Sheet, del inglés si lo traducimos serían hojas estilo en cascada.
+
+[01:15] Y para ello les voy a explicar cómo usar, en este caso, las propiedades, las hojas de estilo en cascada que son los CSS, para alterar nuestro visual. Por ejemplo aquí nuestra visión tiene tres etiquetas, entonces la primera etiqueta es la P, el párrafo, el énfasis del itálico y nuestro negrito. ¿Cómo defino una propiedad de CSS?
+
+[01:53] Coloco la palabra reservada style, donde voy a definir algún estilo para este párrafo. Y en este caso lo que vamos a hacer es cambiarle, alterarle el tamaño de fuente con la propiedad font-size. El font-size, el tamaño de la fuente, viene por defecto de 16 pixeles, y nosotros lo vamos a cambiar a 20 pixeles.
+
+[02:24] Y se llaman hojas de estilo en cascada porque yo lo estoy definiendo para la etiqueta P y verán que este estilo que estoy definiendo aquí va a aplicar a todas las etiquetas hijas y netas de esta etiqueta P. Entonces tanto a la etiqueta em de énfasis, como a la etiqueta strong. Voy a actualizar y vamos a ver las alteraciones en nuestra página.
+
+[02:55] Fíjense que nuestro texto quedó un poco más grande y como les decía aplica a todo el párrafo y a todas las etiquetas hijas, en este caso a nuestra etiqueta P. Vamos a continuar colocando formataciones con el mismo estilo, con la misma propiedad style, aquí en el H1.
+
+[03:16] Lo que haremos es centralizarlo, ese es nuestro título, entonces colocamos style y en este caso usamos otra propiedad, siempre entre comillas. Aquí no es dos puntos, es igual. "Text-align". Alinear el texto. ¿A dónde? Al centro. Y voy a repetir eso para todos nuestros párrafos: "text align": center y lo voy a colocar aquí en el último párrafo. "Text-align: text-align center". Perfecto.
+
+[04:09] Voy a volver aquí y lo voy a actualizar. Entonces tenemos nuestro título, el primero y el último párrafo centralizados. Como podrán ver en este caso el IDE, nuestro Visual Studio Code, ya me coloca por defecto automáticamente el punto y coma, que es el separador en este caso, de propiedades que voy a definir. Entonces, dentro de las comillas puedo seguir definiéndole más propiedades.
+
+[04:31] Entonces aquí defino "text-align: center". O sea, aparte de cambiarle el tamaño a la fuente, lo voy a alinear al centro y puedo colocarle más propiedades caso lo necesite, caso lo requiera. Voy a guardar, vuelvo a nuestra página, actualizo, y fíjense que ahora tengo todo el texto centralizado.
+
+[05:17] Entonces vimos cómo alterar, en este caso ya estilos de nuestra página, el visual, para eso es que usamos CSS, y los marcadores de CSS, para alterar el visual de la página. En la próxima sección continuaremos explorando un poco más este tema del CSS y cómo alterar nuestro visual.

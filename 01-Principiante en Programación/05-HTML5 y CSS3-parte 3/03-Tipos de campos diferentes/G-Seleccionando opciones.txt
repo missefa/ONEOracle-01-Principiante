@@ -1,0 +1,22 @@
+Seleccionando opciones
+
+
+[00:00] Bueno, continuando con nuestro curso, habíamos visto las jerarquías de CSS y habíamos modificado, alterado aquí los colores para explicar esos conceptos.
+
+[00:12] Lo primero que haremos será eliminar esas alteraciones que habíamos hecho, que fueron solo con objetivo explicativo, para entender los conceptos de la jerarquía, no hacen parte de nuestra página, entonces, eliminamos aquí a nuestro párrafo y eliminamos en nuestro style todos esos marcadores que habíamos hecho.
+
+[00:42] Voy a salvar, vamos a volver aquí a nuestra página, actualizo y ya está en color negro, color padrón normal. ¿Ahora qué veremos? Si vemos nuestra página final, nos falta un ítem, un input de esos input complejos que estamos colocando, que es este dropdown, esta lista en la cual el usuario, el cliente puede colocar en cuál horario prefiere ser atendido, si por la mañana, por la tarde o por la noche.
+
+[01:20] Y para hacer eso, vamos a crear nuestra etiqueta correcta en nuestra página de contacto en el HTML, antes de nuestro checkbox, vamos aquí a dar un espacio, y vamos a usar la etiqueta select, que justamente es la que hace eso.
+
+[01:40] De momento no vamos a colocar ninguna de estas propiedades, que nos lo coloca automático, aquí damos un enter, y cada una de las opciones de nuestra lista, cada uno de los ítems de nuestra lista, se define con la etiqueta options, de opciones.
+
+[01:58] Lo mismo vamos a borrarle aquí y vamos a llenar: en la mañana, si quiere ser atendido en el horario de la mañana, voy a copiar, pego tres veces, en el horario de la tarde o en el horario de la noche. Y vamos a colocarle un p aquí para preguntar en cuál horario prefiere ser atendido. Cerramos. Vamos a guardar, vamos a nuestra página, actualizamos y ya lo tenemos aquí. ¿En cuál horario prefiere ser atendido?
+
+[02:47] Volvemos a nuestro código y solo para organizar mejor aquí nuestro código vamos a colocar una div, y dentro de esa div, aquí, todo nuestro código. Voy a arreglar aquí los espacios, ya tenemos nuestra div con nuestro select, con nuestro selector. Voy a guardar, volvemos a nuestra página, actualizo, no hubo ningún cambio porque el div es un cambio en la estructura del HTML, no aquí en el visual.
+
+[03:27] Y aquí tenemos nuestra lista mañana, tarde y noche. Es importante destacar que dependiendo del navegador del usuario esta lista puede modificarse, puede verse de una forma diferente, pero HTML 5 ya se adapta y ajusta al sistema operativo y a los diferentes navegadores que podemos tener. Entonces, en el celular por ejemplo, esta lista se ve en un formato diferente.
+
+[03:54] Con eso completamos los inputs complejos, los diferentes tipos de inputs que tiene nuestra página de contacto, todavía nos falta mejorar algunas cosas, principalmente en la parte visual, pero eso lo seguimos viendo en las siguientes secciones.
+
+[04:12] No se olviden de hacer los ejercicios que tenemos en las aulas, y si tienen dudas, los esperamos en el foro que será un placer poder ayudarlos. Nos vemos, chau, chau.

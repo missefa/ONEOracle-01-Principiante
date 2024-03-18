@@ -1,0 +1,35 @@
+Extra: Colores hexadecimales
+
+
+[00:00] Okay, amigos y amigas, conforme dijimos, estamos haciendo este video para explicarles específicamente el código hexadecimal. Hay un código hexadecimal que en este caso HTML usa para representar los colores. ¿Qué es lo que estamos viendo aquí? Que seis C seguidas de numeral representan el plomo.
+
+[00:25] ¿Qué es este sistema hexadecimal? Para explicarles, voy a abrir aquí un bloque de notas txt. Y primero necesitamos entender lo que son los alfabetos. Tenemos nuestro alfabeto del español, en el cual tenemos letras como A, B, C, D, E y en fin, así por delante. Tenemos un alfabeto numérico decimal que son los números del 0 a 9, serían diez elementos. Terminando aquí.
+
+[01:09] También tenemos otra forma de representar que tenemos en sí una representación binaria de combinación de 0 y 1, muy usada en informática por cierto, y tenemos el sistema hexadecimal, que no es más que una combinación de nuestro sistema numérico decimal de diez elementos con las primeras seis letras de nuestro alfabeto, que en este caso voy a copiar este texto, sería una representación de los diez elementos, del 0 al 9, más las primeras seis letras de nuestro alfabeto.
+
+[01:56] Por eso se llama hexadecimal, porque está representado por el 0 al 9, A, B, C, D, E, F. Entonces, la combinación de estos 16 elementos, me permiten en menos caracteres que binario por ejemplo, poder representar varias cosas.
+
+[02:25] Es por eso que es muy usado en el mundo de la informática el sistema hexadecimal y van a ver que muchos códigos vienen representados en un formato hexadecimal justamente para usar menos caracteres, menos bits en este caso, y bytes de recurso computacional, para hacer representaciones y comunicarse con la máquina.
+
+[02:48] En el caso de los colores, en el caso de la representación de colores en HTML, lo que tenemos en hexadecimal es una representación de seis posiciones, donde las primeras dos posiciones representan al rojo, las otras dos posiciones representan al verde y las otras dos posiciones representan al azul. Como pueden ver, coloqué aquí sus primeras letras en inglés, de red, green, blue.
+
+[03:30] Y esto, puede que lo hayan visto, que es la combinación RGB. ¿Cómo se representan en algunos programas y en HTML también los colores? Entonces esta representación de hexadecimal significa que 0 es lo menos fuerte hablando de colores, sería lo más tenue en colores, y F sería la máxima cantidad de intensidad en el color.
+
+[04:05] Entonces por ejemplo si yo quiero representar el negro, que sería la ausencia de color, lo represento con seis ceros. Voy a ponerlo aquí abajo. Entonces la representación del negro son seis ceros. Si yo vuelvo a mi código aquí, por ejemplo si quiero ponerle negro, puedo definir 2, 3, 4, 5, 6. Y fíjense que aquí me muestra que es el color negro. Entonces, seis ceros representan al negro.
+
+[04:44] De la misma forma, si quiero representar el blanco es el otro extremo, son seis F, estoy aquí en este extremo. Volviendo acá si yo coloco seis F, el color representado va a ser el blanco. De la misma forma, si quiero representar el rojo, entonces las dos primeras casillas son rojos, dejo el F, el más fuerte, y los otros los dejo en cero.
+
+[05:10] Entonces esto es lo mismo que en vez de poner red aquí, puedo colocarle el código hexadecimal y fíjense que me coloca el rojo. Igualmente puedo usar el sistema de codificación de colores RGB, donde significa que 0 en este caso es el nivel de intensidad de color menor, más pequeño, y 255 es el máximo.
+
+[05:44] Y lo mismo tengo las tres posiciones en este caso separados por coma, donde por ejemplo si quiero representar el negro serían RGB y tres ceros separados por coma. Entonces si quiero que aquí mi background sea negro, puedo también usar esa representación de colores. Fíjense, me coloca el negro allá, ya puedo actualizar, venir aquí a mi página y pintar todo de negro.
+
+[06:20] Obviamente que eso no es lo que quiero. Vamos a mantenerlo con las seis C que representan nuestro plomo. ¿Por qué las seis C representan nuestro plomo? Volviendo aquí a nuestro txt, dijimos que esto es una escala de colores, entonces si este es el más, el negro, 0 representa al negro y F representa al blanco, a medida que voy avanzando, voy ganando color, y a medida que voy para atrás también voy perdiendo el color.
+
+[06:58] Entonces amigos míos, esta es la forma de representar colores. Un poco de explicación de hexadecimal, no es su único uso representar colores. Tiene muchos usos incluso mucho más complejos a nivel computacional, pero de esta manera podemos definir y entender esos códigos raros que a veces parecen tan extraños como son los hexadecimales, que sin embargo no tienen nada del otro mundo.
+
+[07:31] De lo contrario es superfácil poderlos usar y aquí siéntanse a gusto de usar ya sea el código RGB o el código de hexadecimal, también recordando que en este caso nuestro IDE, nuestro Visual Studio Code, nos ayuda bastante definiendo los colores que ya me los presenta aquí. Red por ejemplo, y automáticamente me lo pone del color requerido.
+
+[08:01] Voy a guardar, voy a actualizar nuestra página, para que quede de la forma como queremos que quede hasta este momento. Eso ha sido todo por esta explicación de colores.
+
+[08:14] Les aconsejo que sigan practicando, hagan todos los ejercicios que tenemos en el aula y si tienen dudas, pueden acudir a nuestro foro, que el equipo de Alura estará siempre dispuesto a ayudarlos y a colaborarlos. Muchas gracias y hasta pronto.
+

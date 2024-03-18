@@ -1,0 +1,17 @@
+Creando bloques de contenido
+
+
+¿Cómo crear varios bloques de contenido en el HTML?
+
+a)
+Bloques de código dentro de varios <body>
+
+b)
+Alternativa correta
+
+Bloques de código dentro de varios <div>
+
+¡Alternativa correcta! La etiqueta div es la etiqueta específica para dividir el contenido en bloques, ayuda en la organización y estructuración de nuestro HTML.
+
+c)
+Bloques de código dentro de varios <p>

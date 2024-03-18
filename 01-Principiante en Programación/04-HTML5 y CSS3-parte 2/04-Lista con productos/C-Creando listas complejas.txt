@@ -1,0 +1,24 @@
+Creando listas complejas
+
+
+[00:00] Okay, ya hemos creado nuestra etiqueta main, el cuerpo de nuestra página donde vamos a colocar nuestros productos. Yendo aquí a nuestro Visual Studio Code aquí tenemos nuestra etiqueta main y los tres productos que estamos ofreciendo: cabello, barba y cabello más barba.
+
+[00:18] Ahora vamos a pensar cuál sería la etiqueta, cuál creen ustedes que sería la etiqueta ideal para poder usar el contenido de los productos de nuestra barbería. Si analizamos la página final, aquí en nuestra página modelo, podemos ver que cada uno de estos ítems tienen un título, una imagen que es el logo, una descripción y un precio.
+
+[00:51] Y los tres ítems tienen exactamente el mismo comportamiento, el mismo contenido. Entonces, una solución es usar listas, las listas no ordenadas ya las hemos usado porque el orden es solo una cuestión de decisión nuestra, no significa que cabello tiene que ir antes que barba, no es una lista ordenada, es una lista no ordenada.
+
+[01:36] Entonces, vamos a usar nuestra etiqueta de contenido ul, de unordered list, que ya la hemos usado, y dentro de ella vamos a colocar los li, que son las etiquetas de contenido para los ítems de nuestra lista, y colocamos tres. Dentro de ellas colocamos: cabello, barba, cabello más barba. Acomodamos aquí, guardamos, vamos a nuestra página, actualizo y ya lo tengo en formato de lista.
+
+[02:05] Ahora, volviendo aquí a nuestra página modelo, fíjense, como habíamos dicho, teníamos un título, una imagen, una descripción y el precio. Entonces, eso me recuerda a algunas etiquetas que ya hemos aprendido, que las vamos a usar ahora. Voy a dar aquí un enter y este cabello de momento también.
+
+[02:29] Entonces, para cada ítem de nuestra lista vamos a colocar un h2 de título, una imagen y vamos a colocar la etiqueta p de párrafo para la descripción y otra etiqueta p de párrafo para nuestro precio. Voy a aprovechar aquí, voy a copiar hasta aquí, y nos vamos al segundo li y pego con "Ctrl + V".
+
+[03:07] Bueno, aquí vamos a acomodar la indentación. Aquí damos un enter, aquí damos otro enter y aquí colocamos nuestros cuatro elementos. Entonces cabello es el título, ahorita vamos a colocar las imágenes, barba es el siguiente título y cabello más barba es el siguiente título. Vamos a acomodar aquí los espacios. Perfecto.
+
+[03:42] Entonces, en la imagen usamos la propiedad source, ya habíamos visto que tenemos nuestra carpeta imágenes, entonces voy hasta mi carpeta imágenes y tengo mi archivito de cabello. Voy hasta la siguiente, source, imágenes. Fíjense cómo el Visual Studio me ayuda a navegar en mi carpeta. El segundo es barba, coloco, selecciono la imagen de barba.
+
+[04:11] Voy al siguiente, source, imagenes/cabello+barba.jpg. Perfecto. Ahora es solo llenar aquí la descripción. La descripción en el primer elemento es: Con tijera o máquina a gusto del cliente. El siguiente párrafo es: Corte y diseño profesional de barba. Y por último, en este de aquí es: Paquete completo de cabello y barba. Y para finalizar, solo nos faltaría nuestro precio.
+
+[05:11] El primer precio es 10 dólares el corte de cabello, el corte de la barba es 8 dólares y el corte de barba más cabello es 15 dólares. Vamos a verificar, está todo correcto, comprobamos, fíjense la indentación, la sangría también está correcta. Voy a guardar, voy a nuestra página, actualizo y ya tenemos aquí.
+
+[05:52] Lógicamente que tenemos todavía que realizar las configuraciones debidas, para tener horizontal aquí nuestra lista pero ya tenemos el contenido de nuestros ítems de los productos que vamos a ofrecer en nuestra página. Entonces, la parte donde vamos a configurar el visual, los estilos de nuestros productos, será contenido para los siguientes videos, entonces nos vemos pronto, chau, chau.

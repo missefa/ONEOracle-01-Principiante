@@ -1,0 +1,30 @@
+Conclusión
+
+
+[00:00] Queridos alumnos y alumnas, muchísimas felicidades por haber concluido este curso que forma parte de todo el entrenamiento de HTML y CSS 3, en el cual, estamos desarrollando la página completa de la Barbería Alura, y en este curso específico, lo que hicimos fue desarrollar toda nuestra página de productos de la barbería.
+
+[00:25] Comenzamos construyendo nuestro header, luego nuestra parte, nuestro main de productos con los ítems ofrecidos por nuestra barbería y finalizamos con nuestro pie de página. Para recordar rápidamente qué fue lo que hicimos, vamos a ir aquí, a nuestro Visual Studio, donde lo primero que vimos fue la estructura de nuestra página compuesta por el head y el body.
+
+[00:58] Dentro del head, colocamos todas las etiquetas informativas, aprendimos a resetear ese visual, esos elementos que el navegador configura por defecto para tener control absoluto, control 100% de nuestra página. Dentro del body colocamos todas nuestras etiquetas de contenido, como habíamos dicho, tenemos un header, que es nuestro encabezado.
+
+[01:30] Dentro del encabezado, lo que hicimos fue colocar una imagen, esa imagen representaba el logo de nuestra página y la colocamos dentro de un H1, dentro de una etiqueta de título, para darle ese realce, ese destaque a nuestra imagen, y también dentro de nuestro header, dentro de nuestro encabezado, colocamos nuestro menú o panel de navegación con diferentes vínculos, links a otras páginas.
+
+[02:03] Dentro de nuestro main, lo que hicimos fue colocar una lista compleja que consistía en ítems con diferentes elementos como un H2, con el título de cada elemento, una imagen que representaba a ese elemento y un texto con su descripción y su precio, y eso lo hicimos para los tres elementos. Y, por último, construimos nuestro footer que tenía una imagen y un texto.
+
+[02:30] Viendo rápidamente lo que hicimos en el CSS, trabajamos bastante con espaciamientos, aprendimos a ver los elementos y sus características dentro de la consola del desarrollador, y vimos que eso nos ayuda bastante para configurar el visual de nuestra página.
+
+[02:54] Entonces, vimos las propiedades padding y margin para los espaciamientos, tanto internos como externos. Vimos la parte de posicionamiento de los elementos cuando queríamos que sea absoluta o relativa. También vimos la propiedad display, donde definimos si el elemento ocupa el 100% de la página, el 100% del ancho de la página o solo su contenido.
+
+[03:22] Luego, vimos otros tipos de propiedades como el peso de la fuente, el tamaño de la fuente, en fin todo lo que tiene que ver con el texto, vimos cómo capturar eventos, si bien habíamos recalcado y repetido que los eventos son principalmente una característica de JavaScript.
+
+[03:47] Con CSS también podemos capturar algunos eventos más básicos como la posición o prácticamente cuando el usuario se posiciona en algún elemento específico podemos mandar algunas instrucciones en función de ese comportamiento, en función de la captura de ese evento.
+
+[04:06] Entonces, aprendimos a usar el hover y el active para capturar justamente el movimiento del mouse y clic del usuario en algún elemento o en algún área específica de la página. Y para finalizar, dentro de nuestro footer, lo que hicimos fue colocar una imagen y un texto, la imagen del footer y el texto que era copyright, pero en el background colocamos una imagen, o sea, colocamos.
+
+[04:42] Entonces, amigos, hemos visto mucho contenido en este segundo curso, en esta segunda parte, todavía tenemos bastante información para pasarles, tenemos otras dos etapas de nuestro curso. Sin embargo, con todo este contenido ya podemos trabajar con páginas web, hemos visto elementos.
+
+[05:06] Invitarlos a participar del foro, coloquen todas sus dudas en nuestro foro, también les dejo un pequeño desafío que es colocar la estructura de nuestro HTML en la primera página que desarrollamos de nuestro entrenamiento, en la página del index.html. Y de la misma forma los invito a colocar sus proyectos en las redes sociales y etiquetar a Alura.
+
+[05:37] Eso es muy importante para que sus amigos, sus compañeros vean los proyectos que estamos desarrollando, entonces, no se olviden de etiquetar a Alura, para nosotros va a ser un placer interactuar con ustedes en las redes sociales y nos da mucha alegría ver el avance de nuestros alumnos.
+
+[05:57] Y por último, no se olviden de puntuar, de darle la nota a este curso. Si es que tienen comentarios, sugerencias, háganlas, porque esa es la única forma que tenemos para entregarles contenido de más calidad, contenidos de mayor impacto. Muchísimas gracias y nos vemos en el próximo curso. Chau, chau.

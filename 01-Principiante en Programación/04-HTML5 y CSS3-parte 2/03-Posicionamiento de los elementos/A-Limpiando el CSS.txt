@@ -1,0 +1,30 @@
+Limpiando el CSS
+
+
+[00:00] Hola a todos, vamos a continuar con el desarrollo de nuestra página, la página de la Barbería Alura. En la anterior aula, la anterior sección, ya habíamos comenzado a configurar el estilo de los encabezados. En esa configuración fue que vimos que, tenemos algunos estilos que están siendo configurados por defecto por el navegador, como es el caso aquí de los bordes.
+
+[00:28] Tenemos un borde superior y bordes laterales que no fuimos nosotros los que los configuramos, fueron configurados por nuestro navegador. Y así como los bordes, existen otros estilos que también son configurados por defecto por el navegador.
+
+[00:51] Hay espaciamientos internos entre el body, entre nuestros encabezados y otras etiquetas que ahorita no las percibimos, pero sí son configuradas y el navegador las realiza en su afán, en su objetivo de crear una página más legible. Pero no es nuestro caso. Nosotros como desarrolladores web queremos tener un control total, un control 100% sobre nuestra página.
+
+[01:19] Entonces, necesitamos de alguna manera eliminar, desactivar esas configuraciones que están siendo realizadas por defecto por el navegador. En una sección de aquí, de nuestra aula van a tener un archivo para descarga que es nuestro archivo reset.css. Si no lo han descargado aún, aprovechen este momento para descargarlo.
+
+[01:55] Descarguen este archivito, lo colocan en la misma carpeta, en la misma ruta donde están todos los otros archivos y llevan este reset.css, lo vamos a abrir en nuestro Visual Studio Code, aquí lo tenemos, reset.css. Entonces, aquí podemos ver todas las etiquetas, una decena de etiquetas, varias decenas de etiquetas que están siendo alteradas, están siendo reseteadas por así decirlo.
+
+[02:25] Y vamos a entrar. Aquí hay un link para que veamos quién creó y con qué objetivo este archivo. Voy a entrar aquí, a nuestro navegador, coloco el link, y aquí pueden ver que ha sido este, en una página meyerweb.com, aquí dice: "El objetivo de por qué fue creado".
+
+[02:53] Está en inglés, pero aquí básicamente traduciendo simple, dice: "El objetivo de resetear las hojas de estilo es reducir las inconsistencias en el navegador en algunas cosas como"… y ahí va nombrando alturas, márgenes, tamaños de letras. En fin, todo lo que el navegador, como decíamos, va configurando como defecto en su intento de volver nuestra página más legible.
+
+[03:21] Aquí está el código, que es el mismo código que tenemos ya en nuestro Visual Studio Code, versiones anteriores, si es que alguien quisiera, y aquí están los agradecimientos, a quienes ayudaron, y algunos links de referencia.
+
+[03:45] Este archivo fue creado por una comunidad de programadores que en su momento se juntaron, vieron que este problema era común entre desarrolladores web, y bueno, unieron fuerzas y crearon este archivo y lo dejaron disponible para prácticamente todas las personas que estén desarrollando y quieran eliminar esas configuraciones por defecto en el navegador.
+
+[04:12] Presentado nuestro archivo, voy a cerrar la página de referencia que teníamos. Voy a ir aquí a nuestro productos.html, y lo único que necesito hacer es referenciar ese archivo reset.css. Entonces, vamos a crear el link, solo que aquí vamos a analizar dónde debería ir ese reset.css.
+
+[04:38] Si yo ya estoy, si yo ya creé mi archivo productos.css, que es donde hago todo el formato donde creamos todos los estilos de nuestra página, si yo lo coloco después de productos.css, voy a crear mi formato y lo voy a borrar después con el reset.css.
+
+[04:59] Entonces, tiene que ir este reset.css en una posición anterior a nuestros archivos de estilos, justamente para que no borremos, no eliminemos lo que queremos colocar de estilos a nuestra página. Entonces, aquí usamos las mismas instrucciones, la propiedad rel de relación, de stylesheet, y hacemos la referencia a nuestro archivo reset.css que ya lo tenemos en nuestra carpeta.
+
+[05:36] Vamos a guardar aquí, vamos a nuestro navegador, actualizamos y fíjense que ese espaciamiento, ese borde lateral y superior fue eliminado. Solo para finalizar, voy a cerrar ese archivo reset.css, no necesito alterar absolutamente nada en él.
+
+[06:02] Y en la próxima sección, en el próximo video, lo que haremos será trabajar en el posicionamiento de nuestro menú, recordando que ese menú tiene que estar más o menos en esa área de nuestra página. Entonces, nos vemos en el próximo video. Chau, chau.

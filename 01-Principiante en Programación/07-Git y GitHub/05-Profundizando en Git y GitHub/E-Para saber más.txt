@@ -1,0 +1,17 @@
+Para saber más
+
+
+Para reforzar el contenido y seguir aprendiendo, tenemos algunos contenidos de apoyo.
+
+En estos artículos de Luzdalis López, además del paso a paso, hay algunos contenidos extras para profundizar aún más en el tema:
+
+Iniciando un repositorio con Git
+https://www.aluracursos.com/blog/iniciando-repositorio-con-git
+
+Creando un repositorio en GitHub
+https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github?utm_source=gnarus&utm_medium=timeline
+
+Clonando un repositorio con Git y GitHub
+https://www.aluracursos.com/blog/clonando-un-repositorio-remoto?utm_source=gnarus&utm_medium=timeline
+
+¡Buenos estudios!

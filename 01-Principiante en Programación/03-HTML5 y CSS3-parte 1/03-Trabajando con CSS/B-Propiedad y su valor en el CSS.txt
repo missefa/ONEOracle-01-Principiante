@@ -1,0 +1,19 @@
+Propiedad y su valor en el CSS
+
+
+¿Cuál es la sintaxis correcta para separar la propiedad y su valor en el CSS?
+
+a)
+El carácter "=" (text-align= center)
+
+
+b)
+El carácter "´;" (text-align; center)
+
+
+c)
+Alternativa correta
+
+El carácter ":" (text-align: center)
+
+¡Alternativa correcta! El carácter : sirve para atribuir un valor a una propiedad.

@@ -1,0 +1,62 @@
+Rehaciendo la página inicial
+
+
+[00:00] Okay, amigos y amigas, vamos a dar inicio a esta parte 4 de nuestro curso , en este módulo 4 de esta mini-formación que venimos trabajando, donde estamos construyendo la página web, el sitio web, de nuestra barbería Alura.
+
+[00:21] En el video de introducción vimos que lo que íbamos a trabajar es nuestra home, nuestra página principal, esta de aquí es la página actual, y vamos a trabajarla para dejarla con un toque más profesional, aplicando el header, el encabezado, y el footer que ya habíamos colocado en las otras páginas.
+
+[00:45] Vamos a mejorar el aspecto visual de nuestros textos, nuestros contenidos, colocando otro tipo de imágenes, otro tipo de input, superimportante para que sepan y conozcan la ubicación por ejemplo de nuestra página, mejorar la parte de nuestros diferenciales, y vamos a incrustar, colocar un video también para darle un toque más profesional y que llame más la atención de nuestro cliente.
+
+[01:21] Esta de aquí entonces es nuestra página actual y es la que vamos a ir trabajando poco a poco a lo largo de este módulo. Antes de iniciar, van a tener como siempre en la actividad de Preparando el Ambiente, van a poder descargar todo el módulo, toda la carpeta de archivos que trabajamos hasta el módulo anterior, hasta el curso 3, la parte 3.
+
+[01:49] Y bueno, como sabrán lo que tienen que hacer es ir a la descarga aquí o pueden usar también, si quieren usar su propia carpeta, si vienen acompañando todo el curso y quieren usar sus propios archivos, también pueden hacerlo sin ningún problema. De todas formas yo ya lo descargué aquí y lo que hacemos es importar nuevamente en nuestro Visual Studio Code.
+
+[02:13] Lo muestro esto, empezando desde cero, caso alguien se haya olvidado o nos recuerde cómo importar toda la carpeta en nuestro Visual Studio Code. Es supersencillo. Solo arrastramos y aquí ya nos abre todo el formato, toda la estructura de nuestra carpeta la tenemos en nuestro Visual Studio Code. Entonces, voy a cerrar incluso esto.
+
+[02:42] Esta es la estructura que teníamos con las páginas que ya veníamos trabajando. En el primer módulo construimos nuestro index, que es el formato actual que tenemos que vamos a trabajar, tenemos nuestros productos HTML que lo hicimos en nuestro segundo módulo y la página de contacto que la hicimos en nuestro tercer módulo.
+
+[03:04] Como les decía, ahora vamos a trabajar aquí en nuestro index.html. Analizando, ya entrando en la parte del código, vemos que la estructura de esta página no está con la estructura final de las otras que hemos venido trabajando. Aquí nuestro header está mucho más pobre, tiene menos cosas y también no tenemos un footer.
+
+[03:31] Por otro lado también no estamos llamando al reset.css que lo vimos en el módulo 2, que es el código que resetea todos esos efectos y estilos que vienen configurados por defecto en el navegador y es lo que haremos ahorita antes incluso de configurar las otras partes.
+
+[04:05] Entonces, lo que necesitamos hacer es por un lado vamos a configurar para dejar todo en el style.css, o sea vamos a reutilizar bastantes cosas que ya vimos en los anteriores módulos, que lo tenemos en el style.css, entonces nuestra referencia la cambiamos para style.css. El primer paso que veremos será alterar nuestras referencias.
+
+[04:35] Aquí en nuestro head, nuestra referencia al style es el style-home que lo habíamos creado. Sin embargo vamos a consolidar, centralizar todos los estilos en el archivo style.css. Entonces aquí borramos esa parte y dejamos la referencia al style.css.
+
+[04:57] Ahora, si vemos nuestras otras páginas también tenemos la referencia al reset.css, recordando que el reset es el archivo que nos resetea todos los estilos que vienen configurados por padrón, por defecto, por default, en el navegador. No nos olvidemos que tenemos que colocarlo antes de nuestro archivo style, entonces reseteamos y después colocamos todos los estilos que queremos colocar.
+
+[05:30] Perfecto. Si actualizo aquí y vuelvo a nuestra página, lógicamente que toda la configuración que teníamos se rompió, se perdió la referencia, porque toda la configuración inicial de esta página estaba en el style-home. Ahora estamos apuntando solo al style y aquí ya vemos que toda nuestra configuración fue perdida. Y lo que iremos a trabajar será todo el contenido mejorando para llegar a nuestra barbería, a nuestro producto final.
+
+[06:09] Entonces volvemos aquí a nuestro código. ¿Qué haremos aquí? Voy a dar un "Alt + Z" para que mi código aquí me aparezca completo. ¿Qué es lo que haremos? Si analizamos el contenido de nuestro header es bien diferente, nos falta bastante comparándolo con el header de nuestras otras páginas.
+
+[06:41] Y vamos a copiar, porque queremos repetir el header que básicamente es nuestro logo, y nuestro panel de navegación lo vamos a copiar, lo traemos en nuestra página index y lo sustituimos por el que ya tenemos. Vamos a actualizar, volvemos a nuestra página y aquí tenemos nuestro header que ya lo habíamos trabajado en la página de productos. Haremos lo mismo con nuestro footer, con nuestro pie de página.
+
+[07:16] Volvemos aquí a nuestro código, vamos al final, en realidad vamos a productos, copiamos nuestro footer y lo colocamos en nuestro index al final después de todas las div, antes del cierre del body. Queda dentro del body, es la última etiqueta antes de ese cierre. Guardamos, vamos a la página, actualizamos y ya tenemos aquí nuestro footer.
+
+[07:49] Ya trabajamos, colocamos nuestro header y nuestro footer, que fue prácticamente copiar y pegar lo que habíamos hecho. ¿Qué tenemos aquí? Hemos venido trabajando y conociendo las diferentes etiquetas de HTML que nos ayudan a estructurar en una forma semántica nuestra página web y una etiqueta principal que está faltando aquí es el main.
+
+[08:19] Entonces justamente tenemos el header, el footer, y recordando que el centro o el contenido principal de nuestra página tiene que estar en el main, entonces no tenemos ahorita la etiqueta main, la vamos a crear, y dentro de ella colocamos todos estos div que teníamos, que es el div del título y lo que habla sobre la barbería Alura y los diferenciales.
+
+[08:50] Entonces, agarramos esos dos bloques y los colocamos dentro de nuestra div. Fíjense que ya quedó con la identación correcta, aquí quitamos algunos espacios que están por demás. Perfecto. Guardamos, sí vamos a nuestra página y actualizamos.
+
+[09:26] Actualmente solo tenemos la actualización de centralizar el código, porque justamente tenemos una etiqueta que el main ya está siendo centralizado y como estamos apuntando ahora al style.css ya captura esa configuración. Vamos a volver aquí y lo que haremos ahora será estos div los usamos como divisores de contenido y justamente es lo que son.
+
+[09:56] La etiqueta div es para dividir el contenido y que quede mucho mejor para el mantenimiento o para que otra persona pueda entender qué es lo que estamos colocando en nuestra página, para separar los bloques de contenido. Sin embargo existe una etiqueta section, que ya la hemos usado llamada section, que lo que hace es separar nuestro contenido por secciones, pero de una forma semántica.
+
+[10:27] O sea, si colocamos section, le estamos diciendo a la página web de que ese bloque de contenido está referenciando, se trata de un contenido que está relacionado entre sí, y como esta primera div que tenemos aquí en nuestro main es todo nuestro bloque, es un bloque de contenido sobre la barbería Alura donde presentamos un breve concepto, nuestra misión y qué productos estamos y servicios ofreciendo.
+
+[11:02] Entonces vamos a cambiar esta div por una etiqueta section. Cambiamos aquí y también lo cambiamos en el cierre, recordando que la etiqueta section es una etiqueta de contenido va a abrir y cerrar. Hacemos lo mismo aquí en nuestros diferenciales. Entonces abre y cierra, verificamos si está todo okay, voy a guardar, volvemos, actualizamos y bueno, no tuvo ninguna alteración porque justamente lo único que hicimos fue alterar semánticamente la estructura de nuestra página.
+
+[11:50] Dejando con la etiqueta section, le estamos indicando en realidad al navegador de que estos bloques están relacionados entre sí y se trata de un asunto específico. Entonces ya tenemos el asunto inicial de la parte estructural de nuestra página, que es lo que vamos a trabajar a lo largo de este curso.
+
+[12:21] Se preguntarán: ¿Quedó super? Si la vemos, quedó todo totalmente desconfigurado, es lo que vamos a ir trabajando poco a poco a lo largo de este curso. Y bueno, otra cosa que se deben estar preguntando es: ¿Siempre va a ser así? ¿Siempre voy a tener que agarrar código antiguo y actualizarlo, copiar y pegar código de otra página o de otro proyecto que yo tenga?
+
+[12:52] Y bueno, la verdad que la vida de desarrollador, la vida de programador involucra bastante cambio. Como sabemos, la tecnología en sí evoluciona muy rápido y nosotros como desarrolladores no podemos quedarnos atrás. Tenemos que acompañar esa evolución y eso requiere que muchas veces nuestros proyectos, nuestros sistemas, nuestras páginas web que hemos construido tengan que ser actualizadas, tengan que ser mejoradas.
+
+[13:23] Entonces, tenemos que tener siempre en mente eso, crear esa conciencia de que tenemos que estar en constante cambio, en constante evolución, actualizándonos porque todos los días prácticamente aparecen nuevas features, nuevas funcionalidades que nos van a ayudar a mejorar nuestras páginas.
+
+[13:42] Y si nosotros nos cerramos a no mejorarlas, vamos a perder por un lado competitividad en el mercado y vamos a quedar rezagados como profesionales de desarrollo de páginas web o profesionales de desarrollo en general. Otro aspecto importante que nos va a obligar o siempre vamos a tener la oportunidad de actualizar nuestro contenido es cuando trabajamos para otros clientes desarrollando algunos proyectos.
+
+[14:17] El cliente siempre nos va a solicitar nuevas cosas, siempre nos va a pedir nuevas funcionalidades o simplemente fue, probó su página y no funcionó, o algunas cosas no fueron como fueron planteadas, no superó las expectativas por así decirlo. Y bueno, tenemos que estar siempre atentos a ese tipo de eventos y siempre ir mejorando nuestra página web.
+
+[14:49] Tenemos bastante contenido para ser desarrollado, y nos vemos en el próximo video donde ya comenzaremos a trabajar con el visual de nuestro bloque sobre la barbería Alura y el bloque de los diferenciales. Los veo pronto. Chau, chau.

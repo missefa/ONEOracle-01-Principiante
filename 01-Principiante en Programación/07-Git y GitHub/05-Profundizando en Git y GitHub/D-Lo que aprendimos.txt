@@ -1,0 +1,6 @@
+Lo que aprendimos
+
+
+git init
+Aprendimos una otra manera de crear nuestro repositorio;
+Hicimos un recorrido de todo lo visto durante el curso.

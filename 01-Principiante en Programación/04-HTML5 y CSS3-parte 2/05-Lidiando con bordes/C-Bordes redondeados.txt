@@ -1,0 +1,40 @@
+Bordes redondeados
+
+
+[00:00] Okay amigos, continuando con nuestro curso, en el anterior video lo que habíamos visto era cómo crear nuestros bordes y habíamos visto también cómo configurar el color, el tamaño y el estilo de los mismos. Lo que veremos ahora será el redondeo de estos bordes en las cuatro esquinas de nuestro paralelogramo.
+
+[00:23] Así se llaman las figuras que tienen cuatro vértices o cuatro ángulos de 90 grados, y recordando un poco nuestros cursos de matemática. Entonces, para redondear estas aristas, estos vértices, hay algunas estrategias, propiedades del propio CSS que vamos a aprender a usarlas.
+
+[00:48] Vamos a ver nuestra página modelo, que es esta de aquí, entonces nuestros bordes tienen que quedar con este comportamiento, con este visual, un visual de redondeo. Antes de entrar específicamente a nuestro código, a nuestro Visual Studio, antiguamente para tener este visual, este comportamiento, había que incluir imágenes, lo que daba mucho trabajo.
+
+[01:16] Entonces, a partir del CSS 3 incluyeron una configuración específica para trabajar con el redondeamiento de bordes. Pero para entender cómo funciona, voy a abrir aquí nuestro legendario Paint de Windows, para que entendamos cómo funciona ese redondeo.
+
+[01:38] Voy a hacer aquí una circunferencia y voy a definir un radio, recordando que el radio es la distancia que tenemos del centro de la circunferencia a cualquiera de los puntos del perímetro de la misma. Y este radio que es una distancia, es el radio de la circunferencia. Lo voy a dejar así abreviado. Y voy a dibujar un rectángulo simulando nuestro elemento de nuestra página.
+
+[02:14] ¿Qué significa redondear o cómo es que vamos a entender la lógica de redondeo? Con otro color voy a dibujar y graficar aquí una circunferencia y la voy a poner aquí en la esquina, lo más apegada a los bordes de nuestro rectángulo posible. Yo sé que no es una circunferencia perfecta pero lo que quiero es que entendamos únicamente el concepto.
+
+[02:41] Voy a dibujar más circunferencias de diferentes tamaños, una más pequeña y la vamos a poner aquí en el superior derecho, vamos a dibujar otra circunferencia un poco más grande, la vamos a poner en el inferior derecho y una más chica, voy a ver si lo puedo mover aquí, perfecto.
+
+[03:14] Entonces, pensando en el radio, en el tamaño del centro al perímetro, al borde de la circunferencia de cada una, esta es la más pequeña. Y no vamos a inventar unidades, vamos a colocarle pensando que esta fuera 5. Esta también va a tener su radio, y esta también va a tener su radio, y esta también va a tener su radio.
+
+[03:46] Nos estamos inventando números, recordando que estamos haciendo este ejercicio únicamente para entender el concepto de forma didáctica y dinámica. Entonces, esta es la más pequeña, después viene esta, a esta le vamos a poner que es 8, a esta la podemos poner que es 7, y esta que es la más grande, le vamos a poner 12 de circunferencia, en las unidades que ustedes quieran.
+
+[04:14] Pueden ser pixeles, pueden ser centímetros, milímetros, eso solo como ejemplo. ¿Qué es lo que hace el redondeo, que esto es lo que quiero que entendamos? El redondeo es como si viniera un borrador, fíjense que he seleccionado el borrador, voy a subirle aquí un poco el tamaño, es como si nuestro borrador viniera y borrara las puntas, entonces queda ese efecto de redondeo.
+
+[04:39] Es como si borrara esta punta, es como si borrara esta punta, este vértice. Es como si borrara este otro. Entonces, fíjense que a medida que más pequeño es el radio, más pequeña es mi circunferencia, más pequeño va a ser el borde que yo decida obtener al aplicar nuestra configuración.
+
+[05:08] Y este de aquí, cuanto mayor, cuanto más grande es nuestra circunferencia, bueno, ese borde redondeado también será mucho más grande. Y es así como trabaja el CSS3 en nuestros estilos para redondear los elementos. Para ello, tenemos, voy a ir a nuestro Visual Studio, tenemos una propiedad que se llama border-radius. Border-radius. Y aquí definimos en pixeles.
+
+[05:45] Pero también tengo las propiedades para configurar cada una de las aristas, cada una de las esquinas de nuestro rectángulo. Entonces, por ejemplo, puedo decirle borde superior, y aquí, fíjense que me aparece el radio del borde superior izquierdo, a ese le vamos a poner 10 pixeles, solo como ejemplo ahorita para entender.
+
+[06:16] También tengo el border-top, en este caso sería right-radius, el derecho. Le voy a poner 25 pixeles. También tenemos ahora el border-bottom-right, el derecho, le voy a poner 40 pixeles. Y también tenemos el border-bottom-left, ya a este le vamos a poner 50 pixeles.
+
+[06:48] Voy a actualizar, voy a guardar, mejor dicho, vamos a nuestra página, actualizo aquí, y fíjense que cada uno tiene un borde redondeado de tamaño diferente. Ahora también, puedo trabajar directamente con el border-radius y configurarlos todos aquí en la misma línea, recordando que va en orden, comenzando por el borde superior izquierdo, en orden sentido del reloj.
+
+[07:29] 10, 25, sería el superior derecho. Inferior derecho 40, inferior izquierdo 50. Punto y coma. Podemos borrar esto y tendría que tener exactamente el mismo efecto que habíamos hecho. Actualizo y lo tenemos aquí. Pero viendo nuestra página final, aquí nuestra página modelo, solo tenemos los bordes pequeños que son de 10 pixeles. El radio de 10 pixeles.
+
+[08:10] Vamos a dejarlos para todos uno solo, no necesito repetirlos, solo los coloco cuando quiero diferentes, si identifico y coloco solo uno, significa que es para todos. Guardamos. Vamos aquí, actualizamos y ahora tenemos el borde redondeado tal cual está en nuestra página modelo.
+
+[08:30] Entonces amigos, hemos aprendido a colocar los bordes. Hicimos cuestión de explicar el concepto para que entendamos cómo es que funciona ese número que se configura y así podamos obtener los visuales que deseamos y que nos son demandados como programadores, los diseñadores web.
+
+[08:55] En la próxima sección, en la próxima aula, lo que veremos serán los efectos que tenemos en nuestra página modelo, estos ejemplos de cuando me posiciono, también aquí, en nuestro menú, así que nos vemos en la próxima aula. Chau, chau.

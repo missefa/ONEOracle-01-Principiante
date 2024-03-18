@@ -1,0 +1,47 @@
+Genera un número aleatorio
+
+Ok Leo, excelente. Entonces, ya estamos empezando a desarrollar de una forma más profesional nuestro sistema aquí, nuestro juego del número secreto. En el curso anterior hicimos algo interesante que es generar ese número aleatorio o pseudoaleatorio a través de funciones matemáticas que nos proporciona el propio Javascript, ¿no? Así es.
+
+¿Será que podemos crear una función para generar el número aleatorio? Perfecto Luis. Sí, es importante que usemos el concepto de función porque la forma que hicimos en el curso inicial, hicimos la asignación directa a la variable solo que con este concepto de función podríamos incluso aplicar ese número pseudoaleatorio a otras operaciones. No solo usarlo Javascript, podríamos agregar cualquier otra.
+
+Imaginemos que queremos definir un rango diferente o mover el rango en lugar de 0 a 10, de 10 a 20. Todo eso iría encapsulado en esa función, a diferencia de lo que hicimos anteriormente. Entonces vamos a ello. Vamos a crear ese bloque de código. Para ello vamos a darle un nombre explícito.
+
+Y aquí voy a aprovechar de mostrar que Visual Studio tiene algunos atajos interesantes. Yo solo escribo Función y miren que ya Visual Studio me deja algunas opciones y si yo hago clic en la segunda opción de Función Estatement o Cuerpo de la Función, vean de que ya me genera la anatomía. ¿Ok? Donde dice nombre vamos a colocar el nombre que queremos. En este caso será GenerarNúmeroSecreto. No vamos a usar parámetros por ahora.
+
+Y vamos a usar un concepto de función que comentamos anteriormente, que es el de poder retornar un valor. Hasta ahora nuestras funciones, ¿qué hacen? De intentar al usuario, por ahora solo mostrando leer, de asignar texto, recibe parámetros, ella es genérica, pero no retorna nada. ¿Sí?
+
+Incluso yo podría aquí, en esta función, colocar esta palabra que vamos a ver nuevamente, por hoy, que vamos a estar viendo ahora mismo como una palabra nueva, que es return, que es el de retorno de la función, ella no retorna nada. En esta función de GenerarNúmeroSecreto sí vamos a retornar. Vamos a retornar el número secreto. ¿Ok?
+
+Ok. Entonces yo puedo definir... Pero en la función de asignar texto elemento, lo colocaste por ser una buena práctica, ¿no? Sí. Por mostrar de que es normal, es común que una función retorne alguna cosa. ¿No es obligatorio o no significa que una función que no retorna nada esté incorrecta? No, no significa ello. Pero yo les sugiero que siempre coloquemos el retorno. Ok. Perfecto.
+
+Para buena práctica, y espero que me fiscalice aquí en adelante, voy a colocar aquí también el return. Ok. Perfecto. En el caso de GenerarNúmeroAleatorio, vamos a definir una variable, vamos a hacerlo en pasos. Vamos a decir let NúmeroSecreto. Sí.
+
+Dijimos que la forma en que creamos ayer era usando la librería Math de JavaScript, Math.random(). Sí. Y esto lo multiplicábamos por el número máximo, en este caso estamos hablando de 10, dijimos que era hasta 10. Ok. Eso obteníamos la parte entera de ello, recordando que eso retorna un número decimal. Ok. Entonces encerramos esto entre paréntesis y llamamos al método Math.floor para retornar solo la parte decimal. Y finalizamos con el más 1. Correcto. Para ir de 1 a 10.
+
+Y ahora ese número que está ahí generado, lo retornamos. Y en lugar de colocar el punto y coma directamente, decimos el nombre de la variable que queremos retornar. NúmeroSecreto. Ok. Y de esta forma ya estaríamos retornando el número secreto. Perfecto.
+
+Retornar, ¿no? Significa que cuando ejecutemos la función GenerarNúmeroSecreto, nos va a retornar un valor. Así es. Nos está devolviendo un entero, en este caso, que es nuestro número secreto sorteado o aleatorio generado por la máquina. Tal cual.
+
+Ahora mismo, entonces, ahora sí podemos, nosotros aquí arriba, tener una variable que se llame NúmeroSecreto. Sí. Igual, ¿a quién? A la función. Ok. Aquí voy a hacer una pregunta que puede generar muchas dudas.
+
+Código completo:
+
+function GenerarNumeroSecreto() {
+  let numeroSecreto = Math.floor(Math.random() * 10) + 1;
+  return numeroSecreto;
+}
+
+let numeroSecreto = GenerarNumeroSecreto();
+
+¿Puedo tener, no, y tengo NúmeroSecreto fuera de mis funciones y tengo el mismo nombre NúmeroSecreto dentro de mi función? Lo hice a propósito para mostrar que existe algo llamado alcance o ámbito de la variable. Ok.
+
+La variable NúmeroSecreto aquí es de ámbito o alcance global. En el caso de la que está en la función, es una variable de ámbito o alcance de bloque. Está solo interna. Ok. Solo lo hice para demostrar, pero no es recomendable que lo hagamos porque tiende a confundir. Entonces vamos a corregirlo. Ok.
+
+Dejamos NúmeroSecreto aquí. Y ahora, yo en lugar de tener una variable para ello, simplemente hago return de ello. No necesito crear una variable. No necesitamos crear una variable. Perfecto. Ok. Hacemos esto. Incluso aquí puedo hacer un console.log para ver que está funcionando. Para ver que está funcionando. Ok. Veamos.
+
+Hicimos console.log y NúmeroSecreto. Guardamos y vamos al navegador. Ahí vamos al navegador. Voy a abrir la consola y efectivamente ya está creando el NúmeroSecreto. Si yo recargo aquí, vean que está cambiando. 10, ahora es 8, ahora es 8, ahora es 2. Perfecto.
+
+Para las personas distraídas, ¿qué tecla presionaste para la consola, Leo? F12. F12. F12. La tecla rápida. El atajo rápido. O podemos venir aquí a los tres puntitos, más herramientas y herramientas para desarrolladores y desarrolladoras. Excelente.
+
+Entonces, lo que prácticamente ahora nos está funcionando es que en cada actualización nos está generando un... Un nuevo número. Un nuevo número. Aún no está conectada con nuestro botón intentar. No. Aún no hemos hecho nada de eso. Pero eso ya es motivo para los próximos videos. Así es.
+

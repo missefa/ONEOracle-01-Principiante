@@ -1,0 +1,19 @@
+Selects y options
+
+
+En el último video, se vio la etiqueta <option>. ¿Cuál es su utilidad?
+
+
+a)
+Para que el usuario pueda seleccionar las opciones que no quiere
+
+
+b)
+Para seleccionar las opciones de un radio input
+
+
+c)
+Alternativa correta
+Para crear los ítems seleccionables de un <select>
+
+¡Alternativa correcta! La estructura de la etiqueta <select> está compuesta de uno o más <option>.

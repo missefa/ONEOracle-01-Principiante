@@ -1,0 +1,50 @@
+Definiendo texto
+
+
+[00:00] Hola, amigos y amigas, sean ustedes bienvenidos a esta primer aula de nuestro curso de HTML la versión 5, como lo explicamos en la introducción, y CSS 3, en el cual vamos a aprender a construir una página web desde cero.
+
+[00:18] Vamos a comenzar analizando el texto que vamos a tener en nuestra página web. Para ello van a tener un link disponible donde van a poder descargar esta carpetita que va a tener un texto base que es el texto de nuestra página, de nuestra barbería, que lo vimos en la introducción. Este es el texto. Para ello yo lo copié, para que lo analicemos mejor, aquí en un Word.
+
+[00:46] Aquí ya podemos ver que tenemos el título de nuestra página. Para ello le voy a darle aquí una formatación, un tamaño más grande a nuestro título. Tenemos tres párrafos en nuestro texto de la descripción y presentación en este caso de nuestra barbería. Y lo mismo, vamos a continuar dándole algunos formatos. Entonces, por ejemplo esto lo podemos pintar aquí en negrito.
+
+[01:18] Y la misión que aquí está en el segundo párrafo, nuestra misión es proporcionar autoestima y calidad de vida a nuestros clientes, entonces también la voy a pintar de negrito. Incluso le voy a dar un itálico para que se vea mejor. Entonces, de esta manera nuestra página web ya va a tener un texto mejor y mucho más legible y entendible que presentarlo así en el txt.
+
+[01:50] Ahora, para realizar nuestra página web necesitamos usar un editor de texto. En el mercado pueden encontrar varios tipos de editores de texto o de IDE, en nuestro caso vamos a utilizar el Visual Studio Code. El Visual Studio Code es un software que nos ayuda a construir programas, a construir sistemas, y facilita bastante porque ya tiene cargada las funciones y todos los comandos de los principales códigos de programación, de los principales lenguajes de programación.
+
+[02:40] Entonces vamos a usar en este caso el Visual Studio Code en este curso específico para realizar el código, elaborar todo el código de nuestra página web, el HTML y nuestro CSS en este caso.
+
+[02:57] Lo encuentran en todas las versiones disponibles, tanto para Mac, Windows, como para Linux también, ya sea en Windows 32, 64 bits. Es solo descargar y continuar con todos los pasos de instalación. Es supersimple, no hay ningún secreto. Si gustan también pueden trabajar con Atom IDE, es otro bastante famoso y conocido en el mercado. Lo mismo, tiene la misma funcionalidad.
+
+[03:32] O también pueden trabajar con Sublime Text 3, que de la misma forma es otro programa que está disponible en el mercado. Hay en las versiones en todas las plataformas, en todos los sistemas operativos y también lo pueden encontrar en forma gratuita cualquiera de los tres. En mi caso yo ya tengo o acostumbro trabajar con Visual Studio, entonces vamos a trabajar exclusivamente con este programa.
+
+[04:02] Ya lo tengo descargado e instalado. Lo que hago aquí es abrirlo, entonces aquí está mi programa y voy a abrir un nuevo archivo, new file. Entonces lo primero que haré es copiar en mi Word, que lo tengo formateado, aquí. Aquí fíjense que no me está quebrando el texto, para navegar tendría que venirme hasta aquí.
+
+[04:31] Eso lo puedo configurar aquí en view, appearance no, aquí: Toggle Word Wrap o "Alt + Z", entonces ya me coloca el texto y lo puedo ver. Entonces aquí tengo mi primer párrafo, mi segundo párrafo y mi tercer párrafo. Lo primero que haré va a ser guardar este archivito, save as, un minuto, aquí voy a copiar esta dirección para poderlo guardar en el lugar donde quiero guardarlo.
+
+[05:25] Y le voy a poner de título index.html. Muy importante respetar el punto HTML que es la extensión de nuestro archivo. Esto quiere decir que es una página web. Ya lo guardé aquí, y si yo voy a la carpeta fíjense que me aparece con el símbolo de Chrome, porque en este caso yo tengo el navegador Chrome como defecto para abrir páginas web.
+
+[05:53] Si yo doy doble clic, me va a aparecer aquí el texto. Pero fíjense algo interesante que pasó. Primero, no sabe en este caso nuestro navegador que antes de la misión, aquí en este punto aparte, hay otro párrafo. Y aquí, después de nuestra misión, hay otro párrafo.
+
+[06:18] De la misma forma no respetó en este caso el negrito que habíamos colocado en Barbería Alura y el negrito e itálico que habíamos colocado en nuestra misión. Entonces, en realidad, ya nuestro editor de texto no reconoció esas formataciones. Entonces, nuestra página web en este caso que está haciendo lectura el navegador de este código, también no lo reconoció.
+
+[06:45] ¿Por qué? Porque necesitamos usar HTML, etiquetas de HTML para identificar qué contenido le estamos pasando en este caso al navegador a nuestra página web. Entonces, reforzando lo que lo que usamos son etiquetas de HTML. HTML significa Hyper Text Markup Language, que en español sería como lenguaje de marcación de textos.
+
+[07:32] Entonces, yo marco el texto diciéndole de qué se trata y existen diferentes marcadores o tags, en inglés, tags, sin embargo en español se conocen mucho como etiquetas. Van a escuchar algunas personas, programadores que los llaman tags.
+
+[07:56] En mi caso yo los voy a llamar como etiquetas, pero tanto en referencias bibliográficas como en otros videos los pueden escuchar otros autores, otros instructores, que se refieran como tags o como marcadores también. Hay diferentes marcadores. Uno de ellos es para decirle que se trata de un título, habíamos dicho que este es nuestro título, el título de nuestra página, hay un marcador que es la H.
+
+[08:28] Solo que para indicarle que es un marcador, yo necesito comenzar con un símbolo menor, y nuestra H va entre un símbolo menor y finalizando con un símbolo mayor. Aquí me autocompletó pero al momento lo voy a borrar para continuar con nuestra explicación.
+
+[08:51] Entonces aquí, cuando yo coloco una H, le estoy diciendo el texto que va a venir luego de esta etiqueta va a ser un título, y H viene de head en inglés que vendría a ser título. Y yo tengo hasta seis niveles de títulos para marcar un texto en HTML, para indicarle que es un título.
+
+[09:17] En cualquier texto podrán ver que tenemos título principal, título secundario, subtítulos, después subtítulo del subtítulo, en fin. HTML también nos da esa libertad y nos da hasta seis niveles. Entonces como este es nuestro título principal le vamos a poner H1. Y para indicar que son párrafos, vamos a usar la etiqueta P.
+
+[09:49] Que lo mismo, párrafo viene del inglés paragraph, y vamos a indicarle que aquí tenemos otro párrafo, aquí tenemos otro párrafo y listo. Le estoy borrando porque ahorita vamos a explicar que HTML no sabe que este head, que este título comienza aquí y dónde termina. Yo tengo que decirle que termina después de la finalización del texto, entonces todo esto se trata mi H1.
+
+[10:29] Lo mismo tengo que hacer con los párrafos. Las etiquetas de contenido, como tienen contenido, tienen que abrir y cerrar en este caso cada etiqueta, entonces es una abertura, una P que abre y una P que cierra, y replico eso para todos los casos. Fíjense la ventaja de usar un IDE, en este caso nuestro Visual Studio Code, es que él me autocompleta.
+
+[10:59] Entonces cuando yo ya coloco el signo menor y una barra, automáticamente me autocompleta la P. Incluso vieron al inicio que cuando coloco P y cierro y él me coloca los dos, y se posiciona en el medio para que yo pueda escribir en una forma más rápida. Claro que ahora con fines explicativos y académicos lo borré para indicarles que teníamos que iniciar y cerrar siempre con una etiqueta.
+
+[11:25] Entonces, voy a guardar como guardo aquí mi archivo, viniendo aquí a file, save, o también puedo apretar "Ctrl + S". Vuelvo a mi página, al index.html, y aquí le doy actualizar o cargar nuevamente la página. Y fíjense que ya vino con el primer título en H1 y después ya nos separó los párrafos.
+
+[11:53] Entonces hemos visto las primeras, hemos creado nuestras primeras etiquetas de HTML, creamos nuestro archivo index.html y en el siguiente video vamos a ver cómo colocarle los formatos que habíamos definido en el Word. Nos vemos de aquí a poco. Gracias.

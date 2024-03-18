@@ -1,0 +1,35 @@
+Encabezado
+
+
+[00:00] Okay amigos y amigas, continuando con nuestro curso de HTML y CSS donde estamos construyendo una página web de cero. Estamos ya en la última aula. En la anterior lo que habíamos visto era cómo colocar una imagen aquí en diferenciales, aprendimos a usar las listas, a usar algunas otras propiedades como el padding y fuimos estructurando nuestra página de una forma visual mucho mejor.
+
+[00:36] Y prácticamente ya estamos llegando a la recta final de esta primer parte de nuestro curso. Lo que haremos ahora es colocar un encabezado, o sea un título principal antes de la primera imagen. Para ello vamos a ir a nuestro código, y dentro del body, antes de la imagen, vamos a crear otro div, otro divisor, otro bloque.
+
+[01:02] Y dentro de ese bloque vamos a colocar el nombre de nuestra barbería que será nuestro encabezado. Vamos a guardar, volvemos a nuestra página, actualizamos y aquí tenemos nuestra Barbería Alura. Lógico que le está faltando formato y tamaño a este nuestro título principal en este caso.
+
+[01:27] Y para eso podemos usar los H1, que son los de los título. Solo que a partir de HTML 5, la versión 5 que es la que estamos usando, tenemos una etiqueta que se refiere únicamente al encabezado que es la etiqueta ID que vamos a colocar. Header. Que esta etiqueta hace referencia en este caso a nuestro encabezado principal.
+
+[02:04] No la vamos a confundir con la etiqueta head, que divide en este caso nuestra página en dos superbloques que vendría a ser el head con las etiquetas informativas y la etiqueta body con las etiquetas de contenido. Entonces, en este caso es header. Y para darle destaque vamos a usar los H1.
+
+[02:27] Solo que nuestro H1 ya está siendo usado aquí en el título sobre la barbería, entonces vamos a alterar este para H2, el siguiente diferencial lo vamos a alterar para H3, y si ya lo tenemos liberado el H1 para colocarlo aquí en la barbería. Voy a cortar esto y pegarlo de nuevo aquí. Vamos a actualizar, vuelvo a nuestra página, actualizo y fíjense que perdí un poco de la formatación que tenía.
+
+[03:07] Primero, no lo quería colocar al centro y este diferenciales estaba centralizado, se vino aquí a un costado. ¿Y eso por qué? Porque si vamos y analizamos nuestro código qué es lo que está pasando con nuestro código, estoy diciendo que el H1 va al centro, el H2 también va al centro y ya no tengo etiqueta para H3.
+
+[03:37] Y eso pasó porque usé el nombre de nuestras etiquetas para hacerlas en este caso los formatos de nuestro CSS sino para hacer los selectores de CSS y esa no es una buena práctica, no es la manera correcta de trabajar con CSS y HTML. Lo recomendable por eso es siempre usar clases y si analizamos en nuestro style, fíjense que lo que tenemos tanto en el H1 como en el H2 es un alineado de texto al centro.
+
+[04:12] Ahora, recordando que este H1 ya no es más el H1 que antes teníamos, es el H2. Entonces, como hacen la misma actividad, voy a alterar, voy a crear una regla para los heat, los H2 y H3, voy a crear una clase aquí en nuestro H2 y esa clase la voy a llamar título centralizado, porque este título va a estar centralizado al igual que mi H3.
+
+[04:51] Entonces de esa manera voy a poder reaprovechar mi código, no voy a tener que repetir. Vengo aquí a mi style, el H2 lo puedo eliminar, ya no lo necesito y en este caso el H1 lo voy a cambiar para título centralizado. Recordando que tengo que usar aquí el punto porque es un selector de clase.
+
+[05:21] Solo para cerciorarme que el nombre está correcto, voy a copiar y pegarlo aquí. Entonces, voy a actualizar, vamos a nuestra página y nuestro título tendría que arreglarse. Perfecto. Nuestro título está al centro y nuestro diferencial está bien al centro.
+
+[05:48] Ahora, vamos a darle un pequeño espacio, un margen entre nuestro encabezado y el borde izquierdo. Para ello vamos a crear primeramente una clase, para poderlo seleccionar, ya no voy a usar el H1 porque dijimos que no es una buena práctica. Entonces vamos a crear una clase que se llame título principal.
+
+[06:22] Me voy a llevar este título principal a nuestro style, este body ya no lo necesito y voy a seleccionar mi clase con el selector de clase que es el punto y voy a usar padding-left, que en este caso es espaciamiento interno de la izquierda y vamos a darle 30 píxeles. Voy a volver aquí un poco, guardamos y volvemos a nuestra página. Perfecto.
+
+[06:59] Perfecto. Entonces, amigos y amigas, con esto hemos concluido nuestro curso. Hemos construido una página web desde cero explicando paso a paso cada uno de los elementos básicos que necesitamos para construir.
+
+[07:22] En esta última aula en específico vimos lo que es el encabezamiento de nuestra Barbería Alura, le dimos un formato y también vimos lo importante que es usar las clases, en este caso en las etiquetas, para no correr el riesgo de tener problemas en posteriores cambios, porque puede existir que tengamos que alterar el nombre de las etiquetas como lo hicimos en nuestro código, y para no tener ese problema es mucho mejor usar las clases.
+
+[08:01] Entonces hemos llegado al final, espero les haya gustado. Hagan los ejercicios que tenemos en la plataforma, diríjanse al foro caso tengan alguna duda y nos vemos en alguna otra oportunidad en el próximo curso. Gracias.
+

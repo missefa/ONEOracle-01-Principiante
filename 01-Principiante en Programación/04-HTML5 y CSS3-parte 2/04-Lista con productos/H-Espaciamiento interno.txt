@@ -1,0 +1,25 @@
+Espaciamiento interno
+
+
+¿Cuál es el comportamiento del elemento cuando agrego espaciamiento interno, el padding?
+
+
+a)
+Alternativa incorreta
+El elemento aumenta su tamaño, hasta un límite de 20%.
+
+¡Alternativa Incorrecta! No existe límite para el tamaño del elemento. Si yo agrego un padding de 2000px, el elemento va aumentar para contemplar esa declaración.
+
+
+b)
+Alternativa incorreta
+El elemento comprime el contenido, manteniendo la largura.
+
+¡Alternativa Incorrecta! El elemento aumenta su largura, ya que el tamaño queda mayor. A no ser que la propiedad box-sizing tenga el valor border-box`.
+
+
+c)
+Alternativa correta
+El elemento aumenta su tamaño.
+
+¡Alternativa Correcta! El elemento aumenta su tamaño. Cuando declaro que existe un espaciamiento interno, estoy aumentando el contenido.

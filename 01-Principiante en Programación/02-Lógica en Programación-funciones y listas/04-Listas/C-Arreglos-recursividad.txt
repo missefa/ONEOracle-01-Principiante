@@ -1,0 +1,54 @@
+Arreglos: Recursividad
+
+
+Bueno, Leo, ya hemos visto los conceptos importantes de arrays (arreglos). Incluso hicimos bastantes pruebas utilizando la consola del desarrollador para entender los conceptos, cómo utilizarlos, cómo usar el índice, etcétera, ¿verdad? Ahora necesitamos implementar este concepto en nuestro juego.
+
+Así es. Hemos estado trabajando en la importancia de trabajar con funciones. La idea aquí es que ese número secreto se genera a través de una función. Ahora tengo un proceso adicional, que es el de verificar si el número ha sido sorteado o no. Y para ello, vamos a la función, donde ya me detuve en el código, para realizar los cambios necesarios.
+
+Lo primero que vamos a hacer es, en las primeras líneas de nuestro código, declarar la lista. Y como vimos en nuestro video anterior, vamos a crear una lista de números sorteados. Lista, Números, Números sorteados. Perfecto.
+
+El objetivo de esta lista es almacenar cada uno de los números, para que podamos preguntar en cada nuevo sorteo si este número fue sorteado, sí o no. Sí o no. Si ya fue sorteado, no volver a jugarlo.
+
+Mirad que ya dejé la lista inicializada en vacío. Ahora vamos a ir a la función donde generamos ese número y vamos a almacenarlo allí. Con lo que ya sabemos hacer, que es método push para almacenar al final. El tamaño de la lista que puede ser útil en algún momento determinado. Y vamos a ver un nuevo método.
+
+Vamos a verificar un poco qué es lo que queremos hacer. Vamos a declarar, en lugar de retornar el valor ya, lo colocamos en un número. Entonces colocamos NúmeroGenerado.
+
+NúmeroGenerado, ¿está en la lista? ¿Cómo comprobamos esto? Entonces, tenemos que hacer algo como lo siguiente. Es decir, si el NúmeroGenerado está en la lista, yo hago algo. Si no, me comporto como lo he estado haciendo. Lo que significa que si el número no está generado, puedo jugar.
+
+Perfecto. ¿Qué te parece si escribimos esa frase que me gustó bastante como comentarios?
+
+Entonces vamos a ponerlo como comentarios. Dijimos que si el NúmeroGenerado está incluido en la lista, hacemos una operación. Si no, hacemos otra.
+
+Esto es una condición. Hablando de if, palabra reservada. Nuestra anatomía de una condición siempre es la palabra reservada. if, paréntesis, el bloque del código que vamos a hacer cuando se ejecuta.
+
+¿Cómo sabemos si está incluido o no? Podemos usar un método de JavaScript que se llama includes. Este método verifica si en la lista ya está registrado ese valor que vamos a pasar como parámetro. En este caso será listaNumerosSorteados.
+
+El método include recorre todo nuestro arreglo y verifica si algo ya existe. Por lo tanto nos devuelve un booleano. Si es true o false.
+
+Y recibe como parámetro el valor a verificar. Que en este caso será NúmeroGenerado.
+
+Entonces si el número ya existe en la lista, vamos a tener que hacer algo que ya explicaremos. Si no, retornamos ya el valor que fue generado. Porque no existe en la lista. Se puede jugar. Entonces hacemos un return de NúmeroGenerado.
+
+Adicionalmente, cuando el NúmeroGenerado va a ser jugado, deberíamos guardarlo en la lista para que no vuelva a salir. En la próxima jugada yo ya debería verificarlo nuevamente.
+
+Así es. Aquí aprovechamos ese método que mencionábamos, el método push. El de empujar, de colocar ese elemento al final. Entonces hacemos push del elemento NúmeroGenerado.
+
+Ahora, ¿qué nos pasa cuando el número ya existe? ¿Qué deberíamos hacer?
+
+Cuando el número ya existe en la lista, ¿qué deberíamos hacer? Deberíamos generar otro. Y para eso, ¿qué hacemos? ¿Creamos una nueva función que genere un nuevo número? ¿O usamos la misma función que ya tenemos? Idealmente, tendríamos que usar la misma función porque ya contamos con la función generarNumeroSecreto, ¿cierto? No me parece eficiente salir de esta función, crear otra función, sobre todo considerando que es el primer juego. Imagina, tendríamos que crear cien funciones si quisieramos jugar cien veces. Y no sabemos cuántos números vamos a usar. Si dejamos cien funciones, estamos limitando el juego a cien rondas. Y si quisiéramos jugar mil o diez mil veces, entonces no sería posible.
+
+Aquí es donde entra el concepto de recursividad. Esta permite que la función se llame a sí misma porque puede generar un resultado válido en una nueva ejecución. Así, se llama a sí misma, que ya tiene toda la lógica, internamente generará un nuevo número, verificará si ya existe, y continuará con el proceso. Nos devolverá el número correcto cuando sea un número que no haya sido sorteado.
+
+Entonces, vamos a llamar a la misma función, solo que agregamos la palabra return para que el valor sea devuelto, ¿de acuerdo? Llamamos a la misma función que se llama generarNumeroSecreto.
+
+Imagina, llegamos aquí, tú dijiste vamos a explicar un poco el concepto. Imaginemos que tenemos una lista con el valor 5. Generamos un valor, el primero fue 5. Entonces, en la siguiente ronda, genera otro 5. Y ahí entra... En la línea 39, dirá que 5 ya está en la lista. Entonces, la función se llama nuevamente. En la siguiente ronda probablemente no será 5, porque eso está basado en tiempo. Entonces, generará otro número. Imaginemos que sea 8. ¿8 está en la lista? No. Lo agrega y sale. Y así para cada una de las cosas.
+
+Siempre que genere un número existente en la lista, entra en la recursividad, ¿no? Que es llamarse a sí misma para generar un número aleatorio. Y eso es lo importante de la recursividad, es poder reutilizar la funcionalidad que ya tenemos hecha. Porque si no, nos crea un problema complejo muy grande que es tener que crear N funciones para poder cumplir con nuestro objetivo.
+
+Y al tener un tamaño que no está definido, en nuestro caso, creo que ni siquiera podríamos llegar a tener un juego que sea realmente completo, porque lo limitaríamos a un valor máximo.
+
+Ahora, vamos a probar. Vamos a nuestro archivo aquí. Ahora voy a generar un... Voy a jugar. Vamos a colocar aquí cinco. Me faltó colocar unos console.log. Si no, no voy a mostrar la evolución de la lista. Antes de seguir avanzando, vamos a colocar aquí un console.log para mostrar el número generado y para ver cómo la lista evoluciona y crece. Guardamos. Volvemos aquí nuevamente.
+
+Ahora vemos. Se generó un nuevo número. Nueve. La lista está vacía. Voy a colocar ocho para ver qué... Me dice que es mayor. Colocó nueve. Voy a jugar nuevamente. La lista ahora tiene nueve. El número que se eligió fue cuatro. Voy a jugar rápidamente para avanzar en los juegos. Cuatro me dice que fue de una vez. Nuevo juego. Ahora el número es dos. Intentamos. Nuevo juego. Y mira, no está sorteando un nuevo número repetido. Siempre está generando un nuevo número. Intentamos. Nuevo juego. Llegó a cinco. Intentamos. Nuevo juego. No se están repitiendo los números. Nuestro algoritmo está funcionando correctamente. Intentamos. Nuevo juego. Ahora es el uno. ¿Qué número nos queda?
+
+Nos quedan... Aquí hacemos una pausa y vamos a ver. Nos queda el tres, el ocho y el seis. Entonces aquí es seis. Intentamos. Nuevo juego. El tres. Intentamos. Nuevo juego. El ocho. Intentamos. Nuevo juego. Y oye, ¿qué está sucediendo allí? Se bloqueó. Parece que no hay más números. Completamos. Porque estamos generando números entre uno y diez y con nuestra recursividad ya hemos llamado diez veces a la misma función. Llega un momento en el que no sabe qué hacer porque no encuentra un nuevo número. Entonces, empieza a intentar ejecutar una y otra vez. Llega un punto en que JavaScript dice, no puedo. No puedo porque te has llamado tantas veces que creo que tienes un problema en tu función. Ok. Eso nos perjudica la recursividad. Por lo tanto, hay que tener cuidado al usarla y saber cuándo romper ese ciclo. Esto se llama la condición de salida. Hay que tener mucho cuidado con la condición de salida para que no nos pase lo que nos pasó aquí. Dejamos una recursividad donde en algún momento no hay condición de salida. Ok. ¿Y cómo resolvemos eso? En el próximo vídeo. Excelente.

@@ -1,0 +1,17 @@
+Creando filas en una tabla
+
+
+¿Qué etiqueta uso para crear filas en una tabla?
+
+a)
+Alternativa correta
+<tr>
+
+¡Alternativa correcta! Utilizamos la etiqueta <tr> para marcar la fila de una tabla.
+
+b)
+<td>
+
+
+c)
+<table>

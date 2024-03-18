@@ -1,0 +1,23 @@
+Estilo en cascada
+
+
+¿Cómo funciona el estilo en cascada en el CSS?
+
+
+a)
+Solo algunas propiedades de los elementos hijos reflejan en el elemento padre, y viceversa.
+
+
+b)
+Alternativa correta
+
+Todo lo que adicionamos en el elemento padre es reflejado en los elementos hijos.
+
+¡Alternativa correcta! Su nombre lo dice Cascade Sheet Style (Hojas de estilo en cascada), por lo tanto, a medida que la cascada va descendiendo, todo aquello que hacemos en el elemento padre, refleja en el elemento hijo.
+
+
+c)
+Todo lo que adicionamos en el elemento hijo es reflejado en los elementos del padre.
+
+
+¡Enhorabuena, has acertado!

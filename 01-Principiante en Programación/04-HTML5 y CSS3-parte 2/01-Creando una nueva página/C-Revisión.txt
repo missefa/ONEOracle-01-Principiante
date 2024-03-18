@@ -1,0 +1,33 @@
+Revisión
+
+
+[00:00] Okay, amigos y amigas, antes de arrancar con nuestro curso de HTML 5 y CSS 3 en esta segunda parte, lo primero que haremos será revisar, recordar qué fue lo que hicimos en la primera parte. Vamos a hacer un breve resumen.
+
+[00:18] Donde habíamos visto, habíamos construido la estructura inicial de nuestra página, aprendimos a colocar imágenes, colocamos aquí nuestro banner que básicamente ocupa el 100% la anchura de nuestra página, 100% el ancho de nuestra página, es la cara inicial de nuestra página web de nuestra Barbería Alura. También, habíamos colocado otra imagen de los diferenciales.
+
+[00:45] Aprendimos a usar elementos de HTML, etiquetas de HTML, aprendimos desde lo básico, desde la definición de lo que era HTML, y cómo dar estilos, cómo mejorar el visual de nuestra página, y configurar ese visual usando el CSS, donde explicamos que en el HTML estamos en la versión 5, que por eso nuestro curso se llama HTML 5.
+
+[01:15] Y en el CSS estamos en la versión 3 de estas etiquetas para marcar los estilos y el visual de nuestra página. Vimos en la primera parte, aprendimos a dividir nuestra página por bloques usando dif, aprendimos también a colocar un header. Vamos a ir aquí, a nuestro código para que repasemos violentamente qué fue lo que vimos.
+
+[01:50] Recordando que, este código lo tienen disponible en la sección de preparando el ambiente y ahí van a poder descargar todo el código con todas las imágenes que vimos en la primera parte de nuestro curso.
+
+[02:06] Entonces, en el código en el HTML tenemos aquí, nuestros dos archivos en realidad del index.html y el style.css, que como les decía, les repito, fue todo el código que hicimos en la primera parte de nuestro curso. Entonces, ¿qué teníamos en nuestro HTML?
+
+[02:27] Definimos nuestro lenguaje, que era español, usamos aquí la etiqueta doctype para decir cuál era la versión de nuestro HTML, que, en este caso, es la versión 5, dividimos todo nuestro código en el head y body, aprendimos que esa es la forma correcta de estructurar la página, y en el head colocamos todas aquellas etiquetas que son informativas.
+
+[02:56] Nuestro charset, que vendría a ser nuestro diccionario, lenguaje que estamos usando, en nuestro lenguaje español, en realidad usamos UTF-8 para caracterizar a todos aquellos lenguajes occidentales que son indoeuropeos, como también se los conoce, que el español pertenece a ese grupo.
+
+[03:16] Nuestro título, Barbería Alura, y aquí está nuestro link a el style.css, que es el otro archivo. Ya en el body, lo que vimos fue nuestro header, aprendimos a colocar clases e identificar también nuestros elementos con ID, ya sea con clases o con ID, aprendimos a colocar las imágenes, que era nuestro banner.
+
+[03:44] Luego creamos dos dif, dos bloques de código, uno en el que teníamos nuestros párrafos con el texto en el que estábamos presentando nuestra página. En la misión le dimos un formato diferente, incluso le cambiamos de color que ahorita eso ya está en el CSS, y también en el blog en los diferenciales, aprendimos a usar listas, en este caso usamos una lista no ordenada y también colocamos una imagen.
+
+[04:17] Yendo rápidamente al CSS, ¿qué fue lo que vimos? Aprendimos a colocar espaciamientos, espacios internos en este caso, a definir que nuestra imagen del banner ocupe el 100% de nuestra página, configuramos el background de nuestro bloque principal en este caso, que lo configuramos de ese color plateado, alineamiento de texto centrado para nuestro título y nuestros párrafos.
+
+[04:54] Aquí fue donde vimos el color rojo, y en negrito, también, en realidad, aquí estamos haciendo un selector, importante esto destacarlo, que aprendimos a usar tres tipos de selectores: selectores de clases, que tenemos aquí, por ejemplo, el punto diferenciales, selectores de identificadores como en nuestra misión y selectores de etiquetas.
+
+[05:22] Que, en este caso, aquí tenemos la etiqueta énfasis y la etiqueta strong, a las cuales le estamos configurando el color rojo, que era el caso de nuestra misión.
+
+[05:37] Y también vimos algunas otras propiedades como el display: inline-block, que era lo que definía si ocupaba el 100% de la página o solo su contenido, más alineamientos en este caso verticales, más márgenes, y, en fin, vimos ya bastantes cosas en la primera parte, lo que nos llevó a construir una página inicial bastante completa donde ya presentábamos un contenido informativo de nuestra página.
+
+[06:11] En esta segunda parte, como ya vimos en la introducción, vamos a construir una nueva página que será la página de los productos de nuestra barbería, entonces, para arrancar con esto, nos vemos en el próximo video. Muchas gracias.
+

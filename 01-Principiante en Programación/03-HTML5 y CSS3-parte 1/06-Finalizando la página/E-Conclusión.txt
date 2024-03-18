@@ -1,0 +1,24 @@
+Conclusión
+
+
+[00:00] Okay amigas y amigos. Primeramente, muchas felicidades por haber llegado hasta aquí. Espero el curso haya sido de su agrado y que este contenido sea provechoso y que sea muy motivador para ti, que estás iniciando en este mundo de programación, en estado mundo de diseñar páginas web.
+
+[00:20] Es un camino bastante largo, solo que es muy recompensador cuando llegues a formarte y a construir sistemas web que cumplan un objetivo en la sociedad o que te generen también ingresos. Hemos construido la página básica de una barbería, la Barbería Alura. Aprendimos a primero estructurar nuestra página, voy a ir aquí a nuestro código para que veamos rápidamente lo que vimos.
+
+[00:51] Aprendimos las etiquetas o tags, les comenté de esa diferencia, sobre todo en personas de diferentes países que pueden nombrarlos de diferentes formas pero se refieren a la misma cosa. Aprendimos a usar las etiquetas, a diferenciar entre etiquetas de contenido y etiquetas informativas, en las cuales le pasábamos al navegador algunas informaciones relativas a nuestra página.
+
+[01:28] Y en las etiquetas de contenido iba el contenido que queremos mostrar, el contenido en sí que queremos que la página presente. Aprendimos a usar CSS y a usar los selectores de identificación como el numeral o selectores de clase que son los más recomendados usando el punto.
+
+[01:55] Vimos varias propiedades de nuestra página, como espaciamientos, anchura de los elementos, vimos alineamiento del texto, colores, aprendimos sobre hexadecimal, cómo representar un color en hexadecimal, vimos varias propiedades y cómo usar eso en los estilos de CSS para darle todo ese visual interesante y esa formatación que hacen de las páginas web lugares ideales para presentar información de las empresas, crear blogs.
+
+[02:29] En fin, tantas opciones y tantos usos que tienen las páginas web hoy día y que forman parte de nuestra vida cotidiana y tecnológica que cada día crece más. Es lógico que nuestra página está todavía bastante simple. Hemos aprendido y reforzado conceptos superimportantes pero todavía nos falta colocarle aquí algunas features, algunas características a nuestra página, como por ejemplo vincular con otras páginas nuestra página web, el sitio de la Barbería Alura.
+
+[03:09] También cómo colocar un formulario de contacto, que eso está faltando o si alguien quiere reservar o contactarse con el personal o con la administración de nuestra barbería cómo puede hacerlo, podemos colocar para ello un formulario de contacto.
+
+[03:28] Podemos vender algunos productos de nuestra barbería, algún champú o crema específica que usemos. También podemos colocar un pie de página aquí, donde dice todas las informaciones, la dirección, en fin, toda la información básica de nuestra empresa. Pero todo eso lo veremos en la segunda parte de este curso.
+
+[03:49] Así que vayan, inscríbanse ya en esa segunda parte que va a ser la complementación de todo lo que hemos visto en esta primera parte. También los invito a ir al foro a resolver sus dudas. Tenemos un equipo de Alura dispuestos a ayudarlos a resolver todos esos problemas que puedan tener.
+
+[04:13] Y también no se olviden de puntuar, de dar su valoración al curso que es muy importante para nosotros su opinión y es con eso que vamos a seguir mejorando y llevándoles cada vez contenido de más calidad que se ajuste más a sus necesidades y que los prepare mejor para ese mercado desafiante de trabajo que tenemos ahí en la frente.
+
+[04:39] Muchísimas gracias nuevamente, que estén bien, y nos vemos en un próximo curso. Hasta luego. Chau, chau.

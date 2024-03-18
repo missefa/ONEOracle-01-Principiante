@@ -1,0 +1,35 @@
+Sorteando libros
+
+
+Contexto: Imagina que eres una persona desarrolladora que trabaja para Buscante, una importante tienda en línea de libros. Tu jefe te ha pedido que crees una función para sortear libros a los clientes. El sorteo debe hacerse de manera que todos los libros tengan la oportunidad de ser sorteados al menos una vez, y después de eso, el sorteo debe comenzar de nuevo. Recordaste la lección sobre la adición de la variable "numeroLimite" en el curso "Lógica de programación: explore funções e listas". ¿Cómo implementarás el sorteo del libro teniendo en cuenta lo que se enseñó?
+
+Seleccione una alternativa
+
+
+a)
+function sortearLibro() {
+    let libroElegido = Math.floor(Math.random() * listaDeLibros.length);
+    return listaDeLibros[libroElegido];
+}
+
+b)
+Alternativa correta
+
+function sortearLibro() {
+    let libroElegido = parseInt(Math.random() * numeroLimite + 1);
+    let cantidadDeLibrosSorteados = listaDeLibrosSorteados.length;
+    if (cantidadDeLibrosSorteados == numeroLimite) {
+        listaDeLibrosSorteados = [];
+    }
+    // Código omitido
+}
+
+Correcta! Esta respuesta es correcta porque sigue la lógica enseñada en el curso de programación. En este código, se genera un número aleatorio para elegir un libro y luego se verifica si se ha alcanzado el límite de libros sorteados. Si es así, la lista de libros sorteados se reinicia para comenzar de nuevo el sorteo.
+
+c)
+function sortearLibro() {
+    let libroElegido = listaDeLibros[numeroLimite];
+    return listaDeLibros[libroElegido];
+}
+
+¡Enhorabuena, has acertado!

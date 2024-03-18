@@ -1,0 +1,18 @@
+Cómo dividir una tabla
+
+
+¿Cómo dividir una tabla de una forma más semántica?
+
+a)
+Usando las etiquetas <header>, <main> y <footer>
+
+
+b)
+Usando clases en los <tr>
+
+
+c)
+Alternativa correta
+Usando las etiquetas <thead>, <tbody> y <tfoot>
+
+¡Alternativa correcta! Las etiquetas <thead>, <tbody> y <tfoot> ayudan a dejar el contenido de la tabla más dividido y más semántico.

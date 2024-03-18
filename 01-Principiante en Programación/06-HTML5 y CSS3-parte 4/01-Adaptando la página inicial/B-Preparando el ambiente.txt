@@ -1,0 +1,48 @@
+Preparando el ambiente
+
+
+Hola
+
+Mi nombre es Christian Velasco y seré tu instructor aquí en la plataforma de Alura en este curso que es la cuarta y última parte del entrenamiento de HTML5 y CSS3.
+
+Proyecto inicial del entrenamiento
+El proyecto inicial de este entrenamiento es el proyecto implementado en el entrenamiento anterior. Por lo tanto, caso hayas realizado el entrenamiento anterior, puedes proseguir con el mismo proyecto.
+
+En caso que no hayas realizado el entrenamiento anterior te aconsejamos hacerlo para aprovechar mejor el contenido de este curso, de todas formas puedes descargar el proyecto completo de los 3 capítulos anteriores aquí.
+https://github.com/alura-es-cursos/1769-HTML5-y-CSS3-parte4/raw/main/1769-HTML5%20y%20CSS3%20parte4%20-%20aula0.zip
+
+
+¿Qué editor de texto usar?
+Los siguientes son editores gratuitos y muy usados: Visual Studio Code, Sublime y Atom, puedes escoger cualquiera de ellos, solo refuerzo la importancia de seguir las instrucciones de instalación. Primero, descarga el programa, ejecútalo y luego sigue el asistente hasta el final sin cambiar ninguna configuración.
+
+1 - Visual Studio Code: Es el editor utilizado durante el entrenamiento. Es interesante usarlo para obtener paridad visual durante todo el curso con el instructor, pero no es obligatorio. Para descargarlo, haz clic aquí y en la pantalla de descarga que aparece, elige el sistema operativo que usas.
+https://code.visualstudio.com/download
+
+2 - Sublime: Es otra alternativa que puedes usar. Para descargarlo, haz clic aquí y en la pantalla de descarga que aparece, elige el sistema operativo que usas.
+https://www.sublimetext.com/3
+
+3 - Atom: Otra alternativa interesante. Puede descargarlo haciendo clic aquí.
+https://atom.io/
+
+¿Qué navegador usar?
+Puedes usar cualquier navegador que tenga un depurador (compilador). Sin embargo, se recomienda que uses Chrome, justamente, para obtener paridad visual con el instructor durante todo el entrenamiento. Si no tienes Chrome, puedes descargarlo aquí y siga las instrucciones de instalación hasta el final.
+https://www.google.com.mx/chrome/?brand=CHBD&gclid=CjwKCAjwgbLzBRBsEiwAXVIygLu4rgQ5606cvf8b6ZtRDo3GBqLtXoicNLrWwAInHTTcqosrKJKYtRoCkM8QAvD_BwE&gclsrc=aw.ds
+
+
+Algunos atajos útiles que usaremos a lo largo del curso:
+
+Windows
+
+Abrir un archivo del ordenador en Google Chrome = Ctrl + O + Seleccionar un archivo
+
+Abrir las herramientas para desarrolladores (Dev Tools) = Ctrl + SHIFT + I
+
+Mac
+
+Abrir un archivo del ordenador en Google Chrome = ⌘ + O + Seleccionar un archivo
+
+Abrir las herramientas para desarrolladores (Dev Tools) = ⌘ + Opción + I
+
+Estos comandos se reiteran en los videos del curso.
+
+!Ahora estamos listos para empezar!

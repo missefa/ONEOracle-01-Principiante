@@ -1,0 +1,12 @@
+Resumen
+
+
+[00:00] Ahora vamos a recapitular todo lo que vimos durante el curso. Primero, las configuraciones. Hemos utilizado estos comandos global user.name y user.email para registrar nuestros nombres y correos y hacer enviar nuestros proyectos a GitHub y el git config --list para comprobar las configuraciones que tenemos en la herramienta.
+
+[00:25] Para crear un repositorio tenemos el git clone junto con la URL o también el git init. Para realizar las verificaciones tenemos el git status. A través de este comando podemos ver el estado actual de nuestro proyecto. El git log para ver el historial de los commits, el git diff para ver los cambios en el archivo y el git branch para que podamos ver las branches que tenemos dentro de nuestro proyecto.
+
+[00:53] Para agregar, utilizamos el git add junto con el punto que puede agregar todos los archivos de una sola vez o tal vez el git add más el nombre del archivo para agregar un solo en específico.
+
+[01:09] Para mover nuestros archivos de un área a otra y así poder ser enviado a GitHub, utilizamos el gif commit junto con un mensaje. Git commit es la fotografía del estado actual de nuestro proyecto y con este comando podemos ya desarrollar el historial de nuestros proyectos.
+
+[01:30] Para enviarlos utilizamos el git push y así también actualizamos y para bajar las actualizaciones desde remoto utilizamos el git pull. Para realizar los cambios tenemos el comando git checkout -b junto con el nombre de la rama que deseamos crear, git merge para mezclar las ramas, git switch para salir de una rama a otra y git restore con el parámetro --source junto con el número de hash y así podemos volver a un estado de un commit. Y esto fue el resumen de nuestro curso.

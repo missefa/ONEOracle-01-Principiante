@@ -1,0 +1,21 @@
+Realizando un commit
+
+
+El commit es una acción muy importante del Git, que nos ayuda a tener un control de versionamiento de nuestro proyecto. El commit nos permite guardar un estado de nuestro proyecto en un determinado punto.
+
+Teniendo en cuenta esto, cuando realizamos un commit, estamos:
+
+a)
+Creando un repositorio en Github.
+
+
+b)
+Alternativa correta
+
+Agregando cambios más recientes del proyecto.
+
+En el momento que hacemos un commit, estamos guardando el estado actual de nuestro proyecto.
+
+
+c)
+Estamos enviando modificaciones de nuestro proyecto al repositorio remoto.

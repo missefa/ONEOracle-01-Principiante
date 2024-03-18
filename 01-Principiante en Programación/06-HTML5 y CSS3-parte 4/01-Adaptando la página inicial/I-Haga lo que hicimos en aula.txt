@@ -1,0 +1,128 @@
+Haga lo que hicimos en aula
+
+
+Llegó la hora de poner en práctica lo que fue visto en el aula. Para esto, ejecute los siguientes pasos:
+
+1) En caso no hayas realizado el entrenamiento anterior o no lo tengas más el proyecto y aun no lo has descargado, realiza el download aqui.
+
+
+2) En la página index.html, elimina la importación del CSS style-home.css e importe los CSSs reset.css y style.css en su lugar:
+
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+
+
+3) Aún en la página index.html, elimina el encabezado (etiqueta <header> y su contenido) y utilice el mismo encabezado de la página producto.html:
+
+<header>
+    <div class="caja">
+        <h1><img src="imagenes/logo.png"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+4) Agrega también un pie de página a la página index.html, el mismo de la página productos.html. Antes de cerrar el body (etiqueta </body>), agrega:
+
+<footer>
+    <img src="imagenes/logo-blanco.png">
+    <p class="copyright">&copy Copyright Barbería Alura - 2020</p>
+</footer>
+
+
+5) Modifique el atributo id de la imagen banner.jpg para convertirlo en class:
+
+<img class="banner" src="banner/banner.jpg">
+
+
+6) Ahora, reemplace las dos divs con las clases principal y diferenciales por dos sections:
+
+<section class="principal">
+    <!-- Contenido de la section oculto -->
+</section>
+<section class="diferenciales">
+    <!-- Contenido de la section oculto -->
+</section>
+
+
+7) Modifique las clases título-centralizado para que se conviertan en titulo-principal:
+
+<section class="principal">
+    <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+    <!-- Restante del contenido de la section oculto -->
+</section>
+<section class="diferenciales">
+    <h3 class="titulo-principal">Diferenciales</h3>
+    <!-- Restante del contenido de la section oculto -->
+</section>
+
+
+8) Debajo del título Sobre la Barberia Alura, agrega la imagen utensilios.jpg:
+
+<section class="principal">
+    <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+    <img class="utensilios" src="imagenes/utensilios.jpg" alt="Utensilios de un
+barbero.">
+    <!-- Restante del contenido de la section oculto -->
+</section>
+
+
+9) Finalmente, colocamos las dos sections dentro de la etiqueta main:
+
+<main>
+    <section class="principal">
+        <!-- Contenido de la section oculto -->
+    </section>
+    <section class="diferenciales">
+        <!-- Contenido de la section oculto -->
+    </section>
+</main>
+
+
+10) En el archivo style.css, agrega los estilos de la página inicial:
+
+/*Aquí inicia el CSS para nuestra home*/
+.banner{
+    width: 100%;
+}
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+
+.principal strong{
+    font-weight: bold;
+}
+
+
+.principal em{
+    font-style: italic;
+}
+
+
+.utensilios{
+    width: 120px;
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+
+.imagenDiferenciales{
+    width: 60%;
+}

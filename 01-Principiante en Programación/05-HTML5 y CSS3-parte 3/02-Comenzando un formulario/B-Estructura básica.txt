@@ -1,0 +1,19 @@
+Estructura básica
+
+
+¿Cuál es la etiqueta que usamos para emparejar un input, para tener un título para la entrada de datos?
+
+
+a)
+<p>
+
+
+b)
+<h2>
+
+
+c)
+Alternativa correta
+<label>
+
+¡Alternativa correcta! La etiqueta <label> es una etiqueta para la entrada de datos para el <input>.

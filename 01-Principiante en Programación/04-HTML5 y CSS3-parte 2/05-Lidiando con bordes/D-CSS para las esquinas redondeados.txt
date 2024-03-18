@@ -1,0 +1,18 @@
+CSS para las esquinas redondeados
+
+
+¿Cómo usar el CSS para hacer los diseños de las esquinas redondeadas de los bordes?
+
+a)
+No existe esa posibilidad. Debemos usar una imagen de fondo con el diseño esperado.
+
+
+b)
+Al declarar un borde, en vez de usar el tipo solid, podemos usar el tipo border-radius.
+
+
+c)
+Alternativa correta
+Usando la propiedad border-radius.
+
+¡Alternativa Correcta! Con la propiedad border-radius, podemos diseñar la esquina redondeada de los elementos.

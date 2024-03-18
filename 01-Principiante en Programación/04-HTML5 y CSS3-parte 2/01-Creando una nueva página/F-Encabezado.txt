@@ -1,0 +1,29 @@
+Encabezado
+
+[00:00] Okay, amigos y amigas, continuando entonces, con nuestro curso, ahora veremos el encabezado de nuestra página. Como parte inicial, vamos a construir el encabezado de nuestra página, pero antes de continuar, déjenme corregir aquí, que había escrito mal es stylesheet, para que después no nos genere un error al momento de ejecutar nuestra página.
+
+[00:28] Bueno, para crear el encabezado necesito utilizar la etiqueta header, y necesito ver en la página modelo, ya en la página finalizada, que es la que estamos usando como modelo, qué elementos contiene nuestro header. En este caso, podemos ver que tiene un fondo plomo, de un color diferente del blanco como el resto de nuestra página.
+
+[00:57] Tenemos un logo, el logo de la página Alura, y tenemos un panel menú de navegación, que es el que nos hace link, hace vínculos a otras páginas que vamos a tener y que ya tenemos disponible en el sitio completo de Alura. Bueno, para identificar, para usar las imágenes, ustedes tienen una sección donde pueden descargar toda la carpeta de imágenes.
+
+[01:32] Entonces, van a tener en el curso esta carpeta de imágenes disponible para descarga. La descargan y en ella van a tener todos los archivos que usaremos en nuestra página, todas las imágenes que usaremos en nuestra página. En el encabezado usaremos esta imagen, que será el logo de nuestra página.
+
+[01:55] Entonces, volviendo a nuestro código, a nuestro Visual Studio Code, ya creé aquí mi carpeta header, donde caracteriza al encabezado, recordando que, a partir de la quinta versión de HTML, es que tenemos esta etiqueta que caracteriza al bloque del encabezado y no confundirla con la etiqueta head, que en este caso el head es donde pasamos todas las etiquetas de contenido.
+
+[02:25] Entonces, dentro del header vamos a hacer referencia a nuestra imagen, a nuestro logo, y la vamos a colocar dentro de un H1. Y ahora preguntarán, ¿por qué dentro de un H1, si no es un título? Justamente para darle esa importancia que se merece al logo de nuestro encabezado porque va a ser la parte principal en este caso de nuestra página y también de nuestro encabezado.
+
+[02:52] Entonces, vamos a crear una etiqueta H1, y dentro de nuestro H1 vamos a usar la etiqueta img que representa a una imagen, y pasamos la propiedad source. Aquí vamos a cerrar. Y dentro del source, voy a borrarlo y voy a volver a poner las comillas. El IDE, esto lo hice a propósito para mostrarles que el IDE me ayuda a navegar dentro de la carpeta en la cual estoy con productos HTML.
+
+[03:31] Entonces, me dice: "Tienes todos estos archivos y tienes aquí tu carpeta imágenes". Entro a la carpeta imágenes y me dice: "Dentro de imágenes tienes estos archivos. ¿Qué es el que quieres usar?" Es logo.png.
+
+[03:47] Entonces, como pueden ver, el IDE, el Visual Studio Code, me ayuda a cometer menos errores y a verificar e identificar cuáles son los archivos que tenemos en cada una de las carpetas de nuestra página. Entonces, tenemos aquí ya nuestra imagen, nuestra imagen referenciada, vamos a guardar y vamos a ir al navegador.
+
+[04:13] Entonces, estoy en el index, en la página inicial, doy "Ctrl + O" en Windows, y con eso voy a abrir mi productos.html. Y fíjense que, ahora tengo mi encabezado y únicamente mi logo que fue lo que colocamos. Para continuar, vamos ahora a colocar el contenido de nuestro panel de navegación. Para colocar el contenido de nuestro panel de navegación vamos a usar las listas.
+
+[04:51] Ya hemos usado listas anteriormente, y esas listas las vamos a colocar dentro de nuestro header, estamos en el mismo header, y recordando que teníamos dos tipos de listas que podríamos usar: las listas ordenadas y las listas no ordenadas. En este caso, no interesa el orden del panel de navegación. No significa que el contacto tiene que ir sí o sí en un orden primero que la lista de productos.
+
+[05:26] Lógico que siempre va al final o como último, pero no significa que es un orden que yo tengo que respetar. Entonces, vamos a usar unordered list, que es la etiqueta UL. Dentro de la etiqueta UL tengo tres ítems, que son los tres ítems en nuestra página, recordando que los ítems los represento, utilizo el marcador LI que representa cada ítem de la página.
+
+[05:57] Entonces, el primer ítem va a ser el home, que va a hacer referencia a la página inicial de nuestra página, el segundo ítem que crearemos será la página de productos o el ítem de productos, y por último será nuestro ítem o página de contacto. Vamos a guardar, vuelvo a nuestra página. Y fíjense que ya me colocó aquí debajo la lista con el contenido de nuestro encabezado.
+
+[06:43] Entonces, ya tenemos básicamente el logo y el contenido de nuestro panel de navegación. Lo que veremos en la siguiente sección, ya es la formatación de nuestra página y cómo hacer los links para que podamos navegar a través de estos botones o estos vínculos que vamos a crear. Entonces, eso será asunto para los próximos videos. Muchas gracias y nos vemos pronto.

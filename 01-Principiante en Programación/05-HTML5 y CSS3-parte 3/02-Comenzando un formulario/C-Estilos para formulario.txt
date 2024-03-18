@@ -1,0 +1,44 @@
+Estilos para formulario
+
+
+[00:00] Vamos a continuar con nuestro curso de HTML y CSS en esta parte 3. En la anterior sección habíamos creado nuestros elementos. Justamente esos elementos eran nuestro main, y dentro de nuestro main habíamos colocado un formulario con datos básicos que le pedíamos algunas informaciones a nuestro usuario, a nuestro cliente.
+
+[00:24] Esos datos, esos elementos HTML básico eran un label, donde indicábamos de qué se trata y un input box, una cajita de texto donde el usuario iba a colocar justamente esos datos que le pedíamos, esos datos básicos. Y un botón de formulario, de enviar formulario, nuestros meet, que también lo habíamos creado.
+
+[00:48] Ahora, vamos a trabajar en el visual, en el estilo de esos elementos que creamos en HTML. Para ello, voy a ir a nuestro código, aquí en nuestro Visual Studio Code, entonces, aquí teníamos nuestros elementos y recordando que todo lo que es estilo, todo lo que es visual, lo trabajamos en nuestro archivo css.
+
+[01:11] Vamos a reutilizar el style.css, en realidad ya estamos reutilizando bastante estos estilos en nuestra página de contacto en el header y en el footer, así que lo que vamos a hacer es dar aquí un enter y continuar en este caso con los estilos en este caso de nuestra página de contacto.
+
+[01:30] Lo primero que haremos, déjenme volver aquí, será centralizar estos elementos. Si vemos, tenemos los elementos centralizados, o justificados en realidad, hacia la izquierda. Entonces, vamos a centralizar estos elementos.
+
+[01:47] Para hacer eso, lo que vamos a hacer es usar la etiqueta main, en la marcación main, vamos a hacer referencia a toda la etiqueta main de nuestro HTML y le vamos a decir que nos use un ancho con la propiedad width de 940 pixeles. ¿Por qué 940 pixeles?
+
+[02:10] Recordando que una pantalla padrón, un monitor padrón tiene 1270, es una buena práctica o una práctica muy común que se usa en desarrollo web usar 940 pixeles para centralizar algo. Esta técnica ya la hemos usado en las anteriores secciones, y el margen colocamos 0 para arriba y para abajo y automático a los costados.
+
+[02:36] Entonces, vamos a guardar, venimos aquí, actualizamos y ya lo tenemos centralizado. En este caso, nuestro formulario hizo un salto de línea justamente porque ya no entró. Pero el siguiente ajuste que vamos a hacer es colocar en formato vertical estos elementos.
+
+[03:00] Recordando que tenemos la propiedad display y hay elementos de HTLM que por default vienen display-block, que block es cuando ocupan el 100% de la página, y otros elementos vienen con ese default inline. Inline es cuando ocupan solo su contenido, o sea, el espacio de su contenido dentro de la página.
+
+[03:28] En el caso de los elementos de un formulario, todos ellos vienen con inline por default. Es justamente por eso que tenemos este comportamiento. Entonces, lo que haremos será vamos a nuestro archivo y vamos a usar form, en este caso, directamente label, para cada uno de nuestros elementos, form label y display, y al display le vamos a colocar block.
+
+[04:02] Vamos a nuestro form input, al elemento input de nuestro form, y hacemos la misma técnica, display block. Vamos a guardar aquí, volvemos a nuestra página, actualizamos y ya lo tenemos en formato vertical. Lo que haremos ahora, es colocarle un espacio, fíjense que lo tenemos muy pegado, muy colado a nuestro formulario, tanto del header como el footer.
+
+[04:36] Entonces, volvemos a nuestro archivo aquí, a nuestro CSS, voy a colocarlo debajo del main, siguiendo la estructura. Y para todo el form vamos a colocar un margen de 40 pixeles para arriba y para abajo y 0 para los costados. Volvemos a nuestra página, actualizamos y ya tenemos ese espacio.
+
+[05:09] Lo siguiente que haremos será mejorar el visual de nuestros labels y también de nuestros inputs box. Para eso, vamos a nuestro CSS y aquí ya tenemos una marcación directa para el label, una marcación directa para el input. Aquí colocamos font size de 20 pixeles, colocamos un margen de 0 en el top en la parte superior, 0 a la derecha y para abajo vamos a colocar 10 pixeles, en la parte inferior de nuestro label.
+
+[06:03] Y en nuestro input vamos a colocar también un margen, que en este caso será 0 para arriba, 0 a la derecha, y 20 pixeles para abajo. Vamos a guardar, volvemos aquí a nuestra página, actualizamos y aquí tenemos justamente nuestros labels ya con un espacio que nos permite tener una lectura mejor. Solo que todavía este espacio está muy pequeño.
+
+[06:39] Imaginen que le estamos pidiendo el nombre y el apellido, la persona si tiene un nombre y un apellido largo ya no va a entrar aquí, entonces, necesitamos aumentar el tamaño de esto. Para ello, vamos a recordar aquí inspeccionar, voy a inspeccionar este elemento en específico, vamos a bajar aquí y vamos a recordar qué es lo que tenemos.
+
+[07:02] Este de aquí vendría a ser el tamaño, la dimensión de nuestro elemento, en este caso, de nuestro input box, de la cajita de texto. Lo siguiente, esta es la estructura, la siguiente capa viene a ser el padding, que es justamente ese espaciamiento interno, ese espacio interno de nuestro elemento. Tenemos el borde y tenemos el margen exterior.
+
+[07:30] Entonces, lo que vamos a hacer es definir, configurar el padding, que es el espaciamiento interno de nuestro input. Vamos a nuestro código, en input colocamos padding, y a nuestro padding le vamos a dar 10 pixeles superior e inferior y 25 pixeles para los costados, para los lados. Volvemos aquí, actualizamos y ya tenemos nuestros elementos con un tamaño mayor.
+
+[08:09] Para finalizar, lo que haremos será colocar, vamos a definir el ancho de nuestros inputs, queremos que ocupen el 50% de los 940 pixeles que definimos aquí en el main. Entonces, para ello lo que hacemos es colocar un width y 50%. Vamos a guardar, volvemos a nuestra página, actualizamos y aquí lo tenemos.
+
+[08:51] Como habrán notado, justamente nuestro submit también fue configurado, porque estamos haciendo referencia a la etiqueta input y este botón también se llama input. No hemos definido clases para nuestros elementos todavía, entonces, por eso es que está siendo impactada. Y otra cosa que pudieron haber notado es que no tiene el mismo tamaño de los otros input box.
+
+[09:21] Sin embargo, no se preocupen ahora con eso, que lo vamos a ver más adelante esa configuración en específico. Ya tenemos aquí nuestros elementos configurados correctamente, donde nuestro usuario va a colocar sus datos principales y nuestro botón para enviar ese formulario.
+
+[09:41] Vamos a continuar en los siguientes videos desarrollando más elementos de nuestro formulario y haciendo las configuraciones correctas con el estilo, con sus estilos, en el CSS, así que nos vemos en los próximos videos. Chau, chau.

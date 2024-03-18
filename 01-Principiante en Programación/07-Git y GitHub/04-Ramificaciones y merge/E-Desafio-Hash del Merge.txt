@@ -1,0 +1,9 @@
+Desafio: Hash del Merge
+
+
+Durante la clase, la instructora Ellen usó el comando git log --oneline para verificar el hash de la modificación creada dentro de la rama de desarrollo en el archivo contacto.html
+
+¿Será que después de la fusión hubo un cambio en este número?
+
+
+Después de fusionar tu proyecto, usa el comando git log --oneline para comprobar.

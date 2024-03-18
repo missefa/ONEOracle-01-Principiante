@@ -1,0 +1,16 @@
+Preparando el ambiente
+
+El principal objetivo de esta actividad es preparar el entorno de desarrollo que vamos a utilizar durante este curso. En ella, mostramos lo que es necesario instalar, proporcionamos algunos archivos de código o material necesario para asegurar una experiencia de aprendizaje increíble y sostenible.
+
+Material necesario
+Para seguir este curso, haz clic en este enlace (https://github.com/alura-es-cursos/2035-logica-programacion-2/archive/refs/heads/Aula1.zip) y descarga el proyecto base. Saber cómo trabajar con código desarrollado por otras personas es de suma importancia para la carrera de desarrollo de software.
+
+En la mayoría de las empresas, es muy común colaborar en partes de código que no fueron escritas estrictamente por ti. En esos momentos, la capacidad de comprender el razonamiento detrás del código, su estructura y funcionamiento, es crucial para hacer cambios, corregir errores y agregar nuevas características de manera eficiente.
+
+Pero… ¿Dónde vamos a escribir nuestro código?
+Cuando pensamos en desarrollar código y crear programas de software, tenemos herramientas que nos ayudan en esta tarea de creación y edición. Una de ellas es Visual Studio Code, que es un editor de código gratuito y de código abierto desarrollado por Microsoft. Es utilizado por desarrolladores de todo el mundo para escribir y editar código para una variedad de plataformas y lenguajes.
+
+Descarga Visual Studio Code de acuerdo con tu sistema operativo (Windows, Linux o Mac OS) en este enlace.
+https://code.visualstudio.com/download
+
+Con esto en mente, ¿estamos listos para comenzar nuestros estudios en lógica de programación?

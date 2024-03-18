@@ -1,0 +1,19 @@
+Presentación
+
+[00:00] Hola amigos y amigas. Sean bienvenidos a la primera parte del curso HTML 5 y CSS 3. ¿Por qué HTML 5? Porque vamos a abordar en este curso la quinta versión de HTML, que es la que está actualmente en uso, y de la misma forma con el CSS. La tercera versión es la que se está usando en este momento.
+
+[00:24] El objetivo de este curso es introducirlos a este mundo amplio y fantástico de Front End, que Front End es aquella área o aquel equipo de personas que se encargan de la creación de páginas web y de la creación de la interfaz de muchos sistemas entre un usuario, entre el cliente, y el sistema.
+
+[00:50] Entonces, es aquella parte del sistema que el usuario ve y donde él coloca su nombre en un formulario o toda la interacción en sí que esa persona va a tener con una página web.
+
+[01:04] Entonces es un área superimportante, un área que está en constante crecimiento, porque cada día que pasa las empresas se están volviendo más digitales y es una necesidad hoy en día estar en la web, porque quien no está online prácticamente no existe. Entonces, en este proyecto vamos a abordar la construcción de una página web desde cero, desde lo más básico.
+
+[01:31] Vamos a empezar con nuestro código en blanco, básicamente, y vamos a ir aprendiendo de a poco a poco, paso a paso, cada uno de los elementos necesarios para construir una página web usando únicamente HTML y CSS.
+
+[01:48] Entonces, al término de este curso van a estar aptos para construir una página web básica para su empresa o para algún cliente que les solicite, ya sea una barbería, como es el caso de nuestro ejemplo que vamos a construir la Barbería Alura. Como podrán ver tenemos fotos que vamos a aprender a colocarlas, a formatearlas también.
+
+[02:12] Tenemos texto donde podemos colocar la descripción de nuestra empresa, la descripción de nuestra barbería en nuestro caso, destacar la misión para que nuestros clientes sepan a qué nos dedicamos, colocar algunos diferenciales, más imágenes, en fin, dejar una página web que sea presentable para nuestros clientes y que sea nuestra cara frente al mundo, frente a ese mundo online que hoy en día es superrequerido.
+
+[02:38] Entonces van a salir aptos ya sea para preparar una página web para su panadería, para su tienda, para su gimnasio. En fin, para cualquier negocio que ustedes tengan, o como les decía, pueden estar aptos para construir páginas web para otras empresas, para otras personas.
+
+[02:59] Entonces es un curso bastante interesante, muy desafiador, como les decía con contenidos superbásicos y que queremos transmitirles de la forma más fácil posible. Nos vemos en el aula, inscríbanse en el curso. Hasta pronto. Chau, chau.

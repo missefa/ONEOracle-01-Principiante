@@ -1,0 +1,23 @@
+Separando contenido e información
+
+
+[00:00] Okay, amigos, continuando con nuestro curso de HTML, lo que habíamos visto en nuestra última sección era la definición de algunas etiquetas informativas en la cual definíamos el idioma que vamos a usar en nuestra página, el diccionario y el título en este caso de nuestra página.
+
+[00:25] Lo que haremos ahora es continuar con la estructuración. Para ello existen algunas buenas prácticas en la cual yo separo las etiquetas informativas, como la meta y el título, de las etiquetas de contenido, que en este caso es donde defino el título y los tres párrafos de nuestra página.
+
+[00:48] Para ello existen otras etiquetas que me permiten realizar eso, que son las etiquetas head, de cabeza, aquí automáticamente me lo abre y me lo cierra, voy a agarrar el cierre y lo voy a poner aquí al final, lo voy a identar correctamente. ¿Qué estoy haciendo? Está incorrecto, con un "Ctrl + Z" aquí.
+
+[01:21] Ahorita lo vamos a ordenar, vamos a darle aquí un espacio, aquí vamos a identar, aquí también y ahora sí. Entonces, dentro del head, que en inglés es cabeza, estoy colocando aquellas etiquetas informativas, que informen. Y voy a utilizar otra etiqueta que se llama body, del inglés cuerpo, donde aquí defino todas las etiquetas de contenido de nuestra página.
+
+[01:53] Entonces hago exactamente lo mismo, coloco el cierre de body, la abertura y el cierre de body, y aquí voy a mejorar nuestro formato, y voy a seleccionarlo, y un tab, para identar correctamente. Voy a dar un espacio aquí y otro espacio aquí. Perfecto. Voy a guardarlo, voy a ir a nuestra página y voy a actualizarlo.
+
+[02:28] No tuve ninguna alteración aquí para el usuario, sin embargo para la persona que va a hacerle mantenimiento al código, que puede ser la misma persona que la creó o algún tercero, alguna otra persona que ayude en la estructura de esta página o que agarre este proyecto después, es mucho más fácil darle mantenimiento o encontrar algún error cuando tengo separado en esta forma nuestro código.
+
+[02:57] Lo que haré ahora es aumentar el zoom, el tamaño de la fuente aquí para que quede un poco más grande, para que en caso ustedes tengan alguna dificultad, ya no la tengan. Para aumentar el zoom vengo aquí en View, de vista, apariencia, el appearance, y aquí coloco zoom in, y aquí aumenté un poco el zoom para que quede más grande nuestro código.
+
+[03:27] Entonces repasando, lo que hicimos fue colocar dos etiquetas de estructuración, la etiqueta head y la etiqueta body, donde separamos las etiquetas informativas de las etiquetas de contenidos.
+
+[03:41] Entonces con esto finalizamos esta parte de estructuración de nuestra página recordando que la estamos construyendo de cero, explicando paso a paso cada una de las etiquetas necesarias, el por qué de usarlas y cuál es el impacto caso no las usemos.
+
+[04:00] Ya en la próxima clase vamos a entrar más de lleno a ver lo que es el visual de nuestra página usando CSS. Nos vemos pronto, hagan los ejercicios que tenemos en esta aula, y si tienen dudas no duden, valga la redundancia, al ir a nuestro foro, colóquenlas allá que la comunidad de Alura completa estará dispuesta y lista para ayudarlos. Muchísimas gracias, nos vemos en la próxima aula.
+

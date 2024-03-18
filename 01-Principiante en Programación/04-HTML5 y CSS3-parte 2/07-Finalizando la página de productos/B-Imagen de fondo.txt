@@ -1,0 +1,24 @@
+Imagen de fondo
+
+
+¿Cómo agregamos una imagen de fondo en un elemento?
+
+
+a)
+Alternativa incorreta
+Con la propiedad src en el elemento. Por ejemplo:
+
+<footer src="bg.jpg">
+
+¡Alternativa Incorrecta! Usamos la prioridad src solo en la etiqueta de imagen <img>. Una imagen de fondo en el CSS se hace con la propiedad background y el valor url.
+
+
+b)
+Alternativa correta
+Con el valor url en el background del elemento.
+
+¡Alternativa Correcta! En el CSS, cuando hacemos referencia a la dirección de una imagen, usamos el valor url.
+
+
+c)
+Con el valor src en el background del elemento.

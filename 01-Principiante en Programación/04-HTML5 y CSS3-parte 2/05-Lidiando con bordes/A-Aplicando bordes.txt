@@ -1,0 +1,36 @@
+Aplicando bordes
+
+
+[00:00] Vamos a continuar con la construcción de nuestra página, la página de la Barbería Alura. En los últimos videos habíamos colocado nuestros ítems, los productos y servicios con las configuraciones correctas, y lo que veremos en esta sección serán los bordes de esos ítems.
+
+[00:21] Yendo a nuestra página modelo aquí, podemos apreciar que tenemos un borde. Todavía no nos concentremos en el efecto, sino en el borde que tiene cada una de estas cajitas de elementos. Para ello, vamos a volver aquí, a nuestra página, y voy a ir a la consola del desarrollador, entonces, aquí, los tres puntitos, más herramientas, herramientas para desarrolladores.
+
+[00:51] Y fíjense que cuando yo selecciono, voy a entrar aquí a navegar en mi HTML, voy al main, abro mi lista y voy a seleccionar un producto, por ejemplo, este del centro. Fíjense que, cuando lo selecciono aquí abajo en la consola, voy a cerrar esta de aquí, y voy a expandir para arriba un poco.
+
+[01:16] Entonces, fíjense que en la consola me muestra justamente los productos y elementos del ítem seleccionado. Lo que quiero que analicemos es esta figura de aquí. Esta figura me ayuda a entender el comportamiento de mi elemento, en este caso de mi producto li, del ítem de esa lista.
+
+[01:38] Entonces, fíjense que la parte inferior, el rectángulo más pequeño de esta serie de rectángulos es la dimensión de nuestro elemento, de 242 x 239 pixeles. Luego viene el padding interno que habíamos definido, que era de 30 x 20, fíjense se pinta con verde.
+
+[02:03] Luego viene un borde que actualmente no lo tiene, por eso que no aparece nada, y viene ese margen externo que lo habíamos definido con porcentaje de 1.5%, que al final quedó con 14, y algunos decimales ahí de pixeles en el margen externo. Entonces, esto nos ayuda a construir bastante, a trabajar con elementos visuales, elementos gráficos en las páginas web.
+
+[02:29] Entonces, para definir nuestro borde vamos a ir a nuestro Visual Studio Code, a nuestro producto CSS, dentro de nuestros productos li y aquí vamos a definir tres propiedades, todas del borde. Entonces vamos a definir el border-color, que va a ser negro, 000000, vamos a definir el ancho de ese borde, el border-width, que le vamos a colocar dos pixeles, y el border-style.
+
+[03:12] Y ese border-style lo definimos como solid, que sea una línea sólida. Actualizamos, vamos a nuestra página y ya tenemos aquí nuestro borde. Ahora, para entender el comportamiento de los bordes y para que ustedes conozcan y vean que podemos alterar innúmeras propiedades de nuestros bordes, vamos a comenzar a trabajar un poco aquí justamente con eso.
+
+[03:42] Entonces, puedo definir alterar únicamente uno de los bordes, ya sea el superior, el inferior, el izquierdo o el derecho. Voy a alterar el borde superior. Entonces, solo recordando que continúa seleccionado mi elemento, aquí ya tengo las propiedades, voy a comentar aquí, aquí ya tengo las propiedades de mis productos li que están definidos en el CSS.
+
+[04:07] Pero aquí, al hacer clic se me abre y puedo definir una nueva propiedad que será el border-top, que me estoy refiriendo al borde superior. Y este border-top, en realidad vamos a entrar al border-top, ancho del border-top, que sería el border-top-width. Ese ancho lo voy a cambiar para 10 pixeles. Entonces, fíjense que solo el borde superior se aumentó el grosor, el ancho de justamente nuestro borde.
+
+[04:48] Puedo continuar haciendo, por ejemplo, aquí tengo definido el border-style definido como solid, lo puedo alterar ese border-style solid para, qué sé yo, dashed, que es este punteado. Vamos a eliminar el border-top-width. Para eliminarlo le puedo quitar el check de aquí y ya se me desaparece. Entonces, fíjense que todo mi borde ahora aparece con ese dashed, con ese punteado o subrayado.
+
+[05:20] Subrayado es en realidad, porque punteado sería dotted. Este de aquí es el punteado, entonces, con puntitos. Y si yo cambio el border-width, por ejemplo, para 10 pixeles, fíjense que me aumenta el tamaño de las bolitas, de los puntitos. Aquí, en las imágenes está sobreponiéndose. Es por eso que aparece este formato así. Bueno, como pueden ver, podemos alterar.
+
+[05:54] Hay innúmeras propiedades, pueden aquí prácticamente jugar con las propiedades y entender, para hacer efectos visuales, para configurar sus propias páginas web, es una excelente herramienta de cómo trabajar y verlo en la práctica.
+
+[06:14] Ya después que vean y definan todo lo que quieren configurar, es solo ir a nuestro Visual Studio o al IDE en el cual están trabajando y configurar en el CSS en forma correcta. En nuestro caso vamos a actualizarlo, lo vamos a dejar así, y solo para finalizar este video les voy a mostrar una forma resumida de definir estas tres propiedades.
+
+[06:37] Tenemos una propiedad que se llama border, que se refiere al border. Y aquí yo les puedo pasar los tres parámetros para ahorrarme estas tres líneas de código, solo que el orden es importante. El primer parámetro es el border-width, el ancho de nuestro borde, el segundo parámetro va a ser el estilo, solid y el tercer parámetro va a ser el color.
+
+[07:04] Numeral y 000000 para definir lo negro. Entonces, coloco nuestro borde simplificado, elimino, guardo aquí y voy a ver que todo esté okay. Actualizo, está okay. Entonces, ya tenemos aquí nuestra página con el borde.
+
+[07:24] Hemos conocido cada uno de los elementos que componen nuestros productos, que nos referimos a las dimensiones en sí del elemento, los espaciamientos internos, los bordes y los espaciamientos externos. Entonces, en el próximo video lo que haremos serán las puntas redondeadas. Nos vemos pronto. Chau, chau.

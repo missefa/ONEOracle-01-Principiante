@@ -1,0 +1,36 @@
+Cuenta en GitHub
+
+
+[00:00] Lo que vas a hacer ahora es crear una cuenta. Estamos en la página web de GitHub, está todo en inglés y puede ser que a medida que actualicen, cambien esta pantalla y al lado derecho en la parte superior tenemos el botón sign up.
+
+[00:17] Haz clic ahí y aquí es la parte donde vamos a registrarnos. Entonces, además de poner tu correo, GitHub te va a pedir también los factores de autenticación. Puede ser por una app o también por un SMS. Entonces tú vas a elegir y es importante que lo hagas porque vas a tener tu cuenta más segura.
+
+[00:39] Entonces ahora voy a hacer login en mi cuenta, aquí estoy en mi página principal. Para ti puede aparecer diferente, porque yo ya utilizo entonces va a tener informaciones de proyectos que participo, y ahora vamos a crear nuestro primer repositorio y tenemos dos formas de hacerlo.
+
+[00:59] Aquí en nuestra foto de perfil va a tener las opciones, entonces haz clic en la segunda, your repositories. Y aquí van a aparecer todos los repositorios que tienes y el botón new. La otra forma es escribiendo repo.new en otra,pestaña, darle enter y ya va a entrar en esta página de los repositorios, pero esto solo va a suceder si ya estás con el login de tu cuenta.
+
+[01:33] Y aquí necesitamos agregar algunas informaciones. La primera es el nombre de nuestro repositorio, que va a llamarse sistema-de-registro. Y aquí hay un campo para poner la descripción del proyecto. No necesitamos poner ahora, siempre vamos poder a poner esta opción después de crear la carpeta, nuestro proyecto y tenemos también el modo de recepción de nuestro repositorio. Puede ser público o privado.
+
+[02:12] GitHub es un entorno colaborativo. Entonces la mayoría de los proyectos van a estar en modo público y las personas no solo van a poder ver tus códigos, como también bajarlos. Y es una opción dejar ahí lo que está estudiando, tus propias creaciones, tus propias aplicaciones en público.
+
+[02:39] Pero cuando estás trabajando en una empresa normalmente los repositorios van a estar privados. Entonces es bueno tentarse a esto porque cuando vas a adentrar en una empresa recordar de poner en modo privado.
+
+[02:54] Tenemos también algunas opciones para agregar otros archivos adicionales y en este momento no vamos a hacer esto. Y al final tenemos el botón para crear este repositorio. Haz click ahí. La siguiente página, vamos a tener tres opciones para continuar con ese repositorio, no vamos a entrar en detalle en cada una de ellas, pero en este primer momento vamos a hacer clic en esta opción de create new file.
+
+[03:31] Bueno, aquí vamos a llamar nuestro primer archivo, como README.md. Este MD significa markdown y es un lenguaje de marcación, al igual que el HTML. Y es común utilizar este lenguaje en esta parte del archivo README, que es una descripción de nuestro proyecto y es común también tener en los proyectos de GitHub este archivo, porque ahí va a tener informaciones como descargar el proyecto, cómo puedes utilizar.
+
+[04:08] En fin, algunas informaciones para que ayude a las otras personas que quieren conocer lo que has hecho. Y aquí vamos a poner una etiqueta el h1 con el nombre de nuestro proyecto: Sistema de registro. Recuerda de cerrar la etiqueta, la tag. Y también podemos poner el estado de nuestro proyecto.
+
+[04:36] Voy a poner aquí un guión - Estado del proyecto: En construcción. Entonces así, cuando las personas van a ver lo que está trabajando, ya va a tener esa información que aún está trabajando en esta parte del proyecto. Entonces, aquí tenemos sistema de registro - Estado de proyecto: en construcción.
+
+[05:06] Aquí tenemos esta opción de una pestaña preview y podemos ver también cómo va a quedar después que finalizaremos esta parte. Entonces, aquí es la parte de edición y ahora vamos a finalizar de momento lo que vamos a poner en este archivo.
+
+[05:26] Aquí, en la parte superior derecha va a tener el botón commit changes. Entonces, ahora va a abrir una otra ventana, que es la ventana del commit. ¿Y qué significa esto? El commit es como si fuera una fotografía del estado de nuestro proyecto. Entonces, a medida que vamos haciendo cambios, siempre tenemos que poner un mensaje de lo que significa este cambio.
+
+[05:53] Si estamos actualizando, borrando, en fin. Es una de las partes principales de Git y GitHub y tal vez una de las más importantes. Entonces piensa como si fuera un rótulo, una fotografía de nuestro proyecto, y ahí conseguimos tener varias informaciones. Aquí va a ser nuestro primer commit.
+
+[06:18] Voy a dejar cómo crea el README. Y aquí hay un campo para descripción, nos vamos a poner nada. Y abajo el commit changes. Listo. Ya tenemos nuestro primer archivo, que es el README.
+
+[06:40] Y hablando poco más de este archivo, es un espacio muy importante para poner informaciones de cómo descargar, de cómo utilizar tu proyecto, y es también una buena práctica. Además de una buena práctica es bueno también para mantener el registro de todo aprendizaje. Entonces imagina de aquí a cinco años, vas a regresar a un proyecto y no te acuerdes de cómo has llegado a la solución, lo que has hecho.
+
+[07:11] Si dejas ahí en este archivo todas las informaciones, no vas a demorar mucho para que llegues a lo que necesites, para que encuentres lo que necesitas. Entonces también va a ayudarte a lo largo de tus estudios en programación. De momento, nuestro archivo está muy sencillo, pero si fuera de una empresa seguramente sería más largo.

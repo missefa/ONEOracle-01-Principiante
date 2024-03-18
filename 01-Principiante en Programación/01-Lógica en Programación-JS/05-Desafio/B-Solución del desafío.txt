@@ -1,0 +1,34 @@
+Solución del desafío
+
+
+Bueno Leo, dejamos un desafío a nuestros queridos estudiantes. ¿Qué te parece si resolvemos uno de los posibles caminos, una de las posibles soluciones? La que a ti se te ocurra, ¿no?
+
+Básicamente, repito aquí lo enunciado, lo que queremos es que ese máximo actualmente está estático, vamos a llamarlo así. Nuestro juego sólo nos pide entre 1 y 10. ¿Cómo podemos hacer para que eso sea una variable entre 1 y 100, entre 1 y 50, entre 1 y 1000, que haya algún lugar donde yo pueda editar?
+
+Primero, espero que los alumnos ya tengan su desafío en mano y que yo me pueda acercar a su solución. Veamos entonces.
+
+Lo primero es, vamos a identificar en nuestro código en qué puntos estamos usando ese límite máximo. Y si vemos, en la medida que estamos construyendo el código, dejamos un par de sitios donde no usamos variables. Y ahora, estamos pasando por el punto en que tenemos que pagar nuestra deuda técnica, porque no colocamos la variable.
+
+Lo primero es eso, vamos a colocar una variable, vamos a decir que tenemos un número máximo, numeroMaximoPosible, ok, y esta variable es la que nos va a definir nuestro límite entre 1 y ese número. En este caso, voy a colocar 10 para mantener la funcionalidad, ok, y vean que acá, en numeroSecreto, ya comienzan a aparecer esos 10 que no deberían haber sido 10, sino la variable.
+
+Vamos a cambiar este 10 por numeroSecreto, numeroMaximo, perdón, numeroMaximoPosible. Y si yo ejecuto esto, probablemente la primera va a funcionar y vamos a ver un pequeño detalle, y es que en el string (cadena de texto) que mostramos para el usuario, también está el 10. Y si nosotros no cambiamos ello, en la primera tentativa o el primer uso, va a funcionar todo bien.
+
+Si cambiamos de 10 a 100, nuestro sistema va a trabajar con 100 y al usuario le vamos a pedir 1 a 10. ¿Qué sucedería? El usuario jamás llegaría a la solución.
+
+Entonces, vamos a cambiar esto acá, vamos a colocar acá una variable, sólo que por ser una variable que debemos colocar, tenemos que cambiar nuestras comillas para template string (cadena de texto que permite la inserción de variables), para que pueda aceptar variables acá.
+
+Y ahora, si colocamos nuestro símbolo de dólar, abre y cierra llaves, y la variable numeroMaximoPosible, ok. De esta forma ya dejamos nuestro código funcional.
+
+Esa es la solución, una de las tantas como tú has dicho, ok. Vamos a probarlo entonces, vamos al navegador, ok. Estamos acá, vamos a indicar el número entre 1 y 10, vamos a decirle que es 7, me dice que es menor, 5, menor, uh, aquí está difícil, 3, 3, perfecto. En la primera vez que acerté, sólo en el desafío acerté.
+
+Ahora, cambiemos, vamos a decirle de 1 a 20, de 1 a 100, de 1 a 100, vamos de 1 a 100. Entonces, cambiamos sólo en ese punto, en la línea 2, el numeroMaximoPosible pasa ahora a 100, si todo está bien, desde el mensaje debería salir, mira que ya está saliendo.
+
+Me indica su número entre 1 y 100. Entre 1 y 100, ahora está más difícil, y son 3 intentos solamente. 50, vamos por 50, mayor, 75, 75, mayor, 80, 80, está difícil, yo creo que hay que darle más intentos, pero mira que es muy simple, con sólo cambiar un punto del código, ya dejamos nuestro desafío o nuestro número secreto de la forma en que puede ser extensible, muy fácil, muy fácil.
+
+Bueno, me quedo aquí con la ansiedad de jugar, coloquemos 6 y vamos a jugar, vamos a colocarle entonces 6 intentos, vamos a colocarle ahora 6 intentos, ok, estamos cambiando en la línea 5, y ahora vamos a la línea 7, solamente con ello ya podemos resolver eso.
+
+Ok, guardamos, veamos, entre 1 y 100, vamos a colocar 50, para ver en qué intervalo estamos. Menor, 25. Menor, 15. Mayor, 20. Menor, 17. Menor, 16. Perfecto, muy bien, acertamos en 6 ocasiones. Si acertáramos una vez más, ya era, ahí terminaba el juego.
+
+Bueno, tenemos un juego estupendo, en el cual es posible cambiar, modificar, hacer variables, utilizando precisamente todo este mecanismo que hemos usado. Podemos cambiar el número máximo, el número máximo posible o el límite de nuestro juego. Podemos variar la cantidad de intentos, y eso va a ser interesante. Queremos hacerlo más fácil, queremos hacerlo más difícil, entonces también eso es muy interesante. Hemos colocado contadores, y lo más importante, que el número secreto se calcula de manera aleatoria. Así es, tenemos un juego estupendo y muy completo, funcional nuevamente.
+
+Así que ahora es su turno, pruébenlo en casa y comparen principalmente su resultado con el resultado de Leo. Es un juego muy interesante, porque nos mostró muchos principios y conceptos básicos de programación, que son aplicables tanto en JavaScript (JavaScript) como en cualquier otro lenguaje.

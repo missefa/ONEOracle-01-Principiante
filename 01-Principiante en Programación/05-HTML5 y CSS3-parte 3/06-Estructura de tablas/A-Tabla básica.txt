@@ -1,0 +1,24 @@
+Tabla básica
+
+
+[00:00] Hola, amigos y amigas, vamos a continuar con nuestro curso de HTML y CSS, ya entrando a la recta final de esta parte 3. En lo que nos habíamos concentrado en la última sección fue en dar este toque un poco más artístico, un visual que llame la atención para nuestro botón submit para enviar el formulario. Usamos transformaciones para poder darle ese toque a nuestro botón.
+
+[00:30] Voy a ir a la página modelo, nuestra página final, y si comparamos lo único que nos falta es construir nuestra tabla, esta tablita que nos presenta los días y los horarios de funcionamiento de nuestra barbería, que como podemos ver aquí solo funciona tres veces a la semana, lunes, miércoles y viernes, y en esos horarios, de 8:00 de la mañana a 8:00 de la noche, hasta las 20:00 horas.
+
+[00:56] Entonces, vamos a construir nuestra tablita. Voy a cerrar ya esta página para no generar confusión con la que tenemos en construcción y vamos para nuestro código para ver cómo construimos una tabla. Aquí le voy a dar para que aparezca todo el código, "Alt + Z", que va a ser el Toggle Word Wrap, que es que las líneas den un salto para poder leer mejor todo el código.
+
+[01:39] Y vamos a construir nuestra tabla en la página de contacto HTML, vamos a ir después del form. Una tabla está compuesta, cualquier tabla, si pensamos en una tabla de Excel por ejemplo, está compuesta de columnas y de filas. Para HTML existe una etiqueta específica que se llama table, del inglés tabla, y dentro de esta etiqueta nosotros definimos los table rows, las líneas de las tablas.
+
+[02:18] Y dentro de cada table row definimos los td que vendrían a ser las celdas, cada una de las celdas de nuestra tabla, de cada una de las líneas. Entonces, en este caso, cada línea, nuestra tabla tiene cuatro líneas: el título, el encabezado y los tres días: lunes, miércoles y viernes, y cada una de las líneas tiene dos columnas, entonces, serían dos células que abren y que cierran, dos td.
+
+[02:54] La primera línea de una tabla normalmente es el encabezado, es el título de nuestra tabla. Entonces, aquí vamos a poner día y horario, el horario de funcionamiento. Vamos a aprovechar que ya tenemos aquí la estructura: uno, dos y tres, copiamos y pegamos tres veces. Aquí ya no es día, aquí también vamos a borrar esto.
+
+[03:26] Entonces, el primero vendría a ser lunes, en el segundo día es el miércoles, que va a atender nuestra barbería, el último día es el viernes. ¿En cuál horario? De 8:00 de la mañana a 20:00 horas. Voy a copiar, pego aquí y pego aquí. Perfecto, entonces solo repasando, la estructura de una tabla está compuesta de líneas y columnas, en cualquier lugar donde podamos ver, así podemos definir una tabla.
+
+[04:14] Es bastante usada en Excel, como les comenté es tener ese racional de líneas y columnas, y la intersección de líneas y columnas es lo que conocemos como celdas en Excel. Esa estructura es bastante parecida aquí en nuestro HTM para construir tablas. Entonces, tenemos una etiqueta table, definimos cada uno de los tr que vendrían a ser las líneas, los table rows, row en inglés es línea o fila.
+
+[04:41] Y dentro de cada fila colocamos los td, que vendría a ser cuántas columnas queremos en esa tabla. Como pueden ver, puede ser un poco trabajoso, pero sin embargo si respetamos la estructura de indentación es supersencillo crear tablas en nuestros formularios, en nuestras páginas web. Vamos a guardar aquí y vemos el resultado de nuestra página. Aquí tenemos.
+
+[05:11] Lógicamente, no hemos colocado hasta el momento ningún estilo. Básicamente, está con los datos brutos, por así decirlo, no tiene ningún estilo aplicado. Y lo que veremos en los próximos videos es cómo mejorar ese estilo o cómo dejar nuestra tabla un poco más bonita o que se entienda mejor, un poco más legible, y también vamos a trabajar en la semántica de las tablas.
+
+[05:40] Pero bueno, eso será asunto para los próximos videos. Nos vemos, chau, chau.

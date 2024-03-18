@@ -1,0 +1,29 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que fue visto en el aula. Para ello, ejecuta los pasos listados debajo.
+
+1) En el archivo productos.css, cuando el usuario pase el cursor sobre algún link del menú de navegación, se modificará el color del texto:
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+2) De la misma manera, cuando el usuario pase el cursor sobre algún ítem de la lista de productos, se modificará el color del borde:
+
+.productos li:hover {
+    border-color: #C78C19;
+}
+
+3) Cuando algún ítem de la lista productos esté siendo activado (clicado) por el usuario, se modificará el color del borde:
+
+.productos li:active {
+    border-color: #088C19;    
+}
+
+4) Por último, cuando el usuario pase el cursor sobre algún ítem de la lista productos, se modificará el tamaño del texto del h2:
+
+.productos li:hover h2 {
+    font-size: 33px;
+}

@@ -1,0 +1,24 @@
+Presentación
+
+
+[00:00] Hola, amigos y amigas, mi nombre es Christian Velasco y seré su instructor en este curso de HTML 5 y CSS 3.
+
+[00:12] En esta tercer parte de nuestra forma de HTML y CSS donde estamos construyendo una página web completa desde cero, estamos viendo HTML y CSS desde lo más básico para así poder solidificar todos estos conceptos y ayudarlos en esta jornada para que puedan ser el día de mañana unos buenos programadores, unos buenos desarrolladores de página web.
+
+[00:40] Si están aquí espero que sea porque ya han concluido la etapa 1 y la etapa 2 de los anteriores dos cursos. Aquí repasando qué fue lo que vimos en los anteriores, vimos la página home, creamos nuestra página home en el primer curso, donde lo que vimos principalmente fue cómo colocar imágenes, cómo colocar algunas informaciones básicas, en este caso, la presentación, nuestra misión.
+
+[01:07] Ya empezamos a ver un poco de estilos. En su momento comenzamos a configurarlo directo en el HTML, ya después pasamos a hacer todas esas configuraciones en el CSS, colocamos los diferenciales de nuestra página, aquí colocamos una pequeña lista en ese primer curso. Aquí vamos a volver para atrás.
+
+[01:26] En la segunda etapa vimos nuestra página de productos, donde nos enfocamos principalmente en colocar en una forma visualmente bien atractiva los productos y servicios que nuestra página ofrece.
+
+[01:40] Colocamos efectos y efectos visuales para hacer ese destaque que llama la atención, una página con bastantes imágenes y también superclean en el sentido de presentar la información correcta sin tener muchas cosas que pierdan a nuestro usuario.
+
+[01:59] Y nuestro desafío en esta tercera etapa, es trabajar nuestra página de contacto, si están en este curso, como les decía, pueden usar todo el contenido que vienen desarrollando, o también pueden descargarlo. En la actividad Preparando el ambiente, van a tener una carpeta de todo el proyecto que pueden descargarlo y comenzar desde allí también esta tercera etapa.
+
+[02:23] En esta sección, esta tercera etapa, vamos a trabajar con nuestro formulario, un formulario donde nuestro usuario, nuestro cliente, va a poder enviarnos sus datos personales y va a poder llenar información y pasarnos otros parámetros en relación a la información que desea o cuando puede o quiere agendar un corte o hacerse la barba dentro de la barbería.
+
+[02:48] Entonces, por ejemplo, va a poder colocar sus datos aquí, va a poder colocar su correo, va a poder colocarnos un teléfono para que lo contactemos, va a poder colocar un mensaje bastante extenso. Fíjense que esta funcionalidad le permite colocar un texto bastante grande, cómo le gustaría que lo contactemos, entonces, aquí él va a poder seleccionar.
+
+[03:12] Lo mismo en cuál horario prefiere ser atendido, tiene un selector específico, un check si le gustaría recibir novedades, una newsletter, un e-mail directo y automático de parte de la barbería, nuestro botón para enviar formulario, que está bien destacado y una tabla con los horarios de funcionamiento.
+
+[03:29] Todos estos son tipos de input diferentes que vamos a ir estudiando y analizando en cada uno de las etapas de este nuevo curso, así que tenemos bastante contenido por aprender, los invito a que comiencen este curso y que aprovechen todo el contenido que tenemos para pasarles. Les agradezco una vez más y los veo en los videos de las aulas. Chau, chau.

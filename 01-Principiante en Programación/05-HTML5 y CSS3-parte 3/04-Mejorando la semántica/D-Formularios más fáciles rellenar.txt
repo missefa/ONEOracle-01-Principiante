@@ -1,0 +1,23 @@
+Formularios más fáciles rellenar
+
+
+¿Cómo convertimos un campo común en un campo obligatorio?
+
+a)
+Agregando la propiedad required
+
+¡Alternativa correcta! Cuando agregamos la propiedad required, el navegador nos ayuda a validar si ese campo está rellenado.
+
+
+b)
+Alternativa incorreta
+Agregando la propiedad checked
+
+¡Alternativa incorrecta! La propiedad checked es usada para que un campo ya se cargue marcado, para facilitar la vida del usuario o hasta para sugerir que ese campo sea rellenado.
+
+
+c)
+Alternativa incorreta
+Agregando la propiedad placeholder
+
+¡Alternativa incorrecta! La propiedad placeholder es utilizada para agregar un texto al campo, para sugerir la forma de cómo debe ser rellenado el campo.

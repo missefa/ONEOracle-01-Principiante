@@ -1,0 +1,51 @@
+CSS para imágenes
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso de HTML y CSS, lo que haremos en este video va a ser alinear nuestra imagen al centro y configurarlo para que quepa al 100% de la anchura de nuestra página. Entonces, vamos a volver a nuestro código. Primeramente vamos a crear un ID para diferenciar nuestra imagen, está llamado banner, ese es el nombre del archivo.
+
+[00:34] Y aquí también le vamos a poner banner, para padronizar todos los nombres que se refieren a esa imagen. Voy a guardar, voy a volver en este caso al navegador y les voy a mostrar una herramienta superpoderosa que tienen los navegadores. Todos los navegadores padrones que se usan en el mercado hoy en día tienen una herramienta del desarrollador, una herramienta del programador como también se la conoce.
+
+[01:05] Y para acceder a ella hay diferentes formas. Seguramente muchos de ustedes han caído por error, porque a veces hacemos un clic derecho aquí, y este inspeccionar los va a llevar a la herramienta del navegador en este caso. Otra forma de acceder a esta herramienta es "Ctrl + Shift + I" y les va a abrir la herramienta del navegador.
+
+[01:31] Y la última forma va a depender también del sistema operativo que estén usando, en Mac, en IOS o en Linux puede variar un poco pero el Chrome tiene los tres puntitos para acceder a las herramientas, en este caso. Vean aquí a más herramientas y herramientas del desarrollador, como también ven aquí su atajo que sería "Ctrl + Shift + I" y estoy en la consola o herramienta del navegador, desarrollador, como se la conoce.
+
+[02:04] ¿Qué puedo hacer aquí? Primeramente tengo acceso a todo nuestro código HTML y también a los estilos que nuestros elementos, las características y elementos que definimos en el CSS.
+
+[02:20] Y la ventaja es que puedo alterar aquí esas configuraciones, lo que me permite jugar o probar algunas configuraciones en vivo, en producción, si quieren verlo así, para ver cómo queda disminuyendo el tamaño de la página cómo lo veo, centralizando la imagen al centro cómo se ve, si cambio el color de la letra aquí en el título cómo se ve.
+
+[02:48] Entonces puedo probar y hacer configuraciones y ver esos cambios aplicados aquí, al momento que realizo las configuraciones. Entonces como dijimos, lo que queremos es en nuestra imagen, fíjense que cuando selecciono, me pinta la imagen, me la sombrea la imagen, y aquí me salen los estilos. En este caso no tiene ningún estilo.
+
+[03:12] Un elemento en HTML normalmente yo puedo configurar el largo o anchura, que sería esta de aquí, la altura, porque en este caso es un elemento en dos dimensiones que tiene ancho y alto. Puedo configurar el espaciamiento interno, que en este caso en la imagen no aplica pero puede aplicar en este título que lo vamos a ver, y también el espaciamiento externo, cuánto separa en este caso del borde externo de nuestra página.
+
+[03:50] Y también los márgenes es otro item que puede ser configurado. Pero no se preocupen que vamos a verlos uno por uno aquí en la práctica configurándolos en vivo. En cuanto yo realizo esas configuraciones, ustedes lo van a poder apreciar aquí.
+
+[04:05] Entonces, selecciono la imagen, vengo aquí a estilos, hago un clic, y lo primero que haré va a ser colocar, que nuestra imagen quepa al 100% que es lo que queremos hacer, con la propiedad width, que es del inglés ancho, y aquí le voy a poner 100%.
+
+[04:32] Entonces, va a caber en el 100% de nuestra página. También puedo hacer esa alteración por píxeles o pixeles, solo que prefiero colocar el 100% y en este caso Chrome, nuestro navegador, lo va a ajustar al tamaño correcto sin distorsionar la imagen. Porque fíjense, si yo le pongo width 100% y le pongo heigth de altura, 80 píxeles, fíjense que la imagen queda superdistorsionada, no queda nada bonito.
+
+[05:06] Voy a borrar esta, aquí lo voy a quitar y vamos a dejarlo al 100%. Ahora, voy a volver aquí y vamos a alterar nuestro título. Fíjense que nuestro título ya tenía o ya tiene un estilo que es este texto de nuestro título, que está alineado al centro y yo puedo continuar aquí agregándole algunas configuraciones.
+
+[05:39] Entonces, como vimos, puedo alterar la altura, es una de las propiedades de dimensión que puedo alterar, y le voy a colocar 150 pixeles. Fíjense que cambió el tamaño aquí en este caso de nuestro título. También puedo alterar el borde de, en este caso de nuestro título, pongo border y lo voy a definir con 10 píxeles, y un solidaridad, y vamos a colocar el color negro que, recordamos, son seis 0 en el código de hexadecimal.
+
+[06:28] ¿Qué más? Puedo alterar, como dijimos los espaciamientos internos. Los espaciamientos internos los altero con la propiedad padding. Y en la propiedad padding puedo alterar padding-bottom que sería la parte inferior de nuestro elemento, la base de nuestro elemento, puedo alterar la parte izquierda, darle un espaciamiento interno a la izquierda, darle un espaciamiento a la derecha o darle un espaciamiento en la parte superior.
+
+[07:05] En este caso lo voy a dejar. ¿Qué fue lo que hice? Voy a seleccionar aquí de nuevo, voy a darle un enter aquí, perfecto. Estábamos con padding. En este caso lo voy a dejar el padding general para que ese espaciamiento sea en los cuatro sentidos, en las cuatro dimensiones, y voy a darle un espaciamiento de 20 píxeles.
+
+[07:34] Como podrán ver, el título se separó del margen, que es este espaciamiento interno del que estamos hablando. Puedo continuar colocando un margen, y en este caso nuestro margen lo vamos a definir con 40 píxeles. Entonces, el margen externo, que en este caso va a ser el espaciamiento externo que lo estoy definiendo con nuestro margen.
+
+[08:04] Y también el margen aquí, cuando entro a la propiedad margen, lo puedo definir o a la izquierda o a la derecha o a la parte de arriba. Margin-top, entonces por ejemplo lo puedo colocar a la izquierda y fíjense que en este caso se alineó aquí a la derecha de nuestra pantalla, de nuestra página, y aquí quedó un espacio a la izquierda. Vamos a dejarlo un margen general.
+
+[08:44] Y así podemos entender, comprender que puedo usar la herramienta, la consola del desarrollador, del programador, para realizar estos ajustes y probar esos ajustes en los elementos. Es una buena forma de estudiar también usar la consola del desarrollador, porque me permite acceder a todas las propiedades y características tanto del HTML como del CSS.
+
+[09:14] Entonces practiquen, como les digo, es como jugar, pueden colocar aquí las propiedades y variar cada uno de sus valores para ver cómo se comporta nuestra página con esos cambios. Pero es válido recalcar que todas las alteraciones que estoy haciendo aquí son solo a nivel navegador, no estoy modificando ni alterando mi código. Eso es importante destacarlo.
+
+[09:43] Entonces, todo lo que hago aquí es solo como prueba, es solo como test. Si hay alguna modificación que encontré aquí, que quiero realizarla en nuestro código y en nuestra página que es para valer, tengo que ir a nuestro código, volver a nuestro Visual Studio Code.
+
+[10:01] En este caso vamos a colocar el width, el ancho que queríamos de 100%, ya creamos nuestro ID, entonces vengo aquí, creamos nuestro selector, la imagen está después del body, antes del H1 y nuestro selector, al ser selector de identificador uso el numeral, y aquí coloco width de 100%. Entonces, es el único cambio que voy a hacer.
+
+[10:40] Cuando actualice mi página, todos los cambios que hice en nuestra consola van a desaparecer. Voy a cerrar aquí, y en este caso ya está aplicando el 100% de nuestra página. Vale destacar que en este caso el navegador Chrome es responsive o responsivo. ¿Qué significa?
+
+[10:58] Que si yo abro nuestra página web en un celular o en una tablet, que la pantalla es más pequeña, se va a ajustar automáticamente al tamaño de esa pantalla. Entonces, hemos aprendido a configurar las propiedades de nuestra imagen y también a configurar otros elementos, en este caso de nuestro HTML, a través de la consola del desarrollador.
+
+[11:27] Vamos a continuar ajustando más nuestra página, ajustando más nuestro CSS, pero eso lo veremos en el próximo video. Muchas gracias.
+

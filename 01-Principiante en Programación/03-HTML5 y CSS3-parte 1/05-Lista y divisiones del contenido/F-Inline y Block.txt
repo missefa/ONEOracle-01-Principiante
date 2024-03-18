@@ -1,0 +1,38 @@
+Inline y Block
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso, habíamos colocado aquí en nuestro segundo bloque esta imagen, pero en realidad queríamos colocarla al lado de nuestra lista. Eso es lo que haremos ahora. Entonces vamos a ir a nuestro código y vamos a crear una clase, en este caso para nuestra imagen.
+
+[00:28] Entonces, para poder diferenciarla y referenciarla en nuestro archivo CSS, a esa clase vamos a llamarla imagenDiferenciales, porque a eso está haciendo referencia. Voy a copiar aquí, para no equivocarme en el nombre, y me voy a ir al final, el último elemento que he agregado a nuestra imagen, y hago un selector de clase con el punto.
+
+[01:03] Entonces, a esta imagen diferencial lo que vamos a hacer es hacerla un poco más pequeña para que quepa en nuestra pantalla y para ello le vamos a dar un width, o sea una anchura del 50%. Vamos a guardar, volvemos a nuestra página, actualizamos y nuestra imagen quedó al 50%. Pero si se fijan, no subió, o sea no quedó al lado de nuestra lista.
+
+[01:37] Y esto sucede porque en este caso las listas, la etiqueta en nuestro index, la etiqueta UL es una etiqueta block, de bloque. En realidad, tiene una propiedad por defecto de bloque. ¿Qué significa? Que cada una de estas LI, cada uno de los items de la lista, hacen un salto de línea en cada nueva línea.
+
+[02:07] Entonces, ocupan todo el espacio disponible de la pantalla, y para adicionar un nuevo item, ya sea una lista o una imagen, por defecto van a aparecer en la línea de abajo, no van a aparecer al costado. Ahora, esa propiedad de las listas, en este caso la UL, la unordered list, que es lo que estamos usando, se puede modificar, se puede alterar.
+
+[02:37] Entonces, vamos a ir a nuestro style, aquí abajo de items, vamos a hacer en este caso nuestro selector de UL directamente, porque solo tenemos una lista, y le vamos a decir a través de la propiedad display, tenemos esta propiedad inline-block. ¿Qué es lo que estamos diciéndole?
+
+[03:05] Que ocupe solo el espacio de su contenido y que los espaciamientos, tanto de la parte de arriba, inferiores, superiores, inferiores, derechos, izquierdos, se puedan ajustar, puedan ser ajustables.
+
+[03:23] Entonces, tenemos el inline propiamente dicho, que sería en este caso la imagen, la imagen se acomoda al texto y usa solo su contenido de block, que vendría a ser el valor de la propiedad display por defecto de las listas. Entonces, que en cada nueva línea hay un salto de línea, y en este caso estamos configurando nuestra lista para que sea inline-block.
+
+[03:58] Vamos a guardar y volvemos a nuestra página, actualizamos y fíjense que ahora sí nuestra lista quedó al lado izquierdo e inmediatamente después tenemos a nuestra imagen. Solo que también aquí tenemos un valor por defecto en el cual nuestra lista está alineada con la línea inferior de nuestra imagen, con el bottom de la imagen. Entonces eso también se puede configurar.
+
+[04:30] Venimos aquí a nuestro elemento de la lista y vamos a configurar una propiedad que es vertical-align, de alineamiento vertical, y le vamos a decir top. Guardamos, volvemos, actualizamos y ya lo tenemos aquí alineado en la parte superior.
+
+[04:56] Ahora lo que haremos es aumentar aquí un espacio y darle también un tamaño mayor para que nuestra imagen quede un poco más hacia la derecha, o sea, que quede un poco más centralizada hacia la derecha. Para ello le vamos a dar una anchura a nuestra lista, un width de 20%, le vamos a decir: "Ocupame el 20% del total de la pantalla, de la anchura de la pantalla".
+
+[05:37] Vamos a darle un margin-right, un margen derecho de 15%, entonces de esa manera vamos a poder colocar un espacio y definir la anchura en este caso de nuestra lista. Guardo nuevamente, volvemos a nuestra página, actualizo y fíjense que en este caso nuestra lista está ocupando el 30% que sería todo este espacio y le dimos aquí un margen de 20% de nuestra pantalla.
+
+[06:07] Como podrán ver, se puede trabajar tanto en pixeles, en medidas absolutas, como en referenciales que serían los porcentajes. Va a depender de la necesidad y de la facilidad de cada programador en este caso para ubicarse en cuál es mi área de trabajo y así poder definir parámetros correctos.
+
+[06:31] Por último, lo que haremos es aumentar el padding. El padding recordando es el espaciamiento interno de los elementos, entonces vamos a colocarle un padding a nuestros bloques. Al primer bloque, que es este, sobre la descripción y sobre la Barbería Alura, y también al segundo bloque vamos a colocarle un padding para tener aquí un espaciamiento interno un poco mayor.
+
+[06:58] Entonces volvemos a nuestro código aquí en el style. Primero buscamos el principal, que es el primer bloque, y le vamos a dar un padding de 20 pixels. Vamos a guardar, volvemos a nuestra página, actualizamos y fíjense, lo que tuvimos fue ese espaciamiento interno que fue aumentado.
+
+[07:35] Por último, vamos a aumentar ese distanciamiento interno aquí en nuestro segundo bloque que es el bloque de los diferenciales. Volvemos a nuestro código, buscamos diferenciales, está aquí, colocamos la propiedad padding, y en este caso le vamos a poner 30 pixels. Volvemos y aumentamos. Y como podrán ver, se aumentó aquí un poco el espacio de todo nuestro segundo bloque.
+
+[08:13] Entonces, ya tenemos nuestra página mucho más estructurada. Hemos podido configurar, colocar formato, tanto a nuestras listas como a las imágenes, vimos las configuraciones block e inline. En este caso block viene por defecto en las listas e inline viene por defecto en las imágenes, que se ajustan solo al contenido que ocupan.
+
+[08:38] Mientras que las listas ocupan el 100% de la pantalla, pero podemos configurarlo a través de la propiedad display para alterar ese comportamiento padrón que tienen las listas. Entonces, tenemos nuestra página ya casi lista. Lo único que nos falta es tener aquí un encabezamiento de nuestra página, que eso lo vamos a ver en la próxima aula. Nos vemos allá. Gracias.

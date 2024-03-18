@@ -1,0 +1,42 @@
+Estructurando la navegación
+
+
+[00:00] Continuando con nuestro curso de HTML y CSS 3, en esta segunda parte de nuestro curso, nuestra continuación, lo que habíamos visto en la primera aula era la creación de nuestro encabezado, en el cual habíamos colocado nuestro logo y también una lista no ordenada que representa a nuestro menú de navegación.
+
+[00:34] En este momento, solo tiene los ítems creados y de momento no está haciendo vínculo, no tiene link a absolutamente nada, que es lo que haremos en este video. Volviendo aquí, a nuestro código, ya habíamos creado nuestro head y nuestro header que era justamente nuestro encabezado con el logo y la lista.
+
+[00:59] Entonces, para poder crear vínculos, poder crear links a los ítems de nuestro panel de navegación, vamos a usar una etiqueta que se la representa con a. Se la conoce como áncora, anchor, y viene del anchor en inglés, pero independientemente del nombre, vamos a buscarla aquí, etiqueta a en la página de Mozilla, developer de Mozilla.
+
+[01:31] Acá tenemos. El elemento HTML anchor a crea enlaces a otra página, entonces, esta es la etiqueta correcta para hacer esa creación de vínculos y así poder navegar entre diferentes páginas, ya sea páginas internas de nuestra propia página o links, vínculos a otros contenidos, otras páginas externas que estén disponibles en internet.
+
+[02:05] La forma correcta de usar esta etiqueta es usando su propiedad href y referenciando dentro de esta propiedad el vínculo, el link al cual queremos hacer referencia. Es una etiqueta de contenido, porque como pueden ver, aquí abre y aquí va a tener su etiqueta de cierre. Entonces, lo que haremos en nuestro código es para cada ítem de nuestra lista, vamos a crear la etiqueta a.
+
+[02:43] Dentro de la etiqueta a vamos a colocar el nombre de nuestro ítem, en este caso home, y aquí, dentro de la apertura de la etiqueta a definimos nuestra propiedad href. Bueno, como lo habíamos visto también funciona con el source de la etiqueta imagen.
+
+[03:08] Cuando coloco href igual y abro las comillas, ya me abre nuestro panel aquí interno de navegación de nuestro IDE, haciendo recuerdo que está abriéndonos la carpeta donde productos.html se encuentra, y si analizamos esa carpeta vamos a ver que dentro de productos.html tengo la página index.html, que es nuestra página inicial, la página principal que hicimos en la primera parte del curso.
+
+[03:44] Entonces, lo que haremos será referenciar esa página. Como está en la misma ubicación de nuestra carpeta, puedo referenciarla directamente. Entonces, coloco href index.html, voy a guardar, vamos a volver a nuestra página, actualizo, y fíjense aquí, que ya hay ítem home.
+
+[04:10] Primero se cambió, se alteró el color para un color azul, se colocó el subrayado, y me indica que es un link porque cuando me posiciono encima de home, el cursor del mouse se cambia para una manito con un dedo. Entonces, eso me está indicando, en este caso nuestro navegador, de que esto se trata de un link.
+
+[04:36] Y fíjense que, si yo hago clic en el link, me va a llevar a la página principal que la habíamos desarrollado en la primera etapa de este curso. Como no tenemos cómo volver de momento, aquí no tenemos el panel de navegación, voy a darle aquí atrás, y ya estamos nuevamente en nuestra página de productos.
+
+[04:56] Voy a volver a nuestro Visual Studio y vamos a colocar la etiqueta a de áncora, ahora para los otros ítems. Entonces, la hacemos para productos, colocamos href. Aquí tenemos productos.html, que es la misma página, y dentro de contacto actualmente no tenemos una página de contacto.
+
+[05:31] Esta página de contacto será creada más adelante y de momento vamos a ponerle una página fake, una página que no existe, que se va a llamar, minúscula, contacto.html. Voy a guardar, vuelvo a nuestro navegador, actualizo y fíjense que ahora todos los ítems se volvieron links, se volvieron vínculos.
+
+[06:02] Home y productos aparecen pintados con un color diferente al azul, un color medio violeta, un azul más claro, porque significa que el histórico de mi navegador ya registró la visita de esas páginas, yo ya las he visitado y es por eso que se vuelven de un color diferente. Así se comporta nuestro navegador.
+
+[06:27] No son características de HTML y de CSS que el navegador aplica por default cuando ya reconoce que algunas páginas han sido visitadas. Contacto no existe. Si yo hago clic en ella me va a decir que no se ha encontrado otro archivo, porque dentro de esa carpeta, recordando que estamos navegando aquí en la carpeta principal de nuestro proyecto no tenemos ninguna página que se llame contacto.html.
+
+[06:56] Entonces nuestro navegador lo que nos está diciendo es eso, no se ha encontrado otro archivo, porque todavía no lo hemos creado. Voy a volver aquí atrás, y como les dije, la página contacto no se preocupen en este momento, vamos a crearla más adelante.
+
+[07:15] A modo de ejemplificar, vamos a ir aquí, a nuestro Visual Studio Code y les voy a mostrar que aparte de poder referenciar vínculos internos, páginas internas de nuestra página, también podemos hacer links, podemos enlazar a páginas externas de nuestro proyecto, de nuestra página.
+
+[07:40] En este caso, vamos a hacer referencia a la página de Google, bastante simple. Solo que tengo que tener cuidado de escribirlo completamente con http, dos puntos, dos barras, y aquí coloco la dirección completa de google.com. Guardo mi página, guardo aquí mi archivo, volvemos a nuestro Google, voy a actualizar aquí, y fíjense que cuando hago clic en contacto, me redirecciona a la página de Google.
+
+[08:21] Voy a dar atrás para volver aquí a nuestra página, entonces puedo referenciar páginas externas, no hay ningún problema. Es así como se referencia páginas en blogs, en muchos sistemas que hacen referencia a una página externa, pero vamos a dejarlo con nuestra página contacto que, aunque no exista, ya la vamos a definir así y la vamos a crear más adelante como lo hemos dicho.
+
+[08:56] Entonces, déjenme solo actualizar, vamos a volver aquí, actualizamos, home nos lleva a nuestra página principal, productos debería mantenernos aquí y contacto nos dice que nos encontramos. Perfecto. Entonces, eso es todo por este video y en el próximo capítulo lo que veremos será cómo colocar el formato a nuestra lista de navegación.
+
+[09:25] Vamos a comenzar a configurar toda la formatación de nuestro panel de navegación. Hasta una próxima, chau, chau.

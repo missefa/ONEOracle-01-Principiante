@@ -1,0 +1,16 @@
+Git Branch
+
+
+[00:00] Hasta este momento hemos trabajado en una sola branch en nuestro proyecto. Aquí, en la parte superior, tenemos esta este campo con la rama main, que significa principal. Generalmente cuando estamos trabajando con otras personas y en una empresa vamos a tener otras ramas, ramas de desarrollo, de prueba, de revisiones, entonces no podemos poner todo lo que estamos haciendo directamente en la rama principal porque esto puede romper la aplicación.
+
+[00:31] Podemos pensar las ramas como rompecabezas, donde cada pieza va a tener su función y al final vamos a juntarlos para que el software pueda funcionar. Ahora vamos a crear una nueva rama en nuestro proyecto. Volviendo a la consola, vemos a utilizar el comando git branch que nos va a presentar las ganas que tenemos, que solamente es una y es la main.
+
+[00:58] Ahora vamos a utilizar el comando git checkout para la creación con el parámetro –b, y también el nombre de la rama que queremos tener, que va a llamarse desarrollo. Ahora nuevamente voy a poner git branch. Nos va a presentar dos ramas y aquí adelante tenemos el asterisco para indicar en qué rama estamos.
+
+[01:25] Vamos a regresar a la main con otro comando que se llama el git switch. Voy a poner aquí switch. Ha faltado la main, es necesario poner el nombre. Y así regresamos a main. Ahora voy a regresar a la rama desarrollo, porque vamos a hacer una modificación en uno de nuestros archivos para después ver cómo vamos a juntar todo esto, entonces nuevamente voy a poner aquí git switch desarrollo.
+
+[02:05] Vamos a nuestro editor. Y aquí, en este archivo contacto voy a poner más una línea, voy a poner un parágrafo. La etiqueta p y poner aquí mi función instructora. Entonces vemos que ya tenemos esta modificación regresando a la consola. El git status, nuevamente el git status que nos presenta que tenemos esta modificación.
+
+[02:43] Y ahora voy a enviarla para GitHub. Lo que vamos a hacer, voy a limpiar mi pantalla para quedar más fácil. El git add, el git commit, “Actualiza el contacto”. Y ahora el git push. Y lo que pasa aquí tenemos una configuración para hacer el push solamente en la principal, entonces aquí vamos a tener que utilizar git push origin desarrollo.
+
+[03:34] Ahora sí. Aquí en nuestro proyecto vamos a tener esta nueva rama, podemos también verificar aquí. Bueno, ¿y cómo puedo hacer para juntar todo esto? Porque si aquí en la main puedo ver que no hay esta nueva etiqueta, no hay esta nueva línea, solo en desarrollo. Aquí hay. ¿Y cómo podemos hacer para juntar estas dos ramas? Eso vamos a ver en el próximo video.

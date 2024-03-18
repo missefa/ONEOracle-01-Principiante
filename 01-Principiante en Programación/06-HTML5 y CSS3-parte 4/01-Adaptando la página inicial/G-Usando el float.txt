@@ -1,0 +1,40 @@
+Usando el float
+
+
+[00:00] Okay, queridos alumnos y queridas alumnas, continuando con nuestro curso, lo que veremos ahora será dentro del bloque sobre la barbería Alura, como vimos tenemos una imagen. Prácticamente son los utensilios, las herramientas que usa un barbero, y van a tener un link para que puedan descargar esta imagen.
+
+[00:28] Una vez descargada, la colocan en su carpeta de imágenes. Entonces, dentro de la carpeta de su proyecto, tenemos la carpeta imagen y yo ya la coloqué aquí. Entonces necesitan descargarla, van a tener una actividad en esta sección, en esta aula para poder descargar eta imagen, la descargan y la colocan aquí en la carpeta de imágenes.
+
+[00:54] Vamos a nuestro código e importamos esa imagen después de nuestro título principal. Entonces, venimos aquí, vamos a dar un enter, damos imagen, source y aquí podemos navegar. Entonces cuando estoy dentro de todo mi proyecto, fíjense que cuando doy source, me aparecen todos los lugares donde puedo navegar y hacer referencia.
+
+[01:25] Entonces, navego a mi carpeta imágenes, incluso aquí el Visual Studio Code me ayuda y me dice: "Dentro de esa carpeta tienes esos archivos". Entonces uso utensilios.jpg. Un punto importante, vamos a crear una clase que se va a llamar utensilios, y vamos a crear la propiedad alt de alternativo, para la imagen.
+
+[01:57] Recordando que esta propiedad es importante, primero, para caso nuestra imagen no cargue en el navegador por algún problema, que aparezca de qué se trata esa imagen, y también por un tema de accesibilidad. Hay mucha gente con problemas o con visión limitada, ayuda este texto a esas personas a saber de qué se tratan esas imágenes.
+
+[02:23] Y aquí le vamos a poner que estos son los utensilios de un barbero. Cerramos. Voy a guardar y ya nuestra imagen tendría que aparecer aquí. Perfecto, aparece, lógicamente con un tamaño supergrande y lo primero que haremos será ajustar ese tamaño. Volvemos y ajustamos el tamaño ahora en nuestro style.css.
+
+[03:03] Voy a llevarme el nombre de la clase para hacer un selector, lo colocamos antes de la imagen de los diferenciales, porque en la estructura de nuestro HTML esta imagen está antes que la imagen de los diferenciales. Respetamos esa estructura en el CSS y aquí llamamos a nuestro selector de utensilios. Entonces en utensilios colocamos un width, que nuestra imagen tenga un ancho de 120 píxeles.
+
+[03:34] Guardamos aquí, vuelvo a mi página, actualizo y ya tenemos nuestra imagen en el tamaño correcto. Ahora, pensando un poco, primero vamos a ir y vamos a pensar aquí. Nos podemos fijar que el texto está bordeando nuestra imagen, y justamente ese efecto, ese comportamiento es el que necesitamos alterar. ¿Se les ocurre algo cómo podríamos hacer eso?
+
+[04:10] Hemos visto dos propiedades, dos formas en las cuales configuramos de alguna forma el contenido o cómo se comporta el contenido de nuestra página. Uno de ellos es alterar la propiedad display. Teníamos in line, blot, donde alterábamos la forma como nuestro contenido ocupaba o llenaba nuestra página.
+
+[04:40] En el caso de blot, que decíamos, aquí podíamos decir que nuestra imagen tenía una propiedad blot porque todo el texto está yendo en la siguiente línea, está dando ese salto y no tenemos ningún texto aquí. Si colocamos la imagen como in line, probablemente este texto quede aquí alineado, solo que no vamos a tener ese efecto de bordear, de redondear la imagen.
+
+[05:07] Otra forma que habíamos visto de posicionar la imagen en otros lugares es con la propiedad position, sea absoluta, sea relativa, podríamos ubicar nuestra imagen en cualquier lugar de nuestra página. Pero ocurriría lo mismo: tendríamos un desvinculamiento de esta imagen con el texto y el texto no tendría ese efecto de redondear.
+
+[05:37] Para ello tenemos, existe una propiedad que se llama float, de flotar, de flotante, es como si nuestra imagen se despegara de la página, sin embargo deja una sombra, deja la sombra de esa imagen, y ese espacio, la sombra, es ocupado en la misma proporción, y en ese caso tenemos el texto redondeando a toda esa imagen. Y esa propiedad la usamos directo en nuestro CSS.
+
+[06:11] Vamos a volver aquí a nuestro CSS, tenemos nuestros utensilios y lo que necesitamos aquí es reutilizar esa propiedad que se llama float, y la vamos a utilizar a la posición izquierda, entonces lo que hacemos es usar la propiedad y le decimos el posicionamiento de la propiedad. Voy a minimizar aquí, voy a cerrar esa carpeta, esa ventana de imágenes, actualizo.
+
+[06:52] Y fíjense que ahora nuestro texto, nuestra imagen está a la izquierda, ubicada a la izquierda, nuestro texto alrededor, y lógicamente tenemos que ajustar aquí un poco el texto. Vimos que nuestro diferencial también se fue hacia arriba, o sea, también fue jalado hacia arriba por la propiedad float, y eso necesitamos configurarlo en la clase de imagen del título principal, disculpen.
+
+[07:25] Aquí en la clase del título principal necesitamos decirle clear, o sea que cualquier configuración que venga después del título de la izquierda que me la limpie, un clear left. Visualmente no va a alterar nada, vamos a volver aquí, voy a actualizar, visualmente no altera nada pero lo que estamos haciendo es decirle a la página que esta imagen solo aplica para este bloque, que no me aplique después de los títulos.
+
+[08:03] Vamos a volver a nuestro Visual Studio Code y lo que haremos ahora será colocar márgenes, porque está muy colado de nuestro texto, vamos a colocar un margen de 20 píxeles. Volvemos aquí, actualizamos, tenemos el margen, solo que no es el ideal porque hemos colocado un margen de 20 píxeles en el superior, inferior y en los laterales.
+
+[08:35] Entonces vamos a ajustar eso para dejarlo en la forma correcta y le vamos a decir que queremos cero en la parte superior, 20 en la derecha de nuestro texto, 20 píxeles en la parte inferior y cero en la izquierda. Recordando es superior, derecha, inferior e izquierda, siempre en sentido horario. Actualizamos y ahora sí, nuestra imagen está bien ubicada y con ese espacio de 20 píxeles a la derecha y en la parte inferior de nuestra imagen.
+
+[09:26] Perfecto, entonces con esto ya hemos finalizado prácticamente nuestro bloque de Sobre la Barbería Alura. Todavía nos falta que el texto bordee, vamos a ajustar el texto más adelante, no se preocupen con eso. En los siguientes bloques vamos a alterar la lista de nuestros diferenciales, nos está faltando finalizar la parte de los diferenciales.
+
+[09:56] Y también vamos a agregar los contenidos extra que tenemos como es la ubicación de la página y el video, pero eso es asunto para las próximas secciones, así que los veo pronto. Muchas gracias.

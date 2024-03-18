@@ -1,0 +1,42 @@
+Formulario más completo
+
+
+[00:00] Okay, queridos amigos y amigas, vamos a continuar con nuestro curso. Lo que hicimos fue crear nuestro formulario con los datos básicos. Ahora, vamos a ver inputs de datos un poco más complejos.
+
+[00:16] Voy a ir aquí, a nuestra página de contacto modelo, en la que el producto final al que queremos llegar y aquí tenemos otros tipos de datos, como por ejemplo, primero este mensaje. ¿Cuál es la característica? Que esta caja de texto diferente a las anteriores que hemos creado puedo manipular su tamaño, entonces, el cliente o el usuario puede dar enter y colocarnos mucho más texto, un texto más extenso en este campo de datos. Entonces, ese es uno de los campos que vamos a crear.
+
+[00:58] Luego aquí tenemos un input radio, así se llama, que es cómo le gustaría al cliente que sea contactado, ya sea por email, por teléfono o por WhatsApp. Y en este momento, ésta de aquí podemos dejarla para más adelante, lo que vamos a hacer es este checkbox, si le gustaría recibir novedades de la barbería por correo electrónico, y él selecciona. Es lo que vamos a ver en este momento.
+
+[01:30] Voy a minimizar aquí, aquí también, y estamos en nuestro código. Lo que haremos será crear las etiquetas respectivas en nuestro HTML. Aquí está nuestro for, tenemos nuestros tres inputs de texto, y antes del submit vamos aquí a dar un enter y aquí vamos a crear nuestro textarea. Es la etiqueta de esa caja de texto especial, voy a guardar, vamos a nuestra página.
+
+[02:09] Es esta cajita de texto especial que yo puedo manipular su tamaño directamente en la página. Sin embargo, por default queda bastante pequeña. Vamos a agrandarla un poco para igualar o acercarnos al tamaño de las otras cajas de texto. Para ello, a nuestro textarea le vamos a dar un cols de columnas, de 70, y rows, de líneas o filas, de 10.
+
+[02:45] Aparte, tenemos que indicar de qué se trata ese textarea. Entonces, ya acostumbrados, colocamos nuestro label, en este caso, nuestro textarea es nuestro input, y necesita un label. Aquí colocamos mensaje, y en nuestro textarea vamos a colocar un ID que va a ser mensaje, y en nuestro label un for, que va a casarse, va a relacionarse con el textarea mensaje.
+
+[03:20] Voy a guardar, vamos a nuestra página en construcción y aquí tenemos mensaje con un tamaño ya un poco más próximo de los otros elementos, e incluso el usuario puede manipular esto. Entonces, es un tipo de texto superinteresante para que coloquemos en nuestros formularios y que da esa flexibilidad de tamaño de texto.
+
+[03:49] Continuando, ahora, vamos a ver este input radio. Entonces, la selección, perciban que solo puede quedar uno seleccionado. Para ello, tenemos también, así como tenemos un input para texto y un input para submit, también tenemos un input type que es radio, que justamente es lo que nos permite tener ese comportamiento.
+
+[04:31] De momento voy a colocar solo el input radio para que vean que ya me aparece aquí el espacio, la bolita para poder seleccionar. Lógicamente que nuestro input radio primeramente necesita de un label. Ya este label le vamos a colocar. No, aquí no es el id, aquí es el for, y a este for, luego creamos el id, le vamos a colocar radio, mensaje. Email, disculpen, porque este texto va a ser el email.
+
+[05:07] Esa selección va a ser email en el primer ítem en nuestra listita para seleccionar. En nuestro input type radio, aquí, cuando usamos radio, se acostumbra colocar un value, un valor de ese input que va a ser email, y para terminar necesitamos un id que va a ser radio-email.
+
+[05:35] Entonces, es nuestro input de tipo radio, necesitamos un value para este tipo de input y su id respectivo para relacionarlo con su label. Voy a guardar, vamos a nuestra paginita, construimos, actualizamos y aquí está el email con su input-radio. Ahora, haremos eso para los otros dos elementos.
+
+[06:06] Para ganar tiempo, ya sabemos que es una práctica bastante común, copiar y pegar, es el día a día del programador, y aquí ya ajustamos lo que tenga que ser ajustado. El segundo tipo de contacto es teléfono, radio-teléfono, en el label quiero que aparezca teléfono, tipo radio, value teléfono, y aquí radio-teléfono. El tercero es WhatsApp, radio-WhatsApp. El texto va a ser WhatsApp, value va a ser WhatsApp.
+
+[07:12] Y por último el radio-WhatsApp. Perfecto. Vamos a nuestra página, déjenme actualizar. Y fíjense que ya tenemos los tres elementos, solo que miren, hay un pequeño problema: selecciono uno y también los otros pueden ser seleccionados, en este caso, seleccioné los tres.
+
+[07:39] La idea de una lista radio-button es que consigamos dejar solo uno seleccionado y eso lo resolvemos con una propiedad que se llama name, en el cual, vamos a colocar aquí, en el primero, en realidad en todos, ese name lo vamos a llamar contacto. Es como colocarle un apellido, agruparlos a todos nuestros input-radio, diciéndole que esos tres pertenecen al mismo grupo de input, de elementos.
+
+[08:17] Vamos a actualizar. Fíjense que a los tres les coloqué la propiedad name= contacto, y cuando volvemos aquí ya ese comportamiento se arregla, se corrige. Ahora solo me deja seleccionar uno. Con eso tenemos nuestro input radio completo. Lo único que está faltando es el título, cómo le gustaría que lo contactemos. Necesitamos, entonces, colocar nuestra etiqueta p.
+
+[08:48] Vamos a colocar entonces, una etiqueta p para preguntarle a nuestro usuario justamente cómo le gustaría que lo contactemos y adelantando, fíjense que estos cuatro elementos pertenecen a una lista del input radio, entonces, ya vimos que para separar contenidos, para organizar nuestro código, usamos la etiqueta div.
+
+[09:23] Y justamente estos, el input radio con su título que es nuestro párrafo, vamos a colocarlo dentro de nuestro div y así queda mucho más organizado. Aquí guardamos, vamos aquí, actualizamos y aquí tenemos. ¿Cómo le gustaría que lo contactemos? Creamos nuestro input type y en este caso checkbox. Ahora, este checkbox lo vamos a colocar dentro del label.
+
+[10:04] Esa es otra estrategia que se puede usar donde ya lo dejamos relacionado y no necesitamos usar el id que habíamos usado antes. Entonces, ya aquí estamos diciéndole que este checkbox, este input checkbox, está dentro de este label. Y aquí le colocamos en el label: ¿Le gustaría recibir novedades de la Barbería Alura?
+
+[10:48] Voy a guardar, vamos a nuestra página, actualizamos y aquí tenemos: ¿Le gustaría recibir novedades? Y hay una cajita para hacer check. No nos apeguemos ahora al formato, es algo que lo vamos a ver más adelante, solo que ya tenemos nuestros tres inputs diferentes de los anteriores que habíamos visto, diferentes tipos, un poco más complejos, y nuestra página de contacto ya va tomando forma.
+
+[11:19] El visual, los estilos de estos elementos son asunto para el próximo video, así que nos vemos. Chau, chau.

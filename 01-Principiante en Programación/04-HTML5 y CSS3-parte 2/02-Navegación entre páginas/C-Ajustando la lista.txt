@@ -1,0 +1,56 @@
+Ajustando la lista
+
+
+[00:00] Continuando con nuestro curso de HTML 5 y CSS 3, lo que vimos en el último video fue la creación de nuestro panel de navegación con sus vínculos, links respectivos. Ahora, lo que veremos será la formatación, el formato de nuestra página.
+
+[00:23] Si vamos y vemos aquí la página original, la página final que es donde queremos llegar, vamos a notar que primeramente nuestro panel de navegación es horizontal, no es vertical, y que tenemos algunas configuraciones importantes, como que está en mayúscula. Fíjense que al inicio no está subrayado como nos lo muestra por defecto nuestro navegador aquí.
+
+[00:55] Tenemos algún espaciamiento interno un poco mayor, y bueno, eso es lo que vamos a ir viendo ahora en este video. Voy a ir para nuestro Visual Studio Code, aquí tenemos nuestros productos.html y ya habíamos creado nuestro archivo productos.css que es donde colocamos los estilos.
+
+[01:21] Es una buena práctica lo que hicimos, justamente creamos todo el contenido de HTML con los marcadores y las etiquetas de HTML, para luego hacer los ajustes del formato en nuestro CSS. Entonces, vamos a comenzar por nuestro fondo del encabezado, entonces, vamos a usar la etiqueta header aquí, el marcador header en nuestro CSS y vamos a pasarle el color plomo como lo tenemos, background-color, como lo tenemos en nuestra página final.
+
+[02:04] Background color, numeral, BBBBBB. Recordando que, habíamos visto el uso de hexadecimal para colocar los formatos de colores en la anterior parte de nuestro curso, en la primera parte de nuestro curso. Entonces, colocamos el header, voy a actualizar, vamos a nuestra página, actualizo aquí y ya nuestro fondo está de color plomo.
+
+[02:32] Ahora nuestra lista, vamos a dejarla en formato horizontal. Para ello, vamos a ir aquí a nuestro productos.html, y vamos a analizar aquí un poco. Nuestra lista está aquí, tenemos la etiqueta ul de unordered-list para definir nuestra lista.
+
+[02:56] Si yo utilizo aquí directo un marcador de la ul y configuro alguna cosa, configuro algo en nuestra ul, el estilo de esta ul, corro el riesgo de que si en el futuro necesito usar otra lista, bueno, voy a impactar esa nueva lista con el formato que yo defina aquí.
+
+[03:21] Entonces, para ello, podemos usar una class, definir aquí una class y llamarlo qué sé yo, navegación, para así diferenciar esta lista de las posibles futuras listas que puedan llegar a venir, que podamos llegar a crear. Solo que a partir de HTML 5, en este caso, la quinta versión es un poco más buena con nosotros y nos creó una etiqueta, nos dejó disponible una etiqueta que se llama nav, que justamente es para colocar nuestro panel de navegación.
+
+[04:06] En HTML 5 se dieron cuenta que prácticamente el 99.99% de las páginas necesitan o tienen un panel de navegación, entonces para ello fue que crearon esta etiqueta, que nos la dejaron disponible, y ahora sí podemos usar directamente esta etiqueta para referirnos a nuestro panel de navegación.
+
+[04:30] Entonces, en este caso, para volver nuestra lista, nuestro panel en formato horizontal, vamos a usar la etiqueta nav, vamos a marcar, referir a la etiqueta nav y al li, porque el formato, la propiedad horizontal aquí la habíamos visto anteriormente con la propiedad display, en el cual habíamos visto que las listas, por default, vienen con el display-block, configurado como block, que significa que cada uno de los ítems ocupan el 100% del espacio de la página.
+
+[05:21] Es por eso que, automáticamente el siguiente ítem se coloca debajo del primero, el tercero debajo del segundo y así sucesivamente, porque vienen con el display-block por defecto. Y para poder cambiar ese comportamiento, alterar ese comportamiento, tenemos que configurar para inline.
+
+[05:45] Entonces, cuando yo les estoy diciendo que el display de nuestras listas, que los ítem de nuestras listas sean inline, le estoy diciendo a nuestro navegador que va a interpretar nuestro HTML, que no quiero que me ocupe el 100% de la página, sino que ocupe el tamaño de su contenido. Entonces, si home tiene cuatro caracteres, va a ocupar el tamaño de esos cuatro caracteres.
+
+[06:15] Productos tiene más caracteres, va a ocupar un espacio un poco mayor. Entonces, al cambiar el display de nuestras listas conseguimos este comportamiento, alterar el comportamiento que nuestro navegador nos coloca.
+
+[06:34] Y bueno, las siguientes configuraciones, volviendo aquí, a nuestra página final, a nuestra página modelo, tenemos que está en mayúscula y que no tiene también, está de color negro, no tiene el subrayado por defecto, entonces, todo eso lo vamos a configurar ahora. Solo que ya no nos vamos a referir al navegador, a la lista, nos vamos a referir a toda.
+
+[07:05] Entonces, vamos a referirnos a la etiqueta a, porque es el contenido de la página, de los sub-ítems, de los ítems de la lista a los que queremos alterar con este formato. Entonces, vamos a ir a nuestro producto CSS y aquí colocamos nav a, haciéndonos referencias a la etiqueta a, de áncora de nuestros ítems de la lista.
+
+[07:32] En esta etiqueta vamos a configurar primeramente las mayúsculas, colocando text-transform: uppercase. ¿Podríamos venir aquí y alterar directamente el texto en mayúscula? Sí, solo que no es lo correcto porque lo que vamos a alterar es el estilo de nuestra página, no el contenido de nuestra página.
+
+[07:57] Vamos a colocar el color negro, entonces color de nuestro texto, y recordando que el color negro podemos definirlo como ausencia de color con seis ceros. Luego, vamos a definir negrito, vamos a configurarlo con negrito, bold, recordando que en el anterior capítulo habíamos visto que podemos usar la etiqueta strong en HTML para configurar el negrito, solo que también, no es lo correcto.
+
+[08:29] Para eso tenemos el CSS y todo el formato de nuestra página lo alteraremos aquí. También, vamos a alterar el tamaño de nuestra página para font-size y vamos a colocarle 22 pixeles. Y por último vamos a retirar ese subrayado por defecto que nuestro navegador coloca cuando se trata de vínculos, y eso lo haremos con la propiedad text-decoration.
+
+[08:56] Y aquí le vamos a definir ni una, none, que no tenga decoración de texto. Entonces, voy a guardar, vuelvo a nuestra página, actualizo aquí y fíjense que ya tengo prácticamente el mismo formato de texto que tenemos en nuestra página modelo. Y bueno, para finalizar, vamos a colocar aquí un margen interno, un espaciamiento interno, porque si se fijan, están superpegados estos textos.
+
+[09:35] Entonces, vamos a colocar ese espaciamiento interno con la propiedad margin. En realidad esta propiedad tiene cuatro parámetros. El primero me define un margen, un espaciamiento interno hacia arriba, que lo voy a definir con 0. El segundo a la derecha, que también le voy a colocar 0. El tercero, hacia abajo, que también va a ser 0.
+
+[10:03] Y por último, a la izquierda que, en este caso, le voy a colocar 15 pixeles. Si yo guardo aquí, volvemos a nuestra página, actualizamos, podemos notar que hubo un leve aumento en el espacio. ¿Por qué lo hicimos a la izquierda?
+
+[10:20] Vamos a inspeccionar e ir aquí, a la consola del desarrollador, voy a seleccionar aquí un ítem de la lista y fíjense que aquí tengo sus propiedades. Entonces, ¿por qué lo hicimos así? Si yo le quito aquí el check, voy a perder el formato, no solo en el visual. Esto es la ventaja de poder trabajar aquí con la consola y probar todas estas propiedades.
+
+[10:52] Entonces, si le doy check, veo que justamente este espaciamiento fue colocado al lado izquierdo. ¿Por qué lo hice así? Porque más adelante vamos a colocar nuestro panel de navegación en la ubicación correcta, y será un poco más a la derecha de nuestra página.
+
+[11:18] Entonces, lo que quiero tener es ese espaciamiento interno hacia la izquierda para que no me afecte también, al momento que yo configure y lo mueva nuestro panel de navegación en la ubicación correcta aquí de nuestro encabezado. Entonces, con esto hemos terminado la configuración del formato de nuestro panel de navegación.
+
+[11:46] En los siguientes videos seguiremos configurando, trabajando con el formato de nuestra página y de nuestro encabezado y veremos algunos formatos por defecto que nos coloca el navegador, que nos coloca en este caso Chrome. Como pueden ver aquí, tenemos un espacio superior y también en la derecha y en la izquierda, que es poco perceptible pero sí se nota, que eso el navegador nos lo coloca por defecto.
+
+[12:15] Y como, sí lo vimos, teníamos la propiedad del text-decoration, que era el subrayado que venía en nuestros vínculos por defecto. Entonces, así como ese, hay otros formatos que vienen por defecto que veremos y aprenderemos cómo desactivarlos para que tengamos control total y 100% sobre nuestra página.
+
+[12:41] Entonces, continúen con los ejercicios de esta aula y en la próxima continuaremos desarrollando la página de nuestra Barbería Alura. Muchísimas gracias. Nos vemos. Chau, chau.

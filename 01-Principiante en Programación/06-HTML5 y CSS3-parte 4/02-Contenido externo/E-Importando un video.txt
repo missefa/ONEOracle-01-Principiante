@@ -1,0 +1,28 @@
+Importando un video
+
+
+[00:00] Para finalizar con esta parte de las fuentes externas, la importación de estos elementos externos que estamos colocando en nuestra página, vamos ahora a incorporar el video de You Tube. Hemos seleccionado el video de You Tube, en realidad está en inglés, pero en realidad lo hemos seleccionado por esta imagen previa que llama bastante la atención.
+
+[00:25] Y justamente ese es el objetivo de colocar un elemento visual como un video que sea o informar con algunos datos de nuestra empresa, nuestro negocio, o llamar, capturar esa atención inicial de nuestro cliente. Esta imagen previa en miniatura es conocida en inglés como thumbnail, que justamente es como que la primera impresión que junto con el texto genera al cliente que va a acceder a nuestra página.
+
+[01:10] El link del video lo van a tener ustedes para poder usarlo y sin embargo pueden también usar o incorporar el video que ustedes deseen, que ustedes quieran. Yo ya lo tengo aquí en Google. Entré a You Tube en realidad, en el navegador, y el link del video como les dije se lo vamos a compartir, van a poder acceder al mismo video. Es un video como pueden ver de 12 minutos.
+
+[01:42] Incorporar un video en nuestra página es supersencillo, hasta más simple que incorporar un mapa. Venimos aquí en este botón compartir, insertar y aquí ya nos aparece, fíjense la etiqueta iframe, que ya hasta nos es familiar, porque ya la hemos usado, y aquí podemos inclusive definir, configurar en qué minuto y en qué segundo queremos que el video comience a exhibirse en nuestra página.
+
+[02:18] Aquí podemos configurar, obviamente en función del tamaño del video. Lo vamos a dejar que queremos desde cero, y copiamos este texto aquí, con el botón copiar. Importante que si colocamos alguna configuración, tenemos que copiar después de haber colocado la configuración. Copiamos, voy a cerrar aquí, minimizar aquí, vamos a nuestro código y colocamos ese video después de la imagen de los diferenciales.
+
+[02:53] Aquí después de la sección de los diferenciales, venimos aquí, damos un enter, iframe, vamos a salvar, venimos a nuestra barbería, a nuestra página en construcción y aparece el video. Nos falta la configuración de estilos, centralizarlo y darle algunos espacios, eso lo haremos ahora.
+
+[03:20] Analizando el iframe que importamos, básicamente lo que tenemos es el tamaño que viene configurado por defecto. Eso también puede ser cambiado pero lo vamos a dejar así como está. Y como les decía, ocupa la etiqueta iframe. Vienen otras propiedades, que igual las dejamos así como están. Si hubiéramos colocado el tiempo en el cual queremos que inicie, aquí hubiera venido configurado en el código.
+
+[03:54] Entonces para poder centralizar ese video, vamos a colocar este iframe dentro de una div, y a esa div la vamos a llamar video. Colocamos nuestro iframe dentro de esta div para que quede encapsulado y de esa forma ahora en nuestro style.css podemos crear un selector de clase video y aquí podemos colocarle.
+
+[04:29] Vamos a definir que esa div tenga la misma anchura que nuestro video que es 560 píxeles, que está aquí. Y de margen, vamos aquí a configurar el margen, vamos a centralizarlo a través del margen, vamos a definir 1em, o sea un tamaño de la letra padrón, un tamaño de referencia de la fuente de la letra que está por defecto en nuestro navegador, y vamos a colocar automático a los laterales.
+
+[05:06] Guardamos, vamos a nuestra página, actualizamos y ahora tenemos el video centralizado y con los espacios correctos que queríamos colocar. Si damos play, el video puede ser exhibido dentro de nuestra página, y como cualquier video incrustado de You Tube, si el cliente, si la persona que está navegando hace clic, lo va a referenciar, a direccionar a You Tube.
+
+[05:44] Tenemos aquí nuestro video. Ya hemos aprendido entonces a través del iframe a colocar videos. Es importante destacar que aquí hemos usado You Tube y un video específico. Siéntanse libres de colocar el video que ustedes deseen, puede ser de You Tube o de cualquier plataforma.
+
+[06:04] Prácticamente hoy en día todas las plataformas de streaming, de videos, tienen esa opción de hacer esa incorporación, hacer esa importación e incrustar ese video en las páginas. O también cuando estén construyendo las páginas para sus empresas o para sus negocios, pueden colocar un video de ustedes, ya sea que ese video de su negocio esté en You Tube o ese video esté en un servidor, también es posible colocarlo a través de iframe.
+
+[06:32] Con esto hemos finalizado la parte de fuentes externas, y en las siguientes secciones continuaremos desarrollando y profundizando con todo lo que es estilos en CSS. Así que los veo pronto en las próximas secciones, muchas gracias. Chau, chau.

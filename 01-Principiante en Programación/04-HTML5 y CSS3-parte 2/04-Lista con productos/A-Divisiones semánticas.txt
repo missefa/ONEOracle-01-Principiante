@@ -1,0 +1,20 @@
+Divisiones semánticas
+
+
+[00:00] Vamos a continuar con nuestro curso de HTML 5 y CSS 3, donde estamos construyendo la página de la Barbería Alura. Bueno, en la pasada aula lo que vimos fue la configuración completa de nuestro encabezado, de nuestro header, donde vimos posicionamiento, color, construimos y configuramos nuestro panel de navegación.
+
+[00:25] Lo que veremos ahora será la sección donde nos vamos a colocar los productos y servicios que son ofrecidos por nuestra barbería. Ofrecemos tres productos, tenemos tres servicios para nuestros clientes que son el corte de cabello, el corte o hacer la barba y un paquete, un combo de cabello más barba. ¿Qué es lo que contiene cada uno de estos productos?
+
+[00:58] Pensando en elementos de nuestra página, cada cajita, cada sección de estas contiene el título, un logo y una descripción y por último el precio. Entonces, podemos ver que aquí el precio del corte de cabello, por ejemplo, es 10 dólares, el de la barba es 8 dólares, y el combo, el paquete entre cabello y barba es 15 dólares.
+
+[01:25] Entonces, a partir de esta sección lo que veremos será cómo crear estas secciones, estos cuadrados, estos rectángulos, donde vamos a colocar un título, un logo, la descripción y el precio. En la carpeta de imágenes que ya han descargado aquí van a tener los logos que vamos a colocar, las imágenes que vamos a colocar a cada uno de esos espacios.
+
+[02:02] Volviendo aquí a nuestro código, tenemos nuestro header construido correctamente, como podemos ver la indentación está correcta, recordando que indentación es este espacio que me indica lo que cada etiqueta, el nivel de jerarquía en realidad de las etiquetas, desde el nivel menor hasta el nivel mayor. Entonces, quiere decir que dentro del header tengo todas estas otras etiquetas.
+
+[02:33] Es conocido también como sangría en español, los espacios, la indentación se la conoce también como sangría. Y aquí, lo que me permite el IDE, nuestro Visual Studio Code para tener un código más legible, más entendible, es poder desplegar nuestras etiquetas y de esta manera podemos tener un código que no quede tan extenso porque ya terminé mi header.
+
+[03:08] Entonces, puedo desplegarlo, replegarlo, y cuando lo necesite, lo puedo abrir nuevamente. Entonces, los vamos a cerrar y así como hay una etiqueta específica para el encabezado que es el header, tenemos una etiqueta específica para el cuerpo de la página, o sea para el cuerpo del contenido de la página, que esta etiqueta main, de principal.
+
+[03:35] En esta etiqueta main, es donde vamos a colocar nuestros productos y aquí vamos a escribir cabello, barba y cabello más barba. Vamos a guardar. Voy a nuestra página, no es esta de aquí, es esta de aquí. Actualizamos, y bueno, como era de esperarse, me aparece aquí el texto en una sola línea.
+
+[04:13] En los próximos videos ya vamos a ver todo el formato y los elementos que necesitamos colocar aquí, en nuestro main para llegar a tener el visual que estamos buscando. Entonces nos vemos en el próximo video. Chau, chau.

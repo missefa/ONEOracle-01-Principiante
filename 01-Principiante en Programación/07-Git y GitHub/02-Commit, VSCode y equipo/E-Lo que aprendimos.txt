@@ -1,0 +1,12 @@
+Lo que aprendimos
+
+
+Lo que aprendimos en esta aula:
+
+-Aprendimos a acceder al VSCode por medio de GitHub;
+-Invitamos a un colaborador a un repositorio de GitHub;
+-Entendimos cómo verificar el historial de commits realizados.
+
+En la siguiente aula:
+
+¡Vamos a clonar un proyecto, entender la diferencia entre repositorio local y repositorio remoto y aprender más algunos comandos de git!

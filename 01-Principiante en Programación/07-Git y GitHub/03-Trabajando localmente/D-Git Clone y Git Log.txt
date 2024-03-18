@@ -1,0 +1,20 @@
+Git Clone y Git Log
+
+
+[00:00] Ahora vamos a descargar el proyecto desde GitHub a nuestra computadora. Regresamos al repositorio y vamos a hacer clic aquí en el botón code, copiar esta URL que está abajo del HTTPS y vamos a la consola desde donde queremos trabajar, como vimos en la casa anterior.
+
+[00:26] Entonces quiero poner este proyecto dentro de la carpeta de Git y GitHub y para ello necesito poner un comando que es el Git clone, que va a ser el clon del proyecto a nuestra computadora. Después del comando voy a pegar la URL que copiamos. Voy a pulsar el enter. Ya está, ya ha hecho la copia.
+
+[00:54] Y podemos ver ahora con el comando LS lo que tenemos dentro de la carpeta de Git y GitHub. Sistema de registro, que fue lo que creemos en nuestra cuenta y ahora necesito acceder a esta carpeta, porque es esta carpeta que está versionada, voy a utilizar de nuevo el cd y el sistema-de-registro.
+
+[01:22] Entonces aquí podemos ver que estamos dentro de la carpeta que está ya versionada, tenemos aquí el main que vamos a explicar más adelante. Voy aquí a hacer el ls de nuevo para listar nuestros archivos y aquí tenemos el README, el app.js y el index. ¿Y cómo podemos ver el historial de nuestro proyecto desde el Git?
+
+[01:54] Tenemos un comando muy bueno para ayudarnos a ver todos los cambios y el historial que es el Git log. Entonces mismo que las modificaciones fueron hechas en otro espacio, en otro lugar, vamos a tener también todas estas modificaciones, todo este historial en nuestra computadora, entonces aquí tenemos la persona que creó la fecha, la hora.
+
+[02:25] Tenemos los archivos listados también aquí desde abajo, de abajo a arriba, que es el primero, entonces este fue primero, el segundo, después la modificación, este que hicimos a través del vs code en línea, entonces vamos a tener todo aquí y aquí al final va a tener los dos puntitos, es solo escribir la letra Q.
+
+[02:52] Voy a limpiar mi carpeta, hay una forma más fácil de ver este historial, que es a través de Git log --oneline que nos vas a presentar de forma resumida todo lo que vimos. Y aquí tenemos el hash de cada commit. También cuál fue el nombre de este commit y de una forma más resumida.
+
+[03:20] Podemos ver esto en GitHub, también. Aquí en nuestro GitHub tenemos un icono que es parecido a un reloj y vamos a hacer clic ahí. Entonces aquí tenemos todo el historial, al igual que vimos en la consola con los mismos números. Entonces aquí tenemos el hash de la creación del index, que empieza con la letra F, y aquí también está lo mismo.
+
+[03:48] Es muy sencillo descargar el proyecto en nuestra carpeta y tenemos esta gran herramienta creada por Linux que nos ayuda a mantener el historial desde cualquier computadora. Y así terminamos la clase de hoy. Nos vemos en el próximo video.

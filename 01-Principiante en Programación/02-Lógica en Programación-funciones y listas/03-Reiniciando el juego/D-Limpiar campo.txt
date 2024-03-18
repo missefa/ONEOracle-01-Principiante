@@ -1,0 +1,61 @@
+Limpiar campo
+
+
+Ok Leo, te voy a pedir que volvamos al juego. Juguemos un intento aquí. 5, es menor, tenemos ahí la ayuda. 3, mayor, ok, clic, 4, ok, y acertaste en 3 veces. Lo que observo, pensando en la propia persona usuaria que va a usar este juego, es que cada vez que lanza un número tiene que volver, borrar y digitar nuevamente. Sí, es tedioso tener que ir, dejar ese número allí, clicar, exacto.
+
+No habría una forma en la que la persona coloca el número, digita su número sorteado, y al dar intentar ya debería limpiar si es que no acierta, para que nos lance un nuevo número. Me parece muy bien, hagámoslo, vamos a ello. Entonces, cuando acertamos, es aquí en este else. Incluso voy a colocar un comentario para guiarme, recordando que los comentarios son siempre muy importantes. Aquí la persona usuaria no acertó, ok, y aquí entonces podemos usar una función para ello.
+
+Vamos a crear una función que limpie, ok. Entonces vamos a crear aquí una función, que puede ser aquí. La función es siempre afuera, afuera, sí, tiene que ser afuera, sí.
+
+function limpiarCaja() {
+  // código
+}
+
+Ok, y esa función lo que va a hacer es, vamos a obtener el elemento. Sabemos que para obtener el elemento lo usamos con document. y aquí tenemos dos opciones, tanto querySelector como getElementById. Yo uso el getElementById como está aquí siendo usado, que es directamente el ID, va de esta forma. A mí me gustaría, si me permite Cristian, mostrar el querySelector, pero por ID, también se puede hacer, ok, claro.
+
+Entonces querySelector y aquí para las IDs colocamos al inicio el símbolo de numeral, de esta forma querySelector sabe, ah, lo quieres por un ID, ok. Colocamos luego de una vez el ID. Vean que hay una diferencia sutil entre el getElementById, que no lleva el numeral, porque él sabe que es solo por ID, y en el caso de querySelector, que es un selector genérico, le tenemos que decir que en este caso lo que queremos es por ID, usamos el numeral, ok, ok. Y este es el ID de nuestro input, este es el ID de nuestro input, como está aquí, ok, perfecto, ok.
+
+Utilizamos el mismo ID, ya sea para capturar el valor y estamos utilizando, porque es el mismo elemento, nuevamente lo reutilizamos para dejarlo en blanco, dejarlo en blanco, sí. Entonces, en este caso podemos hacerlo en dos pasos. Yo puedo decir aquí, valorCaja, por ejemplo, para hacer un poco más genérico el nombre, y luego a ese valorCaja, que ya seleccionamos, con el querySelector le decimos, valor = "", ok, ok. Y vacío es indicarle las dos comillas solamente, tal cual.
+
+function limpiarCaja() {
+  let valorCaja = document.querySelector('#inputId');
+  valorCaja.value = "";
+}
+
+Y esa función la vamos a llamar cuando la persona no acierta, en este caso, en este bloque de código del else, decimos limpiarCaja(), estamos invocando la función, perfecto, ahí estamos llamando la función.
+
+if (condicion) {
+  // código
+} else {
+  limpiarCaja();
+}
+
+Venimos aquí, yo coloco 5, intentamos, me dice el número secreto es menor, pero limpió, ya lo limpió, excelente. Vamos a decirle que es 2, intentamos, me dice que es menor, debe ser 1, acertamos, excelente.
+
+Ahora quiero aprovechar para dejar esto un poco más reducido, no es necesario usar esta variable. Yo puedo simplemente quito esto aquí, 
+
+llamo .value, igual a esto, ok, perfecto.
+
+function limpiarCaja() {
+  document.querySelector('#inputId').value = "";
+}
+
+Probamos, colocamos 8, intentamos, es mayor, será 10, es menor, por lo tanto, es 9, ok, perfecto. Entonces, ya tenemos aquí una mejora sustancial, ¿verdad? Nuestra persona usuaria ya tiene prácticamente la caja limpia cuando no acierta, para colocar un nuevo número. Y me llamó la atención que hasta ahora no hemos hecho nada, ¿verdad? No hemos interactuado con ese otro botón, nuevo juego, me parece, ¿no?
+
+El nombre es autoexplicativo, es para no tener que adivinar. Puedo presionar este botón y reiniciar el juego. Ese es el objetivo. Sí, el objetivo sería que cuando hagas clic allí, el sistema genera un nuevo número secreto y reinicia el juego. Reiniciar el juego significaría que este intento sería 0 y un número nuevo.
+
+Ahora mismo, este botón está inactivo. Cuando te posicionas en intentar, por el color te das cuenta y no responde. Si intento llamar a este botón, no hace nada. Perfecto, vamos a activarlo. Vamos a activarlo solo después de que aciertes, sólo en ese caso por ahora.
+
+Cuando la persona ya ha acertado, vamos a activarlo. Para activarlo, si observamos este botón, notamos que hay una diferencia entre el botón de intentar y el botón de nuevo juego. Hay un atributo, ese atributo Disable, es lo que determina que ese botón está inactivo, que no responde a nada. En este momento está desactivado.
+
+Entonces vamos a quitarle ese atributo para que el botón quede activo. Para ello, podríamos eliminar el atributo y quedaría activo, pero no es lo que queremos hacer. Vamos a probarlo, vamos a ver cuál sería el resultado que esperamos. Vamos a quitar el atributo, guardamos y observa que el botón cambia de color.
+
+Pero lo que queremos es darle esa interactividad a la persona usuaria. Lo dejamos deshabilitado y sólo cuando la persona usuaria finalice, podrá hacer un nuevo juego. Podría hacer eso, pero quedaría activo siempre y puede que mi usuario esté presionando nuevos juegos, sin finalizar.
+
+Lo que queremos es que finalice el juego, tal cual, y genere un nuevo número, un nuevo juego, una nueva jugada, utilizando ese botón. Entonces vamos a ello. En el código, cuando se acierta, puedo remover el alert, disculpa, el Disable, en este caso, usando un método que tienen los objetos del DOM.
+
+En este caso, voy a llamar al DOM, con querySelector o con ID. Observa que tiene ID, entonces vamos a usarlo con getElementByID, como ya sabemos hacerlo. Tiene el ID reiniciar, tal cual, getElementByID, obtén el elemento por el ID. Como estoy en la función getElementByID, no lleva el numeral, directamente va el ID, porque es el único valor que aceptaría.
+
+Y aquí, presiono el botón y busco dentro de los métodos que tiene el DOM. Hay uno que se llama remove, de quitar, de remover, y lo que queremos remover es el atributo, está explícito aquí la función, removeAttribute, y lo que él espera es qué atributo vamos a remover. En este caso, el que queremos remover es el Disable. Colocamos Disable entre las comillas, sí, ten cuidado con ello.
+
+Damos clic, y ahora vamos a jugar. Vamos aquí, vamos a colocar 5, intentamos, dice que es mayor, voy a colocar 8, acerté, y observa que el color cambió. Ahora sí se habilitó nuestro botón. No tiene nada asociado, no hay un evento, como hicimos con el botón intentar, es lo que tenemos que hacer para poder reiniciar. Pero lo dejamos para el próximo video.

@@ -1,0 +1,63 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que fue visto en el aula. Para ello, ejecuta los pasos listados debajo.
+
+1) En la página productos.html, debajo del encabezado (header), agrega el contenido principal de la página, con la lista de productos:
+
+<main>
+    <ul class="productos">
+        <li>
+            <h2>Cabello</h2>
+            <img src="imagenes/cabello.jpg">
+            <p class="producto-descripcion">Con tijera o máquina, a gusto del cliente</p>
+            <p class="producto-precio">$ 10.00</p>
+        </li>
+        <li>
+            <h2>Barba</h2>
+            <img src="imagenes/barba.jpg">
+            <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+            <p class="producto-precio">$ 08.00</p>
+        </li>
+        <li>
+            <h2>Cabello + Barba</h2>
+            <img src="imagenes/cabello+barba.jpg">
+            <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+            <p class="producto-precio">$ 15.00</p>
+        </li>
+    </ul>
+</main>
+
+
+2) En el archivo productos.css, estiliza el contenido principal de la página productos.html y sus elementos:
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}

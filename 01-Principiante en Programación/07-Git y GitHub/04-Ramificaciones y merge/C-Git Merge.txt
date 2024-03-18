@@ -1,0 +1,14 @@
+Git Merge
+
+
+[00:00] Después de comprobar que todo está funcionando en nuestra página de contacto, yo quiero enviar a main. ¿Cómo puedo hacer esto? Voy a utilizar el comando git merge que significa mezclar.
+
+[00:14] ¿Te acuerdas de la animación Dragon Ball Z cuando Goku y Vegeta hacían la fusión y se transformaban en una sola persona? Entonces es esto es lo que vamos a hacer. Vamos a juntar las dos ramas para tener nuestra aplicación actualizada.
+
+[00:28] Antes de realizar el merge, vamos a utilizar el comando git log --oneline y verificar su hash. Entonces aquí vamos a tener la cadena de caracteres que empieza con b cuatro, entonces vamos a guardar de momento esta numeración.
+
+[00:51] Ahora voy a volver a la rama main, entonces para ello utilizaré el git switch main y de aquí voy a hacer la mezcla, para ello utilizaré git merge junto con el nombre de la rama que quiero juntar. Desarrollo. Y ahora voy a utilizar nuevamente el git log --oneline y vamos a ver que sigue aquí la hash y si vamos a nuestro repositorio en la rama main aun sigue sin la línea que está en mi función.
+
+[01:40] Entonces, para que esta modificación pueda ser enviada a GitHub vamos a utilizar git push, pero de esta vez necesitamos poner origin main. Entonces ya está, voy a hacer la actualización de nuestra página. Y tenemos aquí el merge de la rama desarrollo con la rama main.
+
+[02:08] Voy aquí a volver a desarrollo y sigue la misma cosa. Entonces realizamos el merge. Y es necesario siempre comprobar si la rama en que estás trabajando está lista para juntar con la rama principal.

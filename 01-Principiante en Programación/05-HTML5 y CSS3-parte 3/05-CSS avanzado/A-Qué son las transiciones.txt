@@ -1,0 +1,38 @@
+Qué son las transiciones
+
+
+[00:00] Okay, amigos y amigas, vamos a continuar desarrollando nuestra página. Lo que hemos visto hasta aquí ha sido ya nuestra página de contacto prácticamente está construida con todos nuestros input que necesitamos, con todas las informaciones que queremos que nuestro usuario, nuestro cliente nos envíe.
+
+[00:21] Y también, por otra parte, trabajamos bastante en estructurar el código HTML, la semántica de nuestra página y también enviar a nuestro usuario para que llene ese formulario en forma correcta y de la forma más fácil sin generarle tanto estrés ni tanto trabajo.
+
+[00:43] Lo que ahora veremos será darle un destaque, mejorar nuestro botón de enviar formulario, nuestro submit. Tiene que ser algo más destacado, pero tiene que ser intuitivo para el usuario que tiene que apretar, tiene que hacer un clic en ese botón para enviar las informaciones.
+
+[01:00] Para ello, vamos a ir a nuestro código, estoy aquí en nuestra página de contacto HTML y vamos a crear una clase en nuestro botón, en nuestro botón submit. Class y lo llamamos enviar. Vamos a nuestro style, al final de nuestro style hacemos el selector de clase con enviar.
+
+[01:27] Y lo primero que vamos a hacer es definir un width, o sea, el tamaño de nuestro formulario, para que ocupe el 40% del área disponible que tenemos. Vamos a nuestra página, actualizamos y ya vemos que se cambió el tamaño. Ahora, vamos a aumentar el espaciamiento interno, el padding, para que nuestro botón tenga un formato un poco más grande.
+
+[01:58] Venimos aquí, padding, y vamos a dejarlo en 15 pixeles para arriba y para abajo y 0 a los laterales. Actualizamos y ya tenemos nuestro botón un poco más grande. Ahora, vamos a trabajar internamente con el texto. Vamos a primero colocarle un font-size de 18 pixeles, vamos a colocarle un font-weight de bold, que sea negrito, luego el color de esa letra que sea white, perfecto.
+
+[02:49] Y vamos a colocar el background, o sea, el color de nuestro elemento que sea orange, sea un color naranja. Guardamos, vamos aquí, actualizamos y ya tenemos esas últimas configuraciones realizadas: color naranja, negrito resaltado el color blanco y el tamaño de la fuente un poco más grande.
+
+[03:20] Ahora, fíjense que ese borde no se ve tan bonito, no le va con nuestro botón. Vamos a quitarle el borde, venimos aquí para quitar el borde, es border none, ni uno queremos que tenga, y vamos a darle las puntas redondeadas que ya lo hemos visto en las anteriores secciones, que eso le da un toque más sofisticado. Border-radius es la propiedad y vamos a definirla en 5 pixeles.
+
+[04:01] Perfecto. Ya tenemos esas puntas redondeadas, muy bien. Ahora, vamos a darle un destaque cuando nuestro mouse se posiciona sobre el botón. Eso lo haremos a través de la propiedad over y ya lo hemos visto en la página de productos, déjenme ir a la página de productos, que es este realce cuando nos posicionábamos en las cajitas, en los servicios que nuestra barbería ofrecía.
+
+[04:36] Voy a venir aquí atrás, voy a actualizar, entonces, vamos a darle ese realce aquí a nuestro botón enviar formulario. Vamos a ir a nuestro código y, en este caso, vamos a llamar a la propiedad enviar, en realidad nuestro selector de clase enviar y la propiedad hover que la llamo con dos puntos.
+
+[04:59] Y aquí colocamos un nuevo background, que lo vamos a cambiar para un dark orange, un naranja fuerte. Volviendo a nuestra página, actualizo y fíjense que cuando me posiciono se cambia el color para un naranja más fuerte. Solo que esa transición es instantánea, no es en microsegundos. Voy a cambiarlo aquí a red para que noten que esa transición es superrápida. Fíjense cuando aquí está rojo.
+
+[05:41] Y existe una propiedad en CSS que se llama transition, es una propiedad que apareció en el CSS 3, que justamente lo que me permite es hacer esa transición en una forma más lenta. Entonces, en nuestro botón vamos a colocar transition, en el selector de clase de nuestro botón enviar, transition, dos puntos, y vamos a colocarle un segundo. Y aquí le vamos a decir que nos cambie el background.
+
+[06:21] Vamos a guardarlo, actualizamos, y cuando ya yo me posiciono, demora un poco más, para que sea más perceptible y vean que sí hay una demora, voy a colocarle cinco segundos, voy a actualizar. Fíjense que al momento de actualizar mi página ya el botón tiene una transición, y cuando me posiciono también hay una transición para el rojo un poco más acentuada, un poco más lenta.
+
+[06:53] De todas formas, vamos a dejarlo con un segundo y con dark orange. Vamos a guardar aquí, volvemos, actualizamos y ya la tenemos la transición. Para finalizar, lo que haremos será aquí, dentro de nuestro punto enviar, vamos a modificar el cursor.
+
+[07:23] Ahorita tenemos el cursor, que es esta flechita que viene por defecto, por padrón, y lo vamos a cambiar con el pointer, que es la manito con el dedo apuntando. Si yo actualizo aquí, ya tenemos el pointer apuntando a nuestro botón.
+
+[07:50] Eso le ha dado un realce mayor a nuestro botón, a nuestro submit, y el usuario ya tiene más indicaciones. Es más intuitivo para él, que tiene que darle botón en submit, en enviar formulario, para que sus datos lleguen hasta nuestra barbería.
+
+[08:15] En los siguientes videos seguiremos viendo transformaciones con CSS. Antiguamente, solo para finalizar, estas transiciones que vimos ahora, solo eran posibles con JavaScript. Hoy en día, actualmente, son posibles a través de CSS.
+
+[08:33] Sin embargo, ya en el desarrollo web formal, normalmente se ocupa JavaScript para hacer ese tipo de efectos, ese tipo de visuales, pero el CSS puede ser una gran salida, una salida rápida, al permitirnos hacer eso en una manera supersimple. Nos vemos en el próximo video. Chau, chau.

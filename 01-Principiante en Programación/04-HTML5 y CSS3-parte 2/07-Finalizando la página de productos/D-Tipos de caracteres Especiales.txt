@@ -1,0 +1,17 @@
+Tipos de caracteres especiales
+
+
+¿Qué tipo de caracteres especiales podemos usar en nuestro texto?
+
+a)
+Solo podemos usar el diccionario que escogemos, en nuestro caso el UTF-8.
+
+b)
+Alternativa correta
+Podemos usar cualquier carácter del Unicode.
+
+¡Alternativa Correcta! Los caracteres Unicode están disponibles para ser usados como un complemento a nuestro texto.
+
+
+c)
+Podemos usar solo los caracteres que nuestro lenguaje de programación autoriza.

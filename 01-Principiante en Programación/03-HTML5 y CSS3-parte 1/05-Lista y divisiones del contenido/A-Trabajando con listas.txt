@@ -1,0 +1,32 @@
+Trabajando con listas
+
+
+[00:00] Okay amigos y amigas, continuando con nuestro curso de HTML y CSS donde estamos construyendo nuestra página web desde cero, en la pasada aula lo que aprendimos fue a colocar una imagen, una imagen de aquí nuestra aula, a darle formatos, y trabajamos bastante con CSS.
+
+[00:18] Bueno, en esta sección, en esta nueva aula, lo que haremos es crear una lista de diferenciales, entonces nuestra barbería es la mejor de la ciudad y lógicamente para ser la mejor es porque tiene algunos diferenciales. Entonces vamos a crear una lista.
+
+[00:38] Aquí ya tenemos nuestro título, los tres párrafos que describen a nuestra barbería y que tienen nuestra misión, y vamos a adicionar una lista de diferenciales para que los clientes sepan por qué deben ir a la Barbería Alura y no a otra. Entonces, para ello vamos a venir aquí. Aquí se desconfiguró, vengo aquí a view y Toggle Word Wrap para que aparezca todo el texto.
+
+[01:15] Voy a dar un enter. Después del último párrafo dentro del body voy a colocar un H2, que es un head 2, un título, y vamos a colocar diferenciales. ¿Cuáles van a ser nuestros diferenciales o cuáles son nuestros diferenciales de la barbería? Atención personalizada a los clientes. ¿Qué más? Tenemos un espacio diferenciado. ¿Qué más? Localización.
+
+[02:06] Aquí el modo automático del visual studio no me está ayudando. Localización y profesionales calificados. Entonces, hemos destacado estos cuatro diferenciales, voy a guardarlos los ajustes y vamos a ver cómo se ve nuestra página. Fíjense que no me reconoce, yo que quería, que deseo una lista en este caso en nuestro navegador, me coloca todo en una misma línea. ¿Por qué?
+
+[02:55] Porque no estoy usando ninguna etiqueta donde yo le informe al navegador que se trata de una lista. Para ello, tengo que usar una etiqueta que se llama UL, de unordered list, o sea lista no ordenada. Tenemos también, porque lo que tenemos aquí es una lista no ordenada.
+
+[03:25] Una lista ordenada usamos la etiqueta order list, en este caso OL, pero vamos a usar unordered list. Entonces, como es una etiqueta de contenido, tiene que ir al inicio y al final. Voy a guardar. Volvemos a nuestra página, actualizo y fíjense, el único cambio que me hizo fue me colocó aquí un espacio, pero sin embargo me lo dejó todo en una misma línea.
+
+[04:02] ¿Por qué? Porque yo le dije que le voy a pasar una lista, pero sin embargo cada item de la lista también necesita tener una etiqueta HTML. Y esa etiqueta HTML es LI, del inglés list item. En este caso tengo que colocar cada uno de mis textos dentro de una etiqueta LI. Entonces necesito crear cuatro etiquetas LI.
+
+[04:42] Ahora aquí espacio diferenciado lo colocamos aquí adentro, la siguiente LI en este caso localización colocamos adentro, y por último profesionales calificados. Y borro estos guiones que ya no los necesito. Entonces, podrán ver que actualizo aquí, vuelvo a nuestra página, actualizo y fíjense que me colocó un punto diferenciándome que ahora sí se trata de una lista.
+
+[05:27] Ahora lo que haremos es darle un pequeño ajuste visual a nuestra lista. Entonces, hasta ahora hemos aprendido dos formas de realizar ajustes visuales. Lo podemos hacer aquí en line, en la misma línea, pero ahí tendría que repetir el ajuste para cada una de las listas.
+
+[05:51] Otra forma que aprendimos ya para hacer referencia ya en el CSS es a través de un ID, sin embargo si coloco un ID tengo que colocar un ID para cada lista, y por consecuente tendría que colocar en el style cuatro IDs, uno para cada lista. Entonces la última forma de poder hacer referencia a etiquetas de HTML para alterar en el CSS, en nuestro style CSS, es el uso de las clases y lo defino con la palabra reservada class y aquí le defino un nombre.
+
+[06:30] Entonces a nuestra clase le vamos a poner items en plural. Voy a copiar esta clase y la voy a pegar en cada uno de los items de la lista. Entonces, fíjense que todas las listas tienen esa clase de items y eso me permite que en el momento de referenciarlo en el CSS, yo pueda usar un punto, en este caso para referenciar una clase, en CSS uso e l punto y el mismo nombre items.
+
+[07:09] ¿Qué es lo que vamos a alterar en el visual? ¿Qué propiedad¿? Vamos a entrar al font-style y le vamos a dar un itálico. Recuerden que aquí ya habíamos colocado itálico usando la etiqueta EM de énfasis, sin embargo esta etiqueta es de HTML.
+
+[07:29] Entonces, lo que queremos es hacer las cosas usando las buenas prácticas en esta caso, para diseño de páginas web, donde todo lo que es estilo tengo que realizarlo en nuestro style.css. Entonces para ello creo una clase y uso esa clase en nuestro style.css, accediéndola a través del punto ítems, el nombre de nuestra clase. Y coloco font-style italics, que eso nos va a dar la característica que deseamos.
+
+[08:03] Voy a guardar aquí nuestro código, vuelvo a nuestra página, actualizo, y ahora tenemos nuestra lista diferenciales con el texto personalizado a italics. Entonces, hemos aprendido a hacer listas. En el próximo video continuaremos aprendiendo un poco más, estructurando nuestra página y aprendiendo a dividir en secciones nuestra página. Nos vemos muy pronto. Gracias.

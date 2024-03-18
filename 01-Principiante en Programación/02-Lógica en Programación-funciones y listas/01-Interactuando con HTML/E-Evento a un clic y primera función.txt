@@ -1,0 +1,60 @@
+Evento a un clic y primera función
+
+
+En el vídeo anterior, comenzamos a explorar el DOM, este objeto que nos permite conectar con el HTML. Voy a pedir que volvamos a la página, a nuestra página de usuario. Me llama la atención estos dos botones. ¿Podrías confirmarme si realmente son botones, no? "Intentar" y "Nuevo juego".
+
+Aquí, nuestra alumnado debe estar preguntándose, ¿no? Creo que por eso nuestro juego tiene un aspecto mucho más profesional ahora, ¿no? Porque ahora ya tiene botones, como los que vemos en los sistemas web con los que interactuamos diariamente. Es muy común, ¿no? Tener botones de "Inscríbase aquí", "Haga clic aquí". Entonces, quiero que nos expliques un poco, bueno, que me confirmes si son botones y cómo podemos interactuar con ellos, cómo podemos trabajar con los botones aquí con JavaScript.
+
+Perfecto. Sí, efectivamente, en este curso estamos trabajando a un nivel superior, un nivel de complejidad mayor. Estamos profundizando en lo que sería el desarrollo web. En el primer curso usamos aquellos Alea, aquellos Prom. Pero ahora, estos son botones. Son botones de interactividad. Son botones que van a permitir a la usuaria poder enviar al sistema acciones. La realidad es esa.
+
+Y cuando hablamos de acciones, hablamos de eventos, ¿ok? Entonces, JavaScript posee la gestión de eventos. Eventos como cuando hago clic en el botón, ya es un evento. Cuando tecleo, cuando presiono una tecla, también es un evento. Cuando muevo el cursor y me posiciono encima de un elemento, por ejemplo, encima de un botón, encima de la caja de texto, se puede capturar ese evento y nuestro sistema puede reaccionar. Puede darle a la usuaria la respuesta sobre ello, ¿ok?
+
+Perfecto. Entonces, hay algunos sistemas web, principalmente los de ventas, que cuando posiciono el mouse encima del botón, cambia el color o la letra se vuelve más grande. Eso también es un evento.
+
+Así es, es el evento mouse over (sobre el ratón), y allí puedes mejorar la experiencia del usuario, que las personas de diseño llaman UX, Experiencia del Usuario. En el caso de este UX, efectivamente, puedes reaccionar y darle información. En nuestro caso, la propuesta aquí es que la usuaria, cuando haga clic en ese botón de "Intentar", ejecute toda la lógica del juego. ¿Te parece?
+
+Sí, me parece. Pero lo que vamos a ver ahora, entonces, es cómo interactuar con ese botón.
+
+Sí, vamos a empezar, paso a paso, a entender cómo funciona esa interacción. Para ello, vamos al código HTML, buscamos las etiquetas de botón, que son estas aquí, y vemos que existe una, "Intentar", y tenemos otra que dice "Nuevo juego", ¿ok? Si yo vengo aquí... Cada una de estas etiquetas representa a los dos botones.
+
+Sí, cada etiqueta es un botón diferente, por eso, se abre y se cierra la etiqueta, abre botón, coloca el texto que va a aparecer en el botón, se cierra la etiqueta, ese es un botón, y luego tenemos otro botón aquí, que es la parte del "Nuevo juego", ¿ok? Solo voy a mencionar que hay dos colores y hay diferencia entre ellos, pero más adelante lo vamos a ver por qué sucede eso.
+
+En caso de los eventos, nosotros, en la etiqueta que queremos trabajar, buscamos y todos los eventos en JavaScript comienzan con el prefijo on, de en o cuando. Es una traducción que es un poco, digamos, a mí me gusta más decir cuando, pero literal sería en. Entonces, colocamos el texto on y mira que ya Visual Studio nos trae una serie de eventos. Yo te nombré nada más tres, cuatro, cinco máximo, pero mira todos los que hay. Hay una cantidad importante de eventos y para quien quiera profundizar un poco, siempre está la MDN como esa ayuda principal de la documentación, ¿ok?
+
+En este caso, vamos a hacer onclick, vamos a hacer uso de onclick, ¿ok? Y mira que allí él espera algo. Él espera que nosotros coloquemos algo, ¿sí? Y ese algo será código JavaScript, ¿ok? Ahora bien, en este punto es importante entender que podemos colocar el código JavaScript y puede ser cualquier código. Yo, por ejemplo, puedo decir alert. Podemos hacer ese uso de alert. Click, por ejemplo. Podemos probar esto.
+
+Vamos a probarlo. Hacemos clic aquí y mira, funciona, ¿cierto? Cuando hacemos clic, aparece un texto. Hacemos clic y aparece una alerta, sí, ok. Pero en este caso, lo normal, lo convencional y lo útil para nuestro trabajo como personas desarrolladoras es no colocar todo el código ahí.
+
+Aquí entra un concepto adicional que es importante discutir y que es general en los lenguajes de programación. No es solo JavaScript. Es algo que todos los lenguajes de programación tienen para ejecutar el código. Se llama función. ¿Recuerdan cuando en secundaria hablábamos de funciones, función afín, función lineal, exponencial, etc.?
+
+Entonces, una función es un proceso que realiza una tarea en el caso de la codificación. Es un bloque de código que va a realizar una tarea y que puede o no devolver un valor, ¿ok?
+
+Por lo tanto, vamos a crear aquí el esqueleto de la función que vamos a llamar cuando hagamos script. La llamaremos con un nombre siguiendo las convenciones que usamos para las variables en función de las convenciones.
+
+Primero, hay ciertas reglas. No podemos usar caracteres especiales. No podemos usar acentos, espacios en blanco. Y nuestra sugerencia siempre es usar el camel case como forma de nombrar las funciones. Entonces, por ejemplo, en este caso, podríamos hacer una función que denominaremos intentoDeUsuario. Cuando la persona haga clic, la llamaremos intentoDeUsuario, como toda función, ya paréntesis, ¿ok?
+
+Ahora, ¿dónde vamos a hacer esta función? ¿Ok? Y el punto y coma aquí también es necesario. No es necesario siguiendo la convención anterior que dijimos en el curso inicial, pero es una buena práctica. Es una buena práctica. Ok. Perfecto.
+
+Vamos aquí. Vamos a nuestro archivo de código JavaScript. Y aquí, siguiendo también la fórmula que hemos estado trabajando, vamos a hablar de la anatomía, en este caso, de la función.
+
+Una función tiene varias formas de representarse en JavaScript. Vamos a ver la tradicional, lo que se llama la declaración de función, que es usando la palabra reservada function, ¿cierto?
+
+Y creo que es importante, ¿no? JavaScript es un idioma. Ya lo dijimos en el curso anterior. Es un lenguaje de programación que fue creado en Estados Unidos, ¿no? Por eso utiliza el idioma inglés. Y todos los lenguajes de programación utilizan el inglés como base.
+
+Y aquí podemos ver lo intuitivo que es crear una función. En español es función con acento. En inglés es function. Entonces, para decir que voy a crear una función, utilizo la palabra function. Function. Y el nombre que usamos aquí, hay que copiarlo exactamente igual porque, como recordarán, diferencia entre mayúsculas y minúsculas.
+
+Ahí está parte de la anatomía. Colocamos paréntesis y el cuerpo. Esa es la declaración de la función, que es diferente a lo que hicimos aquí en este punto. Aquí estamos ejecutando la función. Son dos estados. Declaramos de esta forma cuando usamos la palabra reservada function. Ahí es donde decimos lo que vamos a hacer. Y cuando ejecutamos, hacemos. Esos son los dos pasos, ¿ok?
+
+Perfecto. Entonces, en nuestro HTML, lo que estamos haciendo es llamando a la función que vamos a definir y declarar en nuestro JavaScript. Así es. Y la función es un encapsulamiento de una acción que queremos que haga.
+
+En un momento veremos qué es cuando devuelve un valor, cuando no devuelve un valor, qué características puede tener nuestra función, pero por el momento nos quedaremos con ese concepto, que es importante.
+
+Entonces, una función preferiblemente realiza una acción. Y ese abre y cierra llaves es para encapsular toda esa acción que queremos que esa función haga, que en este momento es validar el intento del usuario.
+
+Solo para terminar, vamos a colocar aquí una alerta para decir, llamada, clic, desde la función. Solo para saber que hicimos clic y fue llamada la función. Clic desde el botón, ¿no sería? Clic, ah, puede ser. Clic desde el botón.
+
+Perfecto. Hacemos clic aquí y clic desde el botón. Y aparece nuestra alerta. Excelente.
+
+Entonces, la función que creamos está siendo ahora llamada por el HTML y nos está apareciendo aquí el mensaje de que está funcionando. Tal cual. Perfecto.
+
+Vamos a continuar desarrollando toda la lógica de esta función, pero ese tema lo abordaremos en el próximo video.

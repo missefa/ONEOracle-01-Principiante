@@ -1,0 +1,46 @@
+Adaptando el CSS
+
+
+[00:00] Queridos alumnos y queridas alumnas, continuando con nuestro curso. Ya vimos la estructura HTML en nuestra página, hicimos las primeras alteraciones estructurales en nuestro HTML y lo que veremos en este video en esta oportunidad será la configuración de los estilos.
+
+[00:22] Vamos a ir aquí a nuestro código, perfecto. Comenzaremos con nuestro banner. Si vemos en la página original, el banner no está ocupando el 100% de la página, entonces trabajaremos justamente para que esta imagen inicial de la barbería ocupe el 100% del ancho de la página. Venimos aquí, y un aspecto importante es que aquí habíamos colocado un ID.
+
+[00:55] Podemos continuar usando identificadores ID, solo que lo recomendable es para este tipo de situaciones usar clases. No existe una regla, cuándo usar ID y cuándo usar clase. Lo que vimos y estudiamos fueron los pesos relacionados, ya sea al ID y a la clase, el ID tiene mucho más peso a la hora de aplicar jerarquías en relación a los estilos.
+
+[01:27] La buena práctica que puede existir o que podemos tomar es que usamos ID cuando queremos alterar comportamientos y usamos clases cuando queremos alterar los estilos. Entonces como en el banner estamos alterando, actualizando el estilo, que es el tamaño, no es un comportamiento de la página, vamos a cambiar eso por una clase.
+
+[01:52] Y vamos a nuestro estilo, y aquí al final, fíjense que tenemos todas las configuraciones anteriores que ya hemos hecho. Vamos al final, colocamos un enter e incluso vamos a colocar un comentario. En este comentario vamos a colocar CSS para nuestra página inicial o para nuestra home.
+
+[02:23] ¿Cómo colocamos comentarios? Con una barra, un asterisco y un asterisco y una barra para cerrar, para concluir ese comentario. Este texto el navegador lo va a ignorar, por eso se coloca en un verde diferente, lo ignora y no lo toma en cuenta.
+
+[02:41] Colocar comentarios ayuda bastante a la hora de hacer mantenimiento en nuestro código o si tenemos otra persona, otros programadores, desarrolladores que están trabajando en nuestro proyecto junto con nosotros, esas personas van a saber qué viene o para qué sirve ese bloqueo de código. Por eso es que aquí colocamos CSS o si quieren ser más específicos: "Aquí inicia el CSS para nuestra home".
+
+[03:10] Hacemos nuestro selector de clase ahora para el banner y dijimos que queremos un width de 100%. Salvamos aquí, vamos a nuestra página y ya tenemos nuestro banner ocupando 100% de la página. Ahora vamos a trabajar aquí en nuestro bloque sobre la barbería Alura, mejorando esos estilos, volvemos a nuestro código y a nuestro index.html. Analizamos aquí la estructura. ¿Qué tenemos?
+
+[03:46] Tenemos dos clases: una clase, la section, de la sección, clase principal, y tenemos otra clase, nuestro título, que se llama título-centralizado. Si analizamos también este nombre de clase, es un pésimo nombre, una pésima nomenclatura para nombrar una clase, porque estamos mezclando el nombre que es el título, con un comportamiento.
+
+[04:13] ¿Qué tal si no queremos que el título sea centralizado, que sea alineado a la izquierda? Nuestro nombre, nuestra nomenclatura dejó de tener sentido. Entonces la buena práctica es tener nombres que sean representativos pero que no sean tan específicos y principalmente no asociar comportamientos o estilos a esos nombres o esas nomenclaturas, porque esos comportamientos y estilos pueden cambiar a lo largo que vamos trabajando o pueden ser actualizados de aquí a un tiempo.
+
+[04:43] Entonces vamos a colocarle aquí título principal, estamos alterando el nombre de nuestra clase, voy a copiar el nombre de nuestra clase, voy a nuestro style.css al final y aquí creamos un selector para nuestra clase título principal? ¿Qué vamos a hacer con ese título principal? Vamos a cambiarle el alineamiento, el text-align, queremos que esté en el centro nuestro título.
+
+[05:19] Y también vamos a cambiarle el tamaño de la fuente, el font-size. El tamaño de la fuente vamos a usar una referencia que es 2em. Al colocar 2em le estamos diciendo que queremos que sea dos veces el tamaño padrón, el tamaño por defecto de la fuente que tiene nuestro navegador.
+
+[05:44] En este caso el navegador está usando 15 píxeles de tamaño de fuente. Entonces, al colocarle 2em le estamos diciendo que quiero dos veces ese tamaño. Para otros navegadores, para otros servicios operativos puede ser otro tamaño de fuente y lo que va a hacer es multiplicar por dos el tamaño de fuente padrón que tiene ese navegador.
+
+[06:06] Voy a guardar, volvemos aquí, actualizamos y ya tenemos el texto centralizado y con un tamaño de fuente dos veces el otro texto. Vamos a añadir un margen, adicionar un margen para que se separe de los párrafos. Lo hacemos aquí, margen externo y va a ser cero arriba, cero superior, cero a la derecha y abajo inferior 1em, que sea una vez el tamaño de fuente padrón.
+
+[06:46] Volvemos aquí y ya tenemos esa separación. Lo que haremos ahora será dar un respiro, un espacio a nuestros párrafos que están superpegados. Para nuestros párrafos, analizando nuestro código aquí nuestro HTML, hemos usado la etiqueta P y tenemos la clase principal, entonces podemos hacer una selección de clase y etiqueta.
+
+[07:14] Venimos aquí, punto, principal, llamamos a la clase y a la etiqueta P . En la etiqueta P usamos la misma estrategia que usamos anteriormente: cero, cero y 1em. Una vez, dejar de espacio la referencia del tamaño de fuente multiplicado por una vez. Actualizamos y ya tenemos aquí nuestros bloques, nuestros párrafos separados.
+
+[07:49] Ahora, hemos perdido el formato, la configuración de nuestra misión, y también teníamos aquí la barbería Alura con negrito. Si analizamos nuestro código es justamente lo que teníamos en las etiquetas strong y en la etiqueta em, que le queríamos dar el itálico. Eso ya no está funcionando. Entonces, venimos aquí y podemos hacer exactamente lo mismo.
+
+[08:20] Llamamos a punto principal, strong, a la etiqueta strong, y en este caso llamamos al font-weight, del peso de la fuente, bold. Y también hacemos punto principal y llamamos al em, en este caso font-style. ¿Qué estilo de fuente? Itálico. Vamos a guardar aquí, volvemos a nuestra página, actualizamos y ya tenemos en negrito y en itálico nuestra misión. Perfecto. Ahora trabajamos con los diferenciales.
+
+[09:06] Si analizamos, esta imagen está supergrande y tenemos nuestra lista. Lo primero que haremos será configurar esta imagen. Para ello volvemos a nuestro código. Vamos a analizar aquí, y fíjense que en los diferenciales también teníamos el nombre del título centralizado.
+
+[09:30] Vamos a reutilizar el título para principal, título principal, y así ya va a capturar inclusive las configuraciones que ya hicimos para título principal y aquí tenemos la clase de nuestra imagen diferenciales. Entonces, me llevo esta imagen de los diferenciales para el style.
+
+[09:55] Damos aquí un enter, punto imagen diferenciales y vamos a configurar para que esa imagen de los diferenciales tenga un width, una anchura del 60%, que ocupe un poco más de la mitad. Vamos a guardar, volvemos a nuestra página, actualizamos y ya tenemos nuestro título de los diferenciales configurado de la misma forma que sobre la barbería Alura y nuestra imagen usando el 60%.
+
+[10:33] Todavía no nos preocupamos con la configuración de la lista, y si vemos nuestra barbería, nuestro modelo de página final donde queremos llegar, tenemos aquí una imagen nueva sobre la barbería Alura, pero fíjense que tiene un formato un poco diferente, porque el texto está redondeando, está alrededor de esa imagen, y nuestra lista de los diferenciales también está con un estilo, con un formato diferente. Pero ese detalle lo vemos en el próximo video, muchas gracias.

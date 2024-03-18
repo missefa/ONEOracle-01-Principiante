@@ -1,0 +1,22 @@
+Input con espacio entre el borde y el contenido
+
+
+¿Qué propiedad debo cambiar para que mi <input> tenga un espacio entre el borde y el contenido?
+
+
+a)
+Alternativa correta
+padding
+
+¡Alternativa correcta! La propiedad padding sirve para cambiar el espaciado interno, entre el contenido y el borde.
+
+
+b)
+margin
+
+
+c)
+border
+
+
+¡Enhorabuena, has acertado!

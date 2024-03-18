@@ -1,0 +1,46 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que vimos en el aula. Para ello, ejecuta los siguientes pasos:
+
+1) Entre el header y el footer de la página contacto.html, crea el formulario de la página:
+
+<main>
+    <form>
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreapellido">
+
+          <label for="correoelectronico">Correo Electrónico</label>
+         <input type="text" id="correoelectronico">
+
+        <label for="telefono">Telefono</label>
+        <input type="text" id="telefono">
+
+        <input type="submit" value="Enviar formulario">
+    </form>
+</main>
+
+
+2) En el archivo style.css aplica estilo al formulario:
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}

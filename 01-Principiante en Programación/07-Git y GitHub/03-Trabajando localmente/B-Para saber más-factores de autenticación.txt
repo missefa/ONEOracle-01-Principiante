@@ -1,0 +1,13 @@
+Para saber más: factores de autenticación
+
+
+Más allá de crear una contraseña fuerte, GitHub ha estado trabajando para fortalecer la seguridad para el inicio de sesión y el control de versiones del proyecto.
+
+Una de esas medidas es el acceso a través de tokens. En este artículo, Camila Alves explica la importancia y el paso a paso de cómo hacerlo.
+
+-Nueva exigencia de autenticación por token en Git ¿qué es y qué debo hacer?
+https://www.aluracursos.com/blog/exigendia-autenticacion-por-token
+
+
+Puedes leer también la documentación 
+https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens

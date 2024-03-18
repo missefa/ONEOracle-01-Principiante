@@ -1,0 +1,26 @@
+Estilos en las tablas
+
+
+[00:00] Okay, amigos y amigas, ya entrando a la recta final para finalizar en realidad nuestra tabla y también nuestro curso. Lo que trabajaremos en este video será la parte visual, los estilos de nuestra tabla para dejar un contenido más legible y con un formato mucho mejor.
+
+[00:21] Para ello, vamos a nuestro Visual Studio, vamos a nuestro style.css y nos vamos hasta el final. Lo primero que haremos será colocar un espaciamiento externo superior e inferior a nuestra tabla y también a los laterales. Usamos un selector directamente a la etiqueta table, tenemos solo una tabla, y en nuestro selector ajustamos la propiedad margin, de margen externo en este caso.
+
+[00:54] Y colocamos 40 pixeles superior e inferior, y 40 pixeles a los laterales. Vamos a guardar aquí, vamos a nuestra página, actualizamos y aquí ya tenemos con esos respiros, con esos espacios externos de nuestra tabla. Ahora, vamos a trabajar con nuestro encabezado. Para ello, vamos a usar la etiqueta respectiva que es el thead.
+
+[01:21] Y a nuestro encabezado le vamos a colocar un background, un color plomo para diferenciarlo. Color plomo son 555555. A nuestro encabezado también le vamos a cambiar el color de la letra, le vamos a poner que sea un color blanco, con ese color plomo va a quedar un contraste correcto. Y también le vamos a poner el font-weight, el peso como negrita.
+
+[01:55] Guardamos aquí, volvemos a nuestra página, actualizamos y aquí tenemos nuestro encabezado con ese formato correcto. Volvemos y ahora vamos a dibujar las líneas, las líneas de nuestra tabla. Para ello, colocamos border y dentro del border lo que vamos a definir es el tamaño, que va a ser de un pixel, el tamaño o grosor de la línea.
+
+[02:20] Aquí definimos que va a ser solid, o sea, toda la línea llena, que no va a tener esos punteados diferentes, y vamos a definir el color negro que son 000000. Guardamos, venimos aquí y actualizamos. Solo que fíjense que nuestro encabezado no tiene las líneas, justamente porque las celdas de nuestro encabezado se llaman th y no td.
+
+[02:49] Ya vimos una técnica que para replicar un formato puedo colocar una coma y separar los elementos. Entonces, coloco td, coma, th, y ese formato se aplica también en este caso en nuestro encabezado. Podríamos, en realidad ni siquiera podríamos, se pueden usar clases o por ahí lo han pensado de usar clases. Sin embargo, si uso clases, tendría que colocarlos en todas las td o todas las tr.
+
+[03:22] Muchas veces cuando usamos tablas no es lo recomendable. Quizás lo recomendable sea usar una clase para nuestra tabla, para nuestra table, pero en el caso que tengamos varias tablas en un formulario o en una página. En este caso, como tenemos una, vamos a dejarlo así, simple, pero es un punto a considerar cuando estamos construyendo páginas que tienen varias tablas.
+
+[03:48] Cómo voy a diferenciar la aplicación de estilos a los diferentes elementos de las tablas. Entonces, volvemos aquí, actualizamos, ya tenemos los bordes. Y para finalizar, lo único que vamos a hacer es colocar un espaciamiento interno de 8 pixeles, en superior e inferior y 15 pixeles a los costados. Este espaciamiento interno va a permitir que mi tablita sea mucho más legible.
+
+[04:27] Y aquí tenemos: día lunes, miércoles, viernes y los horarios de funcionamiento. Okay, amigos y amigas, con esto hemos finalizado nuestra página, ya la tenemos nuestra página de contacto totalmente completa, con diferentes tipos de input, con un botón para enviar esos datos. Vale recalcar que actualmente ese botón no está funcionando, lo único que hace es recargar la página.
+
+[05:00] Mi consejo es que hagan los ejercicios que tenemos en esta aula, en esta última aula, continúen con ese empeño, que esta jornada es así, de duro sacrificio y donde ustedes tienen que colocar todo su empeño para estar lo más próximo posible de ser desarrolladores web.
+
+[05:24] Vayan al foro también si es que tienen alguna duda, que allá habrá un equipo de Alura dispuesto a resolverlas. Chau, chau. Muchas gracias.

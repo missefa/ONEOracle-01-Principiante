@@ -1,0 +1,46 @@
+Mensaje de número intentos
+
+
+Bueno Leo, ya tenemos la primera parte de nuestro juego, del sistema que estamos construyendo. El usuario ya ingresó un número, le hemos enviado un mensaje si acierta y también le estamos proporcionando pistas en los casos en los que no acierta hasta que finalmente lo haga. Nuestro juego, al final, proporciona varias pistas hasta que el usuario acierta.
+
+Pero, ¿qué te parece si hacemos algo similar a lo que hicimos en el curso anterior, en el juego anterior, donde le informamos cuántas veces la persona intentó? ¿Te parece si implementamos esa información útil?
+
+Perfecto, sí. Entonces, en este caso, vamos a tener que hacer uso nuevamente de una variable en la memoria para almacenar o llevar el conteo, como hicimos en el curso anterior. Vamos a colocar aquí, voy a poner una variable, en este caso numeroIntentos, y lo inicializamos en uno porque sabemos que al menos una vez va a tener que intentarlo para poder acertar.
+
+Aquí, cada vez que la persona no acierta, es donde vamos a incrementar este contador. Entonces venimos aquí e incrementamos numeroIntentos, y vamos a usar la forma rápida, la abreviada, la que el mercado siempre está usando, que es el ++. Ya tendríamos allí la cantidad de intentos. Lo que nos faltaría sería mostrarlo, pero por ahora voy a poner aquí un console.log en el botón fuera, cada vez que se presiona, solo para ir viendo cómo van los intentos. ¿Te parece?
+
+Me parece. Vamos aquí, vamos a poner uno, intentamos, no es uno, es mayor, vamos a decirle que es nueve. Mira que los intentos siguen creciendo ya, es dos, y me dice que es mayor que nueve, es diez. Perfecto, fueron tres intentos.
+
+Ahora, en aquel momento teníamos el mensaje en el alert. Ahora tenemos una función y ese texto es un parámetro. Entonces ahora mismo vamos a tener que hacer uso de template string (plantilla de cadena de texto), pero dentro de los parámetros, y es posible hacerlo.
+
+En este caso, vamos a poner los template string en forma de comillas invertidas, y aquí le decimos la cantidad de intentos, recuerda que usamos el signo dólar, entre llaves colocamos la variable, y aquí tenemos nuevamente aquel problema. ¿Te acuerdas? De plural o singular, ¿no?
+
+Sí señor. Aquí solo destacar que Leo está editando nuestra frase, el momento en el que el usuario acierta, ¿no?
+
+Así es. Que es lo que queremos decirle, acertaste sin tantos intentos, y ahí venimos al problema, que si acertó en la primera, es una vez.
+
+Sí. Si acertó más de una vez, tenemos que decirle veces.
+
+Veces. Y ahí recordando, habíamos utilizado el operador...
+
+Ternario.
+
+Vamos a hacer eso, entonces aquí vamos a combinar nuevamente string template con operador ternario para poder ejecutar esa variable. En un parámetro. En un parámetro. Ahí estamos aumentando un poco la complejidad de uso.
+
+Pudimos hacerlo en pasos, pero ya aquí hemos avanzado de manera que esto va a ser hecho de la forma que hicimos en el curso anterior. Colocamos aquí dólar, llaves, y aquí hacemos la evaluación de la variable. En este caso, numeroIntentos. Lo evaluamos.
+
+Si numeroIntentos es igual a uno, incluso puedo hacer esto con triple igual, encierro entre paréntesis para ordenar la condición. No es necesario, pero es una buena práctica. En este caso no es necesario. En un if siempre es necesario colocar los paréntesis.
+
+Luego dijimos que para usar el operador ternario, usamos el símbolo de interrogación, que se convierte en el if. Si es uno, colocamos vez. Si es de lo contrario, entonces usamos los dos puntos. Esa forma abreviada de esa condición es operador ternario. Aquí escribimos veces. ¿Ok?
+
+Correcto. ¿Probamos?
+
+Probamos. Si tuviste dudas de este operador ternario, vuelve a ese punto en el curso anterior, que allá lo explicamos con muchos detalles en qué consiste, pero básicamente es un resumen del if-else colocado aquí en una línea de código. Entonces hace mucho más optimizado nuestro código como un todo.
+
+Vamos a probar. Vamos a poner aquí 5. Veamos. Me dice que es menor. Vamos a poner 3.
+
+Me dice que es menor. Será 2. Acertaste en 3 veces. Solo para poder probar una vez o varias veces, vamos a revelar el número secreto. Vamos a hacer trampa. Vamos a establecer el número secreto desde el principio para saber cuál es. Lo coloco aquí en el alcance global al inicio. Observen que ya me salió que el número secreto es 4. Pongamos 4. Y funcionó. Exactamente. Acertamos el número en un solo intento. Muy bien.
+
+Entonces ya tenemos nuestro sistema funcional. Está con todas las actividades principales ya implementadas. Nuestra persona usuaria puede jugar. Le estamos dando consejos. E incluso le estamos diciendo en el mensaje final cuántas veces acertó, utilizando el operador ternario, ese truco para alternar entre singular y plural. Excelente, Leo.
+
+Pero bueno, aún tenemos muchas cosas por mejorar, pero esos son asuntos para el próximo video.

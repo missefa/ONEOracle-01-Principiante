@@ -1,0 +1,34 @@
+Capturando el clic del mouse
+
+
+[00:00] Okay, continuando con el desarrollo de nuestra página, ya vimos cómo colocar estos efectos especiales al momento que el usuario posiciona el mouse en los vínculos de nuestro panel de navegación.
+
+[00:18] Vamos a replicar, vamos a repetir este efecto ahora en nuestros productos, para ello, vamos a ir a nuestro Visual Studio, aquí en nuestro producto CSS, vamos a aplicar nuevamente, entonces, esa propiedad hover que la habíamos visto en la anterior sección, solo que ahora aplicada a nuestros productos.
+
+[00:44] Y ya tenemos nuestro selector productos li, entonces, podemos hacer exactamente lo mismo que hicimos con el panel de navegación. Llamamos a productos li, que es nuestro selector de clase, y los ítems que son los elementos de nuestra lista, que son nuestros productos. Productos li hover, con V dentilabial, y dentro de nuestras llaves colocamos el efecto que queremos.
+
+[01:23] Y vamos a repetir el color, que en realidad es color, pero aquí, detalle es el border-color, porque me estoy refiriendo a los bordes de nuestro elemento. Entonces, el border-color y vamos a repetir el mismo color. Fíjense que ya hasta me aparece aquí, el IDE me ayuda colocándome el color, que es el c78c19. Voy a actualizar, vamos a ir a nuestra página, y aquí en nuestra página vamos a actualizar aquí.
+
+[02:10] Y fíjense que ya tenemos exactamente el efecto que estábamos buscando. Cuando el puntero del mouse se posiciona en los elementos, se cambia el color de nuestro elemento, en este caso, nuestro borde. Ahora, lo que haremos yendo a nuestra página modelo, fíjense que tenemos un efecto diferente, que es, cuando hago clic, estoy haciendo clic izquierdo, el clic normal, se coloca verde.
+
+[02:45] ¿Cómo consigo eso? Así como tenemos el hover para capturar el movimiento del mouse, tengo otra propiedad que es el active para capturar el clic, o sea como diciéndole el movimiento activo, y a ese elemento activo, que es al que fue hecho clic, al elemento que está clicado, por así decir, aplícale alguna cosa, ejecutemos alguna instrucción.
+
+[03:15] Y aquí atrás, repetimos nuestro selector, que sería productos li, dos puntos, abrimos y cerramos las llaves, colocamos border-color, que es el color de nuestro borde, y aquí colocamos ese color verde, que es el 088c19. Voy a guardar, vamos a nuestra página, actualizo y fíjense que cuando hago clic, ya tengo mi elemento destacado con verde. Perfecto.
+
+[03:49] Para finalizar, vamos a ir aquí a nuestra página modelo, fíjense que cuando yo me posiciono, cambia el título un poco de tamaño, no es muy perceptible, pero sí está cambiando el título cuando yo me posiciono. En nuestra página todavía no tenemos ese efecto. Entonces, ya tenemos el productos li hover. Es cambiar el font-size para 33 pixeles. Vamos a guardar, vamos a nuestra página, actualizo.
+
+[04:28] Y continúa sin tener ese efecto. ¿Qué es lo que pasa? Vamos a analizar aquí. Yo construí, tenemos un selector específico, una etiqueta específica para nuestro título que es el h2 y ahí le estoy definiendo 30 pixeles. Entonces, nuestro código está dando preferencia a esta selección que está siendo directa al h2, le estoy ejecutando directo al h2 y está viniendo y diciéndole que sea con 30 pixeles.
+
+[05:04] Entonces, en nuestro caso, lo que tenemos que hacer es un selector de clase que llegue hasta ese nivel. Voy a repetir esto, que es el, productos li, y dentro del li, aféctame al h2. Entonces, hover, al li, cuando se posicione en cualquier área, en cualquier superficie del elemento productos li que es nuestra cajita, nuestro elemento, nuestro borde donde están nuestros productos, y aplícame al h2.
+
+[05:42] Esa es la lectura de esta instrucción, de este código, al h2 que es nuestro título. Entonces, ¿qué le vas a aplicar? El font-size que habíamos colocado aquí. Lo sacamos de productos li hover, dejamos solo el cambio, la alteración de color, y en este nuevo selector colocamos el font-size para 33 pixeles. Voy a guardar, voy a actualizar aquí y ahora en nuestra página ya tengo ese efecto.
+
+[06:16] Aquí en cabello + barba es cuando, por ser más grande el título se nota más. Fíjense. Salgo, cuando me posiciono, aparte del color mostaza, también el tamaño se incrementa en 33 pixeles, de 30 para 33. Entonces, es así que colocamos los efectos, estos efectos tanto en nuestro panel de navegación como en nuestros productos.
+
+[06:44] Es importante destacar que, esta captura de eventos solo nos permite modificar la parte visual, los efectos visuales de nuestra página. Por ejemplo, a través de esa captura yo no puedo volver a cargar la página, o no puedo llenar un formulario con algunos datos. Eso se hace a través de JavaScript. Bueno, el alcance de este curso no involucra, no envuelve JavaScript.
+
+[07:13] Así que les recomiendo, si es que tienen interés, hacer los cursos de JavaScript que tenemos en Alura que también son muy buenos, y se los aconsejo que lo hagan si es que quieren continuar con esta jornada de desarrollador web.
+
+[07:29] Pero igual el CSS me permite trabajar con esta captura de eventos, un poco más simple, y poder alterar en esta forma la parte visual de nuestra página con algunos comportamientos de nuestro usuario. Entonces, con eso hemos terminado esta parte visual, estos efectos visuales, y solo nos estaría faltando el pie de página, pero eso va a ser asunto para la próxima aula, así que nos vemos pronto.
+
+[07:58] Hagan los ejercicios por favor y practiquen bastante todo lo que hemos visto hasta aquí. Muchas gracias. Chau, chau.

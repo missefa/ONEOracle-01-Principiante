@@ -1,0 +1,40 @@
+Ajustando los diferenciales
+
+
+[00:00] Okay, amigos y amigas, vamos a continuar con nuestro curso, nuestra tercer aula de nuestro último capítulo del curso de HTML 5 y CSS 3, donde estamos construyendo desde cero una página web para nuestra barbería Alura. En esta aula, en esta sección, lo que veremos será este bloque de los diferenciales.
+
+[00:30] Si vamos a nuestra barbería modelo, a nuestra página modelo, al producto final, aquí podemos ver de que primeramente la imagen no ocupa el 100% del espacio, ocupa un tamaño mucho menor. Tiene algunos efectos especiales, y aquí nuestra lista también está con algún formato específico, está con algunos ajustes que fueron hechos e incluso tiene dos items nuevos, puntualidad y limpieza, que no los tenemos en esta lista de aquí.
+
+[01:03] Así que vamos a trabajar en el visual, en la estructura de nuestros diferenciales. Para ello vamos a ir a nuestro código, aquí, a nuestro index.html. Lo primero que haremos será colocar nuestra lista y nuestra imagen dentro de una div. Vamos a encapsular nuestra lista y nuestra imagen para poder ajustar algunos parámetros como el ancho de todos esos dos elementos, que son los que queremos comenzar a ajustar.
+
+[01:44] Venimos aquí y colocamos una div, recordando que la div lo único que hace es separar y organizar el código y lo que nos permite es poder crear clases. Entonces esta div va a ser la clase de contenido de los diferenciales, en el cual vamos a encapsular a través de esa clase algunos ajustes que queremos que aplique a todo el lote.
+
+[02:19] Nuestra ul. Vamos a aprovechar para colocarle una clase que la vamos a llamar lista diferenciales y vamos a, ya que estamos aquí, aprovechar para padronizar la clase de nuestra imagen que también clase-diferenciales. Aquí solo no vamos a olvidarnos que tenemos que ir a nuestro style y actualizar, porque aquí tenemos ya un selector de clase de la imagen diferenciales.
+
+[03:00] Entonces lo que hacemos es actualizarlo y listo. ¿Qué vamos a hacer con nuestros dos selectores de clase del contenido y la lista de diferenciales? Bueno, lo que haremos será ajustar justamente en el contenido de los diferenciales, vamos a ajustar el ancho, y ese ancho lo vamos a definir para que sea de 640 píxeles.
+
+[03:36] Y el margen de todo nuestro contenido va a ser de cero para arriba y para abajo y automático a los laterales. Fíjense que coloqué mi selector contenido-diferenciales después del mapa, porque si vemos aquí nuestra estructura de HTML, tenemos nuestro bloque diferenciales después de la sección del mapa, entonces es importante en el CSS tener y respetar el orden de los elementos que tenemos en HTML.
+
+[04:23] Y aquí ya vamos a ajustar nuestra lista de diferenciales, y en este caso lo que haremos será ajustar su anchura para 40%, ya que la imagen tiene 60%. ¿Entonces qué es lo que estamos intentando hacer? Es dejar la lista que ocupe 40%, la imagen que ocupe 60%, de los 640 píxeles que estamos definiendo para todo ese bloque.
+
+[04:58] Vamos a guardar aquí y vamos a ir a nuestra página. Actualizamos, vemos que se actualiza el tamaño en forma correcta, solo que no tenemos todavía el alineamiento sobre la horizontal. Hay un salto de línea entre la imagen y nuestra lista, y eso ocurre por una propiedad que ya la hemos visto anteriormente, que justamente vienen por display-block por defecto.
+
+[05:32] Vamos a ajustar eso. Lo haremos en nuestra lista de diferenciales. En nuestra lista de diferenciales le vamos a decir display, ahora que en vez de block, que viene por padrón, nos cambie para inline-block. Volvemos, actualizamos. No hubo ningún ajuste. ¿Por qué?
+
+[05:55] Porque en el caso del inline-block hace una lectura del HTML tal cual el HTML esté, tal cual se encuentre. Y si vemos aquí en nuestro HTML tenemos un espacio entre nuestra lista y nuestra imagen. Un espacio propio del HTML. Sin embargo el inline-block está considerando ese salto de línea que hemos colocado.
+
+[06:25] Para ello tenemos que colocarlos pegados, tenemos que juntar estos dos elementos, nuestra ul que es nuestra lista con nuestra img que es nuestra imagen, guardamos y ahora sí tenemos el efecto que queremos. Nuestra lista por un lado, en el costado izquierdo de nuestra pantalla, y al lado la imagen.
+
+[06:51] Ahora lo que haremos será esta lista colocarla en la parte vertical superior junto con el borde superior de la imagen. Volvemos aquí, vamos a nuestro style y en nuestro caso nuestra lista de diferenciales le damos vertical-align: top. Actualizamos y ya tenemos aquí nuestra lista.
+
+[07:25] Si vemos, el texto está muy pegado. Vamos a ir a nuestra barbería modelo y también nos están faltando estos dos items: puntualidad y limpieza. Entonces haremos esos dos ajustes. Vamos a nuestro index.html, adicionar un item, podemos aprovechar el código que tenemos aquí, lo pegamos dos veces y va a ser puntualidad, el último, limpieza. Son otros diferenciales de nuestra barbería.
+
+[08:12] Actualizamos puntualidad y limpieza. Ahora ajustamos el espacio. Eso lo hacemos, fíjense, tenemos aquí una clase items, justamente que está refiriéndose a todos nuestros items, entonces aprovechamos esa clase después de la lista punto items y hacemos uso de una propiedad que se llama line-height. Line de línea, height de altura. A este line-height le damos 1.5 de referencia.
+
+[08:57] Ese 1.5 es parecido al 2em, 3em que usamos aquí en el tamaño. Es un tamaño referencial donde le estamos diciendo 1 más el 50% del tamaño padrón de la fuente, de las letras. Y van a ver el efecto que tenemos aquí es justamente ese. Entonces nos dio el 50% del tamaño de nuestra fuente en cada uno de estos espacios.
+
+[09:31] Con eso ya nuestro texto está mucho más parecido con el de los diferenciales de la página modelo. Lo que nos falta es pintar en negrito nuestro primer item, Atención personalizada a los clientes tiene que estar en negrito. Solo que aquí nos encontramos con una dificultad que es todos los items tienen la misma clase.
+
+[10:10] Podríamos crear un ID, un identificador para la primera pero sin embargo no sería lo adecuado porque si creamos un ID, vamos a dejar muy específico ese ajuste, esa configuración en el CSS, y si el día de mañana nuestro primer item ya no es Atención personalizada a los clientes, queremos que sea Espacio Diferenciado, vamos a tener que recordar que tenemos que alterar los ID en los items para sí poder tener el mismo aspecto visual que teníamos, tener los efectos que teníamos.
+
+[10:43] Pero vamos a verlo en el próximo video los detalles de qué elementos de CSS tenemos a disposición para poder hacer ese visual y esa configuración. Nos vemos. Chau, chau.

@@ -1,0 +1,32 @@
+Mejorando la semántica del formulario
+
+
+[00:00] Okay, continuando con el desarrollo de nuestra página de contacto, en las anteriores secciones lo que habíamos hecho era facilitar la navegabilidad, facilitar la experiencia, mejorar la experiencia de nuestro usuario. Colocamos algunos inputs, algunos campos que son obligatorios como es el caso del nombre y apellido, que nos pide para completarlo, también el correo electrónico, teléfono y mensaje.
+
+[00:28] Y para correo electrónico y teléfono incluso colocamos una guía aquí que más o menos cuál es el tipo de dato que estamos esperando. Ahora, lo que veremos será mejorar la estructura de nuestro código en HTML. Vengo aquí a nuestra página de contacto, contacto.html y aquí usamos la etiqueta div para separar los contenidos.
+
+[00:56] Sin embargo, existe una etiqueta específica que se llama fieldset, que es una etiqueta que agrupa ítems que pertenecen al mismo grupo. Como aquí estamos, en este caso es ¿Cómo le gustaría que lo contactemos? Son los inputs radio, y todos los ítems de este grupo están hablando de la misma cosa, podemos usar el campo fieldset.
+
+[01:30] No es que con div no funcione, sí va a funcionar. Solo que con fieldset le estamos diciendo: "Mira, navegador, todos los grupos que te estoy pasando, todos los ítems que te estoy pasando en este grupo pertenecen o hacen referencia a la misma cosa, a los mismos eventos o a la misma información, de alguna forma están relacionados". Eso es lo que queremos decirle, indicarle a nuestro navegador.
+
+[01:59] Y eso hacemos con los dos div. Entonces colocamos fieldset y para cerrar también fieldset. Y para citar un ejemplo cuando pedimos los datos de una tarjeta de crédito, por ejemplo, en una página web de Amazon o Spotify, cuando nos piden los datos de nuestra tarjeta de crédito para pagar, para suscribirnos o pagar una compra, esos campos, porque son varios, pueden y deben estar dentro de un fieldset, porque son datos que referencian a un tipo de conjunto de datos.
+
+[02:39] Y el fieldset también, no usa la p para colocar texto. Como esto es un título, es el título de nuestro grupo, de aquí vamos a colocar una etiqueta que se llama legend, y es una etiqueta de contenido que abre y que cierra. Y aquí también legend y aquí legend.
+
+[03:05] Vamos a guardar, vamos a nuestra página, actualizamos y no tendría que haber cambiado nada porque solo estamos mejorando la estructura de nuestro HTM usando buenas prácticas. Sin embargo, como pueden ver lo que cambió fue aquí el estilo porque estamos usando la etiqueta pero en nuestros estilos y ya esa referencia se perdió.
+
+[03:32] Entonces, vamos a ir al style, que está aquí abierto, y donde hacíamos referencia a la etiqueta p, está aquí, form p. Aquí, entonces, vamos a cambiar por form legend, que es la nueva etiqueta. Vamos a ir a nuestra nueva página, esta no es, esta es nuestra página en construcción, actualizamos y ya tenemos. ¿Cómo le gustaría que lo contactemos? ¿En cuál horario prefiere ser atendido? en el formato correcto.
+
+[04:04] Para finalizar con estas buenas prácticas, ya que estamos hablando de ello, vamos a ir a nuestro código, y las imágenes suelen tener, es aconsejable colocarles un texto alternativo, entonces existe una propiedad alt. Aquí tenemos nuestro logo, en nuestro header, existe una propiedad alt donde le indicamos de qué se trata esa imagen. ¿Y eso para qué?
+
+[04:34] Principalmente hay algunos navegadores o el usuario puede estar con problemas de internet o por algún motivo no identificado, la imagen puede no cargar en el navegador de nuestro usuario. Entonces, a través de ese texto alternativo le podemos decir de qué se trata esa imagen. Y esta imagen es el logo de la Barbería Alura.
+
+[05:03] Y recordando que tenemos una imagen en el header y también tenemos una imagen en el footer. Para ello, lo copio y lo pego aquí, nuestra propiedad de alt, en ambos casos, es el logo de la Barbería Alura. Es aconsejable colocar en todas las imágenes que tengamos en nuestra página siempre un texto alternativo, eso va a ayudar a la navegabilidad de nuestro usuario.
+
+[05:38] Vamos a actualizar, a guardar aquí, actualizamos la página, y efectivamente, en ese caso, también no tenemos ninguna alteración porque vuelvo a repetir, lo que estamos trabajando son las buenas prácticas que no necesariamente son para que el usuario lo perciba, para que el usuario lo vea, sino para que nos acostumbremos a trabajar con buenas prácticas porque tenemos que tener conciencia y tener en cuenta que normalmente este tipo de proyectos involucran a más de una persona.
+
+[06:09] Es un equipo de programadores, un equipo de desarrolladores, un equipo front end que muchas veces puede estar compuesto hasta por otras personas, un designer, una persona que cuida de la experiencia de usuario, entonces, cuanto más organizado tengamos nuestro código, va a ser mucho más fácil esa interacción con otras áreas y con otras personas, así que sigan siempre esos consejos.
+
+[06:35] Bueno, en esta sección lo que nos dedicamos justamente fue a eso, a por un lado mejorar la experiencia de nuestro usuario, hacer que esa navegación sea lo más fácil posible, y por otro lado, a mejorar la estructura, a mejorar la semántica de nuestro código para tener un código más padrón que sea más fácil de dar mantenimiento el día de mañana y que podamos trabajar en equipo.
+
+[07:02] En la siguiente sección, en los siguientes videos, vamos a desarrollar principalmente nuestro botón de formulario y algunos otros efectos de nuestra página, así que nos vemos en las próximas secciones. Gracias.

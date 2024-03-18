@@ -1,0 +1,12 @@
+Lo que aprendimos
+
+
+Lo que aprendimos en esta aula:
+
+-Conocimos a GitHub, creamos una cuenta y entendimos para qué sirve;
+-Creamos un repositorio con un Readme;
+-Hicimos un Commit y aprendimos cuándo es el momento correcto para hacerlo.
+
+En la siguiente aula:
+
+¡Sumerjámonos en el Mundo de GitHub, vamos a crear nuevos archivos y veremos cómo agregar una persona a nuestro proyecto!

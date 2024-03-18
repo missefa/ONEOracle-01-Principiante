@@ -1,0 +1,22 @@
+Comportamientos de bloques
+
+
+¿Cómo se comporta un elemento que tiene su display con el valor inline-block?
+
+a)
+Dejando el tamaño fijo de su contenido.
+
+
+b)
+Alternativa correta
+
+Pudiendo ajustar el tamaño de su contenido, dejándolo regulable.
+
+¡Alternativa Correcta! El tamaño puede ser ajustado, tanto en la largura, como en la altura.
+
+
+c)
+Alternativa incorreta
+Como un bloque, ocupando 100% de largura de la página.
+
+¡Alternativa Incorrecta! El tamaño no es relativo a la largura de la página sino a su contenido, pudiendo este último ser ajustado.

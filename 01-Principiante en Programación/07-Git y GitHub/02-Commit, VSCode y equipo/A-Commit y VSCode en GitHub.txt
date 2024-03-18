@@ -1,0 +1,32 @@
+Commit y VSCode en GitHub
+
+
+[00:00] Ahora vamos a crear un nuevo archivo. Aquí, en la parte superior derecha tenemos la opción add file, entonces vamos a poner aquí create new file y vamos a nombrarlo como aplicación.js. Aquí vamos a poner simple console.log y escribir ”Ejecutando el sistema”.
+
+[00:36] Bueno, ahora voy a hacer el commit, entonces le da misma forma que hicimos con el README crea el app.js. Aquí no voy a poner una descripción. Y commit changes. Cómo pueden ver, ahora tenemos dos archivos y mira donde tenemos los commits, aquí al medio de la carpeta tenemos lo que significa cada uno. Entonces tenemos la creación de este archivo y también de README y eso nos ayuda también en la parte del historial de versiones.
+
+[01:16] Y si pueden verificar aquí, en este archivo tenemos el icono de un apps, ese archivo que está abajo de nuestro repositorio. Y podemos editarlo. Entonces de aquí vamos a hacer un clic y poner más una línea. Para ejecutar el sistema, debes poner: ‘’’npm install react’’’.
+
+[02:05] Esto es más para una parte didáctica, no va a funcionar, claro, pero normalmente es así que vamos a hacer, explicar cómo la persona puede utilizar nuestra aplicación. Entonces aquí en preview podemos ver que hay una otra formatación. Aquí estamos utilizando también el markdown.
+
+[02:25] Y vamos a hacer el commit. Entonces aquí voy a poner actualiza el README. Y ya está. Tenemos aquí más una línea en nuestro proyecto y si regresamos aquí a la carpeta, vamos a tener también este nuevo commit. Entonces ya cambió lo que estaba aquí anteriormente.
+
+[02:58] No vamos a entrar a detallar ahora, pero hacer todo lo que estamos haciendo vía web es un poco limitado. Y también tenemos poco de dificultad de poner cosas en código, todo lo que hicimos ahora es vía web y es a través de la plataforma de GitHub, pero es un poco limitado.
+
+[03:21] Vamos a ver otra forma de crear y actualizar los archivos, que seguirá siendo en la nube pero con más opciones. Entonces, a partir de aquí ya no conseguimos hacer tantas cosas en nuestro proyecto, por ello, voy a enseñarte un atajo hacker.
+
+[03:40] Voy a hacer clic aquí en la parte superior de GitHub y pulsar el botón del punto. Así va a cargar una página del editor en línea del Visual Studio Code, que es un editor muy utilizado por las personas desarrolladoras donde desarrollamos nuestras aplicaciones.
+
+[03:58] Entonces aquí tengo ya el archivo abierto del README y aquí al lado izquierdo voy a tener el archivo también app.js y más a al lado izquierdo otras funcionalidades al igual que nos ofrece Visual Studio Code, pero aquí también va a tener algunas limitaciones.
+
+[04:20] En este momento vamos a crear nuevo archivo, entonces voy a hacer clic en este icono donde está el nombre de nuestro proyecto, sistema de registro, va a tener un icono con el + y aquí voy a crear el index.html. Y aquí hay un otro atajo, cuando colocamos el signo de admiración y pulsamos el enter, ya no va a mostrar una estructura básica de nuestra página.
+
+[04:58] Entonces aquí tenemos las principales tags, etiquetas, aquí voy a cambiar el en del inglés por es, para no quedar traduciendo toda vez que vamos a entrar en esta página. Aquí voy a poner el nombre como Sistema de Registro de Juegos, por ejemplo. Y es esto, vamos a agregar este nuevo archivo en nuestro proyecto.
+
+[05:30] Cómo pueden ver, solo hicimos en esta parte de la aplicación. Si regresamos a nuestra página de la carpeta, vamos a ver que aún no hay nada. Seguimos con dos archivos. ¿Y cómo podemos comentar este nuevo archivo? Aquí al lado izquierdo tenemos el icono de Git y hay también el punto 1. Significa que hicimos una modificación.
+
+[05:58] Entonces, la herramienta consigue acompañar todo lo que estamos haciendo en tiempo real. Voy a pulsar aquí en esta opción y voy a agregar este archivo en nuestro proyecto. Entonces, aquí tenemos también un campo para hacer el commit.
+
+[06:20] Voy a poner aquí crea el index.html. Y ahora es solo hacer el clic en este botón de abajo Commit & Push. Como pueden ver, aquí ya no hay ninguna notificación y si vamos a nuestra página y actualizamos, ya vamos a tener aquí este nuevo archivo y también con tu commit correspondiente, como podemos ver, creado ahora mismo.
+
+[07:01] Tenemos ahora tres archivos en nuestro proyecto y vimos dos formas de hacer los commits: desde dentro de la plataforma de GitHub, como también la opción del Visual Studio Code en línea. Y la próxima clase vamos a ver otras formas de realizarlo.

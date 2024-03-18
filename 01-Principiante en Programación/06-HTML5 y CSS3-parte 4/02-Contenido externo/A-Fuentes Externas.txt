@@ -1,0 +1,38 @@
+Fuentes Externas
+
+
+[00:00] Okay queridos alumnos y queridas alumnas, vamos a continuar con nuestro curso en esta parte 4 de nuestro módulo completo de formación de HTML 5 y CSS 3. Hemos venido desarrollando nuestra página a lo largo de estos cuatro módulos y actualmente estamos mejorando, profesionalizando nuestra home, nuestra página principal.
+
+[00:29] En esta aula, en esta segunda sección de este curso lo que veremos será cómo importar, cómo trabajar con fuentes externas. Y yendo aquí a nuestra página modelo, que incluso le coloqué un título de modelo para que no nos confundamos, tenemos tres fuentes externas que estamos usando.
+
+[00:48] Una es el tipo de letra. Si ven el tipo de letra, es diferente, la fuente es diferente, estamos usando una fuente externa. La segunda importación o segundo factor externo que estamos usando es el mapa, la ubicación de nuestra barbería y tenemos un mapa para indicar justamente eso.
+
+[01:14] El tercer elemento es un video de You Tube que lo tenemos aquí incrustado en nuestra página. Entonces, veremos cómo importar esos tres elementos y vamos a comenzar por la fuente. Para ello, para ver la fuente, es importante resaltar y destacar que existen fuentes externas que podemos usar, sean privadas o sean públicas.
+
+[01:46] Las privadas son las también llamadas propietarias, y hay empresas como Microsoft, Apple, en fin diferentes empresas que tienen sus propios tipos de fuente y los usan en sus sistemas operativos, en sus aplicaciones, en sus sistemas, en sus software y esas fuentes son propietarias esas empresas, para usarlas tendríamos que pagar, básicamente.
+
+[02:10] Sin embargo existen otro tipo de fuentes que son públicas y que están abiertas para cualquier persona que quiera usarlas. Únicamente necesita importarlas y hacer esa referencia de manera correcta. Una de ellas, una empresa, una plataforma que las ofrece es el mismo Google.
+
+[02:30] Si entramos a Google fonts nos va a redireccionar a fonts.google.com, y aquí tenemos diferentes tipos de letras que son en este caso propiedad de Google, pero las disponibilizan, las dejan abiertas públicamente para todo aquel que quiera utilizarlas. Entonces aquí podemos ver diferentes tipos de letras.
+
+[02:57] Podemos seleccionar el idioma también, el lenguaje en el cual queremos hacer, o si estamos trabajando con el diccionario árabe, con el diccionario chino y los diferentes tipos de letras. Número de estilos, en fin, algunas configuraciones que podemos hacer, tipos de categorías podemos escoger, pero para simplificar vamos a escoger aquí este tipo de letra.
+
+[03:26] Montserrat será la que usaremos. Hacemos clic en ella y aquí nos abre incluso algunas alteraciones, algunas variaciones de este tipo de letra Montserrat. Tenemos diferentes, nos indica cuál es su tipografía, acerca de este tipo de letra, quién la creó, en fin, todo detalle, la licencia, toda la parte legal y técnica de esta tipología.
+
+[03:56] Para usarla, es supersimple, escogemos la que queremos, incluso podemos combinar dos o tres estilos. Vamos a escoger esta, Light 300. Y solo hacemos clic aquí, en select this style. Cuando hago clic aquí, me aparece un cuadro, una ventanita en el extremo superior derecho, y aquí hago clic en embed y me van a aparecer dos textos.
+
+[04:22] Uno que necesitamos colocarlo en nuestro HTML. Existen dos formas: lo podemos importar o con un link. La forma más fácil de utilizar es colocar este link en nuestro código HTML y este otro texto en nuestro código CSS y es justamente lo que haremos. Voy a seleccionar, voy a aquí un poco el tamaño porque está bastante pequeño. Imagino para que no tengan dificultad en ver.
+
+[04:53] Entonces, como les decía, escogí Light 300, con select this file, aparece esta ventana y voy a copiar este texto. Lo selecciono, "Ctrl + C" para copiar y vamos a nuestro código. En nuestro código voy al index HTML y después de todas las relaciones de todas las referencias que tenemos en nuestro head, colocamos ese texto, tal cual está en la página de Google.
+
+[05:25] No necesitamos hacerle ninguna alteración, ningún cambio. Si guardamos y vamos a nuestra página y actualizamos, todavía no ha ocurrido nada porque lo único que hemos hecho es importarlo, todavía no lo estamos usando. Tenemos que indicar en qué elemento, en cuáles o cuál etiqueta queremos usar nuestro estilo de texto y eso lo tenemos que hacer en nuestro CSS.
+
+[05:53] Volvemos a la página de Google font y esta CSS rules, que serían las reglas de CSS, que me especifica la familia y el tipo de letra que estamos usando. Minimizo aquí, vamos a nuestro style y lo vamos a colocar al inicio. Fíjense que me voy a ir al inicio va a ser el primer elemento de nuestro style y lo vamos a aplicar a todo el body de todas las páginas.
+
+[06:25] Entonces, como todas nuestras páginas tienen un body, va a aplicar al body de todas las páginas, al cuerpo de todas nuestras páginas. Lo único que hacemos es aquí pegar el texto del CSS. Si guardamos y volvemos a nuestra página, vamos a actualizar, vemos que el tipo de texto, la fuente ahora cambió.
+
+[06:53] Entonces es un texto visualmente más bonito y la principal ventaja es que este texto ahora me permite padronizar independientemente del navegador o sistema operativo en el cual sea abierta nuestra página. Es decir, si hay un usuario que quiere abrirlo en Windows con Chrome, como yo lo tengo aquí, va a observar esta tipología de letra.
+
+[07:20] Si otro usuario abre en su iPhone, en su dispositivo celular en su propio navegador, sea Firefox o el propio Google de Android, va a ver de la misma manera, va a ver de la misma forma con la misma tipología la página, no va a tener alteración porque estamos usando una fuente externa específica. Entonces, para eso es que sirve y en esa parte nos ayuda el usar estas tipologías y fuentes de datos externas.
+
+[07:56] Lo que veremos más adelante será la importación de nuestro mapa, cómo colocamos nuestro mapa y cómo incrustamos aquí el video, pero eso será asunto para los videos de más adelante. Los veo pronto. Chau, chau.

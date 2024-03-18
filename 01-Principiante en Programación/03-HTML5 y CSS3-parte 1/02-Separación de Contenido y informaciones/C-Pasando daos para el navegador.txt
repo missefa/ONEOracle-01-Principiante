@@ -1,0 +1,33 @@
+Pasando datos para el navegador
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso de HTML. Bueno, habíamos visto el DOCTYPE y la etiqueta HTML en nuestro anterior video. Bueno, ahora veremos otras informaciones en las cuales le vamos a pasar a nuestro navegador etiquetas informativas que son el idioma y el diccionario con el que estamos trabajando en nuestra página web.
+
+[00:27] Entonces son dos items muy importantes que tenemos que definir. Primeramente el diccionario, porque como sabrán, cada idioma maneja un diccionario diferente. Entonces por ejemplo en el español tenemos acentos que en el inglés no existen.
+
+[00:42] Y para ello vamos a usar una etiqueta informativa. Voy a agendar aquí en "Ctrl + Z", una etiqueta informativa la vamos a colocar después del HTML que se llama meta, la cual es la definición de cuál es el diccionario que queremos usar, que en nuestro caso colocamos charset, la propiedad charset, y definimos nuestro diccionario UTF-8.
+
+[01:17] Esto significa que vamos a usar este diccionario y este diccionario UTF-8 ya contiene la mayoría de los idiomas de los lenguajes del mundo y sobre todo los idiomas que provienen del indoeuropeo, del latín, que son los idiomas como nuestro español, el portugués, el italiano, el francés, que usan caracteres especiales y acentuaciones.
+
+[01:46] Esto me permite que nuestro navegador, voy a guardar y voy a ir a nuestro navegador, voy a actualizarlo, me permite que nuestro navegador nos reconozca esos caracteres especiales. Pero bueno, me dirán: "Christian, ya el navegador estaba reconociendo". Sí, en este caso nuestro navegador Chrome ya reconoce por defecto estos caracteres especiales, pero sin embargo tenemos que pensar que el usuario puede abrir la página de cualquier navegador.
+
+[02:22] Y solo para mostrarles, lo voy a borrar, lo voy a guardar, y voy a abrir la misma página, ahora en este caso con Internet Explorer. Y fíjense que al abrir con Internet Explorer no me está reconociendo todas las palabras donde tengo acento. Fíjense que me coloca un caracter medio extraño. Entonces, justamente es porque no definí el meta charset.
+
+[02:52] Entonces, cuando yo defino el meta charset, que es nuestro diccionario de palabras, meta charset = "UTF-8". Voy a guardar y en este caso voy a actualizar en Internet Explorer. Fíjense que corrigió y ahora sí ya está reconociéndome los acentos y esos caracteres especiales característicos del español. Entonces para eso es que me sirve el meta charset.
+
+[03:29] Voy a cerrar el Internet Explorer y vamos a continuar trabajando en nuestro Chrome. Entonces, meta charset es para definir el diccionario, que en este caso vamos a usar UTF-8 que ya contiene esos caracteres especiales y todo el diccionario del lenguaje español y de otros idiomas también.
+
+[03:48] Ahora vamos a definir el idioma en el que está siendo construida nuestra página. Eso lo definimos aquí en la etiqueta HTML, donde le definimos una propiedad lang, de language, en inglés, y aquí le pasamos como parámetro es, de español.
+
+[04:09] En este caso hay algunas variaciones, entonces yo puedo definir es, guión, español de España, puedo definirle es, guión, un número, una codificación 419, si es un español de Latinoamérica, pero en este caso vamos a dejarlo solo como es, de español. ¿Esto para qué me sirve?
+
+[04:32] No sé si les ha pasado, me imagino que sí, que a veces abren una página por ejemplo que fue construida en inglés, y como su sistema operativo puede estar en otro idioma, español por ejemplo, le pide automáticamente traducirlo, porque ya el navegador puede venir con un traductor por defecto.
+
+[04:50] Cuando te pide esa traducción, cuando te solicite esa traducción, significa que esa página está construida en un idioma diferente al del sistema operativo. Entonces para eso es importante definir, porque caso una persona con un sistema operativo en inglés o en algún otro idioma quiera abrir esa página tenga esa opción de traducción automática. Entonces voy a guardarlo.
+
+[05:15] En este caso no va a sufrir ninguna alteración nuestra página porque no tenemos esa diferencia de sistemas operativos. Y por último, como podrán ver aquí me aparece index.html, el título de nuestra página, aparece el nombre de nuestro archivo, porque no hemos definido una etiqueta que se llama title, que la vamos a colocar aquí abajo de la meta.
+
+[05:48] Tenemos una etiqueta title de título, del inglés, y en este caso vamos a colocar Barbería Alura. Guardamos, volvemos a nuestra página, actualizamos y ya tengo Barbería Alura. Entonces, repasando lo que vimos en este video fueron tres cosas: primero, definición del idioma, definimos nuestro diccionario y adicionamos nuestra etiqueta title con nuestro título de la barbería.
+
+[06:26] Esto es todo en este video, y en la próxima etapa continuaremos personalizando y colocándole más items a nuestra página. Muchas gracias.
+

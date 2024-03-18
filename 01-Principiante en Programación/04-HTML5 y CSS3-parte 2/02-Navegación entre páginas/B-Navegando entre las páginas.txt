@@ -1,0 +1,17 @@
+Navegando entre las páginas
+
+
+En el último video, conocimos la etiqueta <a>. ¿Para qué sirve?
+
+a)
+Para marcar un contenido alternativo.
+
+b)
+Alternativa correta
+
+Para marcar un vínculo o enlace para otro punto en internet.
+
+¡Alternativa Correcta! La etiqueta <a> sirve justamente para colocar un link, que nos va a llevar a otro punto en internet.
+
+c)
+Para marcar un vínculo con el fin de que el usuario no consiga desplazarse en la página.

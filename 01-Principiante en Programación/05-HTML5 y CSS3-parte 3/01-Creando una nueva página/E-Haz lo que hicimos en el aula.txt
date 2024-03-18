@@ -1,0 +1,46 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que vimos en el aula. Para esto, ejecuta los pasos de más abajo.
+
+1) Si no has realizado el entrenamiento anterior o, no tienes más el proyecto y aun no lo descargaste, lo puedes descargar aquí.
+https://github.com/alura-es-cursos/1768-HTML5-y-CSS3-parte3/raw/aula6/1768-HTML5%20y%20CSS3%20parte3-aula0.zip
+
+2) Cambia el nombre del archivo style.css a style-home.css.
+
+3) Cambia el nombre del archivo productos.css a style.css.
+
+4) En las páginas productos.html e index.html modifica la referencia de archivos CSS para que tengan sus nombres correctos.
+
+5) Crea la página contacto.html, con el siguiente contenido:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Barbería Alura</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="copyright">&copy; Copyright Barbería Alura - 2020</p>
+        </footer>
+    </body>
+</html>

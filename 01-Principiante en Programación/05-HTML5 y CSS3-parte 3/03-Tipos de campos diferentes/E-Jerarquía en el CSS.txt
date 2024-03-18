@@ -1,0 +1,38 @@
+Jerarquía en el CSS
+
+
+[00:00] Continuando con nuestro curso de HTML y CSS, aquí construyendo nuestra página de contacto en esta parte 3. Lo que habíamos hecho en el último video fue configurar el visual, los estilos de nuestros inputs especiales, estos inputs complejos que habíamos colocado en nuestro formulario.
+
+[00:25] Lo que veremos ahora será un concepto importante, vamos a entender el comportamiento de CSS en relación a los distintos marcadores que estamos usando. Seguramente se habrán preguntado cuál es la jerarquía, cómo se comporta en relación a si yo uso identificador o si yo uso clase, o si usamos un selector de etiqueta, un marcador de etiqueta, cuál de ellos tiene mayor jerarquía.
+
+[00:57] Imaginen que a un mismo ítem yo lo llamo por su clase, lo llamo por su identificador y también lo puedo llamar por su etiqueta. ¿Qué pasa si uso los tres elementos? ¿A cuál el CSS va a hacer caso? Es la pregunta que vamos a responder en este video. Para ello vamos, a usar como ejemplo nuestra etiqueta p, que es la de nuestro párrafo aquí en nuestro input radio, cómo le gustaría que lo contactemos.
+
+[01:23] Y vamos a crear las dos cosas: una clase que la vamos a llamar test y también un identificador que también lo vamos a llamar test, el mismo nombre. Vamos a ir a nuestro style, y aquí lo primero que haremos será vamos a crear un selector de etiqueta, en este caso de nuestra etiqueta p, y le vamos a cambiar el color para red.
+
+[01:55] Recordando que aquí también ya estamos haciendo esa selección del formulario p, y lo estamos cambiando, en realidad no le estamos cambiando el color, solo le estamos ajustando sus otras características, como el display, el tamaño de la fuente y el margen. En este caso, solo para p le vamos a cambiar a rojo. Lo actualizamos aquí, vamos a nuestra página, actualizamos y tenemos el texto en rojo.
+
+[02:24] Ahora, ¿qué pasa si yo vengo y coloco ahora form p, o sea las dos etiquetas, y aquí le cambiamos a color blue por ejemplo, azul? ¿Cuál creen que va a quedarse? Vamos a ir a descubrirlo, cuál color va a ser, si va a ser rojo o va a ser azul. Miren, cambia azul. Ahora dirán: "es porque está a lo último y hace una lectura secuencial".
+
+[02:53] Vamos a cambiar el orden, vamos a poner primero el form p, luego el p, y vamos a ir a actualizar nuestra página, que es esta, y fíjense que continúa azul, no se cambió a rojo, y ahora red, el rojo es el que está último. ¿Por qué pasa esto? Porque justamente existe una jerarquía y un orden en el cual el CSS se comporta en relación a los distintos marcadores que podemos usar.
+
+[03:24] Para entender ese concepto vamos a usar nuestro legendario Paint. Aquí abrí nuestro Paint y aquí vamos a dibujar unas cajitas, vamos a diseñar unas cajitas, un poco más por aquí. Voy a dibujar tres cajas de tres tamaños diferentes. Aquí la segunda y una tercera por aquí. Y vamos a pensar que esta caja grande es el id.
+
+[03:59] O sea, cuando yo hago una selección, un marcador en CSS a través del id, tiene mucho más peso. El segundo es la clase y el tercero y último es la etiqueta. Centralizarlo aquí. Y hablando de pesos, vamos a pensar que el id tiene un peso de 1000. Disculpen, el id vamos a colocarle un peso de 100. Ahora, borrar aquí es un poco complicado con esto de aquí. El id tiene un peso de 100.
+
+[04:41] Nuestra clase va a tener un peso de 10 y nuestra etiqueta, un peso de 1. ¿Para qué esto? Lo que hace el CSS o lo que intenta hacer es intentar sumar pesos relativos para saber a cuál va a hacer caso, o sea, a cuál de las configuraciones va a dar prioridad.
+
+[05:08] En este caso, tenemos dos selectores de etiquetas, dos marcadores de etiquetas, entonces, si vuelvo aquí es como si yo haga form p igual, son dos etiquetas, 1 + 1 = 2. Y eso lo compara con solo marcar la etiqueta p, que tiene de peso 1, por eso es que prioriza el número 2 que tiene mayor peso. Ahora, ¿qué pasa si usamos la clase que hemos creado?
+
+[05:39] Si venimos aquí y colocamos punto test color, no estoy usando el selector de clase con un punto, y le voy a dar un color diferente yellow por ejemplo, de amarillo. Vamos a guardar, vamos a nuestra página y ya se cambió. ¿Por qué se cambió? Porque el peso alteró. Entonces, cuando yo uso punto test, estamos diciendo que el peso es 10. Estamos aquí en la clase.
+
+[06:12] Ahora, ¿qué pasa si yo vengo y uso un selector? Un selector de una etiqueta más nuestra clase, p.test. ¿Se puede? Sí, se puede. Y aquí le estoy reforzando la selección. Vamos a colocar nuestro color, por ejemplo, orange, de naranja. ¿Qué creen que va a pasar? Lógico, se cambió a naranja. ¿Por qué? Porque como dijimos, lo que hace CSS es intentar dimensionar esos pesos aquí.
+
+[06:54] Sería un p.test. Tenemos 1 + 10, 1 que es la etiqueta y 10, esto se queda en 11. Y pasa lo mismo si decidimos usar el identificador numeral test, el signo de numeral o hashtag, como quieran llamarlo, y vamos a pensar en otro color, pink por ejemplo, rosado en inglés. Vamos a nuestra página, y como ya lo habrán visto, se cambió para rosado.
+
+[07:39] Pero existe una forma que tiene un peso aún mayor en relación al CSS. Esa forma ya la hemos visto en los primeros cursos, que es hacer esas configuraciones directo en el HTML, lo que llamamos de configuraciones inline, en la misma línea. Entonces, si yo vengo aquí y le coloco style y lo definimos con color purple, de púrpura, ya se imaginan qué va a pasar.
+
+[08:13] Sí, va a cambiar al color púrpura, porque haciendo una analogía y llevándolo para aquí, para esta comparación que hicimos, es como si el inline fuera más grande, ya lo dejamos con rojo, el inline está aquí, y es como si este inline tuviera un peso 1000, mucho mayor que los otros.
+
+[08:37] Entonces, es importante recordar y tener en cuenta esto, porque podemos sobreescribir configuraciones y tener resultados que obviamente no son los esperados, entonces, es importante reconocer y tener conciencia de esta jerarquía en el CSS. Espero les haya quedado claro.
+
+[08:58] Vamos a continuar desarrollando más conceptos y más etiquetas, más contenidos en nuestra página de contacto en los próximos videos. Nos vemos. Chau, chau.

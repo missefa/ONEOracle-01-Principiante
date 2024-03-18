@@ -1,0 +1,26 @@
+Mejorando el Texto
+
+
+[00:00] Hola, amigos y amigas, continuando con nuestro curso de HTML y CSS 3, lo que habíamos visto en la pasada aula fue la creación de nuestro index.html, y en él habíamos colocado nuestro texto, el texto explicativo de nuestra barbería en este caso.
+
+[00:24] Ya habíamos creado nuestras primeras etiquetas en las cuales identificamos cuál era el título con la etiqueta H1 e identificamos los tres párrafos de nuestra página. Ahora lo que vamos a hacer es destacar aquí el título, la Barbería Alura en negrito, colocándolo en una formatación de negrito.
+
+[00:45] Vamos a colocar todo nuestro párrafo en itálico, para darle un destaque y también vamos a colocar en este caso ya la misión que es "proporcionar autoestima y calidad de vida a nuestros clientes" en negrita. Para ello ya tenemos aquí nuestro Visual Studio Code con nuestro código HTML.
+
+[01:10] Y para ello vamos a continuar usando otras etiquetas, otros marcadores. Entonces, habíamos dicho que la Barbería Alura la vamos a colocar en negrito. Tenemos una etiqueta que se llama strong, de fuerte en inglés, de fortaleza, destaque. Ahora yo voy a dar "Ctrl + Z" porque en realidad me cortó mi palabra barbería.
+
+[01:42] Fíjense como les decía, el IDE ya me autocompleta. Yo no voy a necesitar en este momento el autocompletado, prefiero escribirlo completo para que ustedes vean y sí me autocompleta ya el cierre del strong. Entonces voy a guardar, voy a volver a nuestra página, actualizo y la Barbería Alura ya me aparece en negrita. Ahora voy a colocar esto en itálico.
+
+[02:11] Para colocar en itálico nuestra misión, necesitamos colocar una etiqueta que es em, de énfasis en inglés. Entonces, vamos a hacer énfasis en nuestra misión, aquí cerramos énfasis, voy a guardar nuevamente, vuelvo a nuestra página y actualizo. Entonces, ya nuestra misión aparece aquí en itálico.
+
+[02:45] Voy a volver a nuestro código y en este caso todo este texto lo vamos a poner en strong, en negrito. Entonces strong, voy a borrar esto y lo vuelvo a cerrar aquí, antes del punto. Cierro. Está todo okay, perfecto. Voy a volver. Ya guardé allá, actualizo aquí y me aparece "proporcionar autoestima y calidad de vida a nuestros clientes", en negrito también.
+
+[03:23] Entonces, ya vamos aprendiendo otras dos etiquetas, colocando allí en nuestra lista de etiquetas que son strong y em de énfasis. Ahora aquí como se habrán dado cuenta, habrán visto, hemos usado en este caso nuestro segundo párrafo, tiene etiquetas anidadas. O sea, tiene una etiqueta dentro de otra etiqueta.
+
+[04:06] La etiqueta P en este caso podemos llamarlo de padre, porque es la que está aplicando a todo el párrafo. Luego tenemos una etiqueta hija, que es énfasis, que también aplica a todo el párrafo, porque todo nuestro párrafo lo pusimos en itálico, en destaque. Y también tenemos una etiqueta nieta, nieta de la P, que está aplicando solo a una parte del texto, que en este caso es en negrita nuestra misión.
+
+[04:27] Entonces es importante tener en cuenta que las etiquetas yo las puedo colocar en un formato de cascada, en un formato de una debajo de la otra, y las etiquetas en esta cao heredan las propiedades de sus padres o de sus abuelos o de sus bisabuelos si es el caso.
+
+[04:51] Entonces aquí, este texto, aparte de tener la etiqueta negrita, está heredando la formatación, está heredando el contenido y la marcación de su padre y también de su abuelo en este caso.
+
+[05:11] Entonces, con esto concluimos esta sección en la cual hemos visto la parte introductoria de HTML, hemos creado nuestras primeras etiquetas, nuestro primer archivo index.html y en la siguiente aula seguiremos explorando más etiquetas y colocándole más formatos, haciendo un visual mucho más bonito a nuestra página. Hagan los ejercicios de las aulas y nos vemos de aquí a poco. Muchas gracias. Chau, chau.

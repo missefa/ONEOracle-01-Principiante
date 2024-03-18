@@ -1,0 +1,17 @@
+Texto en Mayúscula
+
+
+¿Cuál es la propiedad que usamos para poner el contenido del texto en mayúscula?
+
+a)
+text-decoration: none
+
+
+b)
+font-weight: bold
+
+c)
+Alternativa correta
+text-transform: uppercase
+
+¡Alternativa Correcta! La propiedad text-transform es la responsable de la transformación del texto a mayúscula, cuando usamos el valor uppercase.

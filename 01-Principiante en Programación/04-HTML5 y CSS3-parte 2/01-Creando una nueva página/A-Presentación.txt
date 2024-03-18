@@ -1,0 +1,16 @@
+Presentación
+
+
+[00:00] Hola, amigos y amigas, ¿qué tal? Mi nombre es Christian Velasco y les doy la más cordial bienvenida al entrenamiento con HTML 5 y CSS 3. Si estás aquí, espero que sea porque concluiste la primera etapa de nuestro entrenamiento en forma satisfactoria, en la cual venimos desarrollando, construyendo la página web de nuestra Barbería Alura.
+
+[00:29] Bueno, si ya estás aquí porque ya concluiste, como decimos, la primera parte, de seguro esta página ya te parece familiar. Bueno, este es el proyecto que desarrollamos en la primera etapa del curso, en el cual, comenzamos a ver algunos elementos de HTML y CSS, que era el index, la página principal de nuestra barbería.
+
+[00:57] Vimos cómo colocar un título, que es el título de la Barbería Alura, una imagen que representaba nuestro espacio, algún texto sobre la Barbería Alura, aprendimos aquí a colocar algunos formatos específicos para nuestro texto, como negritas, itálico y hasta cambiar el color, y por último colocamos el bloque a los diferenciales.
+
+[01:24] Destacamos una imagen y también un texto explicando cada uno de esos diferenciales que destacamos en nuestra página. ¿Qué vamos a ver en esta segunda etapa? Pues tenemos mucho contenido de HTML y CSS para conocer y para transmitirles.
+
+[01:46] En esta segunda etapa vamos a desarrollar la página de productos específicamente, en la cual, vamos a colocar los productos y servicios ofrecidos por nuestra barbería, como tenemos el corte de cabello, el corte de barba o nuestro superpaquete especial de cabello + barba. Como pueden ver, cada uno de los productos va a tener, aparte de su título, una imagen, la descripción y su precio.
+
+[02:16] Y también, aprenderemos a ver las estructuras de HTML, las estructuras correctas, que se dividen de un header o encabezado de página, nuestros productos hacen parte del main, de la parte principal del contenido, y un footer o pie de página donde colocamos otras informaciones. Entonces, esto básicamente es lo que vamos a desarrollar.
+
+[02:43] Tenemos bastante contenido para ver, para conocer, así que nos vemos en las aulas. Chau, chau, gracias.

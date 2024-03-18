@@ -1,0 +1,25 @@
+Mensaje, si acertó
+
+Bueno Leo, ya tenemos nuestro sistema y nuestras funciones. En el último vídeo, dedicamos mucho tiempo a trabajar con los tipos de datos, a entender la estructura y los tipos de datos, lo cual es muy importante. Pero, ¿qué te parece si ahora ejecutamos la lógica del juego en sí? Es decir, decirle a nuestra persona usuaria si acertó o no, y también recordar, en nuestro juego inicial del curso anterior, le dimos algunos consejos, algunas ayudas; le decíamos, mira, es mayor, es menor, ve por este camino, ve por este otro. ¿Te parece si comenzamos a implementar esa lógica?
+
+Entonces, aquí voy a limpiar un poco la función que hemos estado llamando cada vez que hacemos clic en el botón. Voy a eliminar este código. Este console.log ahora se va a convertir en la condición. Entonces, ahora vamos a hacer si el número de la persona usuaria es igual al número secreto, significa que la persona acertó. Podemos usar el triple igual porque ya tenemos los tipos de datos garantizados que están de la misma forma, abrimos llaves y creamos el bloque de código.
+
+En este caso, si el número secreto es igual, ¿qué deberíamos nosotras hacer? Vamos a crear nuestro código, o nuestro programa, lo que espera es que si se acertó, le mostremos un mensaje a la persona usuaria. Entonces, vamos a usar ese párrafo que ahora indica el mensaje para la persona usuaria del 1 al 10 y allí vamos a decir si acertó o no. Para ello, vamos a reutilizar aquella función que hicimos en videos anteriores de asignar texto al elemento.
+
+Si la persona acertó, llamamos a la función asignarTextoElemento, y le decimos que acertó el número. Aquí es interesante que dentro de una función estamos llamando a otra función. Eso es posible y es muy potente en JavaScript.
+
+Incluso asignarTextoElemento está definida arriba y después viene la llamada a la función verificarIntento. Y como tú lo dijiste, primero JavaScript hace una lectura de todas las funciones, las deja sobrecargadas, podríamos decir. Al inicio, ajá. Y de ahí podemos ir llamándolas para ejecutarlas.
+
+Ahora podemos probar aquí. Vamos a probar solo para ver rápidamente cuál es el número secreto. Vamos a ver cuál es el número. Lo vamos a dejar en el console.log para acertar más rápidamente. Está haciendo trampa Leo aquí. Intentamos, el número secreto es 1. Cambió el texto. Acertamos el número.
+
+Estamos utilizando entonces el mismo párrafo que es nuestro canal de comunicación con la persona usuaria. Al comienzo es la instrucción de indica un número y ahora le decimos si acertó. Ahora vamos a hacer el juego de forma honesta. Vamos a quitar el console.log y vamos a colocar esas ayudas, ¿ok?
+
+Esas ayudas eran cuando la persona no acertaba. Entonces, recuérdame un poco de condiciones. Ya hicimos la condición sí, o el if, la condición de igualdad de los números. De lo contrario, o en caso de que sea falso, usamos la palabra que se llama else. ¿Recuerdas?
+
+Este bloque aquí es cuando la persona no acertó el número y allí es importante mantener las ayudas. Y esas ayudas se refieren a, ¿si el número era mayor o menor de lo que colocamos, cierto? Entonces aquí hacemos otra condición. Si el número que la persona usuaria colocó es mayor al número secreto, en este caso deberíamos indicarle a la persona usuaria que el número secreto es menor, ¿cierto?
+
+Entonces, vamos a colocar esto aquí. Le decimos en ese párrafo que el número secreto es menor. De lo contrario, sería que el número secreto es mayor, ¿ok?
+
+Y aquí, noten la potencia de utilizar las funciones. Porque si nos damos cuenta, estamos utilizando una única función que es asignarTextoElemento. Y hasta este momento, solo en esta función ya está llamada tres veces.
+
+Lo que realmente simplifica nuestro código, lo hace mucho más optimizado. Al momento de hacer cambios, solo necesitaría modificar en un solo lugar. Es así. El mantenimiento del código se reduce considerablemente de esta manera, ¿de acuerdo? Pasemos a esto. Vamos a ingresar un número cualquiera. Voy a ingresar 5. Lo intentamos. El número secreto es mayor. Vamos a considerar que es 7. Adiviné el número. Bien, wow. En dos intentos. Vamos a intentarlo de nuevo. Vamos a ingresar 8 aquí. Es menor. 4. Es mayor. 5. Acertamos. Acertamos. En tres intentos. De acuerdo. Muy bien. Ahora mismo, entonces, nuestro juego está completo. Podemos seguir avanzando. Así es. Pero eso será tema para el próximo video.

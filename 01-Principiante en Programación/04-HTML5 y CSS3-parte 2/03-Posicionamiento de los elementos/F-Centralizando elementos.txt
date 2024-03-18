@@ -1,0 +1,20 @@
+Centralizando elementos
+
+
+¿Cuál es la mejor técnica para alinear una div al centro?
+
+a)
+Alternativa correta
+Usar el cálculo de margin automático
+
+¡Alternativa Correcta! Delegamos para que el navegador haga la cuenta al calcular la largura restante, dividir entre dos y agregar la mitad en cada uno de los lados.
+
+b)
+Usar el text-align: center
+
+
+c)
+Alternativa incorreta
+Calcular la largura restante y dividir entre dos.
+
+¡Alternativa Incorrecta! No es viable calcular la distancia. Hoy en día, usamos decenas de tamaños de pantallas y hacer ese cálculo para cada uno no es posible.

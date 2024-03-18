@@ -1,0 +1,57 @@
+Proyecto inicial
+
+Bien, Leo, ahora es el momento de comenzar nuestro segundo curso de lógica de programación. En este curso, vamos a aumentar el nivel de complejidad. Vamos a tener un sistema más profesional, porque vamos a empezar a interactuar entre el HTML y el Javascript, ¿verdad? Vamos a aprender nuevas técnicas y herramientas muy útiles que nos proporciona Javascript para poder hacer nuestro sistema de juego más dinámico, el cual estamos construyendo. Vamos a seguir trabajando con el juego secreto que vimos en el curso anterior.
+
+Si has llegado aquí sin hacer el primer curso, te recomiendo que lo hagas porque destacaron conceptos muy importantes en ese primer curso. Pero bien, en este curso ya tenemos una base o un prototipo. Es desde donde vamos a empezar en nuestro proyecto HTML. De nuevo, nos los entregan listos. Y le voy a pedir a Leo aquí que nos explique un poco lo que vamos a tener y que ya importemos este archivo a nuestro Javascript.
+
+Vale, Cris. Perfecto. De nuevo, comenzamos un curso de lógica de programación. Vamos a seguir, como bien dijiste, trabajando en base a ese juego de número secreto. Solo que de una manera más profesional, como bien mencionaste. Entonces, en la pantalla tienes lo que será el proyecto inicial que puedes descargar desde el paso anterior.
+
+Vamos a abrir este proyecto en nuestro Visual Studio. Y aquí vamos a observar lo que tenemos. La estructura se maneja de la misma forma que el proyecto anterior. Tenemos un archivo HTML, un archivo de estilos que le da la apariencia visual a nuestro proyecto. Y un archivo app.js que por ahora está vacío. Nuestro proyecto se ve de esta forma actualmente. ¿Diferente al anterior? Perfecto.
+
+En el curso 1, si recordamos un poco, nuestra forma de interactuar con el usuario era a través de los alerts, de los prompts. Y no es la forma más adecuada para interactuar con nuestro usuario en un sistema web que es como el que estamos trabajando en este momento. Y ahí, recordando en el primer curso, creamos una etiqueta de script para conectar JavaScript con HTML. En este curso vamos a necesitar hacerlo nuevamente, Leo.
+
+Así es, sí. En nuestro proyecto inicial, el HTML y el CSS están conectados a un Javascript. Existe el archivo, pero vamos a recordar un poco cómo hacemos esa conexión. Vamos a agregar una etiqueta, como bien dijiste, script, aquí, al final de nuestro archivo HTML, script, y recordar que la inclusión del archivo se hace con el atributo src o source. Entonces colocamos src y colocamos el nombre del archivo. Nota que ya Visual Studio, solo colocando la primera letra, ya reconoce que existe un archivo con ese nombre y nos da la posibilidad de agregarlo rápidamente. De esta forma ya hicimos la inclusión del archivo dentro de nuestro archivo HTML. Ya estamos disponibles para colocar código JavaScript.
+
+Perfecto. Entonces ya está la primera conexión. Esto ya lo habíamos hecho en el primer curso. Solo estamos recordando aquí, reforzando, ¿verdad? Ya creamos ese vínculo, si podemos llamarlo así, entre nuestro archivo HTML y nuestro archivo JavaScript JS.
+
+En este momento no te preocupes por entender todo lo que está escrito ahí. A lo largo del curso vamos a ir explicando algunas de esas etiquetas o tags (etiquetas). Pero con esto es suficiente, Leo. Me parece que falta algo para poder cambiar, trabajar, para poder interactuar con aquellos elementos que mostraste en la página inicial que necesitamos trabajar con un elemento, una herramienta muy importante a la hora de hacer esa conexión.
+
+Así es, Cris. Cuando tenemos un archivo HTML como el que está en pantalla, JavaScript ya tiene una representación que el navegador le entrega disponible. Recuerda que JavaScript es un lenguaje interpretado y el navegador actúa como el intérprete. Cuando trabajamos para la web, el navegador ya entrega a JavaScript una representación del elemento que está mostrando en pantalla que se llama el Document Object Model. Cada uno de estos elementos que están allí, tenemos una caja blanca que va a permitir colocar datos, tenemos botones, tenemos imágenes. Todo lo que está allí representado, el Document Object Model lo representa para JavaScript. Entonces podemos acceder a ello.
+
+Aquí vamos a realizar una acción interesante, Cris. Si observamos nuestra aplicación actual, falta cierta información para la persona usuaria. No estamos explicando qué función cumple esa caja blanca ni qué esperamos hacer. Podríamos solucionarlo conectando el HTML con JavaScript a través del Document Object Model (DOM).
+
+Además, también falta un título e información en nuestro sistema. Todos estos elementos forman parte del HTML y hemos estado enfocándonos mucho en JavaScript porque la lógica se trabaja con JavaScript. Sin embargo, un sistema web está compuesto por tres elementos. Por un lado, tenemos el estilo con CSS, que se encarga de la parte visual, los colores. Luego, tenemos el HTML, que es la estructura de nuestra página. Es por eso que vemos etiquetas y una estructura jerárquica, ese es el código HTML que tienen. Finalmente, JavaScript viene a ser la parte funcional, la parte interactiva de nuestro sistema.
+
+Leo, muéstranos cómo trabajar con el DOM.
+
+Entonces, tal como comentabas, vamos a trabajar con algunas etiquetas. En este caso, voy a acceder a un par de elementos que están disponibles. Si observan mi pantalla, voy a ampliar un poco mi Visual Studio. Aquí tenemos un H1, que es a lo que te referías como título. Y tenemos un P, que es el párrafo donde hemos colocado un texto explicativo. Cada elemento que está allí es accesible a través de JavaScript.
+
+Existe un concepto que se llama selectores, que es la forma en que JavaScript selecciona el elemento. Para ello, vamos a usar un método que, y repito, el Document Object Model (DOM) siempre está presente con nosotros. Es un método de ese objeto document que está disponible allí.
+
+Si vamos a JavaScript, voy a colocar en mi archivo .js y vamos a empezar por ello. Si coloco aquí document y hago clic en punto, Visual Studio ya me ofrece una cantidad de información aquí muy importante.
+
+Por ahora, no se preocupen. Vamos a trabajar solo con el query selector, que es este método que permite acceder a cada uno de los elementos. Colocamos query y ya ahí salen un par de métodos. Vamos a usar el query selector. Y como hicimos en el primer curso, recordando que los métodos usan parámetros, colocamos los paréntesis.
+
+En este caso, el parámetro que espera el query selector es cuál va a ser el selector que vamos a usar para acceder. Como tenemos solo un H1, yo en este caso puedo hacer esto, decir H1 y allí ya esa línea retornaría el elemento H1 que tenemos en el archivo HTML, que es ese título.
+
+Recordemos que debemos tomar ese valor y asignarlo a una variable. Entonces vamos a definir una variable, la llamaremos título. De esta forma ya tenemos el elemento seleccionado.
+
+Pero ojo, en el caso de nuestro curso anterior, nuestras variables eran de valores primitivos. Texto, números, no hicimos booleanos, pero sabemos que existen condiciones que son true o false. En este caso, esa cajita que está allí es un poco más compleja, es un objeto. Ese objeto tiene algunos métodos que definen su comportamiento. Por ejemplo, ese título va a tener un texto. Vamos a colocar el texto.
+
+La forma de conectar nuestro JavaScript con los elementos que tenemos en nuestra página HTML es a través del document. Es como un puente. Estoy estableciendo un puente entre estos dos mundos, JavaScript con HTML. Y ese puente me permite trabajar con N métodos.
+
+Uno de ellos es el query selector, donde le estoy diciendo a la cantidad de elementos que hay o los diferentes elementos que tenemos en HTML, yo le paso un nombre. En este caso, el nombre de una etiqueta H1. Solo tenemos un H1, que es un encabezado principal en nuestro HTML. Estoy diciendo, captúralo, tráelo.
+
+Estoy asignando la variable "título", pero no es un texto, es un objeto con el que puedo trabajar de diferentes maneras. Y una de esas cosas que podemos hacer es asignarle un texto. Observen que si yo llamo a esa variable aquí, por ejemplo, pongo "título.", y verán que ya él va a... Incluso si coloco el cursor encima, él reconoce que no es un string (cadena de texto), que no es un número, sino que es una variable de tipo HTML Heading Element. Incluso, ya hace la especialización. Sabe que es una variable de HTML de tipo heading o header.
+
+Puedo incluso ahora asignarle algún texto. Utilizo el método innerHTML que está disponible aquí. Recuerden que cuando colocamos puntos, se nos presentan todos los métodos disponibles que tenemos para ese elemento. Uno de ellos es innerHTML. Con esta llamada podemos definirle un título a ese juego. Así, ahora mismo va a aparecer en pantalla "juego del número secreto" que no estaba apareciendo, que estaba vacío.
+
+Si salgo aquí y vamos a nuestro navegador, vean que ahora aparece ese texto. Perfecto. Aquí recordando que, como vimos en el curso anterior, Leo ya tiene activado el live server (servidor en vivo). Entonces necesitan activar el live server para no volver a la página y estar actualizando cada vez. Cualquier cambio que se realiza en Visual Studio Code, nuestro live server lo actualiza aquí en la página. Perfecto.
+
+Para finalizar este video, vamos a colocar debajo de "ese juego del número secreto" aquel mensaje que usamos en nuestro primer curso de lógica que era "escoge un número del 1 al 10". Vamos a colocarlo. Repetimos el proceso.
+
+Aquí decimos let. Vamos a llamar a esto. Es un párrafo. Entonces este párrafo que está aquí lo podemos colocar. Voy a usar nuevamente la etiqueta P porque solo tenemos un párrafo, pero también puedo mostrarte que podemos seleccionar también por la clase, que es algo de CSS. Primero vamos a hacerlo repitiendo el H1 para reforzar el conocimiento y luego mostraremos esa nueva forma de trabajar con los selectores.
+
+OK. Vamos aquí. Decimos let parrafo. Digo document. Le pido al document. Le digo, haz el querySelector. Selecciona el elemento P. Coloco P entre comillas. Luego le digo parrafo.innerHTML. Y aquí sí colocamos el mensaje. "Escoge un...Me gusta más esta palabra, selecciona. Indica. Indica un número del 1 al 10. OK. Guardamos. Venimos aquí. Y ahora tenemos el mensaje ya disponible allí. OK. Perfecto.
+
+Bueno, entonces ya hemos comenzado a interactuar con elementos HTML a través de JavaScript utilizando el DOM o el Document Model Object. Y vamos a continuar mejorando nuestro sistema aquí del juego, haciéndolo más profesional. Pero eso es asunto para los próximos videos. Chau, chau.

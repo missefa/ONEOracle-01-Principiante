@@ -1,0 +1,77 @@
+Capturando el valor del input
+
+Bueno Leo, ya tenemos nuestra función que genera el número secreto. Creo que llegó el momento de la verdad, ¿verdad? Recordando nuestro juego, la persona usuaria ingresa, inserta un número, y eso necesito compararlo con el número aleatorio generado por la máquina, que es lo que ya hemos construido con nuestra función.
+
+Pero me parece que nos falta capturar este input. ¿En qué momento estoy capturando el input que está siendo ingresado por la persona usuaria? Así es. Entonces, ahora mismo tenemos nuestro juego que está esperando que la persona usuaria coloque un valor.
+
+En el primer curso, usamos PROM. Pero en este curso, de una forma un poco más profesional, vamos a usar elementos input de HTML.
+
+Vamos a verlo. Vamos a la función de intento de usuario, que no sé si quieres cambiar el nombre, porque me parece que... Sí, porque en realidad no... Las funciones deben ser autodescriptivas, como hemos estado trabajando. Así es. Y intento de usuario no es el intento de usuario, no es la acción de intentar. Lo que queremos es que verifique... Verifique el valor. Verifique el valor insertado con el valor del secreto.
+
+Por lo tanto, vamos a cambiar a verificar intento. Hacemos ese cambio también en el HTML, donde está el evento. Aquí en el onClick. Perfecto. Bien recordado, porque si cambiamos una función, debemos tener cuidado de... ¿Dónde la estamos llamando? Exacto.
+
+Y dentro de esta función de verificar intento, entonces vamos a capturar lo que la persona usuaria colocó. Para ello, vamos a usar una variable. Número usuario. Y eso lo hacemos, en este caso, podemos seguir usando el document.querySelector. Partiendo de que tenemos un solo input. ¿Ok? Un solo input.
+
+Pero creo que es interesante aquí mostrarle dónde está ese input, Leo, en el HTML. Tenemos este input aquí. Ok, es una etiqueta. Entonces, dentro de ese bloque de código HTML, tenemos una etiqueta que es el input que está representando a la cajita de texto. A la caja de texto. Que vemos aquí en la página. Entonces, esa cajita blanca es representada en nuestro HTML por esa etiqueta input.
+
+Solo que quiero aprovechar aquí, incluso vamos a hacer un pequeño cambio para ya dejar a nuestras personas estudiantes con el conocimiento de que si tenemos más de un input, en ese caso, no vamos a acceder de esta forma. Vamos a usar otra función de JavaScript, que es que cada input tenga un identificador. Entonces, vamos al HTML, vamos a colocar ese identificador y para ello usamos el atributo id. Ok.
+
+Él ya tiene otros atributos, ¿no? Un type. Que es el tipo de entrada. Tiene el mínimo, el máximo. Entonces, ahora vamos a probar eso, entrar más en detalle. Pero yo puedo ir definiendo más atributos. Así es. Uno de esos es el id.
+
+Interesante lo que dice Leo, porque puedo tener más de un input en mi página. En tu pantalla. Por ejemplo, un formulario donde coloco nombre, email, ciudad, teléfono. Hay más de un input. Entonces, la forma de reconocer a cuál me estoy refiriendo, con cuál quiero trabajar, es un id. Exacto.
+
+Entonces, aquí puedo nombrar ese input como número usuario. Ok. O incluso puedo cambiar, para que usemos dos nombres diferentes, puedo decir valor usuario. Valor usuario, sí. Y ese id ahora lo vamos a usar aquí.
+
+Puedo seguir usando el query selector, pero voy a demostrar que existe otra función que es solo para buscar por id. Ok. En ese caso, en lugar de usar query selector, decimos document. Usamos la ayuda que tiene Visual Studio y empezamos a escribir get, de obtener, get en minúscula. Y aquí hay varias funciones. Una de ellas ya es bien clara por su nombre y eso es lo importante, colocar nombres representativos a las funciones, es que se ve que dice getElementById, es obtener elemento por id. Entonces, getElementById. Exactamente lo que queremos. Es lo que queremos.
+
+Y colocamos el id, que es valor usuario. Perfecto. Vale destacar que esa función, getElementById, es una función que ya viene predefinida en JavaScript. No es que la construimos en algún momento.
+
+Al igual que querySelector, esta función retorna el objeto. Pero ahora mismo, no queremos el objeto, queremos el valor. Si presiono al final de document.getElementById, voy a obtener todo lo que ese elemento tiene, los atributos, y un atributo de él es el value.
+
+Hagamos click aquí, seguido por un punto y coma, ¿de acuerdo? Y ya allí tendríamos disponible el valor. Vamos a colocar un console.log solo para ver si el valor se está tomando correctamente.
+
+Entonces, venimos aquí, vamos a colocar un número cualquiera, vamos a colocar 5, y vean que al intentar, al hacer click al botón de intentar, se muestra el 5 en la consola. Si coloco aquí otro número, 9, le doy a intentar y la consola se actualiza.
+
+Creo que ya podemos finalizar lo que queríamos, que es probar que si lo que colocó la persona usuaria corresponde a ese número secreto.
+
+Es porque ya tenemos nuestro número secreto generado por la máquina con una función y hemos conseguido capturar lo que nuestra persona usuaria está ingresando a través del getElementById, y ahora necesito comparar, ¿verdad? Si este es igual a este otro.
+
+Entonces, voy a traer este console.log de arriba, que está en el alcance global y que solo se ejecuta cuando arrancas el programa. Lo voy a colocar en el botón para que tengamos los dos valores disponibles.
+
+Y luego llamamos a la función de console.log también para validar una condición. Entonces decimos aquí: número de usuario igual a número secreto.
+
+Esta condición nos va a retornar un tipo de dato que hemos venido manejando de forma implícita, que es el tipo de dato boolean o booleano, que en breve veremos en la documentación. Pero vamos a comprobar cómo funciona ese botón ahora.
+
+Aquí, lo que estamos haciendo, si puedes volver un segundo, Leo, es comparar el número de usuario con el número secreto. Y estoy colocando los dos iguales para decirle, compara A con B. Y lo que me va a retornar entonces es un boolean. True o false.
+
+Veamos la documentación como lo estabas comentando. Vamos a la documentación. Si entro aquí, mdn boolean JavaScript. Estás buscando en Google, ¿verdad? En Google, sí.
+
+Y aquí vamos a entrar en la mdn como documentación oficial, que siempre debe ser el primer paso. Los foros, las guías son muy útiles, pero siempre recomiendo el manual de quien creó.
+
+Observemos el manual del fabricante. Acá, recordando que en el curso anterior les decíamos que para acceder a la documentación en español, simplemente cambiar S-E-N-U-S por S y allí ya sale en español el texto.
+
+Aquí se explica lo que es un tipo de dato booleano y sus posibles valores, que es true o false.
+
+Volvamos a nuestro código. Vamos a verificar que lo que la persona usuaria colocó sea igual o no a lo que la máquina generó.
+
+Aquí venimos a nuestro código y colocamos cualquier valor. Cinco. Intentamos y la máquina había seleccionado tres. Si yo coloco ahora tres, vamos a esperar que diga true y todo está bien. Dice true. Excelente, Leo.
+
+Pero creo que es importante aquí reflexionar sobre un problema que tuvimos en el curso anterior que es el input normalmente me retorna un tipo de dato que no es número. Me gustaría que validemos aquí qué tipo de dato es el que me está retornando este input porque el número aleatorio sí me retorna un número.
+
+Estamos utilizando una función matemática para generar un número. ¿Será que nuevamente no estoy comparando número con string?
+
+En la interfaz que nos entregó el equipo de Ibex UI efectivamente hicieron o lo realizaron de forma de que la persona usuaria solo coloque números. La interfaz ya restringe para que la persona usuaria no coloque una letra. Solo se pueden colocar números.
+
+Pero si vamos a la definición del valor retornado, podemos aplicar aquí el mismo concepto que realizamos en el curso anterior donde hacemos un console.log del tipo. Vamos a pedirle el tipo al número del usuario para verificar qué es lo que nos está devolviendo ese valor. Vamos a probar. Pedimos el tipo con typeof. Typeof nos va a devolver si es number (número), si es string (cadena de texto), si es boolean (booleano).
+
+En este caso vamos a colocar un número cualquiera 5 y mira, retornó string. Entonces, nuestro input es un string y podemos verificarlo solo para comparar. Coloca un console.log también del número secreto. Vamos a colocar un console.log del número secreto aquí después de mostrar ese número. typeof número secreto. Typeof es el tipo del valor.
+
+Vamos a poner un número cualquiera. Vamos a intentarlo y mira, es number. Entonces, literalmente estoy comparando un string con un número. ¿No es así? Está funcionando para los efectos de nuestro juego, pero no es lo ideal. No es lo correcto. Debería estar comparando peras con peras, manzanas con manzanas.
+
+Entonces, ¿qué te parece si a ese input utilizamos parseInt que también lo utilizamos en el curso anterior para forzar a que nuestro input sea convertido en un número? Así es. Entonces, ¿dónde estamos obteniendo el valor? Vamos a encerrar esto entre paréntesis para que se convierta en el parámetro de la función parseInt.
+
+Y ahora mismo, si ejecutamos nuestro código, vean que ahora ponemos 5 aquí nuevamente y nos dice number en los dos casos. ¿Ok? Y eso nos abre la posibilidad de que hagamos uso de ese recurso de JavaScript que es el triple igual, que ahora mismo estamos comparando peras con peras, manzanas con manzanas.
+
+Entonces, el triple igual es como una validación a más para decirle "mira, tiene que ser igual en valor e igual en tipo de datos". Ok, si no, nos va a devolver falso.
+
+Bueno, aquí hemos repasado entonces todos estos conceptos que también son importantes: estructuras de datos, tipos de datos con los que estamos trabajando y ya estamos avanzando hacia la parte final de completar nuestra función de verificar intento utilizando otras funciones que hemos construido aquí en nuestro sistema. Vamos a continuar trabajando en los próximos videos añadiendo más funcionalidades aquí a nuestro sistema.

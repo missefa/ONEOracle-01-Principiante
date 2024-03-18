@@ -1,0 +1,44 @@
+Git Clone y presentación de la consola
+
+
+[00:00] Hasta ahora todo lo que hicimos fue a través de la web, ¿pero dónde está Git? GitHub de Microsoft fue creado justamente para facilitar el uso de Git, que fue comprada por Microsoft.
+
+[00:14] El creador fue Linus Torvalds, el mismo creador del sistema operativo Linux. Ahora llegó el momento de la instalación. Vamos a empezar a utilizar los comandos a través de la consola. Estoy aquí en mi repositorio y en la parte superior tenemos el botón code, donde vamos a copiar la URL que está abajo del HTTPS.
+
+[00:39] Pero antes de seguir, vamos a ver cómo funciona la consola y la navegación. Ahora vamos a empezar a trabajar con la terminal. Para las personas que utiliza el sistema operativo Windows, vemos aquí en el buscador de la barra inferior y escribir git bash.
+
+[01:01] Para las personas que utilizan otros sistemas operativos, es solo utilizar la consola de Git porque vamos a utilizar los mismos comandos. Entonces aquí voy a poner un poco más de zoom para que puedan ver mejor. En la documentación de Git hay diversas instrucciones sobre la herramienta y recomiendo que lean. Es importante que busquen tener este hábito de leer las documentaciones.
+
+[01:29] Y una de estas instrucciones es sobre las configuraciones iniciales. Entonces aquí tenemos una parte sobre tu identidad. Vamos a copiar el primer comando para poner nuestra identidad, que es nuestro nombre. Entonces voy a copiar aquí el user.name. Es importante no copiar espacios en blanco porque puede tener letras al medio de este comando y no vas a conseguir poner tu identificación de la manera correcta.
+
+[02:00] Entonces aquí podemos pegar de dos formas: con el botón derecho del ratón y seleccionando paste o a través del atajo “Ctrl + Shift + Insert” y aquí para salir de esta selección va a poner el cursor para el lado izquierdo. Voy a escribir aquí mi nombre en lugar del ejemplo, entonces aquí voy a poner mi nombre.
+
+[02:28] Y ahora vamos a copiar el comando del correo y vamos a hacer la misma cosa. Ahora voy a poner con “Ctrl + Shift + Insert”. Aquí también voy a poner el cursor para el lado derecho, voy a poner mi correo. Y ahora un tip muy importante: el correo necesita ser el mismo de GitHub para que puedas enviar tus proyectos.
+
+[02:52] Entonces, es bueno verificar el correo de registro en GitHub para poner el mismo aquí. Entonces voy a terminar de poner el mío. Y voy a limpiar mi pantalla con el comando clear para quedar mejor de ver los próximos comandos y tenemos un otro comando para verificar si hemos puesto las configuraciones correctas, si el nombre está cierto y el correo también, que es el git config --list.
+
+[03:30] Al final de esta lista vas a tener tu nombre y tu correo, y si alguno de ellos ha salido de manera incorrecta, eso va a ser el mismo procedimiento que vas a corregir. Y si aparece al final dos puntitos, para salir solo hay que poner la letra Q. Ya está, voy a limpiar aquí de nuevo, clear. Voy a bajar aquí esta página y ahora vamos a empezar a trabajar con la navegación dentro de la consola.
+
+[04:04] Al principio es un poco difícil la adaptación para encontrar las carpetas y utilizar la terminal negra, pero con el tiempo van a ver qué es muy fácil. Ahora empezaremos a trabajar dentro de la consola, utilizando los comandos Linux. Mismo que estés en otro sistema operativo vas a conseguir lograr hacer los mismos comandos y empezaremos por el pwd que nos va a mostrar dónde estamos de nuestro de la consola.
+
+[04:38] Bueno, ahora estoy dentro de mi carpeta de usuarios, yo necesito acceder a una carpeta de GitHub que está dentro de una carpeta de documentos. ¿Y cómo puedo hacer esto? Voy a listar todas las carpetas que tengo aquí a través del comando ls que nos va a presentar todo lo que tengo en mi computadora.
+
+[05:00] Entonces tengo algunas carpetas convencionales, como documents, downloads, links, en fin. Pero voy a acceder ahora a documents, voy a utilizar el comando cd que significa change directory más el nombre de esta carpeta. Entonces voy a escribir aquí Documents, hay que ser de la misma forma, porque si no, no vas a conseguir entrar en la carpeta, entonces aquí está Documents.
+
+[05:32] Necesito escribir de la misma manera, pulsé eI enter, entré en ella. Voy a hacer lo mismo, poner los para ver todo lo que tengo ahí. Pero mi carpeta que yo he creado para esta clase de GitHub no está aquí. ¿Dónde será que está? Para muchas personas dependiendo de la configuración del sistema operativo Windows, los proyectos pueden estar dentro de la carpeta de OneDrive.
+
+[06:05] Yo recomiendo para las personas que están haciendo versionando, dejar fuera de esta carpeta, porque ya está enviada GitHub, no necesita tener en otro espacio como OneDrive porque solo va a ocupar más memoria que tienes en esta aplicación. Entonces aquí voy a regresar a una carpeta anterior, para ello es solo ponerse de dos puntos. Salí de Documents y ahora voy a acceder a OneDrive.
+
+[06:44] Voy a listar todo lo que tengo aquí, tengo otra carpeta de documentos, voy a acceder a Documentos, cd Documentos y listar de nuevo todo lo que tengo aquí. Entonces, ahí está Git y GitHub. Voy a poner aquí cd git-y-github/. Ya está, ahora puedo trabajar desde mi carpeta para empezar el versionado.
+
+[07:17] Entonces, si pueden ver, ya cambió la dirección de mi proyecto. ¿Hay una forma más fácil de encontrar nuestra carpeta para versionar? Sí. Aquí en la barra inferior tenemos el icono del explorador de archivos, voy a hacer clic ahí, voy a acceder a documentos y tengo aquí mi carpeta.
+
+[07:42] Voy a entrar en ella, tenemos una opción con el botón derecho del ratón, que es hacer un clic en cualquier espacio. Aquí, mostrar más opciones o podría presentar aquí abrir con Git Bash y Git Bash here. Entonces hicimos la misma cosa, pero ahora de una forma más gráfica, una forma que es también más fácil, pero practicando con los comandos de Linux, también quedará fácil.
+
+[08:17] y es lo mismo si podemos comprobar aquí tenemos el mismo camino. Voy a cerrar esto aquí y vamos a seguir trabajando a partir de esto. Voy a limpiar mi terminal. Y ahora, antes de seguir con nuestro proyecto desde GitHub, voy a pasar algunos tips muy importante al momento de nombrar nuestros archivos en la computadora.
+
+[08:45] Pero antes de seguir con el Git Clone de nuestro proyecto desde GitHub voy a pasarte algunos tips muy importantes para nombrar sus carpetas en tu computadora. El primero es: no utilices caracteres especiales como asterisco, arroba, punto de exclamación, de interrogación para nombrar los archivos.
+
+[09:08] Utiliza el guión para separar los nombres y no utilices el guión bajo para hacer esto. También no utilice espacios en blancos ni barras espaciadoras entre los nombres, porque al momento de enviar tu proyecto para GitHub puedes tener dificultad y esto también puede complicarse entre los sistemas operativos.
+
+[09:33] Evita también asignar nombres muy largos para tus carpetas y solo utiliza letras minúsculas, porque también los sistemas operativos hacen distinción entre letras minúsculas y mayúsculas, y puedes así evitar problemas futuros manteniendo solo de esta manera. Ahora que ya sabes navegar dentro de la consola y nombrar los archivos, vamos a seguir trabajando con el Git Clone.

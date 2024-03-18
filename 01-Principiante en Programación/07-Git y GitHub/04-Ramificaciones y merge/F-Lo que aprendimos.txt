@@ -1,0 +1,11 @@
+Lo que aprendimos
+
+
+Lo que aprendimos en esta aula:
+
+branch
+
+¿Qué es?
+Cómo crear una nueva branch llamada ‘’desarrollo’’;
+Cómo navegar entre la branch principal ‘’main’’ y la branch “desarrollo”a través del comando git switch;
+Cómo enviar todas las modificaciones hechas en la branch “desarrollo” a la branch principal “main” con el merge.

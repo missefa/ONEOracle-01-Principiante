@@ -1,0 +1,17 @@
+Transición con duración
+
+
+¿Cómo configurar la transición visual de un elemento que dura 3 segundos?
+
+a)
+change: 3s
+
+b)
+Alternativa correta
+transition: 3s;
+
+¡Alternativa correcta! Utilizamos la propiedad transition para proporcionar una transición visual de un elemento.
+
+
+c)
+transform: 3s;

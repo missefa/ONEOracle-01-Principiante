@@ -1,0 +1,24 @@
+Haz lo que hicimos en el aula
+
+
+Llegó la hora de poner en práctica lo que fue visto en el aula. Para ello, ejecuta los pasos listados debajo.
+
+1) En el archivo productos.css, agrega un borde a los ítems de la lista productos:
+
+border: 2px solid #000000;
+border-radius: 10px;
+
+
+2) Con eso, el CSS de los ítems de la lista productos quedará de la siguiente manera:
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}

@@ -1,0 +1,40 @@
+Trabajando con mapas
+
+
+[00:00] Vamos a continuar con nuestro curso, continuando con esta parte de importación de elementos externos, de cómo usamos elementos externos. Ahora vamos a ver la importación, la incrustación de nuestro mapa.
+
+[00:18] Si vemos la página modelo, tenemos aquí un título, un bloque, que es Nuestra Ubicación y un texto, Nuestro establecimiento está ubicado en el corazón de la ciudad, y tenemos un mapa que nos indica justamente la ubicación de nuestra barbería. ¿Cómo hacemos eso? Lo vamos a ver en este video, es supersencillo.
+
+[00:43] Primero vamos a crear la estructura. Vamos a nuestro index.html y creamos las etiquetas con el contenido. Antes de la sección de los diferenciales, vamos a crear una nueva section. Creamos una nueva section, a esa section le vamos a colocar una clase que la vamos a llamar mapa. Y dentro de esta section, creamos un H3, un título.
+
+[01:18] Vamos a aprovechar la clase que ya tenemos de título principal, y este título es nuestra ubicación. Como podemos ver, tenemos un texto. Para colocar texto usamos la etiqueta P, y en esta etiqueta P colocamos: Nuestro establecimiento está ubicado en el corazón de la ciudad. Perfecto. Voy a guardar y vamos a ver nuestra página.
+
+[01:57] Actualizamos. Ya tenemos aquí el título, que como usamos la clase título principal, ya viene formateado con ese formato, y nuestro párrafo: Nuestro establecimiento está ubicado en el corazón de la ciudad. Perfecto. Ahora, ¿cómo importamos un mapa? Tenemos un servicio gratuito también de Google que nos permite hacer eso. Entonces vamos a Google y coloco Google Maps.
+
+[02:30] En Google Maps voy aquí a Google.com, estoy localizado en Brasil, me aparece Google.com.br, a ustedes les va a aparecer del país donde están pero básicamente es lo mismo. Actualmente me aparece mi dirección, donde estoy actualmente, pero voy a buscar Caelum Alura, la dirección, la ubicación de las oficinas de Alura, que están ubicadas en el corazón de San Pablo.
+
+[03:01] Vamos a imaginar que nuestra barbería va a estar ubicada en las oficinas en el barrio de Vila Mariana, en San Pablo. ¿Cómo hacemos para incrustar este mapa? En este menú hacemos clic y aquí tenemos una opción que es compartir o incorporar mapa.
+
+[03:23] Hacemos clic en él y nos abren dos opciones: enviar un vínculo, que es para enviar ese vínculo, lo podemos copiar en Facebook, Twitter o en algún otro lugar, o incorporar un mapa. Hacemos clic en incorporar un mapa. Aquí podemos escoger el tamaño de esa incorporación: si es pequeño, si es mediano, si es grande o incluso lo podemos personalizar. Vamos a seleccionar mediano y hacemos clic en copiar HTML.
+
+[03:53] Voy a cerrar aquí. Minimizo aqui, vamos a nuestro código, y ese HTML lo colocamos en nuestro HTML, exactamente aquí. Voy a guardar, vamos a nuestra página, actualizamos y ya tenemos nuestro mapa. Así de sencillo es colocar un mapa. Si vemos la página modelo, tenemos un estilo diferente, que es lo que vamos a ir ajustando ahora. Volvemos a nuestro código.
+
+[04:25] Antes de ajustar, vamos a entender qué es esta etiqueta iframe y los datos con los que vino configurado. Iframe es una etiqueta para crear tipo ventanas, espacios, áreas en las cuales podemos colocar diferentes tipos de contenido, ya sean un mapa, ya sea videos, imágenes, GIF, cualquier elemento gráfico, visual o de video que queramos colocar en nuestra página es posible hacerlo a través de nuestra etiqueta iframe.
+
+[05:02] Una de sus propiedades es el source. Aquí justamente es la ubicación en este caso de nuestra barbería, que es la ubicación de las oficinas de Alura en San Pablo. Vemos el tamaño, width 600, y una altura de 450, que fue el tamaño mediano con el que viene configurado por defecto, y vienen otras configuraciones también por default, que no las vamos a tocar ahora.
+
+[05:31] Lo que sí vamos a hacer es ajustar el tamaño, el layout de nuestro mapa, y el width vamos a decir que sea el 100% y la altura de 300%, para dejarlo igual al de nuestra página modelo. Voy a actualizar, vamos a nuestra página y ya tenemos el tamaño correcto.
+
+[05:58] Vamos a agregar un espaciamiento, un espacio interno, un margen interno usando padding. Para ello lo que hacemos es, en nuestro style, si vemos la ubicación de esta section, está después de todo lo que es la section principal sobre la barbería Alura y antes de la section de los diferenciales. Entonces, seguimos esa ubicación en nuestro style.css.
+
+[06:27] Buscamos aquí antes de la imagen de los diferenciales, para ubicarlo en el lugar correcto, y llamamos a nuestro selector de mapa. Aquí le vamos a colocar un padding, y a este padding vamos a colocarle 3em y un cero, recordando que 3em es tres veces la referencia al tipo de fuente, entonces queremos un tamaño tres veces el tamaño de la fuente que está configurado por defecto.
+
+[07:06] Guardamos aquí, vamos a nuestra página, actualizamos y ya tenemos aquí un espacio con el siguiente título Diferenciales. Ahora nos falta configurar este párrafo. Vamos a centralizarlo y también le vamos a dar un margen externo, en este caso inferior, para que no quede tan pegado, tan colado nuestro mapa. Eso lo hacemos aquí en nuestro style.
+
+[07:37] Lo que necesitamos hacer es un selector de la clase mapa y de la etiqueta P. Mapa P. En este caso, vamos a colocar un margen, margin, vamos a colocarle cero en la parte superior, cero a la derecha y 2em en la parte inferior. Y también configuramos la alineación del texto para el centro.
+
+[08:10] Vamos a guardar, volvemos a nuestra página, actualizamos y ya tenemos aquí: Nuestro establecimiento está ubicado en el corazón de la ciudad, con el formato correcto, nuestro mapa con el tamaño ideal. Y fíjense que la persona que entra, prácticamente consigue usar todas las configuraciones como si fuera en el propio Google Maps.
+
+[08:39] Incluso puede cambiar aquí el formato y todo eso está incrustado, está embedado en nuestra página. Y también si él hace clic en ampliar el mapa, lo va a llevar a Google Maps y ya le va a mostrar la misma ubicación. Entonces, nos da bastantes ventajas, actualmente pasar este tipo de ubicaciones a nuestro usuario, a nuestro cliente y así él conozca la ubicación exacta de nuestro negocio.
+
+[09:10] En el siguiente video veremos cómo incrustar nuestro video, que valga la redundancia. Nos vemos pronto. Chau, chau.

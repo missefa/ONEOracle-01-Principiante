@@ -1,0 +1,36 @@
+Alterando el color
+
+
+[00:00] Continuando con nuestro curso de HTML, ya vimos la formatación al centro, ya separamos nuestro código de CSS en otro archivo, conforme lo dicen las buenas prácticas. Ahora lo que haremos será alterar y volver aquí a nuestra página, el fondo de nuestra pantalla, en nuestro caso el fondo de nuestros párrafos y de nuestro título y también algunos textos de destaque, por ejemplo nuestra misión la colocaremos en rojo.
+
+[00:34] ¿Cómo hacemos eso? Volvemos aquí a nuestra página y al H1 le puedo definir una propiedad, background, cambiar la propiedad background para el valor de, en este caso voy a usar código hexadecimal que son tres C, tres letras C, que define el color plomo.
+
+[01:03] Como podrán ver, aquí el IDE me ayuda bastante porque cuando coloco en este caso el código hexadecimal del plomo, me sale un cuadradito plomo diciéndome el color que represente. Vamos a crear, va a haber un video específico hablando de hexadecimal donde les explicaremos esta codificación, su significado y cómo usarlo.
+
+[01:25] Así que no se preocupen por ahora por entender el por qué de estas seis C, pero aquí lo que es interesante, importante saber cómo definir ese background y que puedo usar en este caso el código hexadecimal para definir ese background. Voy a guardar para que veamos la alteración de nuestra página, y si vengo y actualizo, tengo mi título con fondo plomo. Vamos a hacer lo mismo para los otros párrafos.
+
+[01:55] Acomodo, altero el background de nuestros párrafos, recordando que ya tenemos aquí nuestro elemento P, que es nuestro selector P en este caso que está seleccionando todas las etiquetas P, aplica a todas las etiquetas P. De aquí en adelante vamos a llamar a esta figura, este elemento, como selectores, que son los selectores de CSS.
+
+[02:22] Entonces seleccionamos a nuestro P, aquí ya habíamos definido una propiedad de alinear al centro y vamos a adicionarle una nueva propiedad de background. Fíjense, cuando coloco background dos puntos, también el IDE ya me sugiere algunos colores, colores por defecto, y voy a colocarle las seis C que representa al color plomo. Voy a guardar, vuelvo a nuestra página.
+
+[02:57] Actualizo y en este caso tengo mis párrafos de plomo. Solo que fíjense que los saltos de línea, cuando va del H1 al primer párrafo, continúa en blanco, no me pintó todo este color. Si van a liso, la estructura de nuestro HTML, tanto nuestro título como los párrafos están dentro del body, entonces yo puedo definir en este caso un CSS, un estilo para nuestro body.
+
+[03:27] Para ello voy al style, creo un nuevo selector, en este caso el selector body, y le paso, abro y cierro llaves, le paso nuestra propiedad background y nuevamente CCCCCC, seis C. Y ya no necesito tenerla en el P ni tampoco necesito tenerla aquí en nuestro H1. Lo voy a borrar, voy a guardar y vuelvo a nuestra página. Actualizo y fíjense, en este caso ya me pintó todo nuestro fondo de plomo.
+
+[04:11] Porque justamente nuestro body está aplicando a todo el fondo, a todo el contenido de nuestra página. Para pintar nuestra misión de rojo, analizando aquí tenemos nuestra etiqueta strong, que está dentro de nuestra misión, entonces puedo crear un nuevo selector, vuelvo a mi style y creo un nuevo selector que va a ser en este caso el selector strong.
+
+[04:45] Entonces estoy seleccionando la etiqueta strong y le voy a definir el color red, de rojo. Voy a guardar, vamos a nuestra página, y bueno, aquí tengo un problema que es, fíjense, me pintó aquí tanto el título como nuestra misión, y el problema es que en este caso strong aplica para las dos etiquetas. ¿Dónde estoy usando strong? En el primero y en el segundo párrrafo.
+
+[05:27] Pero si analizo aquí el segundo párrafo tengo otras etiquetas específicas, características en este caso del párrafo 2 que es la etiqueta em. Entonces puedo ser más asertivo con esta selección y le puedo definir aquí un seleccionar la etiqueta em de énfasis, que es lo que da el itálico.
+
+[05:50] Entonces en este caso ya me estoy refiriendo, estoy referenciando específicamente a este título de aquí porque le estoy diciendo: "dale esta característica a esta etiqueta y al strong, a esa combinación de etiquetas", que es lo que tenemos ahí.
+
+[06:11] Antes de actualizar es importante destacar que una buena práctica es mantener la estructura que tengo en el index.html, en nuestro código HTML, también en el style. Eso significa que body, el selector de body, tiene que ir antes del selector de P, porque justamente el body está antes, es el padre de, en este caso P.
+
+[06:40] Voy a actualizar, vuelvo aquí, voy a guardar nuestro código, vuelvo a nuestra página, actualizo, y como podrán ver en este caso nos quitó el rojo de aquí del nombre de nuestra barbería y nos dejó el rojo solamente en nuestra misión. Entonces, ya hemos aplicado nuevos formatos aplicando los estilos de CSS.
+
+[07:14] Y de esta forma hemos aprendido a seleccionar, a aplicar los selectores de CSS para el body, que aplica a todo el body, y también una combinación de selectores de diferentes etiquetas de HTML para definirle a una etiqueta específica, en este caso de strong, dónde queremos que aplique el color rojo.
+
+[07:44] Es por eso, ese es el motivo por el cual se llaman etiquetas en cascada, estilos en cascada, porque yo puedo descender, yo puedo ir hasta el nivel más bajo de las etiquetas y aplicar específicamente a una etiqueta alguna propiedad de estilo al cual yo quiero alterar, yo quiero cambiar.
+
+[08:12] Entonces, con esto aprendido vamos a continuar en la siguiente sección aprendiendo primero lo que dijimos que son el código de hexadecimal para aplicar colores y también continuaremos en la siguiente aula, en la siguiente sección, desarrollando más nuestra página con CSS. Muchas gracias y nos vemos pronto.

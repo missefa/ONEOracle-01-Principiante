@@ -1,0 +1,54 @@
+Reforzando el inline-block
+
+
+[00:00] Okay, vamos a continuar con el desarrollo de nuestra página de la Barbería Alura. Ya habíamos creado el contenido, el contenido con los Ítems de los productos, servicios que estamos ofreciendo en nuestra barbería, solo que aquí, comparando con la página modelo, los productos están en formato horizontal y aquí los tenemos en formato vertical.
+
+[00:18] Porque en realidad como habíamos visto anteriormente, la propiedad display viene configurada por defecto en bloque, o sea, lo que significa que ocupa el 100% del ancho de nuestra página cada uno de los ítems de nuestra lista. Entonces, lo que tenemos que hacer es configurar ese display para poder usar un formato que me coloque los ítems en un formato horizontal.
+
+[00:56] Antes de configurar en el Visual Studio Code quería mostrarles aquí, un ejemplo, Entré a la página w3schools que es una página con bastantes artículos, referencias, documentación sobre desarrollo web, tanto HTML como CSS y otros temas también.
+
+[01:20] Pero aquí nos vamos a concentrar en la propiedad display, y con estos elementos vamos a poder entender exactamente qué es lo que significa cada uno de los valores. Entonces, por ejemplo, el valor inline lo que hace es usar el tamaño, el espacio que ocupa cada uno de los elementos, tanto vertical como horizontal.
+
+[01:50] Entonces, en la propia inline yo no puedo configurar los espaciamientos ni los tamaños, o sea, va a ocupar 100% del elemento, solo el espacio del elemento. Por otro lado, el inline-block me permite colocar los elementos en un formato horizontal, uno al lado de otro, y también me permite configurar los espacios y las propiedades internas del elemento.
+
+[02:20] Y por último block, que ya lo habíamos visto, me coloca los elementos ocupando el 100% del espacio horizontal de nuestra página. Entonces, lo ideal para nuestro propósito es usar la propiedad display inline-block. Entonces voy a cerrar aquí, voy a ir a nuestro código. Solo que aquí tenemos un pequeño problema.
+
+[02:45] Ya hemos usado una ul anteriormente, no la ul de productos, que es la que queremos configurar, hemos usado ul en el header y no le colocamos clases. Cuando lo vamos a cerrar aquí nuestro header y vamos a colocar una clase en nuestra ul de productos para poder identificarla, y la vamos a llamar productos, clase productos, perfecto.
+
+[03:14] Entonces, ahora, en nuestro producto CSS, voy a crear un selector de clase productos li para referirnos a los ítems de la lista, y aquí vamos a alterar la propiedad display para inline-block. Voy a guardar, vamos a nuestra página y ya tenemos aquí nuestros elementos ocupando su contenido y lo que me permite colocarlos en formato horizontal.
+
+[03:49] Ahora, como pueden ver, está alineado a la izquierda, y en realidad, más que alineado a la izquierda, es que la lista ul está con formato block por defecto, las listas vienen con el formato display block por defecto. Ahora, no vamos a alterar. Voy a crear otro selector que lo voy a llamar solo al selector de clase, a nuestra lista. Pero vamos a usar una técnica que ya hemos usado.
+
+[04:18] No vamos a alterar la propiedad display, sino vamos a usar lo que ya habíamos visto aquí en nuestro encabezado que era usar el tamaño de 940 pixeles, el ancho de 940 pixeles, pensando en el tamaño padrón de las pantallas de 1280, y nuestro margen donde le indicábamos superior, inferior cero y lateral automático. O sea, ¿qué le estamos diciendo?
+
+[04:52] Que a toda nuestra lista de productos queremos que ocupe 940 pixeles en total y que los laterales los distribuya en forma automática. Actualizo aquí, y fíjense que lo tenemos casi centrado. Está levemente inclinado hacia la izquierda, pero ese asunto lo vamos a ver luego la configuración correcta.
+
+[05:21] Y vamos a continuar, ahora, configurando los elementos para dejarlos en el formato modelo, que es esto de aquí. ¿Qué necesitamos hacer? Si vemos el título, está con otro formato, entonces está nuestro CSS y vamos a crear un selector del H2 que es nuestro encabezado, y en el H2 le vamos a colocar el tamaño de la letra de 30 pixeles y el peso, donde lo definimos con negrita.
+
+[06:17] Vamos a guardar, volvemos aquí, actualizamos y ya tenemos: cabello, barba, cabello más barba. Solo que un momento, todos los elementos están centrados al centro, están alineados al centro, en realidad eso quise decir, y también tenemos aquí un espacio entre cada uno de los ítems y nuestro encabezado.
+
+[06:45] Entonces, antes de continuar con los otros elementos de nuestra lista, los ítems de cada lista, vamos a configurar eso. Venimos aquí en el productos li, y primero el texto alineado al centro. Text-align al centro. Vamos a actualizar esta de aquí, perfecto.
+
+[07:16] Ahora vamos a distribuir, separar cada uno de los elementos, porque si nos fijamos, cada uno está ocupando un tamaño diferente, está ocupando el tamaño de su contenido. Este, como tiene, el del cabello tiene una descripción un poco más larga, no, en realidad este de aquí tiene la descripción un poco más larga, ocupa más espacio.
+
+[07:44] Bueno, en realidad uno de esos dos ocupa más espacio que el del centro, pero lo que queremos es que tengan un tamaño, un ancho igual, que sea el mismo entre los tres. Entonces, para ello en este selector de la misma lista, o sea cada ítem de la lista queremos que ocupe un tercio del espacio, porque son tres elementos.
+
+[08:10] Solo que no podemos configurarlo como un tercio, y lo que haremos será decirle: "Ocupame el 30% del espacio", o sea que cada elemento me ocupe el 30% del espacio, tengo tres elementos, estoy sumando un 90% de nuestro espacio disponible, y el resto se va a distribuir entre los espacios en cada uno de los elementos.
+
+[08:36] Y por último, vamos a venir aquí, actualizamos. Fíjense que ya se distribuyó en un formato mejor, vamos a decirle que la parte, la alineación vertical, que la alineación de los ítems sea en la vertical. Entonces, colocamos vertical-align en la parte superior. Guardamos y actualizamos aquí. Perfecto.
+
+[09:15] Para continuar, vamos a configurar ese espacio que decíamos entre nuestro main, entre nuestro bloque, y nuestro encabezado. Para ello aquí en el selector de productos, en el selector de nuestra lista, colocamos un padding de espaciamiento y le vamos a colocar 50 pixeles. Lo guardamos, venimos a nuestra página, actualizamos y ya tenemos aquí el espacio requerido.
+
+[09:54] Para finalizar, vamos a configurar nuestra descripción y nuestro precio. Vamos a nuestro código, aquí en el HTML tenemos un problema. ¿Por qué? Porque tenemos la etiqueta p de párrafo, solo que no podemos diferenciarla y cada una tiene un formato diferente. Entonces, para resolver vamos a crear una clase cada uno. Al primero le ponemos clase producto-descripción.
+
+[10:32] Y al segundo le ponemos una clase que sea producto-precio. Voy a copiar el primero aquí, en la descripción del otro también, la clase tiene que repetirse para poderla usar, y también en el precio. Perfecto.
+
+[11:00] Ahora, vamos a nuestro CSS, aquí al final porque son los últimos elementos, y colocamos un, vamos a copiarlo el nombre para no equivocarnos, el selector es producto-descripción. Y hacemos un selector de producto-descripción, recordando que tengo que colocar el punto. Abro y cierro llaves y aquí, a nuestra descripción, el formato es solo el tamaño de la letra.
+
+[11:32] Vamos a colocarle 18 pixeles al tamaño de nuestra fuente. Y por último, hacemos producto-precio, solo para verificar que lo escribimos bien, producto-precio, producto-precio, y aquí vamos a configurar el tamaño de la fuente, el font-size, para 30 pixeles, vamos a configurar la negrita. Le vamos a poner el precio en negrita.
+
+[12:09] Perfecto. Y lo voy a actualizar, perfecto. Lo único que nos falta es, fíjense, un espaciamiento entre la descripción de nuestro precio, que lo tenemos en el formato original, este pequeño espacio aquí, que es lo que haremos ahora. Creo que nuestro precio ha quedado un poco grande. ¿Cuánto le colocamos? 30, vamos a bajarle un poco para 20.
+
+[12:46] Y aquí, colocamos el margen que decíamos, margen top. Queremos separar el precio con 10 pixeles de la descripción. Vamos a guardar, venimos aquí y actualizamos. Perfecto. Entonces, ya tenemos nuestro título, nuestra imagen, nuestro texto, la descripción y nuestro precio como el formato correcto.
+
+[13:18] En los próximos videos continuaremos viendo la configuración de los ítems de nuestra lista de productos. ¿Okay? Nos vemos pronto. Chau, chau.

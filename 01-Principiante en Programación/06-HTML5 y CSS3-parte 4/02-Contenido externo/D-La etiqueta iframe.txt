@@ -1,0 +1,18 @@
+La etiqueta iframe
+
+
+¿Para qué sirve la etiqueta iframe?
+
+a)
+Para insertar únicamente mapas en nuestras páginas web.
+
+
+b)
+La etiqueta iframe sólo viene configurada para ser usada con elementos y servicios de Google como los mapas.
+
+
+c)
+Alternativa correta
+Para insertar diferentes elementos externos como ser imágenes, videos, mapas o hasta una página de facebook o twitter.
+
+¡Alternativa correcta! Exactamente a través de la etiqueta iframe podemos insertar diferentes tipos de elementos externos en nuestra página. Sean estos mapas, vídeos, imágenes u otras páginas web o páginas de redes sociales.

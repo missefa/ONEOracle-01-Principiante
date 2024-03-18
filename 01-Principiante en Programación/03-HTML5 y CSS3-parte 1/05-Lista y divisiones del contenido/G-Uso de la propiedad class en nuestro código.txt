@@ -1,0 +1,19 @@
+Uso de la propiedad class en nuestro código
+
+
+¿Cuándo debemos usar una class en nuestro código?
+
+a)
+Cuando ya usamos muchos selectores id
+
+
+b)
+Cuando usamos etiquetas específicas de párrafos <p>
+
+
+c)
+Alternativa correta
+
+Cuando queremos repetir el estilo CSS en varios elementos.
+
+¡Alternativa correcta! Cualquier elemento o etiqueta puede tener una class.

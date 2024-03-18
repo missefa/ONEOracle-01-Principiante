@@ -1,0 +1,22 @@
+Título de un grupo de campos del formulario
+
+
+¿Qué etiqueta usamos para marcar un título de un grupo de campos en el formulario?
+
+a)
+Alternativa correta
+<legend>
+
+¡Alternativa correcta! Es la etiqueta <legend> que usamos para un título de un grupo de campos en cualquier formulario.
+
+
+b)
+Alternativa incorreta
+<fieldset>
+
+¡Alternativa incorrecta! La etiqueta <fieldset> se usa para crear una división en nuestro formulario, con uno o más <input>.
+
+
+c)
+Alternativa correta
+<alt>

@@ -1,0 +1,43 @@
+Asigna texto a un elemento HTML
+
+Bueno, Leo, entonces ya comenzamos a conectar nuestro HTML con nuestro JavaScript y viceversa, también el JavaScript con el HTML. Aprendimos el concepto y nuestra primera función está funcionando, pero analizando el código, me parece que estamos repitiendo ciertas partes. Como buena práctica de programación, deberíamos intentar que nuestro código sea lo más optimizado y eficiente posible.
+
+Por ejemplo, si quiero utilizar nuevamente el document, o si quiero conectarme a otro elemento para trabajar, sea un nuevo botón, un nuevo elemento, un nuevo head o una nueva etiqueta de HTML, siempre voy a tener que repetir este procedimiento. Leemos, definimos una variable, el document, el elemento, el HTML y pasamos el texto. Me parece que esto puede ser automatizado.
+
+Efectivamente, Cris. Cuando estamos trabajando, como buena práctica, si vemos un código repetido, tenemos que estar pendientes de ver si podemos optimizarlo. Esto se debe a que, aunque en el momento en que estamos codificando puede que no veamos a futuro y nos parezca que está bien, si vamos a crecer y por alguna razón queremos hacer un cambio, vamos a tener que modificar muchos puntos. Siempre hay que estar pendiente de ello. Si se puede mejorar, hay que hacerlo para evitar la deuda técnica que puede existir más adelante.
+
+En este caso, y conociendo ahora el concepto de función, ¿por qué no colocar ese código en una función? Entonces, vamos a declarar una función. La voy a llamar asignarTextoElemento. Estoy aplicando camelCase (Notación de Camello), que es un formato en el que cada palabra comienza con una letra mayúscula, excepto la primera.
+
+Si yo copio este código, las líneas 1 y 2, dentro de la función, y lo llamo aquí, asignarTextoElemento(), no cambiará nada. Para llamar a la función es utilizar el nombre de la función y los paréntesis. Lo puedes hacer dentro de JavaScript como lo puedes hacer dentro de HTML en eventos. Pero solo en eventos. En el código de JavaScript lo puedes hacer en cualquier momento que estés fuera de un bloque, que es fuera de las llaves. También puedes llamar una función desde otra función.
+
+Aquí me gustaría explicar un punto que genera muchas dudas. JavaScript es un lenguaje que ejecuta de forma secuencial. Va leyendo de arriba hacia abajo. Línea 1, línea 2, línea 3, etc. En el caso de las funciones, lo primero que hace es ver si hay funciones declaradas o definidas. Las lee las funciones y las deja disponibles en algún lugar por si son llamadas en cualquier momento. Esto significa que independientemente de la función ser declarada o definida arriba o al final, igual va a funcionar. Puedo, en este caso, llamar a asignarTextoElemento() encima de la función. Este es un concepto llamado hoisting (Elevación) que existe en JavaScript.
+
+Entonces, guardamos nuestro archivo y volvemos a nuestro juego. Ahora, verán que el texto no cambió. Puedo incluso cambiar el texto a "juego número secreto actualizado", solo para ver que lo cambie.
+
+Guardado. Y vean que funciona. Pero estoy haciendo algo que aún queda por hacer. Porque si te das cuenta, el código todavía está repetido. Exactamente. Lo único que hicimos fue cambiar la posición de nuestro texto y creamos una función que actualmente solo ejecuta una acción, pero no puedo reutilizarla. Entonces, la idea ahora es que esa función sea genérica. Y para ello, en JavaScript existe el concepto que se llama parámetros. Ya lo hablamos incluso en el curso anterior. Es la forma en que el comportamiento de la función se va a modificar de acuerdo a lo que reciba.
+
+Porque no va a haber una etiqueta fija, no va a haber un texto fijo. Sino que será recibido por la función. La función no necesita conocer la etiqueta, no necesita conocer el texto de manera fija. Puede recibirlo cada vez que sea llamada. Y eso es lo que vamos a hacer ahora.
+
+Voy a colocar aquí un parámetro llamado elemento, que se va a referir a la etiqueta que vamos a cambiar, y otro parámetro llamado texto. Y ahora están disponibles como variables dentro de la función. Donde estaba colocando fijo, elemento, cambio, y ahora coloco el elemento. Y donde está este texto fijo, lo voy a cambiar por texto.
+
+Hagamos una pausa para explicar y recapitular estos elementos que han aparecido. Entonces, por un lado, nuestra función puede recibir parámetros. Justamente, y ese es el objetivo de la función, de ser genérica o lo más genérica posible, para poder reutilizarla en diferentes momentos. Entonces, lo que he definido son dos parámetros que recibe esa función. El elemento, que es el elemento HTML que queremos trabajar, que queremos modificar, o que queremos insertarle un texto, y el texto efectivo.
+
+Lo que hice fue cambiar, y aquí me gustaría destacar, es que dentro del Query Selector, cuando hacemos explícito a cuál elemento queremos indicar, estamos utilizando las comillas. Pero aquí, como se trata de una variable, ya no se usan las comillas como algo literal, es una variable.
+
+Y pasa lo mismo en el titulo.innerHTML, ¿no? Que ahí también tendría que cambiar para elemento, ¿correcto? En este punto aquí, no, porque estoy usando la variable aquí. No sería necesario. Pero lo que comentas es bien importante, creo que podemos darle un nombre diferente, porque ya no es el título. Entonces vamos a llamarlo elementoHTML.
+
+Queda como una mejor práctica, y usamos de forma genérica ya esa variable. Puede ser un h1, h2, h3, un p, elementoHTML se refiere a ello. Queda mucho mejor definido.
+
+Ahora nos queda es que si llamamos el código de esta forma, vean que Visual Studio nos dice, espero un elemento y un texto. Pasémoselo. Entonces aquí en la llamada o en la ejecución de la función, decimos sí, 'h1', entre comillas, y luego el texto que vamos a mostrar en ese h1, que sería 'juego del número secreto'.
+
+Si retorno ahora al navegador, vemos que ya cambió el texto. Incluso puedo decir aquí, 'juego del número secreto', y podemos colocar una exclamación solo para ver que funcionará lo que estamos haciendo. Y mira que ya funciona.
+
+Y ahora podemos llamar nuevamente la función, y en lugar de usar ese código de la línea 1 y línea 2 que está allí, que está para el p, llamamos la función, colocamos este texto aquí. Y ahora quitamos esto. Redujimos el código. Tenemos una sola función que ya hace lo que queremos para cualquier de los elementos. Volvemos a ejecutarlo, y mira que funciona. Solo para finalizar, voy a cambiar aquí para '1 a 100', para que se vea que hubo cambio.
+
+Funciona. Perfecto. Una vez más aquí al texto. ¿No? Interesante esta función que hemos creado solo para explicar lo que prácticamente hice. Fue eliminar toda esa declaración de variables y llamada al document. Lo encapsulé dentro de una función. ¿No?
+
+Ahora lo que estamos haciendo es invocar la función dos veces, una para h1 y otra para p. Para nuestra persona usuaria, todos los cambios que hicimos no tienen ninguna relevancia. Se comporta de la misma manera. Pero para usted como persona desarrolladora, este cambio demuestra mucho más profesionalismo, muestra un gran orden en el código y facilita la vida de manera inmensurable cuando se trabaja una semana o dos semanas después, a medida que nuestro programa crece.
+
+Nuestro código ahora tiene una mejor forma de trabajo, es mantenible y escalable. Imagina que ahora, en lugar de declarar dos líneas, fíjate en el cálculo que vamos a hacer, en lugar de usar dos líneas para cada elemento que vamos a asignar, solo tomo una. Hemos reducido a la mitad el código. Y eso es incluso en el caso más sencillo. Puede haber casos donde manejes de 10 a 12 líneas que reduzcas a una sola. Excelente.
+
+En el próximo video, continuaremos aquí desarrollando nuestras funciones.
