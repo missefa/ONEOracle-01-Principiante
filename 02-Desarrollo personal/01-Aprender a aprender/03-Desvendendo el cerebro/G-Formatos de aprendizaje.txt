@@ -1,0 +1,26 @@
+Formatos de aprendizaje
+
+
+Ok, ya hemos hablado de los modos cerebrales, el difuso y el enfocado. También hemos discutido sobre la mentalidad, la mentalidad fija y la mentalidad de crecimiento. Vamos a hablar ahora un poco sobre los formatos de aprendizaje. ¿Cuál es el mejor formato? ¿Cómo aprendo de manera más eficiente? Esto cambia obviamente, ya que varía mucho entre las personas. Como ya hemos visto, puedes ser más convergente o divergente. Hay diversas maneras, diversas conexiones que debes hacer, ¿verdad?
+
+Vamos a ver algunos formatos de aprendizaje y puedes ver cuál se adapta mejor a ti. Tenemos, entonces, los auditivos. Son las personas que adoran escuchar podcasts, audiobooks. En lugar de leer un libro, prefieren escucharlo. También graban clases. Cuando estaba en la universidad, a veces grababa las clases para escucharlas de nuevo. Son personas que sienten que aprenden mejor al escuchar.
+
+Tenemos también el formato visual, obviamente, ¿verdad? PowerPoints, platicas de TED, videoclases, hacer un mapa mental. ¿Cuántas personas no hacen infográficos? Hay numerosos infográficos de diversos temas en Pinterest para tu estudio. Hay muchas personas que también les gusta dibujar en ese momento, ¿verdad? He observado a muchos desarrolladores, que cuando tienen un proyecto que hacer, comienzan a dibujar esa parte. Tienen que hacer primero esta función que será esta cosa. Por lo tanto, son personas más visuales.
+
+También hay personas que les gusta leer y escribir. Leer libros, leer artículos, páginas web, blogs, hacer resúmenes. Así, leíste un libro, voy a hacer un resumen de ese libro. Leíste un artículo, voy a hacer un resumen de ese artículo. Porque esto te ayuda a asentarlo en tu memoria. Así, en el momento en que lo leíste, haces el resumen y eso te ayuda a retener mejor lo que acabas de leer.
+
+También hay otra forma de aprendizaje que se llama cinestésica, que son las personas que necesitan experimentar, estar en el momento, las sensaciones. Ir a eventos, participar de proyectos, literalmente participar, hacer el proyecto. Hacer programación, estar ahí haciendo el código con otra persona, ¿verdad? Conversar con otras personas, el intercambio de informaciones. Son personas que necesitan más sensaciones, ¿verdad? Estar en el momento.
+
+Pero vamos a recordar algo. Todos estos modos son más efectivos cuando se utilizan conjuntamente. Así, puede ser que tengas una preferencia, pero cuidado para no estar trabajando solo con tu modo enfocado. Y estar diciendo, no, yo solo puedo aprender mejor si estoy escuchando. Yo solo aprendo mejor si estoy viendo una clase. Es decir, no tener esa mentalidad fija de que solo puedes aprender con un modo. Lo ideal es intentar utilizar todos los formatos.
+
+Aquí tenemos esta pirámide que nos muestra cómo aprendemos, cuál es el porcentaje que aprendemos más. Entonces, el 10% es leyendo, 20% escuchando, el 30% viéndolo, 50% de ver y oír a la vez, ¿verdad? Por eso las clases, video clases, 70% de debatir con los demás. Así, estás diciendo cuáles son tus conocimientos. Y al mismo tiempo, adquiriendo conocimientos de otras personas. Debatir es muy bueno porque ves diferentes puntos de vista. Así, no es solo lo que tú crees, sino también escuchas lo que otras personas aprendieron sobre ese tema, lo que piensan sobre ese tema.
+
+El 80% es experimentar con otros. Hacer, hacer juntos las cosas, ¿verdad? Pair programming (programación en pareja), que es algo que las personas desarrolladoras hacen. Programan juntas mientras una hace el código, la otra está diciendo qué tiene que hacer, después cambia. Entonces, hacer juntos, hacer un proyecto juntos.
+
+Y el 95% es enseñar a otras personas. El momento en que transmites tu conocimiento a otra persona, es el momento que más aprendes.
+
+Cuando has aprendido algo y necesitas transmitir ese conocimiento a otra persona, es probable que esta persona te haga preguntas y te cuestione. A menudo dirán, no entiendo.
+
+Por lo tanto, tendrás que encontrar una manera más sencilla de transmitir este conocimiento. Aprendiste de una manera, pero al enseñar a otra persona, tendrás que adaptar ese conocimiento a tu estilo, de modo que esta persona pueda entenderlo.
+
+Así, en el momento en que tomas este contenido y lo enseñas a otra persona, es cuando realmente estás consolidando este conocimiento en tu propia mente.

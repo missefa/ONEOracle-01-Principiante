@@ -1,0 +1,22 @@
+No perder el tiempo con layouts responsivos
+
+
+¿Cuál es la principal táctica para no perder mucho tiempo creando layouts responsivos?
+
+
+a)
+Alternativa correta
+Usar medidas proporcionales para todo
+
+¡Alternativa correcta! Hoy en día es la mejor forma de crear cualquier contenido.
+
+
+b)
+No pensar en los tamaños de pantalla antes de empezar
+
+
+c)
+Alternativa correta
+Crear un layout fluido que se adapte siempre
+
+¡Alternativa correcta! Es una manera perfecta de evitar la repetición de trabajos.

@@ -1,0 +1,20 @@
+Cálculo con CSS
+
+
+[00:00] Queridos amigos y amigas, vamos a continuar con nuestro curso. Vimos los selectores avanzados en la última aula, donde realmente dejamos aquí una mezcolanza de colores para explicar y demostrar con algunos ejemplos cómo se usan. Y en este video lo que veremos será un recurso adicional de CSS que son los cálculos con CSS.
+
+[00:23] Y estos nos permiten alterar en forma fácil y referenciada las dimensiones de las imágenes o gráficos o elementos visuales que podemos llegar a colocar en nuestras páginas. Antes de ello sí vamos a limpiar todos estos colores, estos elementos que colocamos. Entonces vamos a nuestro index, eliminamos el párrafo de ejemplo que habíamos creado, vamos a nuestro style y limpiamos, borramos todas esas cuatro sintaxis que se referían a los selectores avanzados.
+
+[01:06] Guardamos aquí, volvemos a nuestra página, actualizamos y ya está todo con la normalidad. Para explicar el cálculo y cómo usarlo, vamos a ir al clic derecho, inspeccionar y nos va a abrir la consola del desarrollador ya posicionada en ese elemento. ¿Qué es lo que tenemos aquí? Déjenme ajustar aquí un poco.
+
+[01:31] Tenemos justamente las imágenes, fíjense que si yo me posiciono aquí, él va mostrándome todas las propiedades de esa imagen que ya la hemos visto, que comienza con las dimensiones específicas que es de 120x120 píxeles, el padding, que es el espaciamiento interno, el borde de esa imagen y el margen exterior.
+
+[01:57] Y podemos ver que tiene 120 píxeles, la dimensión justamente aquí como un valor absoluto. Eso puede ser un valor referencial y lo podemos colocar 40%, por ejemplo, que nos ocupe el 40% de nuestra página. O también podemos hacer uso, aquí viene la función calc, que queremos que ese resultado, que la dimensión de esa imagen, sea un cálculo.
+
+[02:25] Entonces aquí podemos decirle que sea el 40% menos, por ejemplo 26 píxeles. Cuando hago eso, fíjense que mis dimensiones cambian, queda en 350, y lo que está haciendo es me calcula el tamaño de la página. Esto es superútil. ¿Por qué? Porque tenemos que pensar que nuestro usuario va a abrir nuestra página desde un computador, desde un dispositivo móvil, un celular, una tablet, por ejemplo, desde diferentes tamaños de monitores.
+
+[02:57] Entonces por lo general a la hora de trabajar con imágenes principalmente se colocan tamaños referenciales para que no quede totalmente distorsionado en la pantalla de nuestro dispositivo de nuestro usuario. Entonces, lo que estamos colocando aquí es "usame el 40% del tamaño de esa pantalla, independientemente de cuál sea, y restamele 26 píxeles".
+
+[03:25] En este monitor, en mi monitor, ese tamaño queda con 350, o sea una dimensión de 350 por 350 de la imagen. Incluso podemos continuar colocando más cálculos. En este caso le estamos restando más, porque le estamos haciendo 26 por 4 y le estamos restando al 40% de la página. Ahí con ese cálculo esto queda con una dimensión de 272 píxeles, es un cuadrado de ancho y largo.
+
+[04:01] Estos valores de aquí pueden ser variables también, que podamos llegar a tener. Y lo importante es que sepamos que existe esta función calc, que me permite calcular y de esta forma poder adecuar mejor nuestra página para que se comporte mucho mejor en diferentes dispositivos. Entonces, guarden esta recomendación, que con seguridad que la van a usar. Nos vemos en el próximo video, donde continuaremos trabajando y desarrollando nuestro CSS. Chau, chau.

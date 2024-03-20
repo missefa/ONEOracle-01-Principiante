@@ -1,0 +1,19 @@
+¿Quién puede recibir una capa de opacidad?
+
+
+¿Cuáles tipos de elementos pueden recibir una capa de opacidad?
+
+
+a)
+Alternativa correta
+Todos los elementos y todos los colores
+
+¡Alternativa correcta! Todos los elementos y todos los colores pueden tener una capa de opacidad.
+
+
+b)
+Solo los elementos
+
+
+c)
+Solo los colores

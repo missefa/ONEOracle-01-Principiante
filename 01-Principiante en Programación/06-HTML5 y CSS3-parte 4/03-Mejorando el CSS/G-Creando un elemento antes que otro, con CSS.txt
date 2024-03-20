@@ -1,0 +1,17 @@
+Creando un elemento antes que otro, con CSS
+
+
+¿Cómo creo un pseudo-elemento usando CSS que anteceda a un elemento de HTML?
+
+
+a)
+Alternativa correta
+Con la propiedad ::before
+
+¡Alternativa correcta! Cuando queremos crear un elemento en la pagina, via CSS, antes del elemento de HTML, usamos la propiedad ::before.
+
+b)
+Con la propiedad ::first-letter
+
+C)
+Con la propiedad ::after

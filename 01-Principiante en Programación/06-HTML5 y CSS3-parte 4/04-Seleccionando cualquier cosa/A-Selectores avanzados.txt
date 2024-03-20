@@ -1,0 +1,34 @@
+Selectores avanzados
+
+
+[00:00] Queridos alumnos y queridas alumnas, vamos a continuar con nuestro curso de HTML 5 y CSS 3. En esta aula vamos a ver selectores avanzados. Selectores avanzados, como su nombre lo dice, son recursos de CSS 3 que nos permiten seleccionar, capturar elementos en forma rebuscada, en forma específica y en forma granular.
+
+[00:26] O sea podemos llegar al mínimo elemento de nuestro HTML y aplicarle un estilo diferente, un visual diferente a ese elemento. ¿Cómo hacemos eso? Para eso vamos a crear en nuestro código, en nuestro HTML dentro de nuestro main, vamos a crear un párrafo de ejemplo y justamente lo vamos a llamar párrafo ejemplo.
+
+[00:54] Guardamos aquí, volvemos a nuestra página, actualizamos y aquí tenemos nuestro párrafo ejemplo. ¿Qué pasa si quiero colocarle un color diferente a ese párrafo ejemplo, un background rojo por ejemplo a ese párrafo ejemplo? Puedo ir a nuestro CSS, al inicio del código CSS de nuestra hombre, que aquí inicia, antes del banner, porque lo estamos colocando en realidad después del banner, antes del bloque principal, aquí colocamos main p.
+
+[01:32] O sea las etiquetas main, los párrafos que están dentro de main. Y aquí colocamos un background red como habíamos dicho, color rojo. Volvemos, actualizamos y aquí tenemos un problema. Estamos aplicando el color rojo, pintamos efectivamente nuestro párrafo ejemplo, pero fíjense que se pintan todos los otros párrafos, los párrafos de nuestro bloque principal, el párrafo que tenemos en nuestro mapa también.
+
+[02:12] Y eso pasa porque al colocar esta sintaxis, main p, o sea, seleccioname el main y todos los párrafos que están dentro del main, justamente va a ir y aplicar a todos los párrafos independientemente de la jerarquía, recordando que CSS son estilos aplicados en cascada, entonces va a aplicar tanto a sus hijos, a los nietos, a los bisnietos y si esa jerarquía sigue creciendo, va a aplicar absolutamente a todos.
+
+[02:48] Para ello es que CSS nos presenta algunos recursos, para hacer esa selección en forma específica. Y uno de esos símbolos o elementos que podemos usar es el símbolo mayor. Al usar el símbolo mayor, yo le estoy diciendo: "Seleccioname todos los párrafos que son hijos del main".
+
+[03:09] O sea, la sintaxis sería así, padre o elemento, símbolo de mayor, hijo. Y solo va a aplicar a sus hijos de ese elemento. Cuando coloco esta sintaxis entonces, vamos a ir a nuestra página, vamos a actualizar, y ahora solo me está aplicando a los hijos, a los p que son hijos directos del main, no a su jerarquía subsecuente. Ahora, ¿qué pasa si quiero aplicar un estilo específico al primer párrafo de nuestro bloque principal?
+
+[03:50] Vamos a analizar la estructura que tenemos en nuestro HTML de nuestro bloque principal, que es este de aquí, la section class principal, tenemos primero un h2, tenemos una imagen y tenemos un p, nuestro primer párrafo. Si queremos aplicar un estilo diferente a este de aquí, lo que podemos hacer es usar otro recurso que ahora hace referencia a los hermanos o a los elementos del mismo nivel de cierto elemento.
+
+[04:18] Entonces, como aquí tenemos una imagen y después de la imagen tenemos este primer párrafo, lo que podemos hacer es decirle: "Seleccioname un párrafo que viene después de una imagen. Están en el mismo nivel y seleccioname el primer párrafo que viene después de esa imagen, y a esa selección aplicame un background yellow por ejemplo, color amarillo".
+
+[04:50] Volvemos y estamos aplicando un color amarillo, un color diferente al primer párrafo que viene después de la imagen. Ahora, ¿qué pasa si queremos aplicar a todos los párrafos después de la imagen? Existe también el elemento que es la negación y colocamos la etiqueta p.
+
+[05:17] Aquí le estamos diciendo: "Aplicame a todos los párrafos que vienen después de una imagen". Colocamos nuestro background y por ejemplo vamos a cambiarlo para green. Volvemos, y hasta sobreescribe la anterior sintaxis, la anterior secuencia de código, porque aquí le estamos diciendo: "Aplicame a todos los párrafos" y por orden secuencial esta instrucción viene y sobreescribe la anterior, por eso es que nuestro primer párrafo ya no se pinta de amarillo.
+
+[05:57] Existe otra alternativa que es por ejemplo todos los párrafos están en verde, pero imagínense que queremos que nuestra misión tenga un color diferente, que nuestro segundo párrafo en este caso tenga un efecto visual diferente. ¿Cómo podemos hacer eso?
+
+[06:17] Recordando la estructura, esto está dentro del bloque principal, entonces vamos a llamar a nuestro bloque principal con un selector de clase, vamos a llamar a todos los párrafos y le vamos a decir que nos aplique menos a, con el not lo estamos negando, y volviendo, yendo a nuestro HTML podemos ver que el segundo párrafo que es este de aquí, tiene una misión como ID, tiene el nombre misión como identificador.
+
+[06:50] Podemos hacer uso de ese identificador, le podemos decir que nos aplique a todos menos a la misión y le vamos a cambiar el color. Vamos a poner un background orange por ejemplo. Vamos a ver el resultado de eso. ¿Qué le estamos diciendo? "Aplicame naranja a todos los párrafos menos al párrafo de la misión", por eso es que él se mantiene en verde que era la anterior secuencia que habíamos colocado.
+
+[07:21] Entonces esta es una forma de trabajar con CSS seleccionando elementos específicos, elementos con una granularidad bien baja, llegando a cada uno de los elementos, y de esta forma podemos alterar, podemos trabajar y dejar nuestras páginas de la forma como nosotros o como nuestro cliente quiere, y así podemos potencializar nuestros conocimientos y nuestros usos con CSS.
+
+[07:53] En la próxima aula continuaremos desarrollando otros recursos que tenemos con CSS. Los veo allá. Chau, chau.

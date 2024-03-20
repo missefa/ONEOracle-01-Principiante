@@ -1,0 +1,58 @@
+Adaptar una página para celular
+
+
+[00:00] Okay, queridos alumnos y queridas alumnas, ya estamos en la recta final de nuestro curso, como lo habíamos dicho en el anterior video, y estamos trabajando para que nuestra página sea mínimamente responsiva cuando lo abrimos en un dispositivo móvil en los celulares.
+
+[00:18] Ya tenemos nuestra página prácticamente finalizada en relación a elementos y a contenido, y vamos en este video a ajustar en forma objetiva, en forma específica qué elementos necesitan ser adaptados para que nuestra página tenga un comportamiento responsivo.
+
+[00:41] Para ello vamos a ir a nuestra consola del desarrollador con "Ctrl + Shift + I" o con más herramientas sin entran ahí a la consola y habíamos dicho que aquí tenemos un dispositivo o una feature del mismo Chrome que nos permite ver cómo es el comportamiento de nuestra página en dispositivos móviles. Ahí nos habíamos quedado en el último video.
+
+[01:08] Voy a seleccionar aquí el iPhone X por ejemplo y ya teníamos incluso configurado nuestro color rojo con la media query, vamos a ir a nuestro código en nuestro style. Aquí habíamos creado una media query. Recordando que es un recurso para crear excepciones o condiciones y aplicar formatos o estilos diferentes. Y esa es la manera más fácil de trabajar para que una de nuestras páginas sea responsiva, creando algunas condiciones.
+
+[01:38] En este caso habíamos creado la siguiente condición: si el navegador encuentra una página menor o igual a 480 píxeles, va a aplicar estas condiciones. Y ahí solo con fines de ejemplos, habíamos colocado y cambiado nuestro background del body para rojo. Eso lo vamos a eliminar y vamos a volver a nuestra consola del desarrollador y aquí vamos a comenzar a analizar qué elementos son los que necesitamos adaptar.
+
+[02:10] Ya tenemos nuestro background normal, sin color, de nuestro body, y para ello vamos a comenzar a ver qué elementos, qué recursos son los que tenemos que usar. Si vamos aquí a nuestro header, iniciando nuestro header, tenemos nuestro div que es la caja, la caja la hemos definido como el conjunto, creamos una div llamada caja que tiene nuestro h1 que es nuestro logo y nuestro panel de navegación.
+
+[02:42] Si vemos esa caja, está con un valor absoluto de 940 píxeles, o sea está configurada por padrón en el style con 940 píxeles. Si aquí en la consola de desarrollador yo coloco automático, de auto, vamos a alterar ese comportamiento. Recordando aquí, estamos con 940 píxeles, y le colocamos automático.
+
+[03:17] Fíjense que nuestro panel de navegación pierde la referencia, se coloca prácticamente encima del título. Pero no nos vamos a preocupar ahora por eso, eso lo veremos de aquí a poco. Sin embargo, necesitamos que nuestra caja ya no tenga un ancho definido, que tenga un ancho automático caso sea abierto en un dispositivo móvil.
+
+[03:45] Y tenemos otros elementos que también tienen ese comportamiento. Vamos a seguir aquí navegando, por ejemplo abrimos ya nuestro main, tenemos nuestra sección principal que está también con 940 píxeles. Si yo le cambio aquí para auto, nos fijamos que nuestro contenido aquí sobre la barbería Alura, que es nuestro bloque principal, también sufre un ajuste.
+
+[04:19] De momento vamos a alterar esas dos opciones, estos dos elementos en nuestro CSS. ¿Cómo lo hacemos eso? Aquí vamos a ir adicionando primeramente hacemos el selector de nuestra caja, entonces punto caja, tenemos una clase de la div, de nuestro header, y dijimos que también nuestro bloque principal.
+
+[04:51] Los separamos por una coma y aquí colocamos dentro de esta excepción, de esta condición, colocamos width-auto, de automático. Recordando que lo que colocamos también en la consola del desarrollador, solo aplica aquí en la consola. No estoy alterando nuestro código. Simplemente lo estamos haciendo en formato de simulación para probar.
+
+[05:22] Entonces ya ajustamos aquí, actualizamos y ya tenemos el ajuste de nuestra caja y de nuestro bloque principal. Vamos a continuar analizando nuestros elementos y si vemos nuestro mapa, por ejemplo, vamos a ver aquí la sección de mapas y vamos a ver que nuestro mapa contenido también tiene 940 píxeles de anchura, por eso es que está aquí nuestro mapa ocupando prácticamente un tamaño mucho más grande, más extenso, que el que nos permite el celular.
+
+[06:05] Volvemos aquí y adicionamos también el mapa contenido. Volvemos, actualizamos y ya tenemos a nuestro mapa comportándose de mejor manera. Ahora vamos para nuestro bloque de los diferenciales. Fíjense que para nuestro bloque de los diferenciales también estamos excediendo los píxeles destinados al celular, no está siendo responsiva.
+
+[06:35] Vamos a ir a analizar nuestro bloque de los diferenciales aquí, vamos a seleccionar nuestro bloque de los diferenciales, aquí no tenemos ningún ajuste, abrimos, el contenido de los diferenciales, ese sí está definido con 640 píxeles. Y hacemos exactamente lo mismo, si colocamos auto ya vamos a ver que reduce y tenemos prácticamente el tamaño correcto para el dispositivo móvil.
+
+[07:13] Volvemos aquí y adicionamos también entonces nuestro contenido diferenciales. Actualizamos y ya tenemos hasta el contenido de los diferenciales ajustado el ancho. Por último, tenemos nuestro video, que también está excediendo el tamaño. Si vemos aquí nuestro video, lo buscamos, la div, tenemos una div de video, está configurado con un valor absoluto de 560 píxeles.
+
+[07:49] ¿Entonces qué necesitamos hacer? Adicionar aquí nuevamente. En este caso vamos a tener cinco elementos que en el CSS, si analizamos aquí para las páginas que son abiertas en una PC, tienen una configuración específica y lo que estamos haciendo con nuestro media query es crear esas secciones para todos esos elementos.
+
+[08:14] Si actualizamos, ahora sí vemos que nuestro video todavía no se ajustó. Aquí olvidé de un punto que es también en nuestro HTML. Si vemos aquí en nuestro HTML, está con 560 píxeles ya por defecto, con un valor absoluto en el HTML. Vamos a cambiar eso en nuestro HTML, porque si no, no vamos a tener el efecto que deseamos. Subimos aquí, buscamos el video, 560, colocamos 100%.
+
+[08:56] Y ahora tendríamos que, vamos a revisar, aquí nos faltó el punto video, siempre hay algo que falta y lo bueno es que podemos ajustarlo. Y ahora sí, ya tenemos nuestro video ocupando el 100% y fíjense que absolutamente toda nuestra página ya está responsiva y principalmente los elementos gráficos que eran los que estaban desconfigurando y los elementos externos ya están totalmente configurados.
+
+[09:38] Ahora lo que veremos será cómo centralizar nuestro logo. Si venimos aquí en nuestro header, tenemos nuestra div de la clase y tenemos el h1 que no tiene ninguna configuración de centralizado. Vamos a ir a nuestro media query, lo ubicamos en el lugar correcto, recordando que el h1 está antes que todos esos otros elementos, esos otros selectores, y aquí le colocamos un text-align a nuestro h1 que es nuestra imagen, el logo de nuestra barbería, text-align: center.
+
+[10:25] Y ya tenemos nuestra imagen centralizada. Ahora vamos a preocuparnos por reubicar nuestro panel de navegación. Aquí está nuestro panel de navegación que está con una posición absoluta, así lo habíamos definido. Si aquí lo volvemos static, ya vamos a tener nuestro menú, nuestro panel ubicado correctamente.
+
+[10:46] Y aquí hacemos exactamente eso, llamamos a nuestra nav, nuestra etiqueta, el panel de navegación, y alteramos la propiedad position para static. Actualizamos y ahora ya tenemos nuestro encabezado configurado correctamente. Y para finalizar, vamos aquí a configurar en el bloque los diferenciales, vamos a dejar la lista ocupando el 100% y también la imagen ocupando el 100%.
+
+[11:23] Porque vamos a recordar, si vamos y buscamos ese bloque los diferenciales, tenemos nuestro contenido los diferenciales, la lista la habíamos configurado con 40% y la imagen con el restante 60%, es por eso que la lista aparece al lado de la imagen, que era lo que buscábamos en el comportamiento en un monitor de tamaño más grande, de tamaño mayor. Pero para nuestro dispositivo móvil vamos a hacer que la lista ocupe el 100% y la imagen se ubique abajo.
+
+[12:04] Para ello, venimos aquí, recordando que en este caso ese contenido está de último, lo vamos a colocar de último, y tenemos que alterar la lista de los diferenciales, coma, punto y nuestra imagen de los diferenciales. Abrimos y cerramos llaves y en este caso vamos a colocarle un width, un ancho, de 100% para las dos.
+
+[12:34] Volvemos, actualizamos y ahora sí tenemos, fíjense nuestra lista de diferenciales y automáticamente debajo está nuestra imagen de los diferenciales. Ahora sí tenemos nuestra página mínimamente responsiva si cambiamos de dispositivo.
+
+[12:55] Por ejemplo, para un iPhone 6 vemos que el comportamiento está correcto y nuestro usuario, nuestro cliente, cuando abra nuestra página desde un celular la experiencia va a ser positiva, va a ser buena y va a conseguir entender y capturar todos los mensajes que queremos pasarle.
+
+[13:19] Entonces, queridos alumnos y queridas alumnas, hemos llegado a la recta final de nuestro curso, en el cual hemos construido desde cero una página web. Incluso podríamos continuar trabajando con ajustando algunos elementos, como por ejemplo los espacios tanto internos como externos y otros elementos para que nuestra página todavía quede más responsiva.
+
+[13:47] Sin embargo eso se los dejo de desafío a ustedes y también les dejo de desafío ajustar todo lo que hemos hecho en la página principal en las otras dos páginas que hemos construido a lo largo de este curso, que es nuestra página de productos y nuestra página de contacto.
+
+[14:04] Recuerden que si tienen dudas, estamos en el foro para ayudarlos y también hagan todos los ejercicios del aula. Muchísimas gracias por acompañarme hasta aquí. Chau, chau.

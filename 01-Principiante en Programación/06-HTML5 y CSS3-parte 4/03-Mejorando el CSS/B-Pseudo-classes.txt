@@ -1,0 +1,24 @@
+Pseudo-classes
+
+
+[00:00] Queridos alumnos y queridas alumnas, vamos a continuar con nuestro curso. En el último video lo que vimos fue el ajuste en el CSS y en la estructura de nuestro bloque de los diferenciales. Estábamos trabajando para dejar lo más parecido, próximo a nuestra página modelo.
+
+[00:22] Y lo que habíamos visto era que teníamos que colocar negrito solo al primer item de nuestra lista. Vimos que, con los conocimientos que tenemos hasta ahora, eso lo podríamos hacer creando un identificador. Si vamos a nuestro index.html, tendría aquí que crear un identificador para atención personalizada a los clientes.
+
+[00:46] Sin embargo, esa no es la mejor opción, no es el mejor camino que podemos tomar ni la mejor práctica. ¿Por qué? Porque si el día de mañana quiero adicionar un nuevo item a los diferenciales, tengo que recordar que creé un identificador, tengo que ir a alterar el identificador para ese nuevo item y de esa manera poder mantener el formato donde mi primer item tiene que ser el pintado con negrito, el destacado con negrito.
+
+[01:17] Para eso es que existen las pseudo-clases. Y haciendo una comparación de lo que son pseudo-clases, ya hemos usado pseudo-elementos, si recordamos en nuestra página de productos, usábamos los pseudo-elementos con las propiedades over, active, para dar este destaque cuando posicionábamos nuestro mouse encima de nuestros productos, de nuestros servicios. ¿Recuerdan?
+
+[01:47] Ahora, en nuestro bloque los diferenciales, en la lista, vamos a usar pseudo-clases. Y para entender ello, vamos a ir a nuestro código, vamos a ir a nuestro CSS y aquí vamos a hacer uso de esas pseudo-clases. Hacemos nuestro selector de clase padrón y común, los dos puntos, y una de las pseudo-clases es first-child, del inglés primer hijo.
+
+[02:15] Lo que le estamos diciendo es al primer hijo o al primer elemento de ese bloque de elementos que en esteo caso son nuestros items, recordemos que para items tenemos una clase que está identificando a todos esos items. Entonces, de todos esos items, al primero pintamelo de negrito. Venimos aquí y nos pinta nuestro primer item de negrito.
+
+[02:46] ¿Qué pasa si queremos el último? Tenemos el last-child, el último hijo. Venimos, actualizamos y ahora está nuestro último. Dentro de las pseudo-clases tenemos una ventaja, que podemos indicarle con nth-child, el número en el orden creciente, podemos indicarle cuál item queremos que se pinte de negrito en este caso o aplicar cualquier efecto que queramos.
+
+[03:25] Entonces, podemos hacer el tercero por ejemplo. Vamos a guardar aquí, venimos, actualizamos, fíjense que se pinta la localización que es nuestro tercer item. Otra ventaja que podemos tener con esto es que podemos darle un 2n por ejemplo y se van a pintar todos nuestros items pares, números pares, el segundo, cuarto, sexto y si tuviéramos, así iría por la frente.
+
+[03:54] Lo vamos a dejar con first-child, porque justamente eso es lo que queremos, guardamos aquí y actualizamos. Atención personalizada a los clientes. Eso es el uso de pseudo-clases, es superimportante entenderlos porque nos da una libertad muy grande para poder trabajar con el CSS, con visuales efectos específicos que queremos darle a nuestra página.
+
+[04:37] Y nos ahorra mucho trabajo porque prácticamente con una línea de código puedo hacer esos efectos específicos en items, específicos y sin necesidad, eso es lo más importante, sin necesidad de alterar nuestro HTML, no necesitamos crear clases ni ID, sino únicamente usar las referencias de estas pseudo-clases.
+
+[05:02] En los próximos videos veremos cómo aplicar estos degradés que tenemos aquí en nuestra página, que comienza con un color menos fuerte y se va intensificando a medida que bajamos. Eso es asunto para las próximas sesiones. Los veo luego, chau, chau.

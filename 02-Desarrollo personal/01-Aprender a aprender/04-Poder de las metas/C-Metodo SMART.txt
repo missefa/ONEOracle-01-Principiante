@@ -1,0 +1,24 @@
+Metodo SMART
+
+
+Bueno, ahora que ya hemos visto la importancia de las metas, ¿no? ¿Qué son las metas y la importancia de definirlas? Vamos a hablar sobre las metas del método SMART.
+
+El método SMART es una forma de establecer algunas metas, pero siguiendo ciertos patrones. Cada letra del método SMART significa un patrón que necesitamos seguir.
+
+Entonces, empezamos con la S, que significa específico. Necesitamos definir una meta que sea específica, que sea fácil de entender. Tenemos la letra M que sería una meta medible. Entonces, podemos medir, evaluar esta meta. Debe haber alguna manera en que podamos conocer el progreso con la meta.
+
+También tenemos la letra A, que significa alcanzable. No tiene sentido establecer una meta que sabemos que no podemos alcanzar. Eso solo nos frustrará y nos llevará a renunciar a seguir con esta meta.
+
+La letra R es de relevante. Entonces, ¿cuál es la relevancia? ¿Por qué establecería esta meta? ¿Por qué haría eso?
+
+Y la letra T es para temporal. Necesitamos establecer un tiempo para esta meta.
+
+Vamos a verlo con algunos ejemplos que seguro será mucho más fácil de entender.
+
+Por ejemplo, tenemos el caso de Alice: ella quería preparar la cena para el próximo encuentro de su grupo de amigos. Entonces, ¿cómo podemos enmarcar esta meta en el método SMART? Para ser específico, ella necesita saber cómo replicar la receta de una lasaña. Esta es la meta específica: saber cómo hacer una lasaña. Es medible, la evaluación será de sus invitados. Entonces, ¿cómo estaba de sabor la lasaña del 0 al 10? ¿Cómo era la presentación? ¿Estaba bien presentada del 0 al 10? ¿Es una meta alcanzable? Sí, porque es hacer una lasaña. Esa es una meta alcanzable. ¿Es relevante? Sí, porque ella quiere hacer esta lasaña para el cumpleaños de su mejor amiga y ella sabe que será en el próximo encuentro y ella sabe que esta es la comida favorita de su mejor amiga. Entonces, ella se compromete a replicar esta receta de lasaña. ¿Y es temporal? Sí, 30 días, que es el tiempo que tiene hasta el próximo encuentro de su grupo.
+
+Ahora, si vamos al otro ejemplo, el ejemplo profesional de Alice, tenemos el proyecto en el que ella quería participar. Entonces, ¿es específico? Sí, porque ella sabe que necesita construir una funcionalidad X, una funcionalidad, con un nuevo lenguaje. Entonces, ¿esto es específico? ¿Esta es la meta que ella tiene? Es medible, sí, porque ella necesita saber si este sistema es funcional, si tiene buena usabilidad. Entonces, ella va a hacer pruebas con los usuarios para saber si el sistema está cumpliendo lo que prometió. ¿Es alcanzable? Sí, ella va a hablar con los demás desarrolladores para saber cuánto tiempo ellos necesitaron para aprender este nuevo lenguaje y para implementarlo. ¿Es relevante? Pues sí, porque es fundamental para el próximo paso de su carrera. ¿Y es temporal?
+
+Sí, también, porque ella tiene 60 días hasta que comienza el proyecto. Entonces, aquí tenemos dos ejemplos de dos metas, utilizando el método SMART, que siguen paso a paso cada una de las letras, cada uno de sus significados, para poder evaluar la meta total al final.
+
+ DISCUTIR EN EL FORO

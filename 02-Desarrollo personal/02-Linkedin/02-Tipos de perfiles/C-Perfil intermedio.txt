@@ -1,0 +1,53 @@
+Perfil intermedio
+
+
+
+[00:00] Hola. Sean bienvenidos a un nuevo video aquí en el curso de LinkedIn. En esta clase estamos viendo los diferentes tipos de perfiles en LinkedIn. En el video anterior vimos el LinkedIn de Carolina. Un perfil más básico, iniciante, que justo entró en la plataforma.
+
+[00:17] Nosotros le ayudamos a rellenar todos los campos, a las informaciones básicas, sus conocimientos y experiencias. Ahora vamos a ver el perfil de José Luis. José Luis tiene un perfil intermedio. Él ya está en la plataforma, ya tiene algunos campos rellenados pero nosotros vamos a ayudarle a mejorar aún más su perfil porque él tiene miedo, ya que él no siente que tiene mucha información, siente que tiene poca información para poner en su perfil.
+
+[00:44] Entonces nosotros le vamos a ayudar. Vamos aquí, a su perfil. Como podemos ver, ya hay una foto, ya hay foto de perfil, foto de capa. Aquí ya tenemos sus experiencias, tanto profesionales como de educación. Entonces vamos a ver más o menos cómo está su perfil y en qué le podemos ayudar.
+
+[01:09] Si vemos aquí, el primer punto que me llama la atención es aquí, está solamente diciendo en su título estudiante, aquí en el título. Como hablamos en clase pasada, eso es muy general, o sea estudiante, ¿pero de qué? ¿con enfoque en qué? ¿qué está estudiando? Entonces yo creo que podemos mejorar esta parte.
+
+[01:31] Entonces si le damos clic aquí a este lápiz, vamos a poder editar su perfil. Entonces aquí en el título podemos poner: estudiante de ingeniería de sistemas. Porque ahí ya está más enfocado en lo que realmente estudia. Y es mejor, porque solo poner estudiante es muy general. Pero hay otra cosa que José Luis también hace.
+
+[01:57] Ahora que él está estudiando sobre esa parte de ingeniera en sistemas y tecnología, él está haciendo algunos trabajos freelances con PHP. Entonces podemos poner eso aquí también en su título. Entonces podemos poner aquí una diagonal: freelance con PHP. Ahí está, entonces ya está bien más detallado en qué se enfoca, qué estudia y qué él hace.
+
+[02:30] Entonces aquí ya tenemos las demás informaciones, podemos solamente guardar. Ahora, si bajamos un poquito aquí en su perfil, podemos ver también que en el acerca de, está solamente estudiante. Y como hemos practicado en la clase, en el video anterior, el acerca de es muy importante.
+
+[02:50] Es muy importante tener una descripción de tus conocimientos, utilizando tanto tus habilidades blandas, las soft skills, como tus habilidades técnicas o hard skills. Entonces vamos a ver aquí un ejemplo de cómo podría ser el resumen de José Luis. Él ya tuvo experiencia anterior como auxiliar administrativo.
+
+[03:13] ¿Mencionamos eso? ¿Qué ustedes piensan? Sí, pero nuestro enfoque principal será en programación. Entonces, sí podemos mencionarlo pero mencionar también que él está cambiando de área y que ahora su enfoque es la programación. Entonces ¿cómo podría estar este resumen?
+
+[03:34] "Empecé mi trayectoria profesional como asistente administrativo. Actualmente, estudio y entrego pequeños proyectos en el área de desarrollo web, para pequeñas y medianas empresas." Entonces podemos ver aquí que él comenta sobre su primer experiencia como auxiliar administrativo, pero también ahora ya está comentando también que está con proyectos en el área de desarrollo web.
+
+[04:07] Entonces vamos a poner allá este resumen, pero yo creo que falta algo, aún falta un poco más de sus habilidades, sus conocimientos, que él está estudiando y, obvio, como ya hemos dicho, lo que es muy importante las habilidades blandas. Entonces yo voy a hacer aquí un texto para poner en su resumen profesional y nosotros lo verificamos.
+
+[04:30] Entonces ya podemos verificar el resumen para el perfil de José Luis. Además de aquel texto que ya habíamos visto allá en la presentación, empecé mi trayectoria profesional como asistente administrativo, actualmente estudio y entrego pequeños proyectos en el área de desarrollo web para pequeñas y medianas empresas.
+
+[04:53] Soy una persona curiosa y me gusta resolver problemas, aprender a ser parte de mi día a día y los desafíos me motivan a encontrar las mejores soluciones. Busco oportunidades para hacer prácticas en el área de tecnología de la información, donde pueda desarrollar mis conocimientos técnicos y crecer junto a la empresa y a mis compañeros de trabajo. Entonces aquí ya hicimos todo un texto resumido con sus habilidades blandas y con lo que él está buscando.
+
+[05:23] Busco hacer practicas en el área de tecnología. Entonces estamos dejando muy claro aquí que él sí trabajo como auxiliar administrativo pero ahora su enfoque es del área de programación de tecnología. Entonces aquí ya lo podemos guardar. Aquí ya lo podemos ver mucho mejor que cuando estaba solo estudiante.
+
+[05:42] Ahora aquí también vemos sus experiencias laborales. Tenemos aquí desarrollador PHP autónomo, que es porque él está trabajando con proyectos autónomos, y aquí auxiliar administrativo, pero podemos ver que no hay ninguna descripción de sus actividades y conforme nosotros mencionamos que vimos en el video anterior es muy importante tener la descripción de las actividades.
+
+[06:06] Aunque se más bien resumido, pero en cada experiencia profesional es muy importante tener la descripción de las actividades que haces o hacías en este puesto de este trabajo. Entonces voy aquí a poner sus actividades de su trabajo de auxiliar administrativo. Aquí ya está, entonces ahora podemos ver que está mucho mejor.
+
+[06:28] Aquí entonces ya tenemos su educación, sus logros, que él tiene el idioma inglés. Ahora, hay otro punto, José Luis ya ha hecho muchos cursos complementarios a su carrera, a su universidad. Él quiere saber dénde lo puede poner. Entonces si venimos aquí en añadir sección, en cursos podemos ver que aquí es posible poner los cursos que nosotros hacemos que son complementarios, no son una carrera, un posgrado, algo así.
+
+[06:56] Son cursos más cortos pero que son complementarios a nuestra universidad, a lo que estamos estudiando. Entonces yo voy a poner aquí algunos de los cursos que José Luis ya ha hecho. Aquí el numero, eso es en el caso que por ejemplo, el certificado venga con algún numero de validación del curso, un número sobre certificado, tu puesto o algo así. Pero en este momento no tenemos, entonces no lo vamos a poner.
+
+[07:24] Aquí está asociado con estudiante de universidad, porque este curso tiene que ver con lo que él está estudiando en la universidad. Como dijimos antes, es un curso complementario a su carrera. Entonces guardamos. Aquí está, aquí ya podemos ver el curso Design Patterns PHP.
+
+[07:46] Entonces aquí ya agregue los diversos cursos complementarios que José Luis ha hecho para que se puedan ver todas las habilidades técnicas que él tiene, además de su carrera. Entonces ahora sí regresamos aquí, hacia arriba en la barra, en esta barra de calificación del perfil.
+
+[08:04] Podemos ver que el nivel del perfil de José Luis está en un perfil intermedio. Si ponemos el cursor aquí arriba de la barra, podemos ver que todos los pasos que ya fueron completados y los que faltan aquí nos enseña que las aptitudes faltan, faltan cinco más para que su perfil, para que su barrita verde llegue hasta el final. Entonces vamos a bajar aquí hasta aptitudes y añadir una aptitud nueva.
+
+[08:36] Aquí podemos ver aptitudes sugeridas en función de tu perfil, algunas que ya son sugerencia por el perfil de José Luis, por sus certificados, sus cursos. Entonces LinkedIn ya nos da algunas sugerencias. Entonces vamos a agregar aquí, vamos a buscar entonces PHP, como podemos ver aquí, ya está, Design Patterns también, JavaScript también.
+
+[09:01] Entonces vamos a ver si encontramos HTML, aquí HTML5. CSS que él sabe también, CSS, aqui jQuery, podemos poner porque él hizo un curso de jQuery. Si buscamos ahora por ejemplo TDD con PHP, que es otro curso que él hizo, no encontramos, este no hay. Podemos buscar ahora sus habilidades blandas.
+
+[09:32] Entonces podemos buscar por ejemplo trabajo en equipo. Podemos buscar comunicación. Es una habilidad blanda que es muy importante también. Entonces aquí ya tenemos cinco. Vamos a darle clic en añadir y ya. Nuestro perfil es un perfil estelar. Entonces es eso, ya vimos cómo salir de un perfil básico iniciante, como crear nuestro perfil hasta un perfil intermedio en el video anterior.
+
+[10:03] Ahora en este video, hemos visto cómo hacer un perfil intermedio y hacer un perfil estelar. En el próximo video vamos a ver ya un perfil más avanzado, pero algunos puntos que aún podemos arreglar y mejorar en nuestro LinkedIn para que se vea más profesional. Entonces los veo en el próximo video.

@@ -1,0 +1,37 @@
+Meta tag de Viewport
+
+
+Lo que aprendimos en esta aula:
+[00:00] Okay, queridos alumnos y queridas alumnas, continuando con nuestro curso de HTML 5 y CSS 3, ya entrando a la recta final de esta parte 4. Hemos desarrollado bastantes cosas, bastantes elementos de nuestra página web, la página de nuestra barbería. Hemos trabajado bastante con el CSS, colocando diferentes estilos, modificando el visual, colocando elementos externos. Ya tenemos una página realmente avanzada y mucho más profesional.
+
+[00:38] Sin embargo, nos falta ver un punto importante que es que nuestra página sea responsiva. ¿Qué significa que nuestra página sea responsiva? Nuestra página que sea responsiva significa que al momento de ser abierta desde cualquier dispositivo, sea un monitor grande, una pantalla de una notebook, una PC, o un monitor de un dispositivo celular o una tablet, consiga adaptarse al tamaño en forma adecuada.
+
+[01:07] Del inglés responsive, van a escuchar bastante este término, significa justamente eso, que nuestra página pueda comportarse en forma correcta en un dispositivo móvil principalmente. Debemos recordar que actualmente la gran cantidad de accesos, la mayoría de los accesos a internet son hechas desde el celular.
+
+[01:30] Y es solo analizar nuestro día a día, estamos prácticamente conectados al celular navegando en las redes sociales, yendo a visitar páginas web también desde nuestro celular, entonces debemos como programadores web preocuparnos siempre por cómo va a ser el comportamiento de nuestra página en los dispositivos móviles.
+
+[01:55] Para ello el mismo Chrome, nuestro navegador, nos presenta un recurso. Vamos a ir aquí a la consola, "Ctrl + Shif + I" y el recurso es justamente este botón de aquí, donde podemos seleccionar y ver cómo se ve nuestra página en un dispositivo. Incluso aquí podemos seleccionar el modelo de dispositivo.
+
+[02:25] Tenemos los principales modelos, ya san de iPhone, tenemos el Galaxy de Samsung, tenemos otros celulares también de otras marcas principales del mercado y también tenemos tablets, como el iPad, la Surface, Galaxy Fold. Y podemos ir viendo cómo se comporta nuestra página en cada uno de los diferentes dispositivos.
+
+[02:51] Entonces vamos aquí a dejar el iPhone X, que tiene una resolución de 375, aquí lo coloca, y podemos ver que por ejemplo aquí el menú queda muy pequeño, o sea, nuestra página no se está comportando adecuadamente para el dispositivo móvil. Y claro, debemos pensar que nuestra barbería quizás sea encontrada o buscada por nuestros clientes o futuros clientes a través de Google.
+
+[03:19] Muchos de ellos van a entrar al celular, entonces tenemos que presentarles nuestra página de forma adecuada para que él consiga navegar y pueda así tener una buena experiencia de navegación y que el resultado final que lo podamos tener como cliente en nuestra barbería.
+
+[03:37] Y para ello lo primero que tenemos que hacer es adicionar un elemento principal en nuestro código. Vamos a ir aquí a nuestro HTML y vamos a adicionar aquí una meta. Repetimos nuevamente la etiqueta meta y en este caso colocamos name="viewport" y colocamos contenido, de content, aquí colocamos un ancho, width, igual a device, de dispositivo en inglés, guión, width.
+
+[04:21] Aquí nos olvidamos de cerrar. Esta meta es básicamente lo que hace es decirle al navegador que queremos que use y adapte nuestra página para dispositivos móviles también. Prácticamente eso es lo que le estamos diciendo con esta nueva etiqueta meta. Vamos a ir a nuestra página, actualizamos y podemos ver que sufrió algunos efectos.
+
+[04:58] Nuestro menú quedó más grande ahora. Sin embargo tenemos unos elementos, varios elementos que quedaron desconfigurados y prácticamente eso pasó porque toda nuestra página actualmente está configurada solo para monitores de entre 940 y 1200 píxeles que es el padrón de monitor.
+
+[05:21] Hemos trabajado durante todo el desarrollo de nuestra página como si nuestra página tendría que ser abierta únicamente de los navegadores por PC. No nos preocupamos en su momento para hacer los ajustes para ser abierta en dispositivos móviles. Incluso en varios lugares ajustamos para 940 píxeles y es por eso que tiene este comportamiento actualmente.
+
+[05:48] Pero eso lo vamos a ajustar justamente en esta sección. Para ello, tenemos un recurso en el CSS, que son las medias queries, que básicamente lo que hacen, vamos a ir al final de nuestro CSS, las medias queries lo que hacen es permitirnos trabajar con excepciones o, dada una condición, aplicar algo diferente.
+
+[06:20] La forma de definirlas es con un arroba y colocamos media, aquí colocamos screen, porque vamos a trabajar con el monitor, con el print de nuestra pantalla, con nuestra pantalla screen. Aquí colocamos un and y aquí colocamos un max-width, de ancho máximo. Dos puntos y colocamos 480 píxeles. ¿Qué le estamos diciendo en esa instrucción?
+
+[06:58] Le estamos diciendo: si encuentras una pantalla con hasta 480 píxeles, o sea que ese es el límite máximo, aplicame, vamos a citar aquí solo un ejemplo, imaginen que vamos a aplicar algo en el body de nuestra página y le vamos a cambiar el background para red. ¿Entonces qué va a hacer?
+
+[07:23] Si identifica un tamaño de monitor con un ancho de hasta 480 píxeles, va a pintar el background de rojo. Vamos a volver a nuestra página, actualizamos, y es lo que pasa aquí. Tenemos justamente nuestro background pintado de rojo porque estamos seleccionando el iPhone X, que tiene 375 píxeles de ancho. Si yo selecciono un iPad por ejemplo, ya tiene 1024, ya no me pinta de rojo.
+
+[07:58] Si yo voy a mi pantalla normal, no me pinta de rojo. Estamos aplicando esa excepción únicamente para las resoluciones que llegan hasta 480 píxeles. Y toda la configuración de nuestra página va a ser asunto para nuestro próximo video, así que los vemos allá. Chau, chau.

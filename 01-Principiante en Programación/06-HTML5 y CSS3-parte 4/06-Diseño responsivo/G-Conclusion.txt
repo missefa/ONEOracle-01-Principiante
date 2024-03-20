@@ -1,0 +1,39 @@
+Conclusión
+
+
+Es importante en este momento que organices tus estudios y que muestres lo que has aprendido y el proyecto que has desarrollado. Ese ejercicio te hará reforzar los conceptos aprendidos y te impulsará a crear tu propio portafolio de proyectos (si es que aún no lo tienes).
+
+En el siguiente artículo puedes encontrar más información al respecto.
+
+Organizar estudio y portafolio con Notion en Alura.
+https://www.aluracursos.com/blog/organizar-estudio-y-portafolio-con-notion-en-alura
+
+[00:00] Querido alumno, querida alumna, muchísimas felicidades por haber llegado hasta aquí a la conclusión de esta cuarta parte del curso completo de HTML y CSS 3. En este curso vimos cómo mejorar nuestra home, dimos un toque mucho más profesional a nuestra página principal de nuestra barbería y a lo largo de todo este recorrido, de toda esta jornada de cuatro etapas en nuestro módulo completo de HTML vimos cómo desarrollar tres páginas.
+
+[00:37] Llegamos a tener una página de nuestra barbería bastante completa. En el segundo módulo vimos cómo desarrollar la página de productos y en el tercer módulo la página de contactos. Luego en el cuarto módulo nos dedicamos a mejorar justamente nuestra página de presentación.
+
+[01:00] Y en este capítulo lo que hicimos fue primeramente usar bastantes recursos externos como en este caso los mapas, usar videos para capturar la atención de nuestro cliente, mejoramos bastante toda la parte visual, aprendimos a usar varios recursos y novedades de CSS, entonces ya todos los alumnos deberían estar preparados para construir una página web básica, una página web desde cero, que es lo principal.
+
+[01:34] En esta oportunidad construimos la página web de la barbería Alura. Sin embargo, ustedes pueden construir, ya están con las capacidades suficientes para construir la página web que ustedes deseen. Puede ser la página web de un restaurante, puede ser la página web de un salón de belleza, por ejemplo.
+
+[01:55] Lo importante es colocar en práctica todos estos conceptos. Incluso pueden comenzar por mejorar aspectos de la página de productos y páginas de contacto, como lo hicimos con la página principal en esta cuarta etapa. Hay muchos elementos que pueden ser mejorados en las otras dos etapas, principalmente pensando en la parte responsiva, ¿no?
+
+[02:20] Así que nuestra sugerencia es que continúen con sus estudios, continúen desarrollando sus páginas, que coloquen en práctica los conceptos que hemos visto a lo largo de estas cuatro etapas, y lo más importante de todo es que muestren al mundo, que presenten al mundo sus proyectos.
+
+[02:41] Para ello tenemos un artículo en Alura, en nuestro blog, se llama Organizar el estudio y portafolio con Notion en Alura. Este artículo lo vamos a dejar, el link va a quedar disponible para ustedes en la descripción del video, y lo que les muestra es cómo organizar primeramente un plan de estudios. Para eso presentamos Notion, que es una herramienta gratuita, que es como si fuera Google Docs, solo que con un toque más profesional. Aquí lo pueden ver.
+
+[03:18] Tiene también una versión premium, que se paga, pero con su versión gratuita ya conseguimos obtener como si fuera una página web nuestra de organización de nuestros estudios. Nos permite trabajar con Markdown, hay plantillas gratis que ya vienen casi listas o listas para poder trabajar.
+
+[03:44] Es multiplataforma, puedo abrirlo desde cualquier lugar, desde el celular, de la computadora. Puede tener colaboración en tiempo real, eso es muy importante porque en un proyecto pueden trabajar varias personas. Y la idea es que a través de Notion yo vaya colocando los proyectos que estoy desarrollando, cuáles son los objetivos de estudio. Es como si fuera un cuaderno digital, solo que bien organizado.
+
+[04:08] Luego en el mismo artículo van a ver aquí el título que dice: "Muestra lo que eres capaz de hacer", que es justamente lo que les decía. Es muy importante actualmente tener un portafolio de proyectos. Si apuntas a trabajar en el mercado de tecnología, nuestro portafolio de proyectos es nuestra cara de presentación.
+
+[04:25] Me arriesgo a decir que es hasta más importante que el propio currículum y certificados, porque para un puesto, una oportunidad en tecnología, el reclutador te va a preguntar: "¿Qué has hecho hasta aquí? ¿Cuáles son los proyectos que has desarrollado? ¿En qué has participado?" Y puede ser una excelente oportunidad para que les presentemos estos proyectos que venimos desarrollando como Alura.
+
+[04:48] Para ello hay algunas herramientas, aplicaciones que les permiten grabar su pantalla y hacer un video de dos, tres minutos, explicando lo que han hecho, qué librerías vieron, qué aprendieron, mostrando un poco del código. Por ejemplo Screecastify, que es una de las que sugerimos, es un simple plug-in que lo instalan y va a quedar aquí, y únicamente es apretar grabar y él va a comenzar a grabar y pueden hacer su video.
+
+[05:23] Para finalizar, en el mismo artículo les presentamos otras herramientas para organizar sus estudios como Evernote, Trello, el mismo Google Docs, o tener una agenda física que también no la descartamos, si eres de anotar, continúa con tu método. La idea es que busques algo que te funcione y que no te pierdas en esa jornada de aprendizaje con tanto contenido que tenemos a disposición.
+
+[05:54] Entonces espero que este curso haya sido de tu agrado. Fueron cuatro etapas con bastante contenido, como lo decíamos, es muy importante que muestres tus conocimientos al mundo, vayas a LinkedIn, coloques, publiques este video o a Instagram o Facebook, marca Alura, Alura Latam en las redes, puedes marcar Alura Brasil también, etiqueta a tu profesor, siempre vas a tener el perfil del instructor con su LinkedIn.
+
+[06:25] Etiquétanos a nosotros, la verdad va a ser un placer ver que los proyectos están siendo publicados y vamos a poder mostrar al mundo que nuestra plataforma está ayudando a las personas a conseguir sus objetivos. Así que un placer, por favor si tienen dudas estamos en el foro para ayudarlos y nos vemos en un próximo curso. Muchas gracias.

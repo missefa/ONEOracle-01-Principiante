@@ -1,0 +1,39 @@
+Sombra en los elementos
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso, ya vimos cómo colocar opacidad en nuestros elementos y lo que veremos ahora será cómo colocar sombras. Las sombras son otro recurso nuevo de CSS 3. Antiguamente para poder colocar sombras a los elementos era complicado porque había que colocar otras imágenes y comenzar a jugar con la posición de esas imágenes.
+
+[00:26] Actualmente CSS 3 nos presenta una propiedad que se llama box-shadow que nos permite realizar configuraciones supersimples y poder así obtener el efecto visual de sombras en los elementos. Eso lo veremos en este video. Vamos a ir a nuestro código, estoy aquí en el CSS, en el bloque de CSS para nuestra home, y vamos a continuar trabajando con la imagen de los diferenciales.
+
+[00:56] Buscamos la imagen de los diferenciales. Aquí estamos. Entonces dijimos que la propiedad es box-shadow. Esa propiedad, inicialmente vamos a trabajar con tres propiedades, que son la ubicación de la sombra en el eje horizontal, ese es el primer parámetro, el segundo es la ubicación de la sombra en el eje vertical y por último el color de la sombra.
+
+[01:21] Y vamos a colocar 10 píxeles a la derecha, 10 píxeles hacia arriba, la parte superior, y el color va a ser negro. Guardamos, vamos a nuestra imagen, actualizamos y aquí tenemos justamente la sombra. Corrigiendo que yo dije los 10 píxeles en el eje vertical hacia arriba, en realidad cuando colocamos positivo es hacia abajo. En realidad es en el sentido horario.
+
+[01:58] Si yo coloco negativo, para que quede claro esto, si yo coloco aquí un negativo, esa sombra va a ser a la derecha pero superior. Vamos a regresarlo como estaba y volvemos aquí. Perfecto. El cuarto parámetro, existe un cuarto parámetro que podemos adicionar a la propiedad, en realidad un tercero si es de izquierda a derecha, que es la difumación de ese elemento, o sea, en qué proporción va de un sólido, de un color más fuerte, para transparente.
+
+[02:41] Es más o menos como el degradado, como ya lo hemos visto anteriormente, que también se define en píxeles. Por ejemplo, vamos a definir 10 y tenemos una pequeña difuminación. Vamos a aumentarle para que se note un poco más, a 30, y aquí ya se nota más, va de sólido para transparente nuestra sombra.
+
+[03:09] Un quinto parámetro y un cuarto en el orden es el spread. El spread en inglés es expansión y es hasta dónde queremos que esa sombra llegue. Igual se define en píxeles y por ejemplo podemos colocarle 25 píxeles. Actualizamos aquí y fíjense que ahora nuestra sombra tiene una expansión mucho más grande.
+
+[03:37] Vamos a disminuirle porque quedó sumamente expandido, era un 15. Ahí parece que queda bien. Incluso podemos colocar más sombras y separarlos por una coma, entonces por ejemplo en este caso vamos a colocar -10 píxeles negativo, que sería ubicación a la izquierda, -10 píxeles negativos en el eje superior que sería hacia arriba y un color amarillo.
+
+[04:09] Volvemos, actualizamos y tenemos nuestra sombra amarilla ubicada en el layout como lo definimos. Podemos colocar una tercera, las sombras que queramos en realidad. Por ejemplo podemos colocar -15 píxeles negativos, 10 píxeles positivos hacia abajo y podemos hacer uso del RGBA que lo hemos aprendido con opacidad, y podemos colocar aquí un color cualquiera, 5050 y 0.5 de opacidad por ejemplo.
+
+[04:50] Volvemos, actualizamos y fíjense que por detrás tengo una tercer sombra. Puedo incluso crear sombras internas usando la misma propiedad de box-shadow, solo que definiendo un parámetro que se llama inset. Para ello vamos a usar nuestro bloque los diferenciales aquí, entonces colocamos box-shadow, la propiedad inset, le definimos cero, cero, queremos que nuestro punto de referencia sea desde el centro de nuestro bloque, y aquí definimos el spread y el color, por ejemplo red.
+
+[05:31] Vamos a ver que para todo nuestro bloque los diferenciales nos colocó un marco que en realidad es una sombra interna, una sombra hacia adentro. Bueno, no quedó nada agradable las sombras que colocamos con colores diferentes y también nuestro marco. Vamos a eliminarlo para después no olvidarnos y también vamos a eliminar aquí estas sombras que colocamos.
+
+[06:06] Vamos a dejar únicamente nuestra sombra negra, que es la del efecto final. Y también, así como aplicamos sombras a elementos, imágenes, bloques, podemos hacerlo en los textos. Vamos a mostrar cómo aplicar en nuestro título principal, en nuestro bloque del título principal, aquí tenemos nuestro selector de clase, y en este caso llamamos a la función text de texto, shadow de sombra, text-shadow.
+
+[06:35] Los parámetros son prácticamente los mismos, entonces puedo colocarle 2 píxeles en el eje horizontal, 2 píxeles en el eje vertical y un color, el primero que se nos ocurre, rojo. Vamos a actualizar y aquí tenemos nuestro título con ese sombreado rojo. Incluso podemos colocarle aquí el spread por ejemplo para 10 píxeles y ahí tenemos nuestro efecto.
+
+[07:10] Vamos a eliminarlo, porque ya tantos efectos vamos a acabar confundiendo y distrayendo mucho a nuestro usuario, a nuestro cliente, pero es importante que sepamos que también existe esa posibilidad. Vamos a actualizar aquí nuestra página, y como vemos, dejamos solo el sombreado en nuestra imagen de los diferenciales.
+
+[07:34] Existen páginas donde podemos entrenar, conocer y hasta probar esos efectos. Si buscan Box Shadow en Google, CSS Generator, y les aconsejo usar el de Mozilla, este de aquí, aquí defino un elemento, le agregamos una sombra, y fíjense que aquí tengo todos los parámetros que hemos definido aparte del color.
+
+[08:09] Entonces por ejemplo nosotros definimos una sombra de 10-10, así puedo ir jugando y entendiendo cómo funciona la difuminación que es el blur en inglés. Aquí puedo ir jugando, y también el spread, que sería la expansión de nuestra sombra. Tenemos estas herramientas en internet gratuitas y accesibles para todo el mundo donde puedo entender el comportamiento de los elementos de CSS.
+
+[08:43] Como les dije es simplemente buscar en Google. En este caso mi búsqueda fue Box Shadow Generator y coloqué Mozilla que ya lo conocía y había trabajado con él. Nuestra página ya está mucho más profesional, está mucho más próxima y cerca de nuestra página final, casi estamos finalizando.
+
+[09:07] En realidad estamos entrando a la recta final, así que mi recomendación es que vayan al foro si tienen dudas, colóquenlas allá, un equipo de Alura estará dispuesto a ayudarlos, a colaborarlos, y también hagan los ejercicios y las prácticas que tenemos en el aula. Nos vemos en la próxima sección. Chau, chau, gracias.
+

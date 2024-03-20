@@ -1,0 +1,32 @@
+Opacidad en los elementos
+
+
+[00:00] Okay, queridos estudiantes y queridas estudiantes, vamos a continuar con nuestro curso de HTML 5 y CSS 3. Ya estamos con nuestra página bien avanzada, mucho más profesional, en el cual hemos aprendido y venimos aprendiendo varios recursos de CSS que nos ayudan a configurar y dejar una página más bonita, más estilizada como lo venimos haciendo.
+
+[00:33] Ya tenemos aquí nuestro bloque sobre la barbería Alura prácticamente finalizado. También ya podemos ubicar a nuestra barbería aquí en el mapa, mostrar a nuestros clientes dónde está ubicada y también el bloque de nuestros diferenciales tenemos una imagen que llama la atención y también un video que captura la atención de nuestro cliente, de nuestro potencial cliente cuando visite nuestra página web, que es la cara de nuestra empresa.
+
+[01:04] En esta sección, en esta aula, lo que veremos será aprender a trabajar con opacidad y con sombras. Primeramente vamos a entender lo que es opacidad. Opacidad la podemos definir como la capacidad que tienen los elementos de dejar pasar la luz. Podemos citar un ejemplo cuando decimos: "Ese vidrio es opaco", es porque en algún porcentaje no deja pasar la luz.
+
+[01:30] Otro ejemplo claro que vemos de opacidad es cuando le colocamos la película a los parabrisas de los vehículos, esta película oscura que no deja pasar la luz. Estas películas tienen un nivel de opacidad, entonces si ese porcentaje es bajo, deja pasar más luz. Hay unas películas que colocan a los parabrisas que no dejan pasar absolutamente nada, significa que tienen un nivel de opacidad bastante alto.
+
+[02:00] Y viendo aquí en nuestra página modelo podemos ver que la imagen aquí de los diferenciales tiene una opacidad, cuando posicionamos el mouse encima. Y eso es lo que vamos a replicar ahora, estudiando y viendo cuáles son las propiedades de CSS que nos permiten hacer eso. Para ello vamos a ir a nuestro código, a nuestro style.css y como dijimos vamos a hacerlo, a aplicar la opacidad en la imagen de los diferenciales.
+
+[02:33] Aquí ya la tenemos, y solo necesitamos usar la propiedad opacity y pasarle el valor. En este caso, el valor que le estamos pasando, si yo le paso 0% significa que pase cero luz, o sea, que no pase nada de luz y no se va a ver absolutamente nada. Fíjense, le estoy colocando 0%, volvemos aquí y no veo nada porque no le estoy dejando pasar luz.
+
+[03:01] Entonces vamos a cambiarlo por 0.3 o 30%, como deseen, lo actualizamos y ahora ya tenemos ese efecto de que estamos dejando pasar el 30% de luz. De todas formas para poder tener el efecto de cuando el mouse pasa por encima, necesitamos usar la propiedad over, no sé si lo recuerdan, ya la hemos usado, entonces hacemos nuestro selector de clase e invocamos a la propiedad over.
+
+[03:38] Abrimos y cerramos paréntesis, aquí le ponemos nuestra opacidad y ahora aquí actualizamos. Cuando el mouse se posicione, pase por encima de la imagen, vamos a obtener ese efecto, y vamos, para dejarla un poco mejor una transición de 400 milisegundos. Eso nos va a permitir que haya una transición que no sea tan brusca, tan repentina el cambio de la opacidad.
+
+[04:06] De la misma forma como aplicamos opacidad en elementos visuales, imágenes o en los videos, también podemos hacerlo en otro tipo de elementos como en los textos. Vamos a colocar una opacidad aquí en nuestros títulos para que veamos cómo lo hacemos. Vamos a buscar nuestro selector de los títulos principales, aquí lo tenemos.
+
+[04:34] Para ello vamos a cambiar el color de la letra, el color de la fuente de nuestro título, recordando que actualmente tienen el color 000000 por defecto, que es el color negro. Igual hemos aprendido a lo largo de toda esta sección en uno de los módulos, aprendimos que podemos usar la simbología o la representación RGB, de red, green, black, que es una combinación de tres números, en este caso los tres ceros. Es como decir numeral 000, es exactamente lo mismo.
+
+[05:11] Si yo guardo y volvemos a nuestra página y actualizo no pasa nada, porque lo único que estoy es reconfirmando el color negro. Ya está por defecto y le estoy diciendo "quiero que continúe negro", por así decirlo. Pero existe una pequeña variación de RGB que es el RGBA, el cual me permite colocar un nuevo parámetro, un cuarto parámetro en esta función, que va a ser la opacidad.
+
+[05:37] Aquí yo le puedo pasar por ejemplo 30%. ¿Cuál va a ser el resultado de eso? Que voy a tener una opacidad en nuestros títulos. Es prácticamente como si se cambiara de color. En la práctica es eso, pero puedo jugar con la opacidad en los colores, entonces puedo cambiarle el color por ejemplo e ir jugando con esa opacidad.
+
+[06:00] Aquí voy a colocar un número aleatorio, 218, que es aquí un rojo medio color vino. Si actualizo tengo con la opacidad. Si yo le quito aquí el cuarto parámetro y le quito el RGB voy a tener el color completo sin opacidad. Entonces, es importante destacar y que podemos aplicar ese RGBA a cualquier elemento, no necesariamente textos.
+
+[06:32] Podemos jugar y prácticamente probar visuales y alterar los visuales en los colores aplicando opacidad en cualquier tipo de elemento que tenemos en nuestras páginas. Vamos a borrarlo, porque lo hicimos con fines académicos para que aprendamos. Vamos a dejarlo con negro y vamos a mantener aquí la opacidad en nuestra imagen.
+
+[06:56] Esto es todo por este video. En el próximo vamos a aprender a trabajar con sombras, así que los veo pronto. Chau, chau.

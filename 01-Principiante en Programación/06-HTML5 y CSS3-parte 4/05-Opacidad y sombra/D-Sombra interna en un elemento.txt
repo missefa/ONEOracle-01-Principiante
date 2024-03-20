@@ -1,0 +1,22 @@
+Sombra interna en un elemento
+
+
+¿Cómo hacer una sombra interna en un elemento?
+
+
+a)
+box-shadow: -3px -3px 5px black;
+
+
+b)
+Alternativa correta
+box-shadow: inset 0 0 5px black;
+
+¡Alternativa correcta! Sombra interna, negra, con una extensión de 5px.
+
+
+
+c)
+box-shadow: inset -3px -3px 5px black;
+
+¡Alternativa incorrecta! Las sombras internas no se pueden mover. Los valores en los ejes X y Y deben ser 0.

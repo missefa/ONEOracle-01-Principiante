@@ -1,0 +1,28 @@
+Niveles de mensuración
+
+
+Bueno, ya hemos visto algunas formas de definir metas, incluyendo el método SMART de definición de metas. Ahora, vamos a ver cómo podemos medir algunos de esos objetivos.
+
+Si recordamos a Alice, tenía el objetivo de construir una funcionalidad para el sistema X en un nuevo lenguaje. También hablamos de cómo iba a medir este objetivo. Necesitaba saber si el objetivo era funcional y utilizable, es decir, iba a realizar pruebas de usabilidad con los usuarios.
+
+Pero en esta clase, vamos a ver cómo medir el aprendizaje de Alice. Entonces, ¿qué necesidad tiene de preguntar? Necesita saber, "¿Estoy satisfecha con el proceso de aprendizaje?"
+
+Hemos visto que en el proceso de aprendizaje podemos adquirir conocimientos de diversas formas, muchas formas diferentes. Puede ser mediante la visualización de clases, escuchando audio, leyendo libros. Por lo tanto, ella tiene su proceso de aprendizaje, pero, ¿está satisfecha con este proceso?
+
+Además, está reteniendo lo que está aprendiendo, recordándolo, o solo se trata de memorización y ya está, no está recordando. Entonces, para recordar lo aprendido, necesita estar repitiendo, realizando repeticiones, la rutina, la práctica distribuida.
+
+Igualmente, ¿puede aplicar lo que está aprendiendo? Entonces, estoy aprendiendo y estoy aplicándolo, lo estoy utilizando en el momento de llegar, ¿qué debo hacer realmente? ¿Estoy aplicándolo o aún no? Aún está muy presente la necesidad de ayuda, necesito un mentor, necesito alguien que me guíe.
+
+Y por último, ¿cuándo voy a tener resultado? ¿Cuándo voy a ver los resultados de mis esfuerzos, de mi aprendizaje? Existe esta pirámide de aprendizaje, que son los niveles de aprendizaje, y podemos ir superando cada nivel hasta llegar al resultado.
+
+Por lo tanto, podemos medir la satisfacción, "¿Estoy satisfecho con lo que estoy aprendiendo, con la manera en que estoy aprendiendo?" Y para esta medición, podemos hacer algo como de cero al cien por ciento. Por ejemplo, entonces, estoy cien por ciento satisfecho. Es un poco utópico decir que se está totalmente satisfecho, pero aún no estoy satisfecho. Necesito cambiar la forma en que estoy aprendiendo, en cómo estoy estudiando.
+
+Ah, no, ahora sí, ahora sí me estoy adaptando, estoy, ok, estoy al cincuenta por ciento, setenta y cinco por ciento.
+
+Continuamos con el aprendizaje. Entonces, "¿Estoy recordando lo aprendido?" Sí, estoy absorbiendo este conocimiento, estoy montando mis bloques. Entonces, ah, no, aún no, no estoy recordando nada. Estudié, estudié, estudié, aún no he logrado nada, no lo estoy recordando. Ah, no, ahora ya, mira, tres semanas aquí ya lo repasé. Entonces, aquí ya recordé aquí veinticinco, cincuenta por ciento.
+
+Luego, "¿Puedo aplicar lo que aprendí?" Mira, lo intenté y no, hasta ahora, no sé, aún no me sale, no puedo hacerlo solo. Ok, entonces seguiré estudiando. Ah, no, ahora no puede hacer el cien por ciento, pero aquí ya empecé, ya encontré el camino de cómo puedo hacerlo.
+
+Para que al final vea cuánto me está dando de resultado. Ah, no, aquí, aquí apliqué todo, ya me está generando resultado, ya estoy empezando a ver realmente el conocimiento, ya estoy pudiendo aplicar aquí todo lo aprendido, todo este aprendizaje que adquirí, ya lo estoy aplicando aquí en mi proyecto, ¿no?
+
+Entonces, ya puedo desarrollar este sistema, en el caso de Alice, ya puede obtener este conocimiento, todos estos estudios, todo esto que adquirió, y ya puede aplicarlo en este sistema X para poder realizar su prueba de usabilidad con los usuarios.

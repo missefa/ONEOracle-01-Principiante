@@ -1,0 +1,56 @@
+Aplicando gradientes
+
+
+[00:00] Queridos alumnos y queridas alumnas, vamos a continuar con nuestro curso y en este video vamos a ver la transición de colores, el degradado o gradiente, como también se le conoce, en nuestra página.
+
+[00:15] Si vamos a la página modelo, podemos ver que en el primer bloque, que es el bloque sobre la barbería Alura, comienza con un color próximo de blanco parecido al blanco, y vamos alterando en forma gradual el color hasta llegar a un color más oscuro que es el plomo. Esto es lo que se conoce como gradiente y es lo que veremos en este video.
+
+[00:42] Para ello vamos a hacer justamente eso por bloques. Vamos a trabajar primero con nuestro bloque sobre la barbería Alura, después vamos a ver nuestro bloque los diferenciales y también veremos nuestro bloque del mapa, que es justamente el que tiene ese visual, ese estilo degradado.
+
+[01:02] Vamos a nuestro código y así lo tenemos organizado por secciones dentro de nuestro main, nuestro bloque principal, nuestro bloque del mapa y nuestro bloque de los diferenciales. Comenzamos con nuestro bloque principal, que tiene una clase principal. Si vamos a nuestro style, aquí bajamos hasta que lleguemos al punto donde hemos comenzado el CSS nuestra home.
+
+[01:32] No tenemos un selector de clase del bloque principal. Estamos alterando el título, el párrafo, pero no estamos alterando el bloque. Y eso lo haremos ahora. Hacemos un selector de principal, y a este selector de principal vamos a colocarle un background de ese color parecido al blanco que es FEFEFE. Y también vamos a aprovechar para configurar el padding, el espaciamiento interno de nuestro bloque.
+
+[02:12] Porque si vemos nuestra página, acá, nuestra página que estamos trabajando, está superpegado a nuestro banner y no tiene la configuración padrón que hemos hecho nosotros. Entonces vamos a colocarle el padding de 3em, que lo hemos colocado en todos los anteriores, 3em y cero. Guardamos. Volvemos a nuestra página, actualizamos y ya tenemos el espacio correcto y tenemos ese color próximo o parecido a blanco.
+
+[02:46] No es muy perceptible al ojo humano, pero podemos afirmar de que es un color diferente a blanco. Ahora vamos a trabajar con nuestro bloque los diferenciales colocando ese color plomo que tenemos en la página modelo. Volvemos a nuestro sytle. De la misma forma en nuestra sección de los diferenciales hemos usado una clase de diferenciales, vamos a nuestro CSS, y después del mapa tendríamos que tener nuestro selector de clase los diferenciales.
+
+[03:23] Lo creamos, porque no lo hemos usado todavía, diferenciales, y hacemos exactamente el mismo procedimiento. Aprovechamos para colocarle el padding correcto de 3em, cero, y le colocamos nuestro background, que en este caso ese color plomo que estamos buscando son 888888. Guardamos, venimos aquí, actualizamos.
+
+[03:53] Y aquí tenemos un problema. Que actualmente tenemos un centralizado en el main, ahorita lo vamos a ver en nuestro style, que está obligando a que estos bloques, en realidad los colores, el background, estamos aplicando a ese centralizado.
+
+[04:12] Para que me entiendan, vamos a ir aquí, a nuestro style.css y más arriba, recuerden que estamos reutilizando el código SS de las anteriores secciones, tenemos un main donde estamos definiendo un width, un ancho, de 940 píxeles y el margen 0 superior e inferior y automático en los laterales, que es lo que da ese aspecto de centralizado.
+
+[04:41] Tenemos que eliminar esto, tenemos que sacarlo de aquí y colocarlo en nuestros bloques. Vamos a configurarlo y separar para que sea aplicado por bloques. Vamos y lo colocamos en nuestro bloque principal. Vamos a guardar aquí, actualizamos. Nuestro bloque principal prácticamente no tuvo ninguna alteración.
+
+[05:09] Ahora nuestro bloque los diferenciales tiene el aspecto correcto porque tenemos el background aplicando al 100% de la página y nuestro contenido está centralizado porque eso ya lo hemos configurado aquí, exactamente en el contenido de los diferenciales, donde le estamos diciendo cuánto queremos que ocupen del ancho de la página.
+
+[05:37] Pero por otro lado nuestro mapa se desconfiguró, se perdió todo el layout. Si vemos la página modelo, nuestro mapa tiene que estar centralizado y no ocupa el 100% de la página, y aquí, como sacamos esa configuración del main, prácticamente nuestro mapa está ocupando ahora el 100% de esa página.
+
+[06:01] Vamos a corregir. Primero vamos a eliminar para que no quede suelto esta aplicación de main, recordando que la aplicación de estilos es en cascada y ese main está aquí y la centralización que teníamos estaba aplicando a todos sus hijos y nietos que estaban dentro del main. Por eso es que necesitamos eliminando, y ahora estamos colocando ese centralizado y trabajando el centralizado por bloques.
+
+[06:33] Como decíamos, nuestro mapa ha perdido toda la configuración y lo que necesitamos hacer es encapsular nuestro mapa en nuestro index.html para poder configurar exclusivamente el mapa. Aquí tenemos nuestro iframe que es donde está el mapa. Vamos a crear una div, que nos ayude a centralizar, a aislar nuestro mapa y así poder configurarlo.
+
+[07:06] A esta div le vamos a poner una clase que se llame mapa-contenido, y usamos esta clase en nuestro style en la ubicación correcta, que sería después del párrafo y en este bloque lo configuramos con el width correcto de 940 y con el margen cero superior e inferior y automático en los laterales.
+
+[07:54] Guardamos aquí, actualizamos y ya tenemos nuestro mapa usando, utilizando el espacio que hemos definido, los 940 píxeles, y separado ahora de nuestro background. Si volvemos aquí podemos colocarle un background, por ejemplo orange, y vamos a tener. Discupen, no era aquí, en realidad no es en el mapa contenido.
+
+[08:28] Ahora tenemos que aplicarlo en nuestro bloque principal, que es en nuestra section del mapa, porque lo que queremos es aplicar el background a todo ese bloque del mapa, no solo al mapa. Ahora sí, tenemos nuestro background en todo el bloque y nuestro mapa ubicado correctamente.
+
+[08:56] Y justamente ahora lo que veremos será la transición de colores. Antiguamente para hacer esa transición de colores era supercomplicado en nuestras páginas porque había que colocar imágenes con ese degradado para tener esos efectos. CSS 3 resuelve ese problema y nos deja una función con la cual podemos trabajar colocando ese tipo de efecto, el tipo de degradado.
+
+[09:31] Se llama linear-gradient, es la función que vamos a usar, y lo único que necesitamos pasarle son los colores en los cuales queremos aplicar ese degradado o gradiente. Vamos a colocar orange y blue, naranja y azul. Estamos diciendo: ve del naranja al azul. Si volvemos a nuestra página, estamos yendo de un color naranja a un color azul. Y fíjense esa transición, está viajando de ese color inicial hasta ese color final.
+
+[10:10] Podemos colocar más colores, los colores que quisiéramos, la verdad: naranja, azul, rojo, negro. Estamos diciéndole que viaje del naranja al azul, al rojo y al negro. Vemos ese efecto. Tenemos naranja, azul, rojo y negro. Por defecto, el color es aplicado en la horizontal como podemos ver.
+
+[10:37] Y una opción que nos permite el linear-gradient es poder trabajar con ángulos, o sea, decirle que nos aplique los colores en un ángulo definido, por ejemplo de 45 grados. Y eso lo hago colocando como primer parámetro ese ángulo en grados. Si actualizamos, ahora vemos que tenemos la aplicación de colores, el degradé de colores, en una inclinación de 45 grados.
+
+[11:06] Podemos colocarle 90 grados, y de esa forma tendremos la aplicación en formato vertical. Va de un color naranja en la izquierda hasta un color negro en la derecha. Todos por defecto ocupan un espacio definido dividido proporcionalmente igual entre todos los colores. Eso también se puede configurar, y después del color, por ejemplo el orange, el naranja, yo quiero que ocupe el 50% de todo ese espacio.
+
+[11:42] Cuando actualizo, vemos que el naranja ocupa el 50% y CSS automáticamente los otros tres colores los divide en el espacio en el 50% restante. Existe también la opción de no usar linear-gradient, sería el background en formato circular, radial-gradient. Vamos a usar los mismos colores aquí, vamos a eliminar este anterior, y tenemos el naranja, le podemos continuar diciendo que queremos que ocupe el 50% del espacio, el azul, rojo y negro. Background.
+
+[12:29] Guardamos aquí, y si actualizamos vemos que tenemos aquí un efecto parece hasta el sistema solar. Comienza con el naranja ocupando el 50%, de ahí una elipse con circunferencia mayor, después el rojo y por último el negro que lo podemos ver solo un poco en las puntas. Lógicamente que ese no es el efecto que queremos, no quedó nada agradable visualmente.
+
+[12:59] Queremos que nuestro background sea el linear gradiente y aquí en los colores queremos que viaje de ese color blanco que es FEFEFE hasta el color plomo que dijimos que son 888888. Vamos a actualizar, venimos aquí, tenemos algún problema que no aplicó, linear-gradient, me faltó la T en la función. Y ahora sí tenemos el efecto que estábamos buscando.
+
+[13:45] Estamos yendo de un color blanco o próximo de blanco en nuestro bloque sobre la barbería Alura. Aquí estamos aplicando el gradiente necesario, yendo de ese color al plomo y por último nuestro bloque los diferenciales que quedó con el color plomo. En el próximo video veremos cómo trabajar con pseudo-elementos y ahí vamos a continuar trabajando y descubriendo, profundizando un poco más con el CSS. Nos vemos, chau, chau.

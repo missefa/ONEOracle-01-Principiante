@@ -1,0 +1,17 @@
+Presentar un elemento de otra manera con media query
+
+
+¿Cómo marcar un elemento para que se presente de otra manera a través de una condición, en una pantalla de hasta 480px?
+
+a)
+@media (min-width: 480px) {}
+
+b)
+@media (width=device-width) {}
+
+
+c)
+Alternativa correta
+@media (max-width: 480px) {}
+
+¡Alternativa correcta! Dentro de esta media query podemos crear un estilo visual que incluye pantallas de hasta 480px.

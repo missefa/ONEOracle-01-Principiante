@@ -1,0 +1,36 @@
+Pseudo-elementos
+
+
+[00:00] Okay, amigos y amigas, continuando con nuestro curso, lo que veremos en este video será cómo aplicar pseudo-elementos. ¿Qué son los pseudo-elementos? Para entenderlos, les voy a colocar un desafío. ¿Cómo harían para alterar únicamente la primer letra de nuestros títulos? Entonces por ejemplo la S de Sobre barbería Alura, la N de Nuestra ubicación y la D de los Diferenciales.
+
+[00:20] Imaginen que queremos pintar de negrito solo esa primer letra. Con los conocimientos que tenemos hasta ahora, con HTML tendríamos que quebrar ese texto, colocar la S en una estructura diferente, crear un ID o una clase para esa estructura y recién ir y actualizar eso en el CSS, lo que primero no es eficiente, también a la larga nos puede traer problemas de mantenimiento porque va a complicar bastante ese trabajo y esa operación en el futuro.
+
+[01:05] Para ello es que CSS 3 nos proporciona los pseudo-elementos, que nos permiten hacer selecciones específicas de algunos elementos y poder trabajar y configurar los estilos de nuestras páginas, elementos de nuestras páginas de esa manera.
+
+[01:23] Pero antes de hablar de pseudo-elementos específicos, vamos a corregir que nuestro video quedó fuera del bloque de los diferenciales, por eso fue que no aplicó aquí el background plomo, y aquí el video hace parte de nuestro bloque los diferenciales. Eso lo vamos a corregir rápidamente.
+
+[01:44] Si venimos a nuestro index, estamos en nuestro index, en el bloque los diferenciales, lo que necesitamos es colocar esta div, que es la división de los videos, aquí dentro. Guardamos y actualizamos nuestra página, ya tenemos nuestro video dentro del bloque los diferenciales. Ahora sí vamos a hablar de los pseudo-elementos.
+
+[02:13] Para ello vamos a ir a nuestro style, recordando que lo que nos permiten los pseudo-elementos es alterar el visual de nuestra página y agregar elementos sin necesidad de alterar directamente nuestro HTML. Vamos a ir a nuestro título principal y vamos a cumplir o realizar ese desafío que les hice. Entonces título principal.
+
+[02:44] Y así como les dije cómo alteramos la primera letra de nuestro título, tenemos una propiedad, un pseudo-elemento que es first-letter. Entonces es exactamente la primera letra. Aquí necesito colocar solo dos puntos y alteramos el font-weight para negrito. Volvemos a nuestra página, actualizamos aquí y ya tenemos la primera letra pintada.
+
+[03:26] Otra aplicación de los pseudo-elementos es que en muchas páginas web, blogs, posts, artículos, a veces la primer línea de cada párrafo tiene un ejemplo diferente, por ejemplo itálico. Eso lo podemos hacer también haciendo uso de los pseudo-elementos, llamamos a todos los párrafos, no necesito colocar puntos porque estoy llamando a un elemento de CSS, colocamos los dos puntos y first-line.
+
+[04:03] Al colocar first-line, abrimos y cerramos nuestras llaves, colocamos font-style: italic. Volvemos, actualizamos y podemos ver que tenemos el efecto itálico en las primeras líneas de nuestros párrafos. Otra aplicación de los pseudo-elementos y bastante usada es el after y el before, lo que nos permite colocar elementos antes o después de algún elemento.
+
+[04:46] Entonces por ejemplo imagínense que queremos colocar un corchete antes y después de nuestro título. Entonces, título principal, usamos la expresión before, de antes en inglés, y aquí en contenido, content, le decimos que nos abra corchetes. Vamos a hacer exactamente lo mismo, solo que ahora after, o sea después de los títulos, cerrame ese corchete.
+
+[05:30] Actualizamos, volvemos a nuestra página aquí y ya tenemos el corchete aplicado. Pueden ver que la primera aplicación de pseudo-elementos fue alterada porque el CSS hace un barrido, una lectura secuencial, va ahí y mira la última aplicación de ese elemento, teníamos título principal, aquí que alterábamos la primer letra, ya no lo está aplicando, y está aplicando a la adición al inicio y al final de los corchetes.
+
+[06:22] Ahora, ¿para qué vimos todo este preámbulo? Vamos a borrarlo porque ya no lo necesitamos estos cuatro que agregamos. Si vamos a nuestra página modelo vemos que tenemos una estrellita el inicio de los items de nuestra lista en el bloque los diferenciales. ¿Cómo hacemos para colocar esa estrellita?
+
+[06:49] Eso es un elemento Unicode, aquí tengo una página de Google, podemos colocar directamente Unicode star, podemos entrar a la primer página que nos aparece, y tenemos algunos elementos Unicode de estrellas. Vamos a seleccionar este primero, lo puedo copiar directamente y lo llevamos a un selector de nuestros items.
+
+[07:19] Buscamos nuestros items, están aquí, hacemos ahora punto items, dos puntos y un before. Vamos a colocarle un inicio de los items exactamente esa estrella y la pegamos, copiamos y pegamos aquí en nuestro código, en nuestro CSS. Volvemos a nuestra página, actualizamos, fíjense que eliminé los anteriores pseudo-elementos, nuestros títulos volvieron a la normalidad y ya tenemos las estrellitas para cada uno de los items.
+
+[08:02] A medida que adicionemos más items o retiremos items, esas estrellitas también automáticamente se van a ajustar. No estamos colocando un número específico sino le estamos diciendo: Si me encuentras un item, colocame una estrellita anticipadamente.
+
+[08:21] Ya tenemos nuestra página mucho más parecida con la página modelo, nos faltan algunos efectos visuales, trabajar y profundizar un poco más nuestro CSS, por ejemplo aquí que tenemos un efecto de sombreado, y tenemos algunos otros elementos que vamos a continuar estudiando en las próximas secciones.
+
+[08:48] De todas formas aprovecho aquí para invitarlos a participar del foro. Si tienen dudas, vayan al foro, colóquenlas allá, y también hagan todos los ejercicios que ese es el refuerzo de los conocimientos que les estamos pasando. Aprovechen la plataforma y nos vemos en la próxima sección, muchas gracias. Chau, chau.

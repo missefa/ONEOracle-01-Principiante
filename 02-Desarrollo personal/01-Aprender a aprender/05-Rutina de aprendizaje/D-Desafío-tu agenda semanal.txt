@@ -1,0 +1,9 @@
+Desafío: tu agenda semanal
+
+
+Aprovecha tu reflexión del ejercicio anterior y detalla tu agenda semanal como en el ejemplo de Alice.
+
+¿Cuántas horas vas a dedicar en la semana?
+¿Cómo serán divididas por día y local?
+¿Qué formatos y estilos, considerando tu perfil personal, vas a elegir para incluir en esta agenda?
+¡Si deseas puedes compartir tu respuesta en Linkedin y mencionarme a mí y al perfil de Alura Latam!
